@@ -1,7 +1,0 @@
-#34D minecraft:deep_lukewarm_ocean
-#3DE minecraft:deep_ocean
-#79A minecraft:lukewarm_ocean
-#4F1 minecraft:ocean
-#5FF minecraft:river
-#7B5 biomesoplenty:shroomy_wetland
-#7A5 biomesoplenty:wetland_forest

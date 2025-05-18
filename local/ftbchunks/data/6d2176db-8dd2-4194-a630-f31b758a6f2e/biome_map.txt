@@ -1,7 +1,0 @@
-#15A biomesoplenty:bayou
-#532 biomesoplenty:bayou_mangrove
-#34D minecraft:deep_lukewarm_ocean
-#79A minecraft:lukewarm_ocean
-#5FF minecraft:river
-#4D3 minecraft:swamp
-#02B biomesoplenty:wetland

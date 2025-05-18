@@ -1,3 +1,0 @@
-minecraft:overworld
-twilightforest:twilightforest
-boss_tools:moon
