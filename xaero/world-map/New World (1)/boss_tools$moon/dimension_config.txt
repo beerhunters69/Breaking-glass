@@ -1,2 +1,0 @@
-caveModeType:1
-dimensionType:boss_tools$moon:true$0.0$256$256$false$false$false$0.0$1.0$false
