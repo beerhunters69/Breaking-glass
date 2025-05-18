@@ -8,33 +8,35 @@ settings.logErroringRecipes = true
 console.info('Хабиба хабоба2')
 
 onEvent('recipes', event => {
-
-	event.shaped('3x minecraft:stone', [
-    'SAS',
-    'S S',
-    'SAS'
-  ], {
-    S: 'minecraft:sponge',
-    A: 'minecraft:apple'
-  }).stage('stage_1')
-
   	
-
-
-
+  // портал в твайлайт
   event.recipes.create.sequenced_assembly([
-		'kubejs:tf_portal_item', // this is the item that will appear in JEI as the result
-	], 'minecraft:tnt', [ // 'create:golden_sheet' is the input
-		// the transitional item set by `transitionalItem('create:incomplete_large_cogwheel')` is the item used during the intermediate stages of the assembly
+		'kubejs:tf_portal_item', 
+	], 'minecraft:tnt', [ 
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:oak_sapling']),
-		// like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:spruce_sapling']),
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:birch_sapling']),
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:jungle_sapling']),
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:acacia_sapling']),
-	]).transitionalItem('kubejs:incomplete_tf_portal_item').loops(1) // set the transitional item and the number of loops
+	]).transitionalItem('kubejs:incomplete_tf_portal_item').loops(1) 
 
-	// Change recipes here
+	//циковая рука
+	event.shaped(Item.of('kubejs:zinc_hand', ), // arg 1: output
+  [
+    ' A ',
+    ' B ', // arg 2: the shape (array of strings)
+    'BBB'
+  ],
+  {
+    A: 'create:andesite_alloy',
+    B: '#forge:plates/zinc'  //arg 3: the mapping object
+  }
+)	
+	// цинковая пластина
+	event.recipes.create.pressing('emendatusenigmatica:zinc_plate','#forge:ingots/zinc')
+	//убрать молот из эмендатус энигматики
+	event.remove({id:'emendatusenigmatica:enigmatic_hammer'})
+
 })
 
 onEvent('item.tags', event => {
