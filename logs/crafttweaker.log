@@ -1,0 +1,30 @@
+[00:50:42.017][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[00:50:43.178][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'astralsorcery' at version '1.16.4-1.14.1'
+'avaritia' at version '2.1.11'
+'boss_tools_giselle_addon' at version '1.24'
+'crafttweaker' at version '7.1.2.527'
+'dimstages' at version '3.0.4'
+'draconicevolution' at version '3.0.29.518'
+'gamestages' at version '7.3.14'
+'immersiveengineering' at version '1.16.5-5.1.0-148'
+'immersivepetroleum' at version '3.4.0-20'
+'itemstages' at version '3.0.9'
+'jeitweaker' at version '1.1.0.49'
+'lazierae2' at version '2.0.5'
+'mekanism' at version '10.1.2'
+'pneumaticcraft' at version '1.16.5-2.15.12-13'
+'recipestages' at version '2.0.0.21'
+'tconstruct' at version '3.3.4.335'
+[00:50:44.435][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[00:50:51.804][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[00:50:52.411][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[00:50:52.412][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[00:50:52.429][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[00:50:52.437][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[00:50:52.440][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[00:50:52.442][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[00:50:58.486][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[00:50:58.880][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[00:51:31.340][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[00:51:31.510][DONE][CLIENT][INFO] Finished loading Scripts!

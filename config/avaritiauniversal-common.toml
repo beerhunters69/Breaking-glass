@@ -1,0 +1,77 @@
+
+#Settings
+["Neutron Collector Ticks"]
+	#How many ticks the Neutron Collector product should be collected per time. Base is 1 speed = 355.55 sec, 2 = 177,775 sec
+	#Range: > 1
+	speed = 1
+
+["Unlimited Balance"]
+	#Add clay singularity if there is Botania or Mekanism mod, but first reload the singularity config
+	enabled = true
+
+["Matter Cluster Count"]
+	#Maximum amount of items in a matter cluster
+	#Range: > 0
+	size = 4096
+
+["Cost Modifier"]
+	#Added to the existing modifier to make prices more expensive or cheaper. Can be negative.
+	#Range: > 0
+	modifier = 0
+
+["Destroyer Radius"]
+	#Range of breaking radius
+	#Range: > 0
+	range = 8
+
+["Hummer Radius"]
+	#Range of breaking radius
+	#Range: > 0
+	range = 8
+
+["Break the Bedrock"]
+	#Disable if you don't want the World Breaker to break unbreakable blocks.
+	enabled = true
+
+["Axe Radius"]
+	#Range of breaking radius
+	#Range: > 0
+	range = 13
+
+["Axe Steps"]
+	#Range of breaking radius steps
+	#Range: > 0
+	range = 32
+
+["Hoe Radius"]
+	#Range of attempting hoe radius
+	#Range: > 0
+	range = 4
+
+["Sword Damage for infinity"]
+	#Amount of damage for infinity armor
+	#Range: > 0
+	amount = 2
+
+["Heaven amount arrows"]
+	#The number of arrows falling created by Infinity Bow
+	#Range: > 0
+	amount = 30
+
+["The speed of the Infinity Boots"]
+	#Disable if the Infinity Boots' speed boost is too ridiculous
+	enabled = true
+
+["Cost Multiplier"]
+	#Added to the existing multiplier to make prices more expensive or cheaper. Can be negative.
+	#Range: > 0
+	multiplier = 0
+
+["Aoe Trash Defaults"]
+	#Use tooltip, example: minecraft:grass_block
+	"Trash of matter clusters" = "[dirt, sand, gravel, cobblestone, netherrack, granite, diorite, andesite]"
+
+["Night vision of the Infinity Helmet"]
+	#Disable if the Infinity Helmet' night vision is too ridiculous
+	enabled = true
+

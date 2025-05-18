@@ -1,0 +1,5712 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 18, 2025 12:49:42 AM
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#productivebees:flowers/gems/rose_quartz
+- #forge:storage_blocks/rose_quartz?
+- silentgems:rose_quartz_glowrose?
+- gemsnjewels:rose_quartz_block?
+
+#lazierae2:machines/centrifuge
+- lazierae2:centrifuge
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#forge:storage_blocks/desh
+- boss_tools:desh_block
+
+#biomesoplenty:hellbark_logs
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+
+#productivebees:flowers/gems/topaz
+- #forge:storage_blocks/topaz?
+- silentgems:topaz_glowrose?
+- gemsnjewels:topaz_block?
+
+#toms_storage:remote_activate
+- toms_storage:ts.storage_terminal
+- toms_storage:ts.crafting_terminal
+
+#forge:wool/black
+- minecraft:black_wool
+- minecraft:black_wool
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:storage_blocks/nickel
+- immersiveengineering:storage_nickel
+- emendatusenigmatica:nickel_block
+
+#productivebees:flowers/gems/sunstone
+- #forge:storage_blocks/sunstone?
+- silentgems:sunstone_glowrose?
+- gemsnjewels:sunstone_block?
+
+#productivebees:flowers/gems/pearl
+- #forge:storage_blocks/pearl?
+- silentgems:pearl_glowrose?
+- gemsnjewels:pearl_block?
+
+#productivebees:nests/nether_brick_nests
+- productivebees:nether_brick_nest
+- #productivebees:advanced_beehives
+
+#tconstruct:harvestable/stackable
+- immersiveengineering:hemp
+
+#productivebees:advanced_beehives
+- productivebees:advanced_oak_beehive
+- productivebees:advanced_spruce_beehive
+- productivebees:advanced_birch_beehive
+- productivebees:advanced_jungle_beehive
+- productivebees:advanced_acacia_beehive
+- productivebees:advanced_dark_oak_beehive
+- productivebees:advanced_crimson_beehive
+- productivebees:advanced_warped_beehive
+- productivebees:advanced_snake_block_beehive
+- productivebees:advanced_rosewood_beehive
+- productivebees:advanced_yucca_beehive
+- productivebees:advanced_kousa_beehive
+- productivebees:advanced_aspen_beehive
+- productivebees:advanced_grimwood_beehive
+- productivebees:advanced_willow_beehive
+- productivebees:advanced_wisteria_beehive
+- productivebees:advanced_bamboo_beehive
+- productivebees:advanced_maple_beehive
+- productivebees:advanced_driftwood_beehive
+- productivebees:advanced_river_beehive
+- productivebees:advanced_poise_beehive
+- productivebees:advanced_bop_fir_beehive
+- productivebees:advanced_bop_dead_beehive
+- productivebees:advanced_bop_palm_beehive
+- productivebees:advanced_bop_magic_beehive
+- productivebees:advanced_bop_cherry_beehive
+- productivebees:advanced_bop_umbran_beehive
+- productivebees:advanced_bop_willow_beehive
+- productivebees:advanced_bop_redwood_beehive
+- productivebees:advanced_bop_hellbark_beehive
+- productivebees:advanced_bop_mahogany_beehive
+- productivebees:advanced_bop_jacaranda_beehive
+
+#emendatusenigmatica:misc/enigmatic_fortunizer
+- emendatusenigmatica:enigmatic_fortunizer
+
+#minecraft:dragon_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- minecraft:obsidian
+- minecraft:crying_obsidian
+- minecraft:end_stone
+- minecraft:iron_bars
+- minecraft:respawn_anchor
+- productivebees:end_stone_nest
+- productivebees:obsidian_nest
+- productivebees:dragon_egg_hive
+- ftbic:reinforced_stone
+- ftbic:reinforced_glass
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:chests
+- #forge:chests/electric
+- #forge:chests/personal
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+- emendatusenigmatica:redstone_ore
+- emendatusenigmatica:redstone_andesite_ore
+- emendatusenigmatica:redstone_granite_ore
+- emendatusenigmatica:redstone_diorite_ore
+- emendatusenigmatica:redstone_sand_ore
+- emendatusenigmatica:redstone_gravel_ore
+- emendatusenigmatica:redstone_netherrack_ore
+- emendatusenigmatica:redstone_blackstone_ore
+- emendatusenigmatica:redstone_basalt_ore
+- emendatusenigmatica:redstone_soul_soil_ore
+- emendatusenigmatica:redstone_end_stone_ore
+- emendatusenigmatica:redstone_gabbro_ore
+- emendatusenigmatica:redstone_c_limestone_ore
+- emendatusenigmatica:redstone_scoria_ore
+- emendatusenigmatica:redstone_weathered_limestone_ore
+- emendatusenigmatica:redstone_jasper_ore
+- emendatusenigmatica:redstone_marble_ore
+- emendatusenigmatica:redstone_slate_ore
+- emendatusenigmatica:redstone_deepslate_ore
+- emendatusenigmatica:redstone_mossy_stone_ore
+- emendatusenigmatica:redstone_brimstone_ore
+- emendatusenigmatica:redstone_subzero_ash_ore
+- emendatusenigmatica:redstone_blue_netherrack_ore
+- emendatusenigmatica:redstone_nylium_soul_soil_ore
+- emendatusenigmatica:redstone_ether_stone_ore
+- emendatusenigmatica:redstone_cryptic_stone_ore
+- emendatusenigmatica:redstone_flavolite_ore
+- emendatusenigmatica:redstone_sulphuric_rock_ore
+- emendatusenigmatica:redstone_violecite_ore
+- emendatusenigmatica:redstone_raw_marble_ore
+
+#forge:storage_blocks/uranium
+- mekanism:block_uranium
+- immersiveengineering:storage_uranium
+- emendatusenigmatica:uranium_block
+
+#forge:sheetmetals/nickel
+- immersiveengineering:sheetmetal_nickel
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#chiselsandbits:chiselable/forced
+- immersiveengineering:insulating_glass
+- immersiveengineering:wooden_barrel
+- immersiveengineering:turntable
+- immersiveengineering:crate
+- immersiveengineering:reinforced_crate
+- immersiveengineering:item_batcher
+- immersiveengineering:fluid_sorter
+- immersiveengineering:sorter
+- immersiveengineering:capacitor_lv
+- immersiveengineering:capacitor_mv
+- immersiveengineering:capacitor_hv
+- immersiveengineering:capacitor_creative
+- immersiveengineering:metal_barrel
+- immersiveengineering:furnace_heater
+- immersiveengineering:dynamo
+- immersiveengineering:thermoelectric_generator
+
+#ftbultimine:farmland_tillable
+- #forge:dirt?
+- #c:dirt?
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+
+#forge:ores/potassium_nitrate
+- emendatusenigmatica:potassium_nitrate_ore
+- emendatusenigmatica:potassium_nitrate_andesite_ore
+- emendatusenigmatica:potassium_nitrate_granite_ore
+- emendatusenigmatica:potassium_nitrate_diorite_ore
+- emendatusenigmatica:potassium_nitrate_sand_ore
+- emendatusenigmatica:potassium_nitrate_gravel_ore
+- emendatusenigmatica:potassium_nitrate_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_blackstone_ore
+- emendatusenigmatica:potassium_nitrate_basalt_ore
+- emendatusenigmatica:potassium_nitrate_soul_soil_ore
+- emendatusenigmatica:potassium_nitrate_end_stone_ore
+- emendatusenigmatica:potassium_nitrate_gabbro_ore
+- emendatusenigmatica:potassium_nitrate_c_limestone_ore
+- emendatusenigmatica:potassium_nitrate_scoria_ore
+- emendatusenigmatica:potassium_nitrate_weathered_limestone_ore
+- emendatusenigmatica:potassium_nitrate_jasper_ore
+- emendatusenigmatica:potassium_nitrate_marble_ore
+- emendatusenigmatica:potassium_nitrate_slate_ore
+- emendatusenigmatica:potassium_nitrate_deepslate_ore
+- emendatusenigmatica:potassium_nitrate_mossy_stone_ore
+- emendatusenigmatica:potassium_nitrate_brimstone_ore
+- emendatusenigmatica:potassium_nitrate_subzero_ash_ore
+- emendatusenigmatica:potassium_nitrate_blue_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_nylium_soul_soil_ore
+- emendatusenigmatica:potassium_nitrate_ether_stone_ore
+- emendatusenigmatica:potassium_nitrate_cryptic_stone_ore
+- emendatusenigmatica:potassium_nitrate_flavolite_ore
+- emendatusenigmatica:potassium_nitrate_sulphuric_rock_ore
+- emendatusenigmatica:potassium_nitrate_violecite_ore
+- emendatusenigmatica:potassium_nitrate_raw_marble_ore
+
+#forge:sheetmetals/steel
+- immersiveengineering:sheetmetal_steel
+
+#ftbchunks:interact_whitelist
+- minecraft:crafting_table
+- minecraft:bell
+- #tombstone:graves?
+- waystones:waystone?
+- waystones:mossy_waystone?
+- waystones:sandy_waystone?
+
+#forge:ores/iridium
+- emendatusenigmatica:iridium_ore
+- emendatusenigmatica:iridium_andesite_ore
+- emendatusenigmatica:iridium_granite_ore
+- emendatusenigmatica:iridium_diorite_ore
+- emendatusenigmatica:iridium_sand_ore
+- emendatusenigmatica:iridium_gravel_ore
+- emendatusenigmatica:iridium_netherrack_ore
+- emendatusenigmatica:iridium_blackstone_ore
+- emendatusenigmatica:iridium_basalt_ore
+- emendatusenigmatica:iridium_soul_soil_ore
+- emendatusenigmatica:iridium_end_stone_ore
+- emendatusenigmatica:iridium_gabbro_ore
+- emendatusenigmatica:iridium_c_limestone_ore
+- emendatusenigmatica:iridium_scoria_ore
+- emendatusenigmatica:iridium_weathered_limestone_ore
+- emendatusenigmatica:iridium_jasper_ore
+- emendatusenigmatica:iridium_marble_ore
+- emendatusenigmatica:iridium_slate_ore
+- emendatusenigmatica:iridium_deepslate_ore
+- emendatusenigmatica:iridium_mossy_stone_ore
+- emendatusenigmatica:iridium_brimstone_ore
+- emendatusenigmatica:iridium_subzero_ash_ore
+- emendatusenigmatica:iridium_blue_netherrack_ore
+- emendatusenigmatica:iridium_nylium_soul_soil_ore
+- emendatusenigmatica:iridium_ether_stone_ore
+- emendatusenigmatica:iridium_cryptic_stone_ore
+- emendatusenigmatica:iridium_flavolite_ore
+- emendatusenigmatica:iridium_sulphuric_rock_ore
+- emendatusenigmatica:iridium_violecite_ore
+- emendatusenigmatica:iridium_raw_marble_ore
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#forge:storage_blocks/coke
+- emendatusenigmatica:coke_block
+
+#productivebees:flowers/gems/phosphophyllite
+- #forge:storage_blocks/phosphophyllite?
+- silentgems:phosphophyllite_glowrose?
+- gemsnjewels:phosphophyllite_block?
+
+#minecraft:prevent_mob_spawning_inside
+- #minecraft:rails
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+
+#forge:storage_blocks/peridot
+- emendatusenigmatica:peridot_block
+
+#productivebees:flowers/ferric_flowers
+- minecraft:iron_ore
+- minecraft:iron_block
+- minecraft:iron_bars
+- minecraft:iron_door
+- minecraft:iron_trapdoor
+- minecraft:cauldron
+- minecraft:hopper
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+
+#productivebees:flowers/crystalline_flowers
+- #productivebees:flowers/crystalline
+
+#buildinggadgets:whitelist/generic
+
+#productivebees:flowers/gems/lepidolite
+- #forge:storage_blocks/lepidolite?
+- silentgems:lepidolite_glowrose?
+- gemsnjewels:lepidolite_block?
+
+#productivebees:nests/nether_quartz_nests
+- productivebees:nether_quartz_nest
+- #productivebees:advanced_beehives
+
+#lazierae2:machines/etcher
+- lazierae2:etcher
+
+#forge:sandstone
+- biomesoplenty:black_sandstone
+- biomesoplenty:cut_black_sandstone
+- biomesoplenty:chiseled_black_sandstone
+- biomesoplenty:smooth_black_sandstone
+- biomesoplenty:orange_sandstone
+- biomesoplenty:cut_orange_sandstone
+- biomesoplenty:chiseled_orange_sandstone
+- biomesoplenty:smooth_orange_sandstone
+- biomesoplenty:white_sandstone
+- biomesoplenty:cut_white_sandstone
+- biomesoplenty:chiseled_white_sandstone
+- biomesoplenty:smooth_white_sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- boss_tools:venus_sandstone
+
+#forge:storage_blocks/copper
+- iceandfire:copper_block?
+- mekanism:block_copper
+- immersiveengineering:storage_copper
+- emendatusenigmatica:copper_block
+- create:copper_block
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+
+#forge:storage_blocks/cast_iron
+- emendatusenigmatica:cast_iron_block
+
+#productivebees:flowers/gems/kunzite
+- #forge:storage_blocks/kunzite?
+- silentgems:kunzite_glowrose?
+- gemsnjewels:kunzite_block?
+
+#productivebees:flowers/gems/pyrope
+- #forge:storage_blocks/pyrope?
+- silentgems:pyrope_glowrose?
+- gemsnjewels:pyrope_block?
+
+#productivebees:flowers/gems/black_opal
+- #forge:storage_blocks/black_opal?
+- silentgems:black_opal_glowrose?
+- gemsnjewels:black_opal_block?
+- oresabovediamonds:black_opal_block?
+
+#forge:storage_blocks/cinnabar
+- emendatusenigmatica:cinnabar_block
+
+#forge:storage_blocks/potassium_nitrate
+- emendatusenigmatica:potassium_nitrate_block
+
+#productivebees:solitary_overworld_nests
+- productivebees:sand_nest
+- productivebees:stone_nest
+- productivebees:snow_nest
+- productivebees:coarse_dirt_nest
+- productivebees:gravel_nest
+- productivebees:sugar_cane_nest
+- #productivebees:nests/wood_nests
+
+#forge:storage_blocks/draconium_awakened
+- draconicevolution:awakened_draconium_block
+
+#productivebees:flowers/end_flowers
+- #productivebees:flowers/ender
+
+#forge:storage_blocks/charged_certus_quartz
+- emendatusenigmatica:charged_certus_quartz_block
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#productivebees:nests/end_nests
+- productivebees:end_stone_nest
+- #productivebees:advanced_beehives
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:sheetmetals/aluminum
+- immersiveengineering:sheetmetal_aluminum
+
+#forge:ores/diamond
+- boss_tools:mars_diamond_ore
+- boss_tools:venus_diamond_ore
+- minecraft:diamond_ore
+- emendatusenigmatica:diamond_ore
+- emendatusenigmatica:diamond_andesite_ore
+- emendatusenigmatica:diamond_granite_ore
+- emendatusenigmatica:diamond_diorite_ore
+- emendatusenigmatica:diamond_sand_ore
+- emendatusenigmatica:diamond_gravel_ore
+- emendatusenigmatica:diamond_netherrack_ore
+- emendatusenigmatica:diamond_blackstone_ore
+- emendatusenigmatica:diamond_basalt_ore
+- emendatusenigmatica:diamond_soul_soil_ore
+- emendatusenigmatica:diamond_end_stone_ore
+- emendatusenigmatica:diamond_gabbro_ore
+- emendatusenigmatica:diamond_c_limestone_ore
+- emendatusenigmatica:diamond_scoria_ore
+- emendatusenigmatica:diamond_weathered_limestone_ore
+- emendatusenigmatica:diamond_jasper_ore
+- emendatusenigmatica:diamond_marble_ore
+- emendatusenigmatica:diamond_slate_ore
+- emendatusenigmatica:diamond_deepslate_ore
+- emendatusenigmatica:diamond_mossy_stone_ore
+- emendatusenigmatica:diamond_brimstone_ore
+- emendatusenigmatica:diamond_subzero_ash_ore
+- emendatusenigmatica:diamond_blue_netherrack_ore
+- emendatusenigmatica:diamond_nylium_soul_soil_ore
+- emendatusenigmatica:diamond_ether_stone_ore
+- emendatusenigmatica:diamond_cryptic_stone_ore
+- emendatusenigmatica:diamond_flavolite_ore
+- emendatusenigmatica:diamond_sulphuric_rock_ore
+- emendatusenigmatica:diamond_violecite_ore
+- emendatusenigmatica:diamond_raw_marble_ore
+
+#forge:ores/lead
+- mekanism:lead_ore
+- immersiveengineering:ore_lead
+- emendatusenigmatica:lead_ore
+- emendatusenigmatica:lead_andesite_ore
+- emendatusenigmatica:lead_granite_ore
+- emendatusenigmatica:lead_diorite_ore
+- emendatusenigmatica:lead_sand_ore
+- emendatusenigmatica:lead_gravel_ore
+- emendatusenigmatica:lead_netherrack_ore
+- emendatusenigmatica:lead_blackstone_ore
+- emendatusenigmatica:lead_basalt_ore
+- emendatusenigmatica:lead_soul_soil_ore
+- emendatusenigmatica:lead_end_stone_ore
+- emendatusenigmatica:lead_gabbro_ore
+- emendatusenigmatica:lead_c_limestone_ore
+- emendatusenigmatica:lead_scoria_ore
+- emendatusenigmatica:lead_weathered_limestone_ore
+- emendatusenigmatica:lead_jasper_ore
+- emendatusenigmatica:lead_marble_ore
+- emendatusenigmatica:lead_slate_ore
+- emendatusenigmatica:lead_deepslate_ore
+- emendatusenigmatica:lead_mossy_stone_ore
+- emendatusenigmatica:lead_brimstone_ore
+- emendatusenigmatica:lead_subzero_ash_ore
+- emendatusenigmatica:lead_blue_netherrack_ore
+- emendatusenigmatica:lead_nylium_soul_soil_ore
+- emendatusenigmatica:lead_ether_stone_ore
+- emendatusenigmatica:lead_cryptic_stone_ore
+- emendatusenigmatica:lead_flavolite_ore
+- emendatusenigmatica:lead_sulphuric_rock_ore
+- emendatusenigmatica:lead_violecite_ore
+- emendatusenigmatica:lead_raw_marble_ore
+
+#productivebees:flowers/sulfur
+- #forge:storage_blocks/sulfur?
+- minecraft:coal_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+
+#productivebees:flowers/gems/citrine
+- #forge:storage_blocks/citrine?
+- silentgems:citrine_glowrose?
+- gemsnjewels:citrine_block?
+
+#productivebees:flowers/river_flowers
+- #minecraft:flowers
+- minecraft:lily_pad
+- minecraft:sugar_cane
+
+#forge:relocation_not_supported
+- mekanismgenerators:advanced_solar_generator
+- mekanismgenerators:wind_generator
+- mekanism:cardboard_box
+- mekanism:bounding_block
+- mekanism:advanced_bounding_block
+- mekanism:security_desk
+- mekanism:digital_miner
+- mekanism:seismic_vibrator
+- mekanism:solar_neutron_activator
+- mekanism:modification_station
+- mekanism:isotopic_centrifuge
+- mekanism:radioactive_waste_barrel
+- mekanism:pressurized_reaction_chamber
+- mekanism:basic_pressurized_tube
+- mekanism:advanced_pressurized_tube
+- mekanism:elite_pressurized_tube
+- mekanism:ultimate_pressurized_tube
+- fluxnetworks:flux_plug
+- fluxnetworks:flux_point
+- fluxnetworks:flux_controller
+- fluxnetworks:basic_flux_storage
+- fluxnetworks:herculean_flux_storage
+- fluxnetworks:gargantuan_flux_storage
+
+#minecraft:infiniburn_overworld
+- minecraft:netherrack
+- minecraft:magma_block
+- boss_tools:infernal_spire_block
+
+#minecraft:flower_pots
+- minecraft:flower_pot
+- minecraft:potted_poppy
+- minecraft:potted_blue_orchid
+- minecraft:potted_allium
+- minecraft:potted_azure_bluet
+- minecraft:potted_red_tulip
+- minecraft:potted_orange_tulip
+- minecraft:potted_white_tulip
+- minecraft:potted_pink_tulip
+- minecraft:potted_oxeye_daisy
+- minecraft:potted_dandelion
+- minecraft:potted_oak_sapling
+- minecraft:potted_spruce_sapling
+- minecraft:potted_birch_sapling
+- minecraft:potted_jungle_sapling
+- minecraft:potted_acacia_sapling
+- minecraft:potted_dark_oak_sapling
+- minecraft:potted_red_mushroom
+- minecraft:potted_brown_mushroom
+- minecraft:potted_dead_bush
+- minecraft:potted_fern
+- minecraft:potted_cactus
+- minecraft:potted_cornflower
+- minecraft:potted_lily_of_the_valley
+- minecraft:potted_wither_rose
+- minecraft:potted_bamboo
+- minecraft:potted_crimson_fungus
+- minecraft:potted_warped_fungus
+- minecraft:potted_crimson_roots
+- minecraft:potted_warped_roots
+- biomesoplenty:potted_origin_sapling
+- biomesoplenty:potted_flowering_oak_sapling
+- biomesoplenty:potted_rainbow_birch_sapling
+- biomesoplenty:potted_yellow_autumn_sapling
+- biomesoplenty:potted_orange_autumn_sapling
+- biomesoplenty:potted_maple_sapling
+- biomesoplenty:potted_fir_sapling
+- biomesoplenty:potted_redwood_sapling
+- biomesoplenty:potted_white_cherry_sapling
+- biomesoplenty:potted_pink_cherry_sapling
+- biomesoplenty:potted_mahogany_sapling
+- biomesoplenty:potted_jacaranda_sapling
+- biomesoplenty:potted_palm_sapling
+- biomesoplenty:potted_willow_sapling
+- biomesoplenty:potted_dead_sapling
+- biomesoplenty:potted_magic_sapling
+- biomesoplenty:potted_umbran_sapling
+- biomesoplenty:potted_hellbark_sapling
+- biomesoplenty:potted_rose
+- biomesoplenty:potted_violet
+- biomesoplenty:potted_lavender
+- biomesoplenty:potted_wildflower
+- biomesoplenty:potted_orange_cosmos
+- biomesoplenty:potted_pink_daffodil
+- biomesoplenty:potted_pink_hibiscus
+- biomesoplenty:potted_glowflower
+- biomesoplenty:potted_wilted_lily
+- biomesoplenty:potted_burning_blossom
+- biomesoplenty:potted_sprout
+- biomesoplenty:potted_clover
+- biomesoplenty:potted_toadstool
+- biomesoplenty:potted_glowshroom
+- immersiveengineering:potted_hemp
+
+#productivebees:flowers/glowing_flowers
+- minecraft:shroomlight
+- minecraft:glowstone
+- minecraft:redstone_lamp
+
+#forge:storage_blocks/signalum
+- emendatusenigmatica:signalum_block
+
+#forge:storage_blocks/invar
+- emendatusenigmatica:invar_block
+
+#forge:storage_blocks/dimensional
+- emendatusenigmatica:dimensional_block
+
+#toms_storage:trims
+- toms_storage:ts.trim
+- toms_storage:ts.painted_trim
+
+#buildinggadgets:blacklist/building
+- #buildinggadgets:blacklist/generic
+
+#forge:ores/tin
+- mekanism:tin_ore
+- emendatusenigmatica:tin_ore
+- emendatusenigmatica:tin_andesite_ore
+- emendatusenigmatica:tin_granite_ore
+- emendatusenigmatica:tin_diorite_ore
+- emendatusenigmatica:tin_sand_ore
+- emendatusenigmatica:tin_gravel_ore
+- emendatusenigmatica:tin_netherrack_ore
+- emendatusenigmatica:tin_blackstone_ore
+- emendatusenigmatica:tin_basalt_ore
+- emendatusenigmatica:tin_soul_soil_ore
+- emendatusenigmatica:tin_end_stone_ore
+- emendatusenigmatica:tin_gabbro_ore
+- emendatusenigmatica:tin_c_limestone_ore
+- emendatusenigmatica:tin_scoria_ore
+- emendatusenigmatica:tin_weathered_limestone_ore
+- emendatusenigmatica:tin_jasper_ore
+- emendatusenigmatica:tin_marble_ore
+- emendatusenigmatica:tin_slate_ore
+- emendatusenigmatica:tin_deepslate_ore
+- emendatusenigmatica:tin_mossy_stone_ore
+- emendatusenigmatica:tin_brimstone_ore
+- emendatusenigmatica:tin_subzero_ash_ore
+- emendatusenigmatica:tin_blue_netherrack_ore
+- emendatusenigmatica:tin_nylium_soul_soil_ore
+- emendatusenigmatica:tin_ether_stone_ore
+- emendatusenigmatica:tin_cryptic_stone_ore
+- emendatusenigmatica:tin_flavolite_ore
+- emendatusenigmatica:tin_sulphuric_rock_ore
+- emendatusenigmatica:tin_violecite_ore
+- emendatusenigmatica:tin_raw_marble_ore
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#minecraft:signs
+- #minecraft:standing_signs
+- #minecraft:wall_signs
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#biomesoplenty:willow_logs
+- biomesoplenty:willow_log
+- biomesoplenty:willow_wood
+- biomesoplenty:stripped_willow_log
+- biomesoplenty:stripped_willow_wood
+
+#minecraft:wither_summon_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:ores/draconium
+- draconicevolution:end_draconium_ore
+- draconicevolution:nether_draconium_ore
+- draconicevolution:overworld_draconium_ore
+
+#forge:storage_blocks/certus_quartz
+- appliedenergistics2:quartz_block
+- emendatusenigmatica:certus_quartz_block
+
+#forge:storage_blocks/osmium
+- mekanism:block_osmium
+- emendatusenigmatica:osmium_block
+
+#minecraft:hoglin_repellents
+- minecraft:warped_fungus
+- minecraft:potted_warped_fungus
+- minecraft:nether_portal
+- minecraft:respawn_anchor
+- mekanism:teleporter
+- mekanism:quantum_entangloporter
+
+#mekanism:cardboard_blacklist
+- #forge:relocation_not_supported
+- #minecraft:beds
+- #minecraft:doors
+
+#productivebees:flowers/gems/green_sapphire
+- #forge:storage_blocks/green_sapphire?
+- silentgems:green_sapphire_glowrose?
+- gemsnjewels:green_sapphire_block?
+
+#forge:ores/dimensional
+- emendatusenigmatica:dimensional_ore
+- emendatusenigmatica:dimensional_andesite_ore
+- emendatusenigmatica:dimensional_granite_ore
+- emendatusenigmatica:dimensional_diorite_ore
+- emendatusenigmatica:dimensional_sand_ore
+- emendatusenigmatica:dimensional_gravel_ore
+- emendatusenigmatica:dimensional_netherrack_ore
+- emendatusenigmatica:dimensional_blackstone_ore
+- emendatusenigmatica:dimensional_basalt_ore
+- emendatusenigmatica:dimensional_soul_soil_ore
+- emendatusenigmatica:dimensional_end_stone_ore
+- emendatusenigmatica:dimensional_gabbro_ore
+- emendatusenigmatica:dimensional_c_limestone_ore
+- emendatusenigmatica:dimensional_scoria_ore
+- emendatusenigmatica:dimensional_weathered_limestone_ore
+- emendatusenigmatica:dimensional_jasper_ore
+- emendatusenigmatica:dimensional_marble_ore
+- emendatusenigmatica:dimensional_slate_ore
+- emendatusenigmatica:dimensional_deepslate_ore
+- emendatusenigmatica:dimensional_mossy_stone_ore
+- emendatusenigmatica:dimensional_brimstone_ore
+- emendatusenigmatica:dimensional_subzero_ash_ore
+- emendatusenigmatica:dimensional_blue_netherrack_ore
+- emendatusenigmatica:dimensional_nylium_soul_soil_ore
+- emendatusenigmatica:dimensional_ether_stone_ore
+- emendatusenigmatica:dimensional_cryptic_stone_ore
+- emendatusenigmatica:dimensional_flavolite_ore
+- emendatusenigmatica:dimensional_sulphuric_rock_ore
+- emendatusenigmatica:dimensional_violecite_ore
+- emendatusenigmatica:dimensional_raw_marble_ore
+
+#forge:ores/charged_certus_quartz
+- emendatusenigmatica:charged_certus_quartz_ore
+- emendatusenigmatica:charged_certus_quartz_andesite_ore
+- emendatusenigmatica:charged_certus_quartz_granite_ore
+- emendatusenigmatica:charged_certus_quartz_diorite_ore
+- emendatusenigmatica:charged_certus_quartz_sand_ore
+- emendatusenigmatica:charged_certus_quartz_gravel_ore
+- emendatusenigmatica:charged_certus_quartz_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_blackstone_ore
+- emendatusenigmatica:charged_certus_quartz_basalt_ore
+- emendatusenigmatica:charged_certus_quartz_soul_soil_ore
+- emendatusenigmatica:charged_certus_quartz_end_stone_ore
+- emendatusenigmatica:charged_certus_quartz_gabbro_ore
+- emendatusenigmatica:charged_certus_quartz_c_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_scoria_ore
+- emendatusenigmatica:charged_certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_jasper_ore
+- emendatusenigmatica:charged_certus_quartz_marble_ore
+- emendatusenigmatica:charged_certus_quartz_slate_ore
+- emendatusenigmatica:charged_certus_quartz_deepslate_ore
+- emendatusenigmatica:charged_certus_quartz_mossy_stone_ore
+- emendatusenigmatica:charged_certus_quartz_brimstone_ore
+- emendatusenigmatica:charged_certus_quartz_subzero_ash_ore
+- emendatusenigmatica:charged_certus_quartz_blue_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_nylium_soul_soil_ore
+- emendatusenigmatica:charged_certus_quartz_ether_stone_ore
+- emendatusenigmatica:charged_certus_quartz_cryptic_stone_ore
+- emendatusenigmatica:charged_certus_quartz_flavolite_ore
+- emendatusenigmatica:charged_certus_quartz_sulphuric_rock_ore
+- emendatusenigmatica:charged_certus_quartz_violecite_ore
+- emendatusenigmatica:charged_certus_quartz_raw_marble_ore
+
+#forge:storage_blocks/iridium
+- emendatusenigmatica:iridium_block
+
+#create:fan_transparent
+- create:blaze_burner
+- create:lit_blaze_burner
+- create:sail_frame
+- #minecraft:fences
+- minecraft:iron_bars
+- minecraft:campfire
+- minecraft:soul_campfire
+
+#forge:wool
+- #forge:wool/white
+- #forge:wool/orange
+- #forge:wool/magenta
+- #forge:wool/light_blue
+- #forge:wool/yellow
+- #forge:wool/lime
+- #forge:wool/pink
+- #forge:wool/gray
+- #forge:wool/light_gray
+- #forge:wool/cyan
+- #forge:wool/purple
+- #forge:wool/blue
+- #forge:wool/brown
+- #forge:wool/green
+- #forge:wool/red
+- #forge:wool/black
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#minecraft:mineable/shovel
+
+#forge:storage_blocks/sapphire
+- iceandfire:sapphire_block?
+- emendatusenigmatica:sapphire_block
+
+#forge:sand/colorless
+- minecraft:sand
+
+#minecraft:soul_speed_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#forge:storage_blocks/charcoal
+- mekanism:block_charcoal
+
+#forge:sheetmetals/copper
+- immersiveengineering:sheetmetal_copper
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- biomesoplenty:black_sandstone_wall
+- biomesoplenty:orange_sandstone_wall
+- biomesoplenty:white_sandstone_wall
+- biomesoplenty:mud_brick_wall
+- appliedenergistics2:sky_stone_wall
+- appliedenergistics2:smooth_sky_stone_wall
+- appliedenergistics2:sky_stone_brick_wall
+- appliedenergistics2:sky_stone_small_brick_wall
+- appliedenergistics2:fluix_wall
+- appliedenergistics2:quartz_wall
+- appliedenergistics2:chiseled_quartz_wall
+- appliedenergistics2:quartz_pillar_wall
+- create:granite_cobblestone_wall
+- create:granite_bricks_wall
+- create:fancy_granite_bricks_wall
+- create:paved_granite_wall
+- create:diorite_cobblestone_wall
+- create:diorite_bricks_wall
+- create:fancy_diorite_bricks_wall
+- create:paved_diorite_wall
+- create:andesite_cobblestone_wall
+- create:andesite_bricks_wall
+- create:fancy_andesite_bricks_wall
+- create:paved_andesite_wall
+- create:limestone_cobblestone_wall
+- create:polished_limestone_wall
+- create:limestone_bricks_wall
+- create:fancy_limestone_bricks_wall
+- create:paved_limestone_wall
+- create:weathered_limestone_cobblestone_wall
+- create:polished_weathered_limestone_wall
+- create:weathered_limestone_bricks_wall
+- create:fancy_weathered_limestone_bricks_wall
+- create:paved_weathered_limestone_wall
+- create:dolomite_cobblestone_wall
+- create:polished_dolomite_wall
+- create:dolomite_bricks_wall
+- create:fancy_dolomite_bricks_wall
+- create:paved_dolomite_wall
+- create:gabbro_cobblestone_wall
+- create:polished_gabbro_wall
+- create:gabbro_bricks_wall
+- create:fancy_gabbro_bricks_wall
+- create:paved_gabbro_wall
+- create:scoria_cobblestone_wall
+- create:polished_scoria_wall
+- create:scoria_bricks_wall
+- create:fancy_scoria_bricks_wall
+- create:paved_scoria_wall
+- create:dark_scoria_cobblestone_wall
+- create:polished_dark_scoria_wall
+- create:dark_scoria_bricks_wall
+- create:fancy_dark_scoria_bricks_wall
+- create:paved_dark_scoria_wall
+
+#productivebees:flowers/gems/malachite
+- #forge:storage_blocks/malachite?
+- silentgems:malachite_glowrose?
+- gemsnjewels:malachite_block?
+
+#minecraft:coral_blocks
+- minecraft:tube_coral_block
+- minecraft:brain_coral_block
+- minecraft:bubble_coral_block
+- minecraft:fire_coral_block
+- minecraft:horn_coral_block
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#forge:storage_blocks/lead
+- mekanism:block_lead
+- immersiveengineering:storage_lead
+- emendatusenigmatica:lead_block
+
+#forge:fences/aluminum
+- immersiveengineering:alu_fence
+
+#minecraft:underwater_bonemeals
+- minecraft:seagrass
+- #minecraft:corals
+- #minecraft:wall_corals
+
+#productivebees:flowers/gems/euclase
+- #forge:storage_blocks/euclase?
+- silentgems:euclase_glowrose?
+- gemsnjewels:euclase_block?
+
+#ftbchunks:edit_whitelist
+- gravestone:gravestone?
+
+#minecraft:impermeable
+- minecraft:glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+- create:oak_window
+- create:spruce_window
+- create:birch_window
+- create:jungle_window
+- create:acacia_window
+- create:dark_oak_window
+- create:crimson_window
+- create:warped_window
+- create:ornate_iron_window
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- boss_tools:moon_sand
+- boss_tools:mars_sand
+- boss_tools:venus_sand
+
+#productivebees:flowers/gems/alexandrite
+- #forge:storage_blocks/alexandrite?
+- silentgems:alexandrite_glowrose?
+- gemsnjewels:alexandrite_block?
+
+#forge:end_stones
+- minecraft:end_stone
+
+#forge:storage_blocks/fluorite
+- mekanism:block_fluorite
+- emendatusenigmatica:fluorite_block
+
+#biomesoplenty:fir_logs
+- biomesoplenty:fir_log
+- biomesoplenty:fir_wood
+- biomesoplenty:stripped_fir_log
+- biomesoplenty:stripped_fir_wood
+
+#forge:sandstone/colorless
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+
+#forge:ores/sulfur
+- emendatusenigmatica:sulfur_ore
+- emendatusenigmatica:sulfur_andesite_ore
+- emendatusenigmatica:sulfur_granite_ore
+- emendatusenigmatica:sulfur_diorite_ore
+- emendatusenigmatica:sulfur_sand_ore
+- emendatusenigmatica:sulfur_gravel_ore
+- emendatusenigmatica:sulfur_netherrack_ore
+- emendatusenigmatica:sulfur_blackstone_ore
+- emendatusenigmatica:sulfur_basalt_ore
+- emendatusenigmatica:sulfur_soul_soil_ore
+- emendatusenigmatica:sulfur_end_stone_ore
+- emendatusenigmatica:sulfur_gabbro_ore
+- emendatusenigmatica:sulfur_c_limestone_ore
+- emendatusenigmatica:sulfur_scoria_ore
+- emendatusenigmatica:sulfur_weathered_limestone_ore
+- emendatusenigmatica:sulfur_jasper_ore
+- emendatusenigmatica:sulfur_marble_ore
+- emendatusenigmatica:sulfur_slate_ore
+- emendatusenigmatica:sulfur_deepslate_ore
+- emendatusenigmatica:sulfur_mossy_stone_ore
+- emendatusenigmatica:sulfur_brimstone_ore
+- emendatusenigmatica:sulfur_subzero_ash_ore
+- emendatusenigmatica:sulfur_blue_netherrack_ore
+- emendatusenigmatica:sulfur_nylium_soul_soil_ore
+- emendatusenigmatica:sulfur_ether_stone_ore
+- emendatusenigmatica:sulfur_cryptic_stone_ore
+- emendatusenigmatica:sulfur_flavolite_ore
+- emendatusenigmatica:sulfur_sulphuric_rock_ore
+- emendatusenigmatica:sulfur_violecite_ore
+- emendatusenigmatica:sulfur_raw_marble_ore
+
+#forge:wg_stone
+- create:limestone
+- create:weathered_limestone
+- create:dolomite
+- create:gabbro
+- create:natural_scoria
+
+#forge:storage_blocks/ridiculite
+- bigreactors:ridiculite_block
+
+#forge:storage_blocks/inanite
+- bigreactors:inanite_block
+
+#forge:treated_wood
+- immersiveengineering:treated_wood_horizontal
+- immersiveengineering:treated_wood_vertical
+- immersiveengineering:treated_wood_packaged
+
+#forge:fences/wooden
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+
+#sereneseasons:summer_crops
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- biomesoplenty:spanish_moss
+- biomesoplenty:spanish_moss_plant
+- biomesoplenty:clover
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+
+#forge:storage_blocks
+- #forge:storage_blocks/honeycombs
+- #forge:storage_blocks/desh
+- #forge:storage_blocks/silicon
+- #forge:storage_blocks/steel
+- #forge:storage_blocks/certus_quartz
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/charcoal
+- #forge:storage_blocks/refined_glowstone
+- #forge:storage_blocks/refined_obsidian
+- #forge:storage_blocks/steel
+- #forge:storage_blocks/fluorite
+- #forge:storage_blocks/osmium
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/uranium
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- draconicevolution:draconium_block
+- draconicevolution:awakened_draconium_block
+- immersiveengineering:storage_copper
+- immersiveengineering:storage_aluminum
+- immersiveengineering:storage_lead
+- immersiveengineering:storage_silver
+- immersiveengineering:storage_nickel
+- immersiveengineering:storage_uranium
+- immersiveengineering:storage_constantan
+- immersiveengineering:storage_electrum
+- immersiveengineering:storage_steel
+- emendatusenigmatica:copper_block
+- emendatusenigmatica:aluminum_block
+- emendatusenigmatica:silver_block
+- emendatusenigmatica:lead_block
+- emendatusenigmatica:nickel_block
+- emendatusenigmatica:uranium_block
+- emendatusenigmatica:osmium_block
+- emendatusenigmatica:tin_block
+- emendatusenigmatica:zinc_block
+- emendatusenigmatica:cobalt_block
+- emendatusenigmatica:iridium_block
+- emendatusenigmatica:certus_quartz_block
+- emendatusenigmatica:charged_certus_quartz_block
+- emendatusenigmatica:fluix_block
+- emendatusenigmatica:fluorite_block
+- emendatusenigmatica:bitumen_block
+- emendatusenigmatica:cinnabar_block
+- emendatusenigmatica:apatite_block
+- emendatusenigmatica:sulfur_block
+- emendatusenigmatica:potassium_nitrate_block
+- emendatusenigmatica:arcane_block
+- emendatusenigmatica:dimensional_block
+- emendatusenigmatica:ruby_block
+- emendatusenigmatica:sapphire_block
+- emendatusenigmatica:peridot_block
+- emendatusenigmatica:coke_block
+- emendatusenigmatica:bronze_block
+- emendatusenigmatica:brass_block
+- emendatusenigmatica:constantan_block
+- emendatusenigmatica:electrum_block
+- emendatusenigmatica:steel_block
+- emendatusenigmatica:invar_block
+- emendatusenigmatica:signalum_block
+- emendatusenigmatica:lumium_block
+- emendatusenigmatica:enderium_block
+- emendatusenigmatica:cast_iron_block
+- create:copper_block
+- create:zinc_block
+- create:brass_block
+
+#minecraft:campfires
+- minecraft:campfire
+- minecraft:soul_campfire
+
+#forge:sheetmetals/uranium
+- immersiveengineering:sheetmetal_uranium
+
+#minecraft:infiniburn_nether
+- #minecraft:infiniburn_overworld
+- boss_tools:infernal_spire_block
+
+#productivebees:flowers/gems/ruby
+- #forge:storage_blocks/ruby?
+- silentgems:ruby_glowrose?
+- gemsnjewels:ruby_block?
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#appliedenergistics2:whitelisted/facades
+- minecraft:glass
+- #forge:stained_glass
+- appliedenergistics2:quartz_glass
+- appliedenergistics2:quartz_vibrant_glass
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+- emendatusenigmatica:quartz_ore
+- emendatusenigmatica:quartz_andesite_ore
+- emendatusenigmatica:quartz_granite_ore
+- emendatusenigmatica:quartz_diorite_ore
+- emendatusenigmatica:quartz_sand_ore
+- emendatusenigmatica:quartz_gravel_ore
+- emendatusenigmatica:quartz_netherrack_ore
+- emendatusenigmatica:quartz_blackstone_ore
+- emendatusenigmatica:quartz_basalt_ore
+- emendatusenigmatica:quartz_soul_soil_ore
+- emendatusenigmatica:quartz_end_stone_ore
+- emendatusenigmatica:quartz_gabbro_ore
+- emendatusenigmatica:quartz_c_limestone_ore
+- emendatusenigmatica:quartz_scoria_ore
+- emendatusenigmatica:quartz_weathered_limestone_ore
+- emendatusenigmatica:quartz_jasper_ore
+- emendatusenigmatica:quartz_marble_ore
+- emendatusenigmatica:quartz_slate_ore
+- emendatusenigmatica:quartz_deepslate_ore
+- emendatusenigmatica:quartz_mossy_stone_ore
+- emendatusenigmatica:quartz_brimstone_ore
+- emendatusenigmatica:quartz_subzero_ash_ore
+- emendatusenigmatica:quartz_blue_netherrack_ore
+- emendatusenigmatica:quartz_nylium_soul_soil_ore
+- emendatusenigmatica:quartz_ether_stone_ore
+- emendatusenigmatica:quartz_cryptic_stone_ore
+- emendatusenigmatica:quartz_flavolite_ore
+- emendatusenigmatica:quartz_sulphuric_rock_ore
+- emendatusenigmatica:quartz_violecite_ore
+- emendatusenigmatica:quartz_raw_marble_ore
+
+#forge:ores/cobalt
+- emendatusenigmatica:cobalt_ore
+- emendatusenigmatica:cobalt_andesite_ore
+- emendatusenigmatica:cobalt_granite_ore
+- emendatusenigmatica:cobalt_diorite_ore
+- emendatusenigmatica:cobalt_sand_ore
+- emendatusenigmatica:cobalt_gravel_ore
+- emendatusenigmatica:cobalt_netherrack_ore
+- emendatusenigmatica:cobalt_blackstone_ore
+- emendatusenigmatica:cobalt_basalt_ore
+- emendatusenigmatica:cobalt_soul_soil_ore
+- emendatusenigmatica:cobalt_end_stone_ore
+- emendatusenigmatica:cobalt_gabbro_ore
+- emendatusenigmatica:cobalt_c_limestone_ore
+- emendatusenigmatica:cobalt_scoria_ore
+- emendatusenigmatica:cobalt_weathered_limestone_ore
+- emendatusenigmatica:cobalt_jasper_ore
+- emendatusenigmatica:cobalt_marble_ore
+- emendatusenigmatica:cobalt_slate_ore
+- emendatusenigmatica:cobalt_deepslate_ore
+- emendatusenigmatica:cobalt_mossy_stone_ore
+- emendatusenigmatica:cobalt_brimstone_ore
+- emendatusenigmatica:cobalt_subzero_ash_ore
+- emendatusenigmatica:cobalt_blue_netherrack_ore
+- emendatusenigmatica:cobalt_nylium_soul_soil_ore
+- emendatusenigmatica:cobalt_ether_stone_ore
+- emendatusenigmatica:cobalt_cryptic_stone_ore
+- emendatusenigmatica:cobalt_flavolite_ore
+- emendatusenigmatica:cobalt_sulphuric_rock_ore
+- emendatusenigmatica:cobalt_violecite_ore
+- emendatusenigmatica:cobalt_raw_marble_ore
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- biomesoplenty:fir_trapdoor
+- biomesoplenty:redwood_trapdoor
+- biomesoplenty:cherry_trapdoor
+- biomesoplenty:mahogany_trapdoor
+- biomesoplenty:jacaranda_trapdoor
+- biomesoplenty:palm_trapdoor
+- biomesoplenty:willow_trapdoor
+- biomesoplenty:dead_trapdoor
+- biomesoplenty:magic_trapdoor
+- biomesoplenty:umbran_trapdoor
+- biomesoplenty:hellbark_trapdoor
+
+#productivebees:nests/sugarbag_nests
+- productivebees:sugarbag_nest
+- #productivebees:advanced_beehives
+
+#create:valve_handles
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+
+#productivebees:flowers/gems/opal
+- #forge:storage_blocks/opal?
+- silentgems:opal_glowrose?
+- gemsnjewels:opal_block?
+
+#forge:wool/orange
+- minecraft:orange_wool
+- minecraft:orange_wool
+
+#buildinggadgets:blacklist/copy_paste
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#jade:pick
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#productivebees:flowers/gems/jasper
+- #forge:storage_blocks/jasper?
+- silentgems:jasper_glowrose?
+- gemsnjewels:jasper_block?
+
+#forge:storage_blocks/amethyst
+- iceandfire:amythest_block?
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- biomesoplenty:black_sandstone_stairs
+- biomesoplenty:smooth_black_sandstone_stairs
+- biomesoplenty:orange_sandstone_stairs
+- biomesoplenty:smooth_orange_sandstone_stairs
+- biomesoplenty:white_sandstone_stairs
+- biomesoplenty:smooth_white_sandstone_stairs
+- biomesoplenty:mud_brick_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- boss_tools:moon_brick_stairs
+- boss_tools:cracked_moon_brick_stairs
+- create:granite_cobblestone_stairs
+- create:granite_bricks_stairs
+- create:fancy_granite_bricks_stairs
+- create:paved_granite_stairs
+- create:diorite_cobblestone_stairs
+- create:diorite_bricks_stairs
+- create:fancy_diorite_bricks_stairs
+- create:paved_diorite_stairs
+- create:andesite_cobblestone_stairs
+- create:andesite_bricks_stairs
+- create:fancy_andesite_bricks_stairs
+- create:paved_andesite_stairs
+- create:limestone_cobblestone_stairs
+- create:polished_limestone_stairs
+- create:limestone_bricks_stairs
+- create:fancy_limestone_bricks_stairs
+- create:paved_limestone_stairs
+- create:weathered_limestone_cobblestone_stairs
+- create:polished_weathered_limestone_stairs
+- create:weathered_limestone_bricks_stairs
+- create:fancy_weathered_limestone_bricks_stairs
+- create:paved_weathered_limestone_stairs
+- create:dolomite_cobblestone_stairs
+- create:polished_dolomite_stairs
+- create:dolomite_bricks_stairs
+- create:fancy_dolomite_bricks_stairs
+- create:paved_dolomite_stairs
+- create:gabbro_cobblestone_stairs
+- create:polished_gabbro_stairs
+- create:gabbro_bricks_stairs
+- create:fancy_gabbro_bricks_stairs
+- create:paved_gabbro_stairs
+- create:scoria_cobblestone_stairs
+- create:polished_scoria_stairs
+- create:scoria_bricks_stairs
+- create:fancy_scoria_bricks_stairs
+- create:paved_scoria_stairs
+- create:dark_scoria_cobblestone_stairs
+- create:polished_dark_scoria_stairs
+- create:dark_scoria_bricks_stairs
+- create:fancy_dark_scoria_bricks_stairs
+- create:paved_dark_scoria_stairs
+
+#sereneseasons:unbreakable_infertile_crops
+- biomesoplenty:spanish_moss
+- biomesoplenty:spanish_moss_plant
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+
+#forge:wool/light_blue
+- minecraft:light_blue_wool
+- minecraft:light_blue_wool
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+- #biomesoplenty:hellbark_logs
+- #myrtrees:rubberwood_logs
+
+#forge:ores/cinnabar
+- emendatusenigmatica:cinnabar_ore
+- emendatusenigmatica:cinnabar_andesite_ore
+- emendatusenigmatica:cinnabar_granite_ore
+- emendatusenigmatica:cinnabar_diorite_ore
+- emendatusenigmatica:cinnabar_sand_ore
+- emendatusenigmatica:cinnabar_gravel_ore
+- emendatusenigmatica:cinnabar_netherrack_ore
+- emendatusenigmatica:cinnabar_blackstone_ore
+- emendatusenigmatica:cinnabar_basalt_ore
+- emendatusenigmatica:cinnabar_soul_soil_ore
+- emendatusenigmatica:cinnabar_end_stone_ore
+- emendatusenigmatica:cinnabar_gabbro_ore
+- emendatusenigmatica:cinnabar_c_limestone_ore
+- emendatusenigmatica:cinnabar_scoria_ore
+- emendatusenigmatica:cinnabar_weathered_limestone_ore
+- emendatusenigmatica:cinnabar_jasper_ore
+- emendatusenigmatica:cinnabar_marble_ore
+- emendatusenigmatica:cinnabar_slate_ore
+- emendatusenigmatica:cinnabar_deepslate_ore
+- emendatusenigmatica:cinnabar_mossy_stone_ore
+- emendatusenigmatica:cinnabar_brimstone_ore
+- emendatusenigmatica:cinnabar_subzero_ash_ore
+- emendatusenigmatica:cinnabar_blue_netherrack_ore
+- emendatusenigmatica:cinnabar_nylium_soul_soil_ore
+- emendatusenigmatica:cinnabar_ether_stone_ore
+- emendatusenigmatica:cinnabar_cryptic_stone_ore
+- emendatusenigmatica:cinnabar_flavolite_ore
+- emendatusenigmatica:cinnabar_sulphuric_rock_ore
+- emendatusenigmatica:cinnabar_violecite_ore
+- emendatusenigmatica:cinnabar_raw_marble_ore
+
+#forge:sandstone/red
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+
+#lootr:shulkers
+- lootr:lootr_shulker
+
+#forge:treated_wood_slab
+- immersiveengineering:slab_treated_wood_horizontal
+- immersiveengineering:slab_treated_wood_vertical
+- immersiveengineering:slab_treated_wood_packaged
+
+#mekanism:miner_blacklist
+
+#minecraft:valid_spawn
+- minecraft:grass_block
+- minecraft:podzol
+- biomesoplenty:origin_grass_block
+
+#minecraft:mushroom_grow_block
+- minecraft:mycelium
+- minecraft:podzol
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#productivebees:flowers/cupric
+- #forge:storage_blocks/copper
+- cavesandcliffs:copper_ore?
+- cavesandcliffs:deepslate_copper_ore?
+- cavesandcliffs:copper_block?
+- cavesandcliffs:raw_copper_block?
+- cavesandcliffs:cut_copper?
+- cavesandcliffs:exposed_cut_copper?
+- cavesandcliffs:weathered_cut_copper?
+- cavesandcliffs:oxidized_cut_copper?
+- cavesandcliffs:exposed_copper?
+- cavesandcliffs:weathered_copper?
+- cavesandcliffs:oxidized_copper?
+- cavesandcliffs:waxed_copper_block?
+- cavesandcliffs:waxed_exposed_copper?
+- cavesandcliffs:waxed_weathered_copper?
+- cavesandcliffs:waxed_oxidized_copper?
+- cavesandcliffs:lightning_rod?
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- biomesoplenty:fir_door
+- biomesoplenty:redwood_door
+- biomesoplenty:cherry_door
+- biomesoplenty:mahogany_door
+- biomesoplenty:jacaranda_door
+- biomesoplenty:palm_door
+- biomesoplenty:willow_door
+- biomesoplenty:dead_door
+- biomesoplenty:magic_door
+- biomesoplenty:umbran_door
+- biomesoplenty:hellbark_door
+
+#ftbic:reinforced
+- ftbic:reinforced_stone
+- ftbic:reinforced_glass
+- minecraft:bedrock
+- minecraft:barrier
+- minecraft:command_block
+
+#forge:ores/certus_quartz
+- appliedenergistics2:quartz_ore
+- appliedenergistics2:charged_quartz_ore
+- emendatusenigmatica:certus_quartz_ore
+- emendatusenigmatica:certus_quartz_andesite_ore
+- emendatusenigmatica:certus_quartz_granite_ore
+- emendatusenigmatica:certus_quartz_diorite_ore
+- emendatusenigmatica:certus_quartz_sand_ore
+- emendatusenigmatica:certus_quartz_gravel_ore
+- emendatusenigmatica:certus_quartz_netherrack_ore
+- emendatusenigmatica:certus_quartz_blackstone_ore
+- emendatusenigmatica:certus_quartz_basalt_ore
+- emendatusenigmatica:certus_quartz_soul_soil_ore
+- emendatusenigmatica:certus_quartz_end_stone_ore
+- emendatusenigmatica:certus_quartz_gabbro_ore
+- emendatusenigmatica:certus_quartz_c_limestone_ore
+- emendatusenigmatica:certus_quartz_scoria_ore
+- emendatusenigmatica:certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:certus_quartz_jasper_ore
+- emendatusenigmatica:certus_quartz_marble_ore
+- emendatusenigmatica:certus_quartz_slate_ore
+- emendatusenigmatica:certus_quartz_deepslate_ore
+- emendatusenigmatica:certus_quartz_mossy_stone_ore
+- emendatusenigmatica:certus_quartz_brimstone_ore
+- emendatusenigmatica:certus_quartz_subzero_ash_ore
+- emendatusenigmatica:certus_quartz_blue_netherrack_ore
+- emendatusenigmatica:certus_quartz_nylium_soul_soil_ore
+- emendatusenigmatica:certus_quartz_ether_stone_ore
+- emendatusenigmatica:certus_quartz_cryptic_stone_ore
+- emendatusenigmatica:certus_quartz_flavolite_ore
+- emendatusenigmatica:certus_quartz_sulphuric_rock_ore
+- emendatusenigmatica:certus_quartz_violecite_ore
+- emendatusenigmatica:certus_quartz_raw_marble_ore
+
+#productivebees:flowers/forest_flowers
+- #minecraft:flowers
+- minecraft:sweet_berry_bush
+
+#sereneseasons:autumn_crops
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#productivebees:flowers/arid_flowers
+- #minecraft:flowers
+- minecraft:cactus
+- minecraft:dead_bush
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#productivebees:nether_gold_nests
+- productivebees:nether_gold_nest
+- #productivebees:advanced_beehives
+
+#minecraft:needs_stone_tool
+
+#productivebees:flowers/quarry
+- #forge:dirt
+- #forge:stone
+- #forge:sand
+- #forge:gravel
+- minecraft:clay
+- minecraft:blackstone
+- minecraft:basalt
+
+#productivebees:flowers/gems/cats_eye
+- #forge:storage_blocks/cats_eye?
+- silentgems:cats_eye_glowrose?
+- gemsnjewels:cats_eye_block?
+
+#forge:storage_blocks/ruby
+- emendatusenigmatica:ruby_block
+
+#forge:storage_blocks/blutonium
+- bigreactors:blutonium_block
+
+#appliedenergistics2:blacklisted/annihilation_plane
+
+#forge:wool/blue
+- minecraft:blue_wool
+- minecraft:blue_wool
+
+#minecraft:beacon_base_blocks
+- minecraft:netherite_block
+- minecraft:emerald_block
+- minecraft:diamond_block
+- minecraft:gold_block
+- minecraft:iron_block
+- astralsorcery:starmetal
+- boss_tools:steel_block
+- boss_tools:desh_block
+- boss_tools:silicon_block
+- mekanism:block_osmium
+- mekanism:block_copper
+- mekanism:block_tin
+- mekanism:block_lead
+- mekanism:block_uranium
+- mekanism:block_bronze
+- mekanism:block_refined_obsidian
+- mekanism:block_refined_glowstone
+- mekanism:block_steel
+- emendatusenigmatica:copper_block
+- emendatusenigmatica:aluminum_block
+- emendatusenigmatica:silver_block
+- emendatusenigmatica:lead_block
+- emendatusenigmatica:nickel_block
+- emendatusenigmatica:uranium_block
+- emendatusenigmatica:osmium_block
+- emendatusenigmatica:tin_block
+- emendatusenigmatica:zinc_block
+- emendatusenigmatica:cobalt_block
+- emendatusenigmatica:iridium_block
+- emendatusenigmatica:certus_quartz_block
+- emendatusenigmatica:charged_certus_quartz_block
+- emendatusenigmatica:fluix_block
+- emendatusenigmatica:fluorite_block
+- emendatusenigmatica:bitumen_block
+- emendatusenigmatica:cinnabar_block
+- emendatusenigmatica:apatite_block
+- emendatusenigmatica:sulfur_block
+- emendatusenigmatica:potassium_nitrate_block
+- emendatusenigmatica:arcane_block
+- emendatusenigmatica:dimensional_block
+- emendatusenigmatica:ruby_block
+- emendatusenigmatica:sapphire_block
+- emendatusenigmatica:peridot_block
+- emendatusenigmatica:coke_block
+- emendatusenigmatica:bronze_block
+- emendatusenigmatica:brass_block
+- emendatusenigmatica:constantan_block
+- emendatusenigmatica:electrum_block
+- emendatusenigmatica:steel_block
+- emendatusenigmatica:invar_block
+- emendatusenigmatica:signalum_block
+- emendatusenigmatica:lumium_block
+- emendatusenigmatica:enderium_block
+- emendatusenigmatica:cast_iron_block
+- create:copper_block
+- create:zinc_block
+- create:brass_block
+
+#productivebees:nests/glowstone_nests
+- productivebees:glowstone_nest
+- #productivebees:advanced_beehives
+
+#productivebees:flowers/gems/turquoise
+- #forge:storage_blocks/turquoise?
+- silentgems:turquoise_glowrose?
+- gemsnjewels:turquoise_block?
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#forge:storage_blocks/enderium
+- emendatusenigmatica:enderium_block
+
+#appliedenergistics2:spatial/blacklist
+
+#forge:sand
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- #forge:sand/colorless
+- #forge:sand/red
+- boss_tools:moon_sand
+- boss_tools:mars_sand
+- boss_tools:venus_sand
+
+#minecraft:wall_corals
+- minecraft:tube_coral_wall_fan
+- minecraft:brain_coral_wall_fan
+- minecraft:bubble_coral_wall_fan
+- minecraft:fire_coral_wall_fan
+- minecraft:horn_coral_wall_fan
+
+#forge:sheetmetals/lead
+- immersiveengineering:sheetmetal_lead
+
+#forge:wool/colorless
+- minecraft:glass_pane
+
+#forge:storage_blocks/silver
+- iceandfire:silver_block?
+- immersiveengineering:storage_silver
+- emendatusenigmatica:silver_block
+
+#forge:ores/gold
+- boss_tools:venus_gold_ore
+- #minecraft:gold_ores
+- emendatusenigmatica:gold_ore
+- emendatusenigmatica:gold_andesite_ore
+- emendatusenigmatica:gold_granite_ore
+- emendatusenigmatica:gold_diorite_ore
+- emendatusenigmatica:gold_sand_ore
+- emendatusenigmatica:gold_gravel_ore
+- emendatusenigmatica:gold_netherrack_ore
+- emendatusenigmatica:gold_blackstone_ore
+- emendatusenigmatica:gold_basalt_ore
+- emendatusenigmatica:gold_soul_soil_ore
+- emendatusenigmatica:gold_end_stone_ore
+- emendatusenigmatica:gold_gabbro_ore
+- emendatusenigmatica:gold_c_limestone_ore
+- emendatusenigmatica:gold_scoria_ore
+- emendatusenigmatica:gold_weathered_limestone_ore
+- emendatusenigmatica:gold_jasper_ore
+- emendatusenigmatica:gold_marble_ore
+- emendatusenigmatica:gold_slate_ore
+- emendatusenigmatica:gold_deepslate_ore
+- emendatusenigmatica:gold_mossy_stone_ore
+- emendatusenigmatica:gold_brimstone_ore
+- emendatusenigmatica:gold_subzero_ash_ore
+- emendatusenigmatica:gold_blue_netherrack_ore
+- emendatusenigmatica:gold_nylium_soul_soil_ore
+- emendatusenigmatica:gold_ether_stone_ore
+- emendatusenigmatica:gold_cryptic_stone_ore
+- emendatusenigmatica:gold_flavolite_ore
+- emendatusenigmatica:gold_sulphuric_rock_ore
+- emendatusenigmatica:gold_violecite_ore
+- emendatusenigmatica:gold_raw_marble_ore
+
+#lootr:chests
+- lootr:lootr_chest
+- lootr:lootr_inventory
+
+#forge:storage_blocks/arcane
+- emendatusenigmatica:arcane_block
+
+#productivebees:flowers/prismarine
+- minecraft:prismarine
+- minecraft:dark_prismarine
+- minecraft:prismarine_bricks
+- minecraft:sea_lantern
+
+#minecraft:piglin_repellents
+- minecraft:soul_fire
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_wall_torch
+- minecraft:soul_campfire
+
+#biomesoplenty:palm_logs
+- biomesoplenty:palm_log
+- biomesoplenty:palm_wood
+- biomesoplenty:stripped_palm_log
+- biomesoplenty:stripped_palm_wood
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#minecraft:portals
+- minecraft:nether_portal
+- minecraft:end_portal
+- minecraft:end_gateway
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#forge:chests/wooden
+- minecraft:chest
+- minecraft:trapped_chest
+
+#forge:storage_blocks/aluminum
+- immersiveengineering:storage_aluminum
+- emendatusenigmatica:aluminum_block
+
+#immersiveengineering:scaffoldings/aluminum
+- immersiveengineering:alu_scaffolding_standard
+- immersiveengineering:alu_scaffolding_grate_top
+- immersiveengineering:alu_scaffolding_wooden_top
+
+#forge:ores/iron
+- boss_tools:mars_iron_ore
+- boss_tools:mercury_iron_ore
+- boss_tools:moon_iron_ore
+- minecraft:iron_ore
+- emendatusenigmatica:iron_ore
+- emendatusenigmatica:iron_andesite_ore
+- emendatusenigmatica:iron_granite_ore
+- emendatusenigmatica:iron_diorite_ore
+- emendatusenigmatica:iron_sand_ore
+- emendatusenigmatica:iron_gravel_ore
+- emendatusenigmatica:iron_netherrack_ore
+- emendatusenigmatica:iron_blackstone_ore
+- emendatusenigmatica:iron_basalt_ore
+- emendatusenigmatica:iron_soul_soil_ore
+- emendatusenigmatica:iron_end_stone_ore
+- emendatusenigmatica:iron_gabbro_ore
+- emendatusenigmatica:iron_c_limestone_ore
+- emendatusenigmatica:iron_scoria_ore
+- emendatusenigmatica:iron_weathered_limestone_ore
+- emendatusenigmatica:iron_jasper_ore
+- emendatusenigmatica:iron_marble_ore
+- emendatusenigmatica:iron_slate_ore
+- emendatusenigmatica:iron_deepslate_ore
+- emendatusenigmatica:iron_mossy_stone_ore
+- emendatusenigmatica:iron_brimstone_ore
+- emendatusenigmatica:iron_subzero_ash_ore
+- emendatusenigmatica:iron_blue_netherrack_ore
+- emendatusenigmatica:iron_nylium_soul_soil_ore
+- emendatusenigmatica:iron_ether_stone_ore
+- emendatusenigmatica:iron_cryptic_stone_ore
+- emendatusenigmatica:iron_flavolite_ore
+- emendatusenigmatica:iron_sulphuric_rock_ore
+- emendatusenigmatica:iron_violecite_ore
+- emendatusenigmatica:iron_raw_marble_ore
+
+#forge:storage_blocks/draconium
+- draconicevolution:draconium_block
+
+#forge:storage_blocks/sulfur
+- emendatusenigmatica:sulfur_block
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- biomesoplenty:fir_stairs
+- biomesoplenty:redwood_stairs
+- biomesoplenty:cherry_stairs
+- biomesoplenty:mahogany_stairs
+- biomesoplenty:jacaranda_stairs
+- biomesoplenty:palm_stairs
+- biomesoplenty:willow_stairs
+- biomesoplenty:dead_stairs
+- biomesoplenty:magic_stairs
+- biomesoplenty:umbran_stairs
+- biomesoplenty:hellbark_stairs
+- myrtrees:rubberwood_stairs
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+
+#minecraft:base_stone_overworld
+- minecraft:stone
+- minecraft:granite
+- minecraft:diorite
+- minecraft:andesite
+- create:limestone
+- create:weathered_limestone
+- create:dolomite
+- create:gabbro
+- create:natural_scoria
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- biomesoplenty:fir_button
+- biomesoplenty:redwood_button
+- biomesoplenty:cherry_button
+- biomesoplenty:mahogany_button
+- biomesoplenty:jacaranda_button
+- biomesoplenty:palm_button
+- biomesoplenty:willow_button
+- biomesoplenty:dead_button
+- biomesoplenty:magic_button
+- biomesoplenty:umbran_button
+- biomesoplenty:hellbark_button
+
+#biomesoplenty:umbran_logs
+- biomesoplenty:umbran_log
+- biomesoplenty:umbran_wood
+- biomesoplenty:stripped_umbran_log
+- biomesoplenty:stripped_umbran_wood
+
+#forge:storage_blocks/glowstone
+- minecraft:glowstone
+
+#productivebees:flowers/slimy
+- #productivebees:flowers/swamp_flowers
+- minecraft:slime_block
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#apotheosis:basic_skulls
+- minecraft:skeleton_skull
+- minecraft:skeleton_wall_skull
+- minecraft:creeper_head
+- minecraft:creeper_wall_head
+- minecraft:zombie_head
+- minecraft:zombie_wall_head
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- biomesoplenty:black_sandstone_slab
+- biomesoplenty:cut_black_sandstone_slab
+- biomesoplenty:smooth_black_sandstone_slab
+- biomesoplenty:orange_sandstone_slab
+- biomesoplenty:cut_orange_sandstone_slab
+- biomesoplenty:smooth_orange_sandstone_slab
+- biomesoplenty:white_sandstone_slab
+- biomesoplenty:cut_white_sandstone_slab
+- biomesoplenty:smooth_white_sandstone_slab
+- biomesoplenty:mud_brick_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- boss_tools:moon_brick_slab
+- boss_tools:cracked_moon_brick_slab
+- create:granite_cobblestone_slab
+- create:granite_bricks_slab
+- create:fancy_granite_bricks_slab
+- create:paved_granite_slab
+- create:diorite_cobblestone_slab
+- create:diorite_bricks_slab
+- create:fancy_diorite_bricks_slab
+- create:paved_diorite_slab
+- create:andesite_cobblestone_slab
+- create:andesite_bricks_slab
+- create:fancy_andesite_bricks_slab
+- create:paved_andesite_slab
+- create:limestone_cobblestone_slab
+- create:polished_limestone_slab
+- create:limestone_bricks_slab
+- create:fancy_limestone_bricks_slab
+- create:paved_limestone_slab
+- create:weathered_limestone_cobblestone_slab
+- create:polished_weathered_limestone_slab
+- create:weathered_limestone_bricks_slab
+- create:fancy_weathered_limestone_bricks_slab
+- create:paved_weathered_limestone_slab
+- create:dolomite_cobblestone_slab
+- create:polished_dolomite_slab
+- create:dolomite_bricks_slab
+- create:fancy_dolomite_bricks_slab
+- create:paved_dolomite_slab
+- create:gabbro_cobblestone_slab
+- create:polished_gabbro_slab
+- create:gabbro_bricks_slab
+- create:fancy_gabbro_bricks_slab
+- create:paved_gabbro_slab
+- create:scoria_cobblestone_slab
+- create:polished_scoria_slab
+- create:scoria_bricks_slab
+- create:fancy_scoria_bricks_slab
+- create:paved_scoria_slab
+- create:dark_scoria_cobblestone_slab
+- create:polished_dark_scoria_slab
+- create:dark_scoria_bricks_slab
+- create:fancy_dark_scoria_bricks_slab
+- create:paved_dark_scoria_slab
+
+#minecraft:guarded_by_piglins
+- minecraft:gold_block
+- minecraft:barrel
+- minecraft:chest
+- minecraft:ender_chest
+- minecraft:gilded_blackstone
+- minecraft:trapped_chest
+- #minecraft:shulker_boxes
+- #minecraft:gold_ores
+- mekanism:block_refined_glowstone
+- mekanism:personal_chest
+- emendatusenigmatica:gold_ore
+- emendatusenigmatica:gold_andesite_ore
+- emendatusenigmatica:gold_granite_ore
+- emendatusenigmatica:gold_diorite_ore
+- emendatusenigmatica:gold_sand_ore
+- emendatusenigmatica:gold_gravel_ore
+- emendatusenigmatica:gold_netherrack_ore
+- emendatusenigmatica:gold_blackstone_ore
+- emendatusenigmatica:gold_basalt_ore
+- emendatusenigmatica:gold_soul_soil_ore
+- emendatusenigmatica:gold_end_stone_ore
+- emendatusenigmatica:gold_gabbro_ore
+- emendatusenigmatica:gold_c_limestone_ore
+- emendatusenigmatica:gold_scoria_ore
+- emendatusenigmatica:gold_weathered_limestone_ore
+- emendatusenigmatica:gold_jasper_ore
+- emendatusenigmatica:gold_marble_ore
+- emendatusenigmatica:gold_slate_ore
+- emendatusenigmatica:gold_deepslate_ore
+- emendatusenigmatica:gold_mossy_stone_ore
+- emendatusenigmatica:gold_brimstone_ore
+- emendatusenigmatica:gold_subzero_ash_ore
+- emendatusenigmatica:gold_blue_netherrack_ore
+- emendatusenigmatica:gold_nylium_soul_soil_ore
+- emendatusenigmatica:gold_ether_stone_ore
+- emendatusenigmatica:gold_cryptic_stone_ore
+- emendatusenigmatica:gold_flavolite_ore
+- emendatusenigmatica:gold_sulphuric_rock_ore
+- emendatusenigmatica:gold_violecite_ore
+- emendatusenigmatica:gold_raw_marble_ore
+- boss_tools:venus_gold_ore
+
+#forge:ores/emerald
+- minecraft:emerald_ore
+- emendatusenigmatica:emerald_ore
+- emendatusenigmatica:emerald_andesite_ore
+- emendatusenigmatica:emerald_granite_ore
+- emendatusenigmatica:emerald_diorite_ore
+- emendatusenigmatica:emerald_sand_ore
+- emendatusenigmatica:emerald_gravel_ore
+- emendatusenigmatica:emerald_netherrack_ore
+- emendatusenigmatica:emerald_blackstone_ore
+- emendatusenigmatica:emerald_basalt_ore
+- emendatusenigmatica:emerald_soul_soil_ore
+- emendatusenigmatica:emerald_end_stone_ore
+- emendatusenigmatica:emerald_gabbro_ore
+- emendatusenigmatica:emerald_c_limestone_ore
+- emendatusenigmatica:emerald_scoria_ore
+- emendatusenigmatica:emerald_weathered_limestone_ore
+- emendatusenigmatica:emerald_jasper_ore
+- emendatusenigmatica:emerald_marble_ore
+- emendatusenigmatica:emerald_slate_ore
+- emendatusenigmatica:emerald_deepslate_ore
+- emendatusenigmatica:emerald_mossy_stone_ore
+- emendatusenigmatica:emerald_brimstone_ore
+- emendatusenigmatica:emerald_subzero_ash_ore
+- emendatusenigmatica:emerald_blue_netherrack_ore
+- emendatusenigmatica:emerald_nylium_soul_soil_ore
+- emendatusenigmatica:emerald_ether_stone_ore
+- emendatusenigmatica:emerald_cryptic_stone_ore
+- emendatusenigmatica:emerald_flavolite_ore
+- emendatusenigmatica:emerald_sulphuric_rock_ore
+- emendatusenigmatica:emerald_violecite_ore
+- emendatusenigmatica:emerald_raw_marble_ore
+
+#forge:storage_blocks/bitumen
+- emendatusenigmatica:bitumen_block
+
+#lazierae2:machines/aggregator
+- lazierae2:aggregator
+
+#buildinggadgets:whitelist/exchanging
+- #buildinggadgets:whitelist/generic
+
+#forge:ores/apatite
+- emendatusenigmatica:apatite_ore
+- emendatusenigmatica:apatite_andesite_ore
+- emendatusenigmatica:apatite_granite_ore
+- emendatusenigmatica:apatite_diorite_ore
+- emendatusenigmatica:apatite_sand_ore
+- emendatusenigmatica:apatite_gravel_ore
+- emendatusenigmatica:apatite_netherrack_ore
+- emendatusenigmatica:apatite_blackstone_ore
+- emendatusenigmatica:apatite_basalt_ore
+- emendatusenigmatica:apatite_soul_soil_ore
+- emendatusenigmatica:apatite_end_stone_ore
+- emendatusenigmatica:apatite_gabbro_ore
+- emendatusenigmatica:apatite_c_limestone_ore
+- emendatusenigmatica:apatite_scoria_ore
+- emendatusenigmatica:apatite_weathered_limestone_ore
+- emendatusenigmatica:apatite_jasper_ore
+- emendatusenigmatica:apatite_marble_ore
+- emendatusenigmatica:apatite_slate_ore
+- emendatusenigmatica:apatite_deepslate_ore
+- emendatusenigmatica:apatite_mossy_stone_ore
+- emendatusenigmatica:apatite_brimstone_ore
+- emendatusenigmatica:apatite_subzero_ash_ore
+- emendatusenigmatica:apatite_blue_netherrack_ore
+- emendatusenigmatica:apatite_nylium_soul_soil_ore
+- emendatusenigmatica:apatite_ether_stone_ore
+- emendatusenigmatica:apatite_cryptic_stone_ore
+- emendatusenigmatica:apatite_flavolite_ore
+- emendatusenigmatica:apatite_sulphuric_rock_ore
+- emendatusenigmatica:apatite_violecite_ore
+- emendatusenigmatica:apatite_raw_marble_ore
+
+#productivebees:flowers/gems/heliodor
+- #forge:storage_blocks/heliodor?
+- silentgems:heliodor_glowrose?
+- gemsnjewels:heliodor_block?
+
+#minecraft:corals
+- #minecraft:coral_plants
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+
+#lootr:containers
+- #lootr:barrels
+- #lootr:chests
+- #lootr:trapped_chests
+- #lootr:shulkers
+
+#productivebees:flowers/draconic_flowers
+- minecraft:dragon_egg
+
+#productivebees:flowers/gilded_flowers
+- minecraft:nether_gold_ore
+- minecraft:gold_ore
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+- create:cart_assembler
+- create:reinforced_rail
+- create:controller_rail
+
+#forge:wool/lime
+- minecraft:lime_wool
+- minecraft:lime_wool
+
+#productivebees:flowers/graves
+- tombstone:decorative_grave_simple?
+- tombstone:decorative_grave_normal?
+- tombstone:decorative_grave_cross?
+- tombstone:decorative_grave_original?
+- tombstone:decorative_subaraki_grave?
+
+#forge:barrels/wooden
+- minecraft:barrel
+
+#forge:storage_blocks/niter
+- emendatusenigmatica:potassium_nitrate_block
+
+#minecraft:strider_warm_blocks
+- minecraft:lava
+
+#forge:storage_blocks/clay
+- minecraft:clay
+
+#minecraft:bee_growables
+- #minecraft:crops
+- minecraft:sweet_berry_bush
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- biomesoplenty:fir_pressure_plate
+- biomesoplenty:redwood_pressure_plate
+- biomesoplenty:cherry_pressure_plate
+- biomesoplenty:mahogany_pressure_plate
+- biomesoplenty:jacaranda_pressure_plate
+- biomesoplenty:palm_pressure_plate
+- biomesoplenty:willow_pressure_plate
+- biomesoplenty:dead_pressure_plate
+- biomesoplenty:magic_pressure_plate
+- biomesoplenty:umbran_pressure_plate
+- biomesoplenty:hellbark_pressure_plate
+
+#create:brittle
+- create:nozzle
+- create:hand_crank
+- create:copper_valve_handle
+- create:white_valve_handle
+- create:orange_valve_handle
+- create:magenta_valve_handle
+- create:light_blue_valve_handle
+- create:yellow_valve_handle
+- create:lime_valve_handle
+- create:pink_valve_handle
+- create:gray_valve_handle
+- create:light_gray_valve_handle
+- create:cyan_valve_handle
+- create:purple_valve_handle
+- create:blue_valve_handle
+- create:brown_valve_handle
+- create:green_valve_handle
+- create:red_valve_handle
+- create:black_valve_handle
+- create:rope
+- create:pulley_magnet
+- create:furnace_engine
+- create:redstone_link
+- create:peculiar_bell
+- create:haunted_bell
+- #minecraft:doors
+- #minecraft:beds
+- minecraft:flower_pot
+- minecraft:bell
+- minecraft:cocoa
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+- biomesoplenty:blue_hydrangea
+- biomesoplenty:goldenrod
+
+#biomesoplenty:redwood_logs
+- biomesoplenty:redwood_log
+- biomesoplenty:redwood_wood
+- biomesoplenty:stripped_redwood_log
+- biomesoplenty:stripped_redwood_wood
+
+#productivebees:flowers/gems/spinel
+- #forge:storage_blocks/spinel?
+- silentgems:spinel_glowrose?
+- gemsnjewels:spinel_block?
+
+#biomesoplenty:jacaranda_logs
+- biomesoplenty:jacaranda_log
+- biomesoplenty:jacaranda_wood
+- biomesoplenty:stripped_jacaranda_log
+- biomesoplenty:stripped_jacaranda_wood
+
+#forge:bookshelves
+- minecraft:bookshelf
+
+#minecraft:stone_pressure_plates
+- minecraft:stone_pressure_plate
+- minecraft:polished_blackstone_pressure_plate
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#forge:sheetmetals/silver
+- immersiveengineering:sheetmetal_silver
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#forge:netherrack
+- minecraft:netherrack
+
+#forge:wool/cyan
+- minecraft:cyan_wool
+- minecraft:cyan_wool
+
+#create:non_movable
+- immersiveengineering:connector_lv?
+- immersiveengineering:connector_lv_relay?
+- immersiveengineering:connector_mv?
+- immersiveengineering:connector_mv_relay?
+- immersiveengineering:connector_hv?
+- immersiveengineering:connector_hv_relay?
+- immersiveengineering:connector_bundled?
+- immersiveengineering:connector_structural?
+- immersiveengineering:connector_redstone?
+- immersiveengineering:connector_probe?
+- immersiveengineering:breaker_switch?
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+- draconicevolution:infused_obsidian
+
+#forge:sheetmetals
+- immersiveengineering:sheetmetal_copper
+- immersiveengineering:sheetmetal_aluminum
+- immersiveengineering:sheetmetal_lead
+- immersiveengineering:sheetmetal_silver
+- immersiveengineering:sheetmetal_nickel
+- immersiveengineering:sheetmetal_uranium
+- immersiveengineering:sheetmetal_constantan
+- immersiveengineering:sheetmetal_electrum
+- immersiveengineering:sheetmetal_steel
+- immersiveengineering:sheetmetal_iron
+- immersiveengineering:sheetmetal_gold
+- immersiveengineering:sheetmetal_colored_white
+- immersiveengineering:sheetmetal_colored_orange
+- immersiveengineering:sheetmetal_colored_magenta
+- immersiveengineering:sheetmetal_colored_light_blue
+- immersiveengineering:sheetmetal_colored_yellow
+- immersiveengineering:sheetmetal_colored_lime
+- immersiveengineering:sheetmetal_colored_pink
+- immersiveengineering:sheetmetal_colored_gray
+- immersiveengineering:sheetmetal_colored_light_gray
+- immersiveengineering:sheetmetal_colored_cyan
+- immersiveengineering:sheetmetal_colored_purple
+- immersiveengineering:sheetmetal_colored_blue
+- immersiveengineering:sheetmetal_colored_brown
+- immersiveengineering:sheetmetal_colored_green
+- immersiveengineering:sheetmetal_colored_red
+- immersiveengineering:sheetmetal_colored_black
+
+#productivebees:flowers/gems/ammolite
+- #forge:storage_blocks/ammolite?
+- silentgems:ammolite_glowrose?
+- gemsnjewels:ammolite_block?
+
+#forge:storage_blocks/silicon
+- boss_tools:silicon_block
+
+#appliedenergistics2:spatial/whitelist
+
+#productivebees:flowers/gems/sapphire
+- #forge:storage_blocks/sapphire?
+- silentgems:sapphire_glowrose?
+- gemsnjewels:sapphire_block?
+- iceandfire:sapphire_block?
+
+#forge:gravel
+- minecraft:gravel
+
+#forge:ores/arcane
+- emendatusenigmatica:arcane_ore
+- emendatusenigmatica:arcane_andesite_ore
+- emendatusenigmatica:arcane_granite_ore
+- emendatusenigmatica:arcane_diorite_ore
+- emendatusenigmatica:arcane_sand_ore
+- emendatusenigmatica:arcane_gravel_ore
+- emendatusenigmatica:arcane_netherrack_ore
+- emendatusenigmatica:arcane_blackstone_ore
+- emendatusenigmatica:arcane_basalt_ore
+- emendatusenigmatica:arcane_soul_soil_ore
+- emendatusenigmatica:arcane_end_stone_ore
+- emendatusenigmatica:arcane_gabbro_ore
+- emendatusenigmatica:arcane_c_limestone_ore
+- emendatusenigmatica:arcane_scoria_ore
+- emendatusenigmatica:arcane_weathered_limestone_ore
+- emendatusenigmatica:arcane_jasper_ore
+- emendatusenigmatica:arcane_marble_ore
+- emendatusenigmatica:arcane_slate_ore
+- emendatusenigmatica:arcane_deepslate_ore
+- emendatusenigmatica:arcane_mossy_stone_ore
+- emendatusenigmatica:arcane_brimstone_ore
+- emendatusenigmatica:arcane_subzero_ash_ore
+- emendatusenigmatica:arcane_blue_netherrack_ore
+- emendatusenigmatica:arcane_nylium_soul_soil_ore
+- emendatusenigmatica:arcane_ether_stone_ore
+- emendatusenigmatica:arcane_cryptic_stone_ore
+- emendatusenigmatica:arcane_flavolite_ore
+- emendatusenigmatica:arcane_sulphuric_rock_ore
+- emendatusenigmatica:arcane_violecite_ore
+- emendatusenigmatica:arcane_raw_marble_ore
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#productivebees:flowers/ender
+- minecraft:chorus_flower
+- minecraft:chorus_plant
+
+#biomesoplenty:magic_logs
+- biomesoplenty:magic_log
+- biomesoplenty:magic_wood
+- biomesoplenty:stripped_magic_log
+- biomesoplenty:stripped_magic_wood
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#forge:glass/colorless
+- minecraft:glass
+- create:tiled_glass
+- create:framed_glass
+- create:horizontal_framed_glass
+- create:vertical_framed_glass
+
+#productivebees:flowers/gems/fluorite
+- #forge:storage_blocks/fluorite?
+- mekanism:fluorite_ore?
+- #forge:ores/fluorite?
+- silentgems:fluorite_glowrose?
+- gemsnjewels:fluorite_block?
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#productivebees:flowers/gems/emerald
+- #forge:storage_blocks/emerald
+- #forge:ores/emerald
+- gemsnjewels:emerald_block?
+
+#minecraft:beehives
+- minecraft:bee_nest
+- minecraft:beehive
+- #productivebees:advanced_beehives
+
+#forge:storage_blocks/cyanite
+- bigreactors:cyanite_block
+
+#minecraft:ice
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:blue_ice
+- minecraft:frosted_ice
+
+#productivebees:expansion_boxes
+- productivebees:expansion_box_oak
+- productivebees:expansion_box_spruce
+- productivebees:expansion_box_birch
+- productivebees:expansion_box_jungle
+- productivebees:expansion_box_acacia
+- productivebees:expansion_box_dark_oak
+- productivebees:expansion_box_crimson
+- productivebees:expansion_box_warped
+- productivebees:expansion_box_snake_block
+- productivebees:expansion_box_rosewood
+- productivebees:expansion_box_yucca
+- productivebees:expansion_box_kousa
+- productivebees:expansion_box_aspen
+- productivebees:expansion_box_willow
+- productivebees:expansion_box_wisteria
+- productivebees:expansion_box_bamboo
+- productivebees:expansion_box_maple
+- productivebees:expansion_box_driftwood
+- productivebees:expansion_box_river
+- productivebees:expansion_box_poise
+- productivebees:expansion_box_bop_fir
+- productivebees:expansion_box_bop_dead
+- productivebees:expansion_box_bop_palm
+- productivebees:expansion_box_bop_magic
+- productivebees:expansion_box_bop_cherry
+- productivebees:expansion_box_bop_umbran
+- productivebees:expansion_box_bop_willow
+- productivebees:expansion_box_bop_redwood
+- productivebees:expansion_box_bop_hellbark
+- productivebees:expansion_box_bop_mahogany
+- productivebees:expansion_box_bop_jacaranda
+
+#forge:ores/zinc
+- emendatusenigmatica:zinc_ore
+- emendatusenigmatica:zinc_andesite_ore
+- emendatusenigmatica:zinc_granite_ore
+- emendatusenigmatica:zinc_diorite_ore
+- emendatusenigmatica:zinc_sand_ore
+- emendatusenigmatica:zinc_gravel_ore
+- emendatusenigmatica:zinc_netherrack_ore
+- emendatusenigmatica:zinc_blackstone_ore
+- emendatusenigmatica:zinc_basalt_ore
+- emendatusenigmatica:zinc_soul_soil_ore
+- emendatusenigmatica:zinc_end_stone_ore
+- emendatusenigmatica:zinc_gabbro_ore
+- emendatusenigmatica:zinc_c_limestone_ore
+- emendatusenigmatica:zinc_scoria_ore
+- emendatusenigmatica:zinc_weathered_limestone_ore
+- emendatusenigmatica:zinc_jasper_ore
+- emendatusenigmatica:zinc_marble_ore
+- emendatusenigmatica:zinc_slate_ore
+- emendatusenigmatica:zinc_deepslate_ore
+- emendatusenigmatica:zinc_mossy_stone_ore
+- emendatusenigmatica:zinc_brimstone_ore
+- emendatusenigmatica:zinc_subzero_ash_ore
+- emendatusenigmatica:zinc_blue_netherrack_ore
+- emendatusenigmatica:zinc_nylium_soul_soil_ore
+- emendatusenigmatica:zinc_ether_stone_ore
+- emendatusenigmatica:zinc_cryptic_stone_ore
+- emendatusenigmatica:zinc_flavolite_ore
+- emendatusenigmatica:zinc_sulphuric_rock_ore
+- emendatusenigmatica:zinc_violecite_ore
+- emendatusenigmatica:zinc_raw_marble_ore
+- create:zinc_ore
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#minecraft:crops
+- minecraft:beetroots
+- minecraft:carrots
+- minecraft:potatoes
+- minecraft:wheat
+- minecraft:melon_stem
+- minecraft:pumpkin_stem
+
+#forge:stained_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#forge:fences/steel
+- immersiveengineering:steel_fence
+
+#forge:storage_blocks/coal_coke
+- immersiveengineering:coke
+
+#productivebees:flowers/gems/sodalite
+- #forge:storage_blocks/sodalite?
+- silentgems:sodalite_glowrose?
+- gemsnjewels:sodalite_block?
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#create:seats
+- create:white_seat
+- create:orange_seat
+- create:magenta_seat
+- create:light_blue_seat
+- create:yellow_seat
+- create:lime_seat
+- create:pink_seat
+- create:gray_seat
+- create:light_gray_seat
+- create:cyan_seat
+- create:purple_seat
+- create:blue_seat
+- create:brown_seat
+- create:green_seat
+- create:red_seat
+- create:black_seat
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#create:wrench_pickup
+- #minecraft:rails
+- #minecraft:buttons
+- #minecraft:pressure_plates
+- minecraft:redstone_wire
+- minecraft:redstone_torch
+- minecraft:repeater
+- minecraft:lever
+- minecraft:comparator
+- minecraft:observer
+- minecraft:redstone_wall_torch
+- minecraft:piston
+- minecraft:sticky_piston
+- minecraft:tripwire
+- minecraft:tripwire_hook
+- minecraft:daylight_detector
+- minecraft:target
+
+#forge:ores/sapphire
+- emendatusenigmatica:sapphire_ore
+- emendatusenigmatica:sapphire_andesite_ore
+- emendatusenigmatica:sapphire_granite_ore
+- emendatusenigmatica:sapphire_diorite_ore
+- emendatusenigmatica:sapphire_sand_ore
+- emendatusenigmatica:sapphire_gravel_ore
+- emendatusenigmatica:sapphire_netherrack_ore
+- emendatusenigmatica:sapphire_blackstone_ore
+- emendatusenigmatica:sapphire_basalt_ore
+- emendatusenigmatica:sapphire_soul_soil_ore
+- emendatusenigmatica:sapphire_end_stone_ore
+- emendatusenigmatica:sapphire_gabbro_ore
+- emendatusenigmatica:sapphire_c_limestone_ore
+- emendatusenigmatica:sapphire_scoria_ore
+- emendatusenigmatica:sapphire_weathered_limestone_ore
+- emendatusenigmatica:sapphire_jasper_ore
+- emendatusenigmatica:sapphire_marble_ore
+- emendatusenigmatica:sapphire_slate_ore
+- emendatusenigmatica:sapphire_deepslate_ore
+- emendatusenigmatica:sapphire_mossy_stone_ore
+- emendatusenigmatica:sapphire_brimstone_ore
+- emendatusenigmatica:sapphire_subzero_ash_ore
+- emendatusenigmatica:sapphire_blue_netherrack_ore
+- emendatusenigmatica:sapphire_nylium_soul_soil_ore
+- emendatusenigmatica:sapphire_ether_stone_ore
+- emendatusenigmatica:sapphire_cryptic_stone_ore
+- emendatusenigmatica:sapphire_flavolite_ore
+- emendatusenigmatica:sapphire_sulphuric_rock_ore
+- emendatusenigmatica:sapphire_violecite_ore
+- emendatusenigmatica:sapphire_raw_marble_ore
+
+#minecraft:climbable
+- minecraft:ladder
+- minecraft:vine
+- minecraft:scaffolding
+- minecraft:weeping_vines
+- minecraft:weeping_vines_plant
+- minecraft:twisting_vines
+- minecraft:twisting_vines_plant
+- biomesoplenty:willow_vine
+- immersiveengineering:metal_ladder_none
+- immersiveengineering:metal_ladder_alu
+- immersiveengineering:metal_ladder_steel
+
+#storagedrawers:drawers
+- storagedrawers:oak_full_drawers_1
+- storagedrawers:oak_full_drawers_2
+- storagedrawers:oak_full_drawers_4
+- storagedrawers:oak_half_drawers_1
+- storagedrawers:oak_half_drawers_2
+- storagedrawers:oak_half_drawers_4
+- storagedrawers:spruce_full_drawers_1
+- storagedrawers:spruce_full_drawers_2
+- storagedrawers:spruce_full_drawers_4
+- storagedrawers:spruce_half_drawers_1
+- storagedrawers:spruce_half_drawers_2
+- storagedrawers:spruce_half_drawers_4
+- storagedrawers:birch_full_drawers_1
+- storagedrawers:birch_full_drawers_2
+- storagedrawers:birch_full_drawers_4
+- storagedrawers:birch_half_drawers_1
+- storagedrawers:birch_half_drawers_2
+- storagedrawers:birch_half_drawers_4
+- storagedrawers:jungle_full_drawers_1
+- storagedrawers:jungle_full_drawers_2
+- storagedrawers:jungle_full_drawers_4
+- storagedrawers:jungle_half_drawers_1
+- storagedrawers:jungle_half_drawers_2
+- storagedrawers:jungle_half_drawers_4
+- storagedrawers:acacia_full_drawers_1
+- storagedrawers:acacia_full_drawers_2
+- storagedrawers:acacia_full_drawers_4
+- storagedrawers:acacia_half_drawers_1
+- storagedrawers:acacia_half_drawers_2
+- storagedrawers:acacia_half_drawers_4
+- storagedrawers:dark_oak_full_drawers_1
+- storagedrawers:dark_oak_full_drawers_2
+- storagedrawers:dark_oak_full_drawers_4
+- storagedrawers:dark_oak_half_drawers_1
+- storagedrawers:dark_oak_half_drawers_2
+- storagedrawers:dark_oak_half_drawers_4
+- storagedrawers:crimson_full_drawers_1
+- storagedrawers:crimson_full_drawers_2
+- storagedrawers:crimson_full_drawers_4
+- storagedrawers:crimson_half_drawers_1
+- storagedrawers:crimson_half_drawers_2
+- storagedrawers:crimson_half_drawers_4
+- storagedrawers:warped_full_drawers_1
+- storagedrawers:warped_full_drawers_2
+- storagedrawers:warped_full_drawers_4
+- storagedrawers:warped_half_drawers_1
+- storagedrawers:warped_half_drawers_2
+- storagedrawers:warped_half_drawers_4
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#forge:storage_blocks/steel
+- boss_tools:steel_block
+- mekanism:block_steel
+- immersiveengineering:storage_steel
+- emendatusenigmatica:steel_block
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+- create:tiled_glass_pane
+- create:framed_glass_pane
+- create:horizontal_framed_glass_pane
+- create:vertical_framed_glass_pane
+- create:oak_window_pane
+- create:spruce_window_pane
+- create:birch_window_pane
+- create:jungle_window_pane
+- create:acacia_window_pane
+- create:dark_oak_window_pane
+- create:crimson_window_pane
+- create:warped_window_pane
+- create:ornate_iron_window_pane
+
+#minecraft:coral_plants
+- minecraft:tube_coral
+- minecraft:brain_coral
+- minecraft:bubble_coral
+- minecraft:fire_coral
+- minecraft:horn_coral
+
+#forge:storage_blocks/lumium
+- emendatusenigmatica:lumium_block
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+- biomesoplenty:hellbark_log
+- biomesoplenty:hellbark_wood
+- biomesoplenty:stripped_hellbark_log
+- biomesoplenty:stripped_hellbark_wood
+- biomesoplenty:hellbark_planks
+- biomesoplenty:hellbark_slab
+- biomesoplenty:hellbark_pressure_plate
+- biomesoplenty:hellbark_fence
+- biomesoplenty:hellbark_trapdoor
+- biomesoplenty:hellbark_fence_gate
+- biomesoplenty:hellbark_stairs
+- biomesoplenty:hellbark_button
+- biomesoplenty:hellbark_door
+
+#buildinggadgets:blacklist/generic
+- #minecraft:doors
+- #minecraft:beds
+
+#forge:ores/fluorite
+- mekanism:fluorite_ore
+- emendatusenigmatica:fluorite_ore
+- emendatusenigmatica:fluorite_andesite_ore
+- emendatusenigmatica:fluorite_granite_ore
+- emendatusenigmatica:fluorite_diorite_ore
+- emendatusenigmatica:fluorite_sand_ore
+- emendatusenigmatica:fluorite_gravel_ore
+- emendatusenigmatica:fluorite_netherrack_ore
+- emendatusenigmatica:fluorite_blackstone_ore
+- emendatusenigmatica:fluorite_basalt_ore
+- emendatusenigmatica:fluorite_soul_soil_ore
+- emendatusenigmatica:fluorite_end_stone_ore
+- emendatusenigmatica:fluorite_gabbro_ore
+- emendatusenigmatica:fluorite_c_limestone_ore
+- emendatusenigmatica:fluorite_scoria_ore
+- emendatusenigmatica:fluorite_weathered_limestone_ore
+- emendatusenigmatica:fluorite_jasper_ore
+- emendatusenigmatica:fluorite_marble_ore
+- emendatusenigmatica:fluorite_slate_ore
+- emendatusenigmatica:fluorite_deepslate_ore
+- emendatusenigmatica:fluorite_mossy_stone_ore
+- emendatusenigmatica:fluorite_brimstone_ore
+- emendatusenigmatica:fluorite_subzero_ash_ore
+- emendatusenigmatica:fluorite_blue_netherrack_ore
+- emendatusenigmatica:fluorite_nylium_soul_soil_ore
+- emendatusenigmatica:fluorite_ether_stone_ore
+- emendatusenigmatica:fluorite_cryptic_stone_ore
+- emendatusenigmatica:fluorite_flavolite_ore
+- emendatusenigmatica:fluorite_sulphuric_rock_ore
+- emendatusenigmatica:fluorite_violecite_ore
+- emendatusenigmatica:fluorite_raw_marble_ore
+
+#productivebees:flowers/gems/tektite
+- #forge:storage_blocks/tektite?
+- silentgems:tektite_glowrose?
+- gemsnjewels:tektite_block?
+
+#forge:storage_blocks/refined_glowstone
+- mekanism:block_refined_glowstone
+
+#forge:ores/chesse
+- boss_tools:moon_cheese_ore
+
+#forge:mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+
+#productivebees:flowers/gems/peridot
+- #forge:storage_blocks/peridot?
+- silentgems:peridot_glowrose?
+- gemsnjewels:peridot_block?
+
+#productivebees:flowers/gems/morganite
+- #forge:storage_blocks/morganite?
+- silentgems:morganite_glowrose?
+- gemsnjewels:morganite_block?
+
+#forge:storage_blocks/bronze
+- mekanism:block_bronze
+- emendatusenigmatica:bronze_block
+
+#productivebees:flowers/gems/yellow_diamond
+- #forge:storage_blocks/yellow_diamond?
+- silentgems:yellow_diamond_glowrose?
+- gemsnjewels:yellow_diamond_block?
+
+#create:safe_nbt
+- create:creative_motor
+- create:creative_fluid_tank
+- create:mechanical_piston
+- create:sticky_mechanical_piston
+- create:windmill_bearing
+- create:mechanical_bearing
+- create:clockwork_bearing
+- create:rope_pulley
+- create:cart_assembler
+- create:linear_chassis
+- create:secondary_linear_chassis
+- create:radial_chassis
+- create:sequenced_gearshift
+- create:rotation_speed_controller
+- create:andesite_funnel
+- create:andesite_belt_funnel
+- create:brass_funnel
+- create:brass_belt_funnel
+- create:creative_crate
+- create:redstone_link
+- create:analog_lever
+- create:adjustable_repeater
+- create:adjustable_pulse_repeater
+- #minecraft:signs
+
+#forge:sheetmetals/gold
+- immersiveengineering:sheetmetal_gold
+
+#productivebees:flowers/gems/chrysoprase
+- #forge:storage_blocks/chrysoprase?
+- silentgems:chrysoprase_glowrose?
+- gemsnjewels:chrysoprase_block?
+
+#buildinggadgets:blacklist/destruction
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- immersiveengineering:alu_fence
+- immersiveengineering:steel_fence
+- immersiveengineering:treated_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- myrtrees:rubberwood_sapling
+
+#productivebees:flowers/swamp_flowers
+- #minecraft:flowers
+- minecraft:lily_pad
+
+#forge:storage_blocks/tin
+- mekanism:block_tin
+- emendatusenigmatica:tin_block
+
+#forge:ores/copper
+- mekanism:copper_ore
+- immersiveengineering:ore_copper
+- emendatusenigmatica:copper_ore
+- emendatusenigmatica:copper_andesite_ore
+- emendatusenigmatica:copper_granite_ore
+- emendatusenigmatica:copper_diorite_ore
+- emendatusenigmatica:copper_sand_ore
+- emendatusenigmatica:copper_gravel_ore
+- emendatusenigmatica:copper_netherrack_ore
+- emendatusenigmatica:copper_blackstone_ore
+- emendatusenigmatica:copper_basalt_ore
+- emendatusenigmatica:copper_soul_soil_ore
+- emendatusenigmatica:copper_end_stone_ore
+- emendatusenigmatica:copper_gabbro_ore
+- emendatusenigmatica:copper_c_limestone_ore
+- emendatusenigmatica:copper_scoria_ore
+- emendatusenigmatica:copper_weathered_limestone_ore
+- emendatusenigmatica:copper_jasper_ore
+- emendatusenigmatica:copper_marble_ore
+- emendatusenigmatica:copper_slate_ore
+- emendatusenigmatica:copper_deepslate_ore
+- emendatusenigmatica:copper_mossy_stone_ore
+- emendatusenigmatica:copper_brimstone_ore
+- emendatusenigmatica:copper_subzero_ash_ore
+- emendatusenigmatica:copper_blue_netherrack_ore
+- emendatusenigmatica:copper_nylium_soul_soil_ore
+- emendatusenigmatica:copper_ether_stone_ore
+- emendatusenigmatica:copper_cryptic_stone_ore
+- emendatusenigmatica:copper_flavolite_ore
+- emendatusenigmatica:copper_sulphuric_rock_ore
+- emendatusenigmatica:copper_violecite_ore
+- emendatusenigmatica:copper_raw_marble_ore
+- create:copper_ore
+
+#minecraft:mineable/pickaxe
+- trashcans:ultimate_trash_can
+- trashcans:item_trash_can
+- trashcans:energy_trash_can
+- trashcans:liquid_trash_can
+- avaritia:extreme_crafting_table
+- avaritia:neutronium_block
+- avaritia:infinity_block
+- avaritia:crystal_matrix_block
+- avaritia:neutron_collector
+- avaritia:neutronium_compressor
+
+#minecraft:unstable_bottom_center
+- #minecraft:fence_gates
+
+#productivebees:flowers/gems/moldavite
+- #forge:storage_blocks/moldavite?
+- silentgems:moldavite_glowrose?
+- gemsnjewels:moldavite_block?
+
+#minecraft:enderman_holdable
+- #minecraft:small_flowers
+- minecraft:grass_block
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:sand
+- minecraft:red_sand
+- minecraft:gravel
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- minecraft:tnt
+- minecraft:cactus
+- minecraft:clay
+- minecraft:pumpkin
+- minecraft:carved_pumpkin
+- minecraft:melon
+- minecraft:mycelium
+- minecraft:crimson_fungus
+- minecraft:crimson_nylium
+- minecraft:crimson_roots
+- minecraft:warped_fungus
+- minecraft:warped_nylium
+- minecraft:warped_roots
+- biomesoplenty:black_sand
+- biomesoplenty:orange_sand
+- biomesoplenty:white_sand
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+- biomesoplenty:origin_grass_block
+
+#productivebees:nests/soul_sand_nests
+- productivebees:soul_sand_nest
+- #productivebees:advanced_beehives
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+- minecraft:white_wall_banner
+- minecraft:orange_wall_banner
+- minecraft:magenta_wall_banner
+- minecraft:light_blue_wall_banner
+- minecraft:yellow_wall_banner
+- minecraft:lime_wall_banner
+- minecraft:pink_wall_banner
+- minecraft:gray_wall_banner
+- minecraft:light_gray_wall_banner
+- minecraft:cyan_wall_banner
+- minecraft:purple_wall_banner
+- minecraft:blue_wall_banner
+- minecraft:brown_wall_banner
+- minecraft:green_wall_banner
+- minecraft:red_wall_banner
+- minecraft:black_wall_banner
+
+#forge:ores/silicon
+- boss_tools:mars_silicon_ore
+
+#forge:storage_blocks/electrum
+- immersiveengineering:storage_electrum
+- emendatusenigmatica:electrum_block
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- biomesoplenty:fir_fence
+- biomesoplenty:redwood_fence
+- biomesoplenty:cherry_fence
+- biomesoplenty:mahogany_fence
+- biomesoplenty:jacaranda_fence
+- biomesoplenty:palm_fence
+- biomesoplenty:willow_fence
+- biomesoplenty:dead_fence
+- biomesoplenty:magic_fence
+- biomesoplenty:umbran_fence
+- biomesoplenty:hellbark_fence
+- immersiveengineering:treated_fence
+
+#minecraft:wall_post_override
+- minecraft:torch
+- minecraft:soul_torch
+- minecraft:redstone_torch
+- minecraft:tripwire
+- #minecraft:signs
+- #minecraft:banners
+- #minecraft:pressure_plates
+- boss_tools:coal_torch
+
+#forge:sheetmetals/constantan
+- immersiveengineering:sheetmetal_constantan
+
+#forge:obsidian
+- minecraft:obsidian
+
+#productivebees:flowers/snow_flowers
+- #minecraft:flowers
+- minecraft:snow
+- minecraft:snow_block
+
+#forge:enderman_place_on_blacklist
+- mekanismgenerators:turbine_casing
+- mekanismgenerators:turbine_valve
+- mekanismgenerators:turbine_vent
+- mekanismgenerators:electromagnetic_coil
+- mekanismgenerators:rotational_complex
+- mekanismgenerators:saturating_condenser
+- mekanismgenerators:turbine_rotor
+- mekanismgenerators:fission_reactor_casing
+- mekanismgenerators:fission_reactor_port
+- mekanismgenerators:fission_reactor_logic_adapter
+- mekanismgenerators:fission_fuel_assembly
+- mekanismgenerators:control_rod_assembly
+- mekanismgenerators:fusion_reactor_controller
+- mekanismgenerators:fusion_reactor_port
+- mekanismgenerators:fusion_reactor_frame
+- mekanismgenerators:fusion_reactor_logic_adapter
+- mekanismgenerators:laser_focus_matrix
+- mekanismgenerators:reactor_glass
+- mekanism:dynamic_tank
+- mekanism:dynamic_valve
+- mekanism:boiler_casing
+- mekanism:boiler_valve
+- mekanism:pressure_disperser
+- mekanism:superheating_element
+- mekanism:induction_casing
+- mekanism:induction_port
+- mekanism:thermal_evaporation_controller
+- mekanism:thermal_evaporation_valve
+- mekanism:thermal_evaporation_block
+- mekanism:structural_glass
+- mekanism:sps_casing
+- mekanism:sps_port
+- mekanism:supercharged_coil
+
+#forge:chests/electric
+- mekanism:personal_chest
+
+#biomesoplenty:mahogany_logs
+- biomesoplenty:mahogany_log
+- biomesoplenty:mahogany_wood
+- biomesoplenty:stripped_mahogany_log
+- biomesoplenty:stripped_mahogany_wood
+
+#forge:storage_blocks/honeycombs
+- minecraft:honeycomb_block
+- productivebees:configurable_comb
+- productivebees:comb_alfsteel
+- productivebees:comb_allthemodium
+- productivebees:comb_amber
+- productivebees:comb_basalz
+- productivebees:comb_bauxite
+- productivebees:comb_bismuth
+- productivebees:comb_blazing
+- productivebees:comb_blitz
+- productivebees:comb_blizz
+- productivebees:comb_bloody
+- productivebees:comb_bone
+- productivebees:comb_brazen
+- productivebees:comb_bronze
+- productivebees:comb_chocolate
+- productivebees:comb_cinnabar
+- productivebees:comb_common_salvage
+- productivebees:comb_constantan
+- productivebees:comb_copper
+- productivebees:comb_diamond
+- productivebees:comb_draconic
+- productivebees:comb_electrum
+- productivebees:comb_elementium
+- productivebees:comb_emerald
+- productivebees:comb_ender
+- productivebees:comb_ender_biotite
+- productivebees:comb_enderium
+- productivebees:comb_epic_salvage
+- productivebees:comb_experience
+- productivebees:comb_fluorite
+- productivebees:comb_fossilised
+- productivebees:comb_frosty
+- productivebees:comb_ghostly
+- productivebees:comb_glowing
+- productivebees:comb_gold
+- productivebees:comb_imperium
+- productivebees:comb_inferium
+- productivebees:comb_insanium
+- productivebees:comb_invar
+- productivebees:comb_iron
+- productivebees:comb_lapis
+- productivebees:comb_leaden
+- productivebees:comb_legendary_salvage
+- productivebees:comb_lumium
+- productivebees:comb_magmatic
+- productivebees:comb_manasteel
+- productivebees:comb_menril
+- productivebees:comb_milky
+- productivebees:comb_netherite
+- productivebees:comb_nickel
+- productivebees:comb_niter
+- productivebees:comb_obsidian
+- productivebees:comb_osmium
+- productivebees:comb_plastic
+- productivebees:comb_platinum
+- productivebees:comb_powdery
+- productivebees:comb_prosperity
+- productivebees:comb_prudentium
+- productivebees:comb_quartz
+- productivebees:comb_radioactive
+- productivebees:comb_rare_salvage
+- productivebees:comb_redstone
+- productivebees:comb_rotten
+- productivebees:comb_refined_glowstone
+- productivebees:comb_refined_obsidian
+- productivebees:comb_signalum
+- productivebees:comb_silicon
+- productivebees:comb_silky
+- productivebees:comb_silver
+- productivebees:comb_slimy
+- productivebees:comb_soulium
+- productivebees:comb_spacial
+- productivebees:comb_steel
+- productivebees:comb_sulfur
+- productivebees:comb_supremium
+- productivebees:comb_tea
+- productivebees:comb_terrasteel
+- productivebees:comb_tertium
+- productivebees:comb_tin
+- productivebees:comb_titanium
+- productivebees:comb_tungsten
+- productivebees:comb_uncommon_salvage
+- productivebees:comb_unobtainium
+- productivebees:comb_uraninite
+- productivebees:comb_vibranium
+- productivebees:comb_withered
+- productivebees:comb_zinc
+- productivebees:comb_apatite
+- productivebees:comb_ruby
+- productivebees:comb_sapphire
+- productivebees:comb_cobalt
+- productivebees:comb_hepatizon
+- productivebees:comb_manyullyn
+- productivebees:comb_knightslime
+- productivebees:comb_pig_iron
+- productivebees:comb_queens_slime
+- productivebees:comb_rose_gold
+- productivebees:comb_slimesteel
+- productivebees:comb_soulsteel
+- productivebees:comb_tinkers_bronze
+- productivebees:comb_sky_slimy
+- productivebees:comb_ender_slimy
+- productivebees:comb_ichor_slimy
+- productivebees:comb_spectrum
+- productivebees:comb_cosmic_dust
+- productivebees:comb_starmetal
+
+#productivebees:nests/wood_nests
+- productivebees:oak_wood_nest
+- productivebees:spruce_wood_nest
+- productivebees:dark_oak_wood_nest
+- productivebees:birch_wood_nest
+- productivebees:jungle_wood_nest
+- productivebees:acacia_wood_nest
+
+#buildinggadgets:whitelist/building
+- #buildinggadgets:whitelist/generic
+
+#productivebees:flowers/gems/amber
+- #forge:storage_blocks/amber?
+- betterendforge:amber_block?
+- silentgems:amber_glowrose?
+- gemsnjewels:amber_block?
+
+#productivebees:nests/bumble_bee
+- productivebees:bumble_bee_nest
+
+#productivebees:flowers/gems/amethyst
+- #forge:storage_blocks/amethyst?
+- silentgems:amethyst_glowrose?
+- gemsnjewels:amethyst_block?
+- iceandfire:amythest_block?
+- oresabovediamonds:amethyst_block?
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#forge:wool/green
+- minecraft:green_wool
+- minecraft:green_wool
+
+#forge:storage_blocks/saltpeter
+- emendatusenigmatica:potassium_nitrate_block
+
+#lazierae2:machines/energizer
+- lazierae2:energizer
+
+#forge:ores/coal
+- boss_tools:venus_coal_ore
+- minecraft:coal_ore
+- emendatusenigmatica:coal_ore
+- emendatusenigmatica:coal_andesite_ore
+- emendatusenigmatica:coal_granite_ore
+- emendatusenigmatica:coal_diorite_ore
+- emendatusenigmatica:coal_sand_ore
+- emendatusenigmatica:coal_gravel_ore
+- emendatusenigmatica:coal_netherrack_ore
+- emendatusenigmatica:coal_blackstone_ore
+- emendatusenigmatica:coal_basalt_ore
+- emendatusenigmatica:coal_soul_soil_ore
+- emendatusenigmatica:coal_end_stone_ore
+- emendatusenigmatica:coal_gabbro_ore
+- emendatusenigmatica:coal_c_limestone_ore
+- emendatusenigmatica:coal_scoria_ore
+- emendatusenigmatica:coal_weathered_limestone_ore
+- emendatusenigmatica:coal_jasper_ore
+- emendatusenigmatica:coal_marble_ore
+- emendatusenigmatica:coal_slate_ore
+- emendatusenigmatica:coal_deepslate_ore
+- emendatusenigmatica:coal_mossy_stone_ore
+- emendatusenigmatica:coal_brimstone_ore
+- emendatusenigmatica:coal_subzero_ash_ore
+- emendatusenigmatica:coal_blue_netherrack_ore
+- emendatusenigmatica:coal_nylium_soul_soil_ore
+- emendatusenigmatica:coal_ether_stone_ore
+- emendatusenigmatica:coal_cryptic_stone_ore
+- emendatusenigmatica:coal_flavolite_ore
+- emendatusenigmatica:coal_sulphuric_rock_ore
+- emendatusenigmatica:coal_violecite_ore
+- emendatusenigmatica:coal_raw_marble_ore
+
+#forge:storage_blocks/constantan
+- immersiveengineering:storage_constantan
+- emendatusenigmatica:constantan_block
+
+#minecraft:fire
+- minecraft:fire
+- minecraft:soul_fire
+
+#productivebees:flowers/gems/black_diamond
+- #forge:storage_blocks/black_diamond?
+- silentgems:black_diamond_glowrose?
+- gemsnjewels:black_diamond_block?
+
+#forge:sheetmetals/electrum
+- immersiveengineering:sheetmetal_electrum
+
+#productivebees:flowers/gems/tourmaline
+- #forge:storage_blocks/tourmaline?
+- silentgems:tourmaline_glowrose?
+- gemsnjewels:tourmaline_block?
+
+#productivebees:flowers/gems/onyx
+- #forge:storage_blocks/onyx?
+- silentgems:onyx_glowrose?
+- gemsnjewels:onyx_block?
+
+#minecraft:needs_diamond_tool
+
+#minecraft:base_stone_nether
+- minecraft:netherrack
+- minecraft:basalt
+- minecraft:blackstone
+
+#minecraft:wall_signs
+- minecraft:oak_wall_sign
+- minecraft:spruce_wall_sign
+- minecraft:birch_wall_sign
+- minecraft:acacia_wall_sign
+- minecraft:jungle_wall_sign
+- minecraft:dark_oak_wall_sign
+- minecraft:crimson_wall_sign
+- minecraft:warped_wall_sign
+
+#productivebees:flowers/wither_flowers
+- minecraft:wither_rose
+
+#productivebees:flowers/souled_flowers
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#productivebees:flowers/crystalline
+- #forge:storage_blocks/quartz
+- #forge:ores/quartz
+- minecraft:quartz_pillar
+- productivebees:quartz_netherrack
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#lootr:barrels
+- lootr:lootr_barrel
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+
+#forge:storage_blocks/magentite
+- bigreactors:magentite_block
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- biomesoplenty:origin_leaves
+- biomesoplenty:flowering_oak_leaves
+- biomesoplenty:rainbow_birch_leaves
+- biomesoplenty:yellow_autumn_leaves
+- biomesoplenty:orange_autumn_leaves
+- biomesoplenty:maple_leaves
+- biomesoplenty:fir_leaves
+- biomesoplenty:redwood_leaves
+- biomesoplenty:white_cherry_leaves
+- biomesoplenty:pink_cherry_leaves
+- biomesoplenty:mahogany_leaves
+- biomesoplenty:jacaranda_leaves
+- biomesoplenty:palm_leaves
+- biomesoplenty:willow_leaves
+- biomesoplenty:dead_leaves
+- biomesoplenty:magic_leaves
+- biomesoplenty:umbran_leaves
+- biomesoplenty:hellbark_leaves
+- myrtrees:rubberwood_leaves
+
+#forge:storage_blocks/yellorium
+- bigreactors:yellorium_block
+
+#forge:storage_blocks/brass
+- emendatusenigmatica:brass_block
+- create:brass_block
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#minecraft:wither_immune
+- minecraft:barrier
+- minecraft:bedrock
+- minecraft:end_portal
+- minecraft:end_portal_frame
+- minecraft:end_gateway
+- minecraft:command_block
+- minecraft:repeating_command_block
+- minecraft:chain_command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:moving_piston
+- ftbic:reinforced_stone
+- ftbic:reinforced_glass
+
+#forge:ores/ruby
+- emendatusenigmatica:ruby_ore
+- emendatusenigmatica:ruby_andesite_ore
+- emendatusenigmatica:ruby_granite_ore
+- emendatusenigmatica:ruby_diorite_ore
+- emendatusenigmatica:ruby_sand_ore
+- emendatusenigmatica:ruby_gravel_ore
+- emendatusenigmatica:ruby_netherrack_ore
+- emendatusenigmatica:ruby_blackstone_ore
+- emendatusenigmatica:ruby_basalt_ore
+- emendatusenigmatica:ruby_soul_soil_ore
+- emendatusenigmatica:ruby_end_stone_ore
+- emendatusenigmatica:ruby_gabbro_ore
+- emendatusenigmatica:ruby_c_limestone_ore
+- emendatusenigmatica:ruby_scoria_ore
+- emendatusenigmatica:ruby_weathered_limestone_ore
+- emendatusenigmatica:ruby_jasper_ore
+- emendatusenigmatica:ruby_marble_ore
+- emendatusenigmatica:ruby_slate_ore
+- emendatusenigmatica:ruby_deepslate_ore
+- emendatusenigmatica:ruby_mossy_stone_ore
+- emendatusenigmatica:ruby_brimstone_ore
+- emendatusenigmatica:ruby_subzero_ash_ore
+- emendatusenigmatica:ruby_blue_netherrack_ore
+- emendatusenigmatica:ruby_nylium_soul_soil_ore
+- emendatusenigmatica:ruby_ether_stone_ore
+- emendatusenigmatica:ruby_cryptic_stone_ore
+- emendatusenigmatica:ruby_flavolite_ore
+- emendatusenigmatica:ruby_sulphuric_rock_ore
+- emendatusenigmatica:ruby_violecite_ore
+- emendatusenigmatica:ruby_raw_marble_ore
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#forge:wool/red
+- minecraft:red_wool
+- minecraft:red_wool
+
+#elevatorid:elevators
+- elevatorid:elevator_black
+- elevatorid:elevator_blue
+- elevatorid:elevator_brown
+- elevatorid:elevator_cyan
+- elevatorid:elevator_gray
+- elevatorid:elevator_green
+- elevatorid:elevator_light_blue
+- elevatorid:elevator_light_gray
+- elevatorid:elevator_lime
+- elevatorid:elevator_magenta
+- elevatorid:elevator_orange
+- elevatorid:elevator_pink
+- elevatorid:elevator_purple
+- elevatorid:elevator_red
+- elevatorid:elevator_white
+- elevatorid:elevator_yellow
+
+#forge:storage_blocks/fluix
+- emendatusenigmatica:fluix_block
+
+#productivebees:flowers/redstone
+- #forge:storage_blocks/redstone
+- #forge:ores/redstone
+- minecraft:redstone_wire
+- minecraft:redstone_torch
+- minecraft:redstone_wall_torch
+- minecraft:redstone_lamp
+
+#forge:stained_glass_panes
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#immersiveengineering:scaffoldings/steel
+- immersiveengineering:steel_scaffolding_standard
+- immersiveengineering:steel_scaffolding_grate_top
+- immersiveengineering:steel_scaffolding_wooden_top
+
+#productivebees:flowers/magmatic_flowers
+- #productivebees:flowers/fiery
+- minecraft:nether_wart
+
+#forge:storage_blocks/zinc
+- emendatusenigmatica:zinc_block
+- create:zinc_block
+
+#forge:sand/red
+- minecraft:red_sand
+
+#productivebees:flowers/gems/kyanite
+- #forge:storage_blocks/kyanite?
+- silentgems:kyanite_glowrose?
+- gemsnjewels:kyanite_block?
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#forge:wool/purple
+- minecraft:purple_wool
+- minecraft:purple_wool
+
+#create:sails
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- #biomesoplenty:fir_logs
+- #biomesoplenty:redwood_logs
+- #biomesoplenty:cherry_logs
+- #biomesoplenty:mahogany_logs
+- #biomesoplenty:jacaranda_logs
+- #biomesoplenty:palm_logs
+- #biomesoplenty:willow_logs
+- #biomesoplenty:dead_logs
+- #biomesoplenty:magic_logs
+- #biomesoplenty:umbran_logs
+- #myrtrees:rubberwood_logs
+
+#minecraft:mineable/hoe
+
+#minecraft:needs_iron_tool
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#productivebees:nests/reed_nests
+- productivebees:sugar_cane_nest
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- biomesoplenty:fir_slab
+- biomesoplenty:redwood_slab
+- biomesoplenty:cherry_slab
+- biomesoplenty:mahogany_slab
+- biomesoplenty:jacaranda_slab
+- biomesoplenty:palm_slab
+- biomesoplenty:willow_slab
+- biomesoplenty:dead_slab
+- biomesoplenty:magic_slab
+- biomesoplenty:umbran_slab
+- biomesoplenty:hellbark_slab
+- myrtrees:rubberwood_slab
+
+#productivebees:solitary_nests
+- #productivebees:solitary_overworld_nests
+- productivebees:obsidian_nest
+- productivebees:end_stone_nest
+- productivebees:nether_quartz_nest
+- productivebees:glowstone_nest
+- productivebees:nether_brick_nest
+- productivebees:soul_sand_nest
+
+#forge:asphalt
+- immersivepetroleum:asphalt
+
+#create:toolboxes
+- create:white_toolbox
+- create:orange_toolbox
+- create:magenta_toolbox
+- create:light_blue_toolbox
+- create:yellow_toolbox
+- create:lime_toolbox
+- create:pink_toolbox
+- create:gray_toolbox
+- create:light_gray_toolbox
+- create:cyan_toolbox
+- create:purple_toolbox
+- create:blue_toolbox
+- create:brown_toolbox
+- create:green_toolbox
+- create:red_toolbox
+- create:black_toolbox
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- biomesoplenty:rose
+- biomesoplenty:violet
+- biomesoplenty:lavender
+- biomesoplenty:wildflower
+- biomesoplenty:orange_cosmos
+- biomesoplenty:pink_daffodil
+- biomesoplenty:pink_hibiscus
+- biomesoplenty:glowflower
+- biomesoplenty:wilted_lily
+- biomesoplenty:burning_blossom
+
+#minecraft:replaceable_plants
+- minecraft:grass
+- minecraft:fern
+- minecraft:dead_bush
+- minecraft:vine
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:rose_bush
+- minecraft:peony
+- minecraft:tall_grass
+- minecraft:large_fern
+
+#productivebees:flowers/gems/diamond
+- #forge:storage_blocks/diamond
+- #forge:ores/diamond
+
+#productivebees:flowers/fiery
+- minecraft:magma_block
+- minecraft:fire
+
+#forge:storage_blocks/refined_obsidian
+- mekanism:block_refined_obsidian
+
+#forge:ores/mana
+- emendatusenigmatica:arcane_ore
+- emendatusenigmatica:arcane_andesite_ore
+- emendatusenigmatica:arcane_granite_ore
+- emendatusenigmatica:arcane_diorite_ore
+- emendatusenigmatica:arcane_sand_ore
+- emendatusenigmatica:arcane_gravel_ore
+- emendatusenigmatica:arcane_netherrack_ore
+- emendatusenigmatica:arcane_blackstone_ore
+- emendatusenigmatica:arcane_basalt_ore
+- emendatusenigmatica:arcane_soul_soil_ore
+- emendatusenigmatica:arcane_end_stone_ore
+- emendatusenigmatica:arcane_gabbro_ore
+- emendatusenigmatica:arcane_c_limestone_ore
+- emendatusenigmatica:arcane_scoria_ore
+- emendatusenigmatica:arcane_weathered_limestone_ore
+- emendatusenigmatica:arcane_jasper_ore
+- emendatusenigmatica:arcane_marble_ore
+- emendatusenigmatica:arcane_slate_ore
+- emendatusenigmatica:arcane_deepslate_ore
+- emendatusenigmatica:arcane_mossy_stone_ore
+- emendatusenigmatica:arcane_brimstone_ore
+- emendatusenigmatica:arcane_subzero_ash_ore
+- emendatusenigmatica:arcane_blue_netherrack_ore
+- emendatusenigmatica:arcane_nylium_soul_soil_ore
+- emendatusenigmatica:arcane_ether_stone_ore
+- emendatusenigmatica:arcane_cryptic_stone_ore
+- emendatusenigmatica:arcane_flavolite_ore
+- emendatusenigmatica:arcane_sulphuric_rock_ore
+- emendatusenigmatica:arcane_violecite_ore
+- emendatusenigmatica:arcane_raw_marble_ore
+
+#mekanism:atomic_disassembler_ore
+- #forge:ores
+- #minecraft:logs
+
+#forge:wool/brown
+- minecraft:brown_wool
+- minecraft:brown_wool
+
+#lootr:trapped_chests
+- lootr:lootr_trapped_chest
+
+#forge:ores/osmium
+- mekanism:osmium_ore
+- emendatusenigmatica:osmium_ore
+- emendatusenigmatica:osmium_andesite_ore
+- emendatusenigmatica:osmium_granite_ore
+- emendatusenigmatica:osmium_diorite_ore
+- emendatusenigmatica:osmium_sand_ore
+- emendatusenigmatica:osmium_gravel_ore
+- emendatusenigmatica:osmium_netherrack_ore
+- emendatusenigmatica:osmium_blackstone_ore
+- emendatusenigmatica:osmium_basalt_ore
+- emendatusenigmatica:osmium_soul_soil_ore
+- emendatusenigmatica:osmium_end_stone_ore
+- emendatusenigmatica:osmium_gabbro_ore
+- emendatusenigmatica:osmium_c_limestone_ore
+- emendatusenigmatica:osmium_scoria_ore
+- emendatusenigmatica:osmium_weathered_limestone_ore
+- emendatusenigmatica:osmium_jasper_ore
+- emendatusenigmatica:osmium_marble_ore
+- emendatusenigmatica:osmium_slate_ore
+- emendatusenigmatica:osmium_deepslate_ore
+- emendatusenigmatica:osmium_mossy_stone_ore
+- emendatusenigmatica:osmium_brimstone_ore
+- emendatusenigmatica:osmium_subzero_ash_ore
+- emendatusenigmatica:osmium_blue_netherrack_ore
+- emendatusenigmatica:osmium_nylium_soul_soil_ore
+- emendatusenigmatica:osmium_ether_stone_ore
+- emendatusenigmatica:osmium_cryptic_stone_ore
+- emendatusenigmatica:osmium_flavolite_ore
+- emendatusenigmatica:osmium_sulphuric_rock_ore
+- emendatusenigmatica:osmium_violecite_ore
+- emendatusenigmatica:osmium_raw_marble_ore
+
+#productivebees:flowers/gems/moonstone
+- #forge:storage_blocks/moonstone?
+- silentgems:moonstone_glowrose?
+- gemsnjewels:moonstone_block?
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#myrtrees:rubberwood_logs
+- myrtrees:rubberwood_log
+- myrtrees:filled_rubberwood_log
+- myrtrees:stripped_rubberwood_log
+
+#productivebees:flowers/gems/apatite
+- #forge:storage_blocks/apatite?
+- silentgems:apatite_glowrose?
+- gemsnjewels:apatite_block?
+
+#sereneseasons:winter_crops
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#productivebees:nests/draconic_nests
+- productivebees:obsidian_nest
+- productivebees:dragon_egg_hive
+
+#productivebees:flowers/gems/iolite
+- #forge:storage_blocks/iolite?
+- silentgems:iolite_glowrose?
+- gemsnjewels:iolite_block?
+
+#forge:wool/white
+- minecraft:white_wool
+- minecraft:white_wool
+
+#forge:wool/light_gray
+- minecraft:light_gray_wool
+- minecraft:light_gray_wool
+
+#buildinggadgets:blacklist/exchanging
+- #buildinggadgets:blacklist/generic
+- minecraft:torch
+- minecraft:wall_torch
+
+#forge:wool/yellow
+- minecraft:yellow_wool
+- minecraft:yellow_wool
+
+#forge:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- create:limestone
+- create:polished_limestone
+- create:weathered_limestone
+- create:polished_weathered_limestone
+- create:dolomite
+- create:polished_dolomite
+- create:gabbro
+- create:polished_gabbro
+- create:scoria
+- create:polished_scoria
+- create:dark_scoria
+- create:polished_dark_scoria
+- boss_tools:moon_stone
+- boss_tools:mars_stone
+- boss_tools:venus_stone
+- boss_tools:mercury_stone
+
+#minecraft:standing_signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#minecraft:infiniburn_end
+- #minecraft:infiniburn_overworld
+- minecraft:bedrock
+- boss_tools:infernal_spire_block
+
+#forge:ores/bitumen
+- emendatusenigmatica:bitumen_ore
+- emendatusenigmatica:bitumen_andesite_ore
+- emendatusenigmatica:bitumen_granite_ore
+- emendatusenigmatica:bitumen_diorite_ore
+- emendatusenigmatica:bitumen_sand_ore
+- emendatusenigmatica:bitumen_gravel_ore
+- emendatusenigmatica:bitumen_netherrack_ore
+- emendatusenigmatica:bitumen_blackstone_ore
+- emendatusenigmatica:bitumen_basalt_ore
+- emendatusenigmatica:bitumen_soul_soil_ore
+- emendatusenigmatica:bitumen_end_stone_ore
+- emendatusenigmatica:bitumen_gabbro_ore
+- emendatusenigmatica:bitumen_c_limestone_ore
+- emendatusenigmatica:bitumen_scoria_ore
+- emendatusenigmatica:bitumen_weathered_limestone_ore
+- emendatusenigmatica:bitumen_jasper_ore
+- emendatusenigmatica:bitumen_marble_ore
+- emendatusenigmatica:bitumen_slate_ore
+- emendatusenigmatica:bitumen_deepslate_ore
+- emendatusenigmatica:bitumen_mossy_stone_ore
+- emendatusenigmatica:bitumen_brimstone_ore
+- emendatusenigmatica:bitumen_subzero_ash_ore
+- emendatusenigmatica:bitumen_blue_netherrack_ore
+- emendatusenigmatica:bitumen_nylium_soul_soil_ore
+- emendatusenigmatica:bitumen_ether_stone_ore
+- emendatusenigmatica:bitumen_cryptic_stone_ore
+- emendatusenigmatica:bitumen_flavolite_ore
+- emendatusenigmatica:bitumen_sulphuric_rock_ore
+- emendatusenigmatica:bitumen_violecite_ore
+- emendatusenigmatica:bitumen_raw_marble_ore
+
+#productivebees:nests/slimy_nests
+- productivebees:slimy_nest
+- #productivebees:advanced_beehives
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#buildinggadgets:whitelist/destruction
+
+#forge:wool/gray
+- minecraft:gray_wool
+- minecraft:gray_wool
+
+#biomesoplenty:cherry_logs
+- biomesoplenty:cherry_log
+- biomesoplenty:cherry_wood
+- biomesoplenty:stripped_cherry_log
+- biomesoplenty:stripped_cherry_wood
+
+#minecraft:wart_blocks
+- minecraft:nether_wart_block
+- minecraft:warped_wart_block
+
+#productivebees:flowers/nether_flowers
+- minecraft:nether_wart
+- minecraft:nether_wart_block
+- minecraft:crimson_fungus
+- minecraft:warped_fungus
+- minecraft:crimson_roots
+- minecraft:warped_roots
+- minecraft:weeping_vines
+- minecraft:twisting_vines
+
+#productivebees:flowers/gems/agate
+- #forge:storage_blocks/agate?
+- silentgems:agate_glowrose?
+- gemsnjewels:agate_block?
+
+#forge:storage_blocks/apatite
+- emendatusenigmatica:apatite_block
+
+#forge:marble
+- astralsorcery:marble_raw
+- astralsorcery:marble_arch
+- astralsorcery:marble_bricks
+- astralsorcery:marble_chiseled
+- astralsorcery:marble_engraved
+- astralsorcery:marble_pillar
+- astralsorcery:marble_runed
+
+#forge:wool/magenta
+- minecraft:magenta_wool
+- minecraft:magenta_wool
+
+#minecraft:shulker_boxes
+- minecraft:shulker_box
+- minecraft:black_shulker_box
+- minecraft:blue_shulker_box
+- minecraft:brown_shulker_box
+- minecraft:cyan_shulker_box
+- minecraft:gray_shulker_box
+- minecraft:green_shulker_box
+- minecraft:light_blue_shulker_box
+- minecraft:light_gray_shulker_box
+- minecraft:lime_shulker_box
+- minecraft:magenta_shulker_box
+- minecraft:orange_shulker_box
+- minecraft:pink_shulker_box
+- minecraft:purple_shulker_box
+- minecraft:red_shulker_box
+- minecraft:white_shulker_box
+- minecraft:yellow_shulker_box
+
+#productivebees:flowers/gems/zircon
+- #forge:storage_blocks/zircon?
+- silentgems:zircon_glowrose?
+- gemsnjewels:zircon_block?
+
+#productivebees:flowers/gems/jade
+- #forge:storage_blocks/jade?
+- silentgems:jade_glowrose?
+- gemsnjewels:jade_block?
+
+#productivebees:flowers/gems/tanzanite
+- #forge:storage_blocks/tanzanite?
+- silentgems:tanzanite_glowrose?
+- gemsnjewels:tanzanite_block?
+
+#forge:ores/silver
+- immersiveengineering:ore_silver
+- emendatusenigmatica:silver_ore
+- emendatusenigmatica:silver_andesite_ore
+- emendatusenigmatica:silver_granite_ore
+- emendatusenigmatica:silver_diorite_ore
+- emendatusenigmatica:silver_sand_ore
+- emendatusenigmatica:silver_gravel_ore
+- emendatusenigmatica:silver_netherrack_ore
+- emendatusenigmatica:silver_blackstone_ore
+- emendatusenigmatica:silver_basalt_ore
+- emendatusenigmatica:silver_soul_soil_ore
+- emendatusenigmatica:silver_end_stone_ore
+- emendatusenigmatica:silver_gabbro_ore
+- emendatusenigmatica:silver_c_limestone_ore
+- emendatusenigmatica:silver_scoria_ore
+- emendatusenigmatica:silver_weathered_limestone_ore
+- emendatusenigmatica:silver_jasper_ore
+- emendatusenigmatica:silver_marble_ore
+- emendatusenigmatica:silver_slate_ore
+- emendatusenigmatica:silver_deepslate_ore
+- emendatusenigmatica:silver_mossy_stone_ore
+- emendatusenigmatica:silver_brimstone_ore
+- emendatusenigmatica:silver_subzero_ash_ore
+- emendatusenigmatica:silver_blue_netherrack_ore
+- emendatusenigmatica:silver_nylium_soul_soil_ore
+- emendatusenigmatica:silver_ether_stone_ore
+- emendatusenigmatica:silver_cryptic_stone_ore
+- emendatusenigmatica:silver_flavolite_ore
+- emendatusenigmatica:silver_sulphuric_rock_ore
+- emendatusenigmatica:silver_violecite_ore
+- emendatusenigmatica:silver_raw_marble_ore
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#create:fan_heaters
+- create:blaze_burner
+- create:lit_blaze_burner
+- minecraft:magma_block
+- minecraft:campfire
+- minecraft:lava
+- minecraft:fire
+- minecraft:soul_fire
+- minecraft:soul_campfire
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:storage_blocks/ludicrite
+- bigreactors:ludicrite_block
+
+#forge:storage_blocks/insanite
+- bigreactors:insanite_block
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#productivebees:flowers/radioactive
+- #forge:storage_blocks/uranium?
+- #forge:ores/uranium?
+- #forge:storage_blocks/yellorium?
+- #forge:ores/yellorite?
+
+#buildinggadgets:whitelist/copy_paste
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#forge:barrels
+- #forge:barrels/wooden
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+- emendatusenigmatica:lapis_ore
+- emendatusenigmatica:lapis_andesite_ore
+- emendatusenigmatica:lapis_granite_ore
+- emendatusenigmatica:lapis_diorite_ore
+- emendatusenigmatica:lapis_sand_ore
+- emendatusenigmatica:lapis_gravel_ore
+- emendatusenigmatica:lapis_netherrack_ore
+- emendatusenigmatica:lapis_blackstone_ore
+- emendatusenigmatica:lapis_basalt_ore
+- emendatusenigmatica:lapis_soul_soil_ore
+- emendatusenigmatica:lapis_end_stone_ore
+- emendatusenigmatica:lapis_gabbro_ore
+- emendatusenigmatica:lapis_c_limestone_ore
+- emendatusenigmatica:lapis_scoria_ore
+- emendatusenigmatica:lapis_weathered_limestone_ore
+- emendatusenigmatica:lapis_jasper_ore
+- emendatusenigmatica:lapis_marble_ore
+- emendatusenigmatica:lapis_slate_ore
+- emendatusenigmatica:lapis_deepslate_ore
+- emendatusenigmatica:lapis_mossy_stone_ore
+- emendatusenigmatica:lapis_brimstone_ore
+- emendatusenigmatica:lapis_subzero_ash_ore
+- emendatusenigmatica:lapis_blue_netherrack_ore
+- emendatusenigmatica:lapis_nylium_soul_soil_ore
+- emendatusenigmatica:lapis_ether_stone_ore
+- emendatusenigmatica:lapis_cryptic_stone_ore
+- emendatusenigmatica:lapis_flavolite_ore
+- emendatusenigmatica:lapis_sulphuric_rock_ore
+- emendatusenigmatica:lapis_violecite_ore
+- emendatusenigmatica:lapis_raw_marble_ore
+
+#biomesoplenty:dead_logs
+- biomesoplenty:dead_log
+- biomesoplenty:dead_wood
+- biomesoplenty:stripped_dead_log
+- biomesoplenty:stripped_dead_wood
+
+#forge:dirt
+- biomesoplenty:origin_grass_block
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:coarse_dirt
+- minecraft:podzol
+- minecraft:mycelium
+
+#minecraft:bamboo_plantable_on
+- #minecraft:sand
+- minecraft:bamboo
+- minecraft:bamboo_sapling
+- minecraft:gravel
+- minecraft:dirt
+- minecraft:grass_block
+- minecraft:podzol
+- minecraft:coarse_dirt
+- minecraft:mycelium
+- biomesoplenty:origin_grass_block
+
+#minecraft:pressure_plates
+- minecraft:light_weighted_pressure_plate
+- minecraft:heavy_weighted_pressure_plate
+- #minecraft:wooden_pressure_plates
+- #minecraft:stone_pressure_plates
+
+#forge:ores/nickel
+- immersiveengineering:ore_nickel
+- emendatusenigmatica:nickel_ore
+- emendatusenigmatica:nickel_andesite_ore
+- emendatusenigmatica:nickel_granite_ore
+- emendatusenigmatica:nickel_diorite_ore
+- emendatusenigmatica:nickel_sand_ore
+- emendatusenigmatica:nickel_gravel_ore
+- emendatusenigmatica:nickel_netherrack_ore
+- emendatusenigmatica:nickel_blackstone_ore
+- emendatusenigmatica:nickel_basalt_ore
+- emendatusenigmatica:nickel_soul_soil_ore
+- emendatusenigmatica:nickel_end_stone_ore
+- emendatusenigmatica:nickel_gabbro_ore
+- emendatusenigmatica:nickel_c_limestone_ore
+- emendatusenigmatica:nickel_scoria_ore
+- emendatusenigmatica:nickel_weathered_limestone_ore
+- emendatusenigmatica:nickel_jasper_ore
+- emendatusenigmatica:nickel_marble_ore
+- emendatusenigmatica:nickel_slate_ore
+- emendatusenigmatica:nickel_deepslate_ore
+- emendatusenigmatica:nickel_mossy_stone_ore
+- emendatusenigmatica:nickel_brimstone_ore
+- emendatusenigmatica:nickel_subzero_ash_ore
+- emendatusenigmatica:nickel_blue_netherrack_ore
+- emendatusenigmatica:nickel_nylium_soul_soil_ore
+- emendatusenigmatica:nickel_ether_stone_ore
+- emendatusenigmatica:nickel_cryptic_stone_ore
+- emendatusenigmatica:nickel_flavolite_ore
+- emendatusenigmatica:nickel_sulphuric_rock_ore
+- emendatusenigmatica:nickel_violecite_ore
+- emendatusenigmatica:nickel_raw_marble_ore
+
+#create:windowable
+
+#forge:ores/yellorite
+- bigreactors:yellorite_ore
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#productivebees:flowers/gems/ametrine
+- #forge:storage_blocks/ametrine?
+- silentgems:ametrine_glowrose?
+- gemsnjewels:ametrine_block?
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#forge:ores/desh
+- boss_tools:moon_desh_ore
+
+#forge:fence_gates/wooden
+- biomesoplenty:fir_fence_gate
+- biomesoplenty:redwood_fence_gate
+- biomesoplenty:cherry_fence_gate
+- biomesoplenty:mahogany_fence_gate
+- biomesoplenty:jacaranda_fence_gate
+- biomesoplenty:palm_fence_gate
+- biomesoplenty:willow_fence_gate
+- biomesoplenty:dead_fence_gate
+- biomesoplenty:magic_fence_gate
+- biomesoplenty:umbran_fence_gate
+- biomesoplenty:hellbark_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+
+#forge:ores/aluminum
+- immersiveengineering:ore_aluminum
+- emendatusenigmatica:aluminum_ore
+- emendatusenigmatica:aluminum_andesite_ore
+- emendatusenigmatica:aluminum_granite_ore
+- emendatusenigmatica:aluminum_diorite_ore
+- emendatusenigmatica:aluminum_sand_ore
+- emendatusenigmatica:aluminum_gravel_ore
+- emendatusenigmatica:aluminum_netherrack_ore
+- emendatusenigmatica:aluminum_blackstone_ore
+- emendatusenigmatica:aluminum_basalt_ore
+- emendatusenigmatica:aluminum_soul_soil_ore
+- emendatusenigmatica:aluminum_end_stone_ore
+- emendatusenigmatica:aluminum_gabbro_ore
+- emendatusenigmatica:aluminum_c_limestone_ore
+- emendatusenigmatica:aluminum_scoria_ore
+- emendatusenigmatica:aluminum_weathered_limestone_ore
+- emendatusenigmatica:aluminum_jasper_ore
+- emendatusenigmatica:aluminum_marble_ore
+- emendatusenigmatica:aluminum_slate_ore
+- emendatusenigmatica:aluminum_deepslate_ore
+- emendatusenigmatica:aluminum_mossy_stone_ore
+- emendatusenigmatica:aluminum_brimstone_ore
+- emendatusenigmatica:aluminum_subzero_ash_ore
+- emendatusenigmatica:aluminum_blue_netherrack_ore
+- emendatusenigmatica:aluminum_nylium_soul_soil_ore
+- emendatusenigmatica:aluminum_ether_stone_ore
+- emendatusenigmatica:aluminum_cryptic_stone_ore
+- emendatusenigmatica:aluminum_flavolite_ore
+- emendatusenigmatica:aluminum_sulphuric_rock_ore
+- emendatusenigmatica:aluminum_violecite_ore
+- emendatusenigmatica:aluminum_raw_marble_ore
+
+#productivebees:flowers/gems/carnelian
+- #forge:storage_blocks/carnelian?
+- silentgems:carnelian_glowrose?
+- gemsnjewels:carnelian_block?
+
+#minecraft:mineable/axe
+- avaritia:compressed_crafting_table
+- avaritia:double_compressed_crafting_table
+
+#forge:ores/uranium
+- mekanism:uranium_ore
+- bigreactors:yellorite_ore
+- immersiveengineering:ore_uranium
+- emendatusenigmatica:uranium_ore
+- emendatusenigmatica:uranium_andesite_ore
+- emendatusenigmatica:uranium_granite_ore
+- emendatusenigmatica:uranium_diorite_ore
+- emendatusenigmatica:uranium_sand_ore
+- emendatusenigmatica:uranium_gravel_ore
+- emendatusenigmatica:uranium_netherrack_ore
+- emendatusenigmatica:uranium_blackstone_ore
+- emendatusenigmatica:uranium_basalt_ore
+- emendatusenigmatica:uranium_soul_soil_ore
+- emendatusenigmatica:uranium_end_stone_ore
+- emendatusenigmatica:uranium_gabbro_ore
+- emendatusenigmatica:uranium_c_limestone_ore
+- emendatusenigmatica:uranium_scoria_ore
+- emendatusenigmatica:uranium_weathered_limestone_ore
+- emendatusenigmatica:uranium_jasper_ore
+- emendatusenigmatica:uranium_marble_ore
+- emendatusenigmatica:uranium_slate_ore
+- emendatusenigmatica:uranium_deepslate_ore
+- emendatusenigmatica:uranium_mossy_stone_ore
+- emendatusenigmatica:uranium_brimstone_ore
+- emendatusenigmatica:uranium_subzero_ash_ore
+- emendatusenigmatica:uranium_blue_netherrack_ore
+- emendatusenigmatica:uranium_nylium_soul_soil_ore
+- emendatusenigmatica:uranium_ether_stone_ore
+- emendatusenigmatica:uranium_cryptic_stone_ore
+- emendatusenigmatica:uranium_flavolite_ore
+- emendatusenigmatica:uranium_sulphuric_rock_ore
+- emendatusenigmatica:uranium_violecite_ore
+- emendatusenigmatica:uranium_raw_marble_ore
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#productivebees:flowers/frozen
+- #minecraft:ice
+- minecraft:snow
+- minecraft:snow_block
+
+#create:windmill_sails
+- create:sail_frame
+- create:white_sail
+- create:orange_sail
+- create:magenta_sail
+- create:light_blue_sail
+- create:yellow_sail
+- create:lime_sail
+- create:pink_sail
+- create:gray_sail
+- create:light_gray_sail
+- create:cyan_sail
+- create:purple_sail
+- create:blue_sail
+- create:brown_sail
+- create:green_sail
+- create:red_sail
+- create:black_sail
+- #minecraft:wool
+
+#sereneseasons:spring_crops
+- biomesoplenty:origin_sapling
+- biomesoplenty:flowering_oak_sapling
+- biomesoplenty:rainbow_birch_sapling
+- biomesoplenty:yellow_autumn_sapling
+- biomesoplenty:orange_autumn_sapling
+- biomesoplenty:maple_sapling
+- biomesoplenty:fir_sapling
+- biomesoplenty:redwood_sapling
+- biomesoplenty:white_cherry_sapling
+- biomesoplenty:pink_cherry_sapling
+- biomesoplenty:mahogany_sapling
+- biomesoplenty:jacaranda_sapling
+- biomesoplenty:palm_sapling
+- biomesoplenty:willow_sapling
+- biomesoplenty:dead_sapling
+- biomesoplenty:magic_sapling
+- biomesoplenty:umbran_sapling
+- biomesoplenty:hellbark_sapling
+- biomesoplenty:clover
+- biomesoplenty:toadstool
+- biomesoplenty:glowshroom
+
+#forge:wool/pink
+- minecraft:pink_wool
+- minecraft:pink_wool
+
+#bigreactors:dry_ice
+- powah:dry_ice?
+
+#productivebees:flowers/gems/aquamarine
+- #forge:storage_blocks/aquamarine?
+- silentgems:aquamarine_glowrose?
+- gemsnjewels:aquamarine_block?
+- astralsorcery:aquamarine_sand_ore?
+
+#forge:ores/peridot
+- emendatusenigmatica:peridot_ore
+- emendatusenigmatica:peridot_andesite_ore
+- emendatusenigmatica:peridot_granite_ore
+- emendatusenigmatica:peridot_diorite_ore
+- emendatusenigmatica:peridot_sand_ore
+- emendatusenigmatica:peridot_gravel_ore
+- emendatusenigmatica:peridot_netherrack_ore
+- emendatusenigmatica:peridot_blackstone_ore
+- emendatusenigmatica:peridot_basalt_ore
+- emendatusenigmatica:peridot_soul_soil_ore
+- emendatusenigmatica:peridot_end_stone_ore
+- emendatusenigmatica:peridot_gabbro_ore
+- emendatusenigmatica:peridot_c_limestone_ore
+- emendatusenigmatica:peridot_scoria_ore
+- emendatusenigmatica:peridot_weathered_limestone_ore
+- emendatusenigmatica:peridot_jasper_ore
+- emendatusenigmatica:peridot_marble_ore
+- emendatusenigmatica:peridot_slate_ore
+- emendatusenigmatica:peridot_deepslate_ore
+- emendatusenigmatica:peridot_mossy_stone_ore
+- emendatusenigmatica:peridot_brimstone_ore
+- emendatusenigmatica:peridot_subzero_ash_ore
+- emendatusenigmatica:peridot_blue_netherrack_ore
+- emendatusenigmatica:peridot_nylium_soul_soil_ore
+- emendatusenigmatica:peridot_ether_stone_ore
+- emendatusenigmatica:peridot_cryptic_stone_ore
+- emendatusenigmatica:peridot_flavolite_ore
+- emendatusenigmatica:peridot_sulphuric_rock_ore
+- emendatusenigmatica:peridot_violecite_ore
+- emendatusenigmatica:peridot_raw_marble_ore
+
+#productivebees:flowers/gems/garnet
+- #forge:storage_blocks/garnet?
+- silentgems:garnet_glowrose?
+- gemsnjewels:garnet_block?
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+
+#forge:storage_blocks/cobalt
+- emendatusenigmatica:cobalt_block
+
+#productivebees:nests/cold_nests
+- productivebees:snow_nest
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- biomesoplenty:fir_planks
+- biomesoplenty:redwood_planks
+- biomesoplenty:cherry_planks
+- biomesoplenty:mahogany_planks
+- biomesoplenty:jacaranda_planks
+- biomesoplenty:palm_planks
+- biomesoplenty:willow_planks
+- biomesoplenty:dead_planks
+- biomesoplenty:magic_planks
+- biomesoplenty:umbran_planks
+- biomesoplenty:hellbark_planks
+- myrtrees:rubberwood_planks
+
+#forge:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- create:granite_cobblestone
+- create:diorite_cobblestone
+- create:andesite_cobblestone
+- create:limestone_cobblestone
+- create:weathered_limestone_cobblestone
+- create:dolomite_cobblestone
+- create:gabbro_cobblestone
+- create:scoria_cobblestone
+- create:dark_scoria_cobblestone
+
+#productivebees:flowers/gems/coral
+- #forge:storage_blocks/coral?
+- silentgems:coral_glowrose?
+- gemsnjewels:coral_block?
+
+#productivebees:flowers/burning
+- minecraft:magma_block
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#minecraft:fence_gates
+- minecraft:acacia_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- biomesoplenty:fir_fence_gate
+- biomesoplenty:redwood_fence_gate
+- biomesoplenty:cherry_fence_gate
+- biomesoplenty:mahogany_fence_gate
+- biomesoplenty:jacaranda_fence_gate
+- biomesoplenty:palm_fence_gate
+- biomesoplenty:willow_fence_gate
+- biomesoplenty:dead_fence_gate
+- biomesoplenty:magic_fence_gate
+- biomesoplenty:umbran_fence_gate
+- biomesoplenty:hellbark_fence_gate
+
+#productivebees:flowers/powdery
+- minecraft:coal_ore
+- quark:gunpowder_sack?
+
+#forge:ores
+- astralsorcery:starmetal_ore
+- astralsorcery:aquamarine_sand_ore
+- astralsorcery:rock_crystal_ore
+- boss_tools:moon_desh_ore
+- boss_tools:mars_diamond_ore
+- boss_tools:mars_iron_ore
+- boss_tools:moon_cheese_ore
+- boss_tools:mercury_iron_ore
+- boss_tools:mars_silicon_ore
+- boss_tools:mars_ice_shard_ore
+- boss_tools:moon_iron_ore
+- boss_tools:moon_glowstone_ore
+- boss_tools:venus_coal_ore
+- boss_tools:venus_diamond_ore
+- boss_tools:venus_gold_ore
+- #forge:ores/certus_quartz
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/osmium
+- #forge:ores/uranium
+- #forge:ores/fluorite
+- #forge:ores/lead
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- draconicevolution:end_draconium_ore
+- draconicevolution:nether_draconium_ore
+- draconicevolution:overworld_draconium_ore
+- bigreactors:yellorite_ore
+- bigreactors:anglesite_ore
+- bigreactors:benitoite_ore
+- immersiveengineering:ore_copper
+- immersiveengineering:ore_aluminum
+- immersiveengineering:ore_lead
+- immersiveengineering:ore_silver
+- immersiveengineering:ore_nickel
+- immersiveengineering:ore_uranium
+- emendatusenigmatica:coal_ore
+- emendatusenigmatica:iron_ore
+- emendatusenigmatica:gold_ore
+- emendatusenigmatica:diamond_ore
+- emendatusenigmatica:emerald_ore
+- emendatusenigmatica:lapis_ore
+- emendatusenigmatica:redstone_ore
+- emendatusenigmatica:quartz_ore
+- emendatusenigmatica:copper_ore
+- emendatusenigmatica:aluminum_ore
+- emendatusenigmatica:silver_ore
+- emendatusenigmatica:lead_ore
+- emendatusenigmatica:nickel_ore
+- emendatusenigmatica:uranium_ore
+- emendatusenigmatica:osmium_ore
+- emendatusenigmatica:tin_ore
+- emendatusenigmatica:zinc_ore
+- emendatusenigmatica:cobalt_ore
+- emendatusenigmatica:iridium_ore
+- emendatusenigmatica:certus_quartz_ore
+- emendatusenigmatica:charged_certus_quartz_ore
+- emendatusenigmatica:fluorite_ore
+- emendatusenigmatica:bitumen_ore
+- emendatusenigmatica:cinnabar_ore
+- emendatusenigmatica:apatite_ore
+- emendatusenigmatica:sulfur_ore
+- emendatusenigmatica:potassium_nitrate_ore
+- emendatusenigmatica:arcane_ore
+- emendatusenigmatica:dimensional_ore
+- emendatusenigmatica:ruby_ore
+- emendatusenigmatica:sapphire_ore
+- emendatusenigmatica:peridot_ore
+- emendatusenigmatica:coal_andesite_ore
+- emendatusenigmatica:iron_andesite_ore
+- emendatusenigmatica:gold_andesite_ore
+- emendatusenigmatica:diamond_andesite_ore
+- emendatusenigmatica:emerald_andesite_ore
+- emendatusenigmatica:lapis_andesite_ore
+- emendatusenigmatica:redstone_andesite_ore
+- emendatusenigmatica:quartz_andesite_ore
+- emendatusenigmatica:copper_andesite_ore
+- emendatusenigmatica:aluminum_andesite_ore
+- emendatusenigmatica:silver_andesite_ore
+- emendatusenigmatica:lead_andesite_ore
+- emendatusenigmatica:nickel_andesite_ore
+- emendatusenigmatica:uranium_andesite_ore
+- emendatusenigmatica:osmium_andesite_ore
+- emendatusenigmatica:tin_andesite_ore
+- emendatusenigmatica:zinc_andesite_ore
+- emendatusenigmatica:cobalt_andesite_ore
+- emendatusenigmatica:iridium_andesite_ore
+- emendatusenigmatica:certus_quartz_andesite_ore
+- emendatusenigmatica:charged_certus_quartz_andesite_ore
+- emendatusenigmatica:fluorite_andesite_ore
+- emendatusenigmatica:bitumen_andesite_ore
+- emendatusenigmatica:cinnabar_andesite_ore
+- emendatusenigmatica:apatite_andesite_ore
+- emendatusenigmatica:sulfur_andesite_ore
+- emendatusenigmatica:potassium_nitrate_andesite_ore
+- emendatusenigmatica:arcane_andesite_ore
+- emendatusenigmatica:dimensional_andesite_ore
+- emendatusenigmatica:ruby_andesite_ore
+- emendatusenigmatica:sapphire_andesite_ore
+- emendatusenigmatica:peridot_andesite_ore
+- emendatusenigmatica:coal_granite_ore
+- emendatusenigmatica:iron_granite_ore
+- emendatusenigmatica:gold_granite_ore
+- emendatusenigmatica:diamond_granite_ore
+- emendatusenigmatica:emerald_granite_ore
+- emendatusenigmatica:lapis_granite_ore
+- emendatusenigmatica:redstone_granite_ore
+- emendatusenigmatica:quartz_granite_ore
+- emendatusenigmatica:copper_granite_ore
+- emendatusenigmatica:aluminum_granite_ore
+- emendatusenigmatica:silver_granite_ore
+- emendatusenigmatica:lead_granite_ore
+- emendatusenigmatica:nickel_granite_ore
+- emendatusenigmatica:uranium_granite_ore
+- emendatusenigmatica:osmium_granite_ore
+- emendatusenigmatica:tin_granite_ore
+- emendatusenigmatica:zinc_granite_ore
+- emendatusenigmatica:cobalt_granite_ore
+- emendatusenigmatica:iridium_granite_ore
+- emendatusenigmatica:certus_quartz_granite_ore
+- emendatusenigmatica:charged_certus_quartz_granite_ore
+- emendatusenigmatica:fluorite_granite_ore
+- emendatusenigmatica:bitumen_granite_ore
+- emendatusenigmatica:cinnabar_granite_ore
+- emendatusenigmatica:apatite_granite_ore
+- emendatusenigmatica:sulfur_granite_ore
+- emendatusenigmatica:potassium_nitrate_granite_ore
+- emendatusenigmatica:arcane_granite_ore
+- emendatusenigmatica:dimensional_granite_ore
+- emendatusenigmatica:ruby_granite_ore
+- emendatusenigmatica:sapphire_granite_ore
+- emendatusenigmatica:peridot_granite_ore
+- emendatusenigmatica:coal_diorite_ore
+- emendatusenigmatica:iron_diorite_ore
+- emendatusenigmatica:gold_diorite_ore
+- emendatusenigmatica:diamond_diorite_ore
+- emendatusenigmatica:emerald_diorite_ore
+- emendatusenigmatica:lapis_diorite_ore
+- emendatusenigmatica:redstone_diorite_ore
+- emendatusenigmatica:quartz_diorite_ore
+- emendatusenigmatica:copper_diorite_ore
+- emendatusenigmatica:aluminum_diorite_ore
+- emendatusenigmatica:silver_diorite_ore
+- emendatusenigmatica:lead_diorite_ore
+- emendatusenigmatica:nickel_diorite_ore
+- emendatusenigmatica:uranium_diorite_ore
+- emendatusenigmatica:osmium_diorite_ore
+- emendatusenigmatica:tin_diorite_ore
+- emendatusenigmatica:zinc_diorite_ore
+- emendatusenigmatica:cobalt_diorite_ore
+- emendatusenigmatica:iridium_diorite_ore
+- emendatusenigmatica:certus_quartz_diorite_ore
+- emendatusenigmatica:charged_certus_quartz_diorite_ore
+- emendatusenigmatica:fluorite_diorite_ore
+- emendatusenigmatica:bitumen_diorite_ore
+- emendatusenigmatica:cinnabar_diorite_ore
+- emendatusenigmatica:apatite_diorite_ore
+- emendatusenigmatica:sulfur_diorite_ore
+- emendatusenigmatica:potassium_nitrate_diorite_ore
+- emendatusenigmatica:arcane_diorite_ore
+- emendatusenigmatica:dimensional_diorite_ore
+- emendatusenigmatica:ruby_diorite_ore
+- emendatusenigmatica:sapphire_diorite_ore
+- emendatusenigmatica:peridot_diorite_ore
+- emendatusenigmatica:coal_sand_ore
+- emendatusenigmatica:iron_sand_ore
+- emendatusenigmatica:gold_sand_ore
+- emendatusenigmatica:diamond_sand_ore
+- emendatusenigmatica:emerald_sand_ore
+- emendatusenigmatica:lapis_sand_ore
+- emendatusenigmatica:redstone_sand_ore
+- emendatusenigmatica:quartz_sand_ore
+- emendatusenigmatica:copper_sand_ore
+- emendatusenigmatica:aluminum_sand_ore
+- emendatusenigmatica:silver_sand_ore
+- emendatusenigmatica:lead_sand_ore
+- emendatusenigmatica:nickel_sand_ore
+- emendatusenigmatica:uranium_sand_ore
+- emendatusenigmatica:osmium_sand_ore
+- emendatusenigmatica:tin_sand_ore
+- emendatusenigmatica:zinc_sand_ore
+- emendatusenigmatica:cobalt_sand_ore
+- emendatusenigmatica:iridium_sand_ore
+- emendatusenigmatica:certus_quartz_sand_ore
+- emendatusenigmatica:charged_certus_quartz_sand_ore
+- emendatusenigmatica:fluorite_sand_ore
+- emendatusenigmatica:bitumen_sand_ore
+- emendatusenigmatica:cinnabar_sand_ore
+- emendatusenigmatica:apatite_sand_ore
+- emendatusenigmatica:sulfur_sand_ore
+- emendatusenigmatica:potassium_nitrate_sand_ore
+- emendatusenigmatica:arcane_sand_ore
+- emendatusenigmatica:dimensional_sand_ore
+- emendatusenigmatica:ruby_sand_ore
+- emendatusenigmatica:sapphire_sand_ore
+- emendatusenigmatica:peridot_sand_ore
+- emendatusenigmatica:coal_gravel_ore
+- emendatusenigmatica:iron_gravel_ore
+- emendatusenigmatica:gold_gravel_ore
+- emendatusenigmatica:diamond_gravel_ore
+- emendatusenigmatica:emerald_gravel_ore
+- emendatusenigmatica:lapis_gravel_ore
+- emendatusenigmatica:redstone_gravel_ore
+- emendatusenigmatica:quartz_gravel_ore
+- emendatusenigmatica:copper_gravel_ore
+- emendatusenigmatica:aluminum_gravel_ore
+- emendatusenigmatica:silver_gravel_ore
+- emendatusenigmatica:lead_gravel_ore
+- emendatusenigmatica:nickel_gravel_ore
+- emendatusenigmatica:uranium_gravel_ore
+- emendatusenigmatica:osmium_gravel_ore
+- emendatusenigmatica:tin_gravel_ore
+- emendatusenigmatica:zinc_gravel_ore
+- emendatusenigmatica:cobalt_gravel_ore
+- emendatusenigmatica:iridium_gravel_ore
+- emendatusenigmatica:certus_quartz_gravel_ore
+- emendatusenigmatica:charged_certus_quartz_gravel_ore
+- emendatusenigmatica:fluorite_gravel_ore
+- emendatusenigmatica:bitumen_gravel_ore
+- emendatusenigmatica:cinnabar_gravel_ore
+- emendatusenigmatica:apatite_gravel_ore
+- emendatusenigmatica:sulfur_gravel_ore
+- emendatusenigmatica:potassium_nitrate_gravel_ore
+- emendatusenigmatica:arcane_gravel_ore
+- emendatusenigmatica:dimensional_gravel_ore
+- emendatusenigmatica:ruby_gravel_ore
+- emendatusenigmatica:sapphire_gravel_ore
+- emendatusenigmatica:peridot_gravel_ore
+- emendatusenigmatica:coal_netherrack_ore
+- emendatusenigmatica:iron_netherrack_ore
+- emendatusenigmatica:gold_netherrack_ore
+- emendatusenigmatica:diamond_netherrack_ore
+- emendatusenigmatica:emerald_netherrack_ore
+- emendatusenigmatica:lapis_netherrack_ore
+- emendatusenigmatica:redstone_netherrack_ore
+- emendatusenigmatica:quartz_netherrack_ore
+- emendatusenigmatica:copper_netherrack_ore
+- emendatusenigmatica:aluminum_netherrack_ore
+- emendatusenigmatica:silver_netherrack_ore
+- emendatusenigmatica:lead_netherrack_ore
+- emendatusenigmatica:nickel_netherrack_ore
+- emendatusenigmatica:uranium_netherrack_ore
+- emendatusenigmatica:osmium_netherrack_ore
+- emendatusenigmatica:tin_netherrack_ore
+- emendatusenigmatica:zinc_netherrack_ore
+- emendatusenigmatica:cobalt_netherrack_ore
+- emendatusenigmatica:iridium_netherrack_ore
+- emendatusenigmatica:certus_quartz_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_netherrack_ore
+- emendatusenigmatica:fluorite_netherrack_ore
+- emendatusenigmatica:bitumen_netherrack_ore
+- emendatusenigmatica:cinnabar_netherrack_ore
+- emendatusenigmatica:apatite_netherrack_ore
+- emendatusenigmatica:sulfur_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_netherrack_ore
+- emendatusenigmatica:arcane_netherrack_ore
+- emendatusenigmatica:dimensional_netherrack_ore
+- emendatusenigmatica:ruby_netherrack_ore
+- emendatusenigmatica:sapphire_netherrack_ore
+- emendatusenigmatica:peridot_netherrack_ore
+- emendatusenigmatica:coal_blackstone_ore
+- emendatusenigmatica:iron_blackstone_ore
+- emendatusenigmatica:gold_blackstone_ore
+- emendatusenigmatica:diamond_blackstone_ore
+- emendatusenigmatica:emerald_blackstone_ore
+- emendatusenigmatica:lapis_blackstone_ore
+- emendatusenigmatica:redstone_blackstone_ore
+- emendatusenigmatica:quartz_blackstone_ore
+- emendatusenigmatica:copper_blackstone_ore
+- emendatusenigmatica:aluminum_blackstone_ore
+- emendatusenigmatica:silver_blackstone_ore
+- emendatusenigmatica:lead_blackstone_ore
+- emendatusenigmatica:nickel_blackstone_ore
+- emendatusenigmatica:uranium_blackstone_ore
+- emendatusenigmatica:osmium_blackstone_ore
+- emendatusenigmatica:tin_blackstone_ore
+- emendatusenigmatica:zinc_blackstone_ore
+- emendatusenigmatica:cobalt_blackstone_ore
+- emendatusenigmatica:iridium_blackstone_ore
+- emendatusenigmatica:certus_quartz_blackstone_ore
+- emendatusenigmatica:charged_certus_quartz_blackstone_ore
+- emendatusenigmatica:fluorite_blackstone_ore
+- emendatusenigmatica:bitumen_blackstone_ore
+- emendatusenigmatica:cinnabar_blackstone_ore
+- emendatusenigmatica:apatite_blackstone_ore
+- emendatusenigmatica:sulfur_blackstone_ore
+- emendatusenigmatica:potassium_nitrate_blackstone_ore
+- emendatusenigmatica:arcane_blackstone_ore
+- emendatusenigmatica:dimensional_blackstone_ore
+- emendatusenigmatica:ruby_blackstone_ore
+- emendatusenigmatica:sapphire_blackstone_ore
+- emendatusenigmatica:peridot_blackstone_ore
+- emendatusenigmatica:coal_basalt_ore
+- emendatusenigmatica:iron_basalt_ore
+- emendatusenigmatica:gold_basalt_ore
+- emendatusenigmatica:diamond_basalt_ore
+- emendatusenigmatica:emerald_basalt_ore
+- emendatusenigmatica:lapis_basalt_ore
+- emendatusenigmatica:redstone_basalt_ore
+- emendatusenigmatica:quartz_basalt_ore
+- emendatusenigmatica:copper_basalt_ore
+- emendatusenigmatica:aluminum_basalt_ore
+- emendatusenigmatica:silver_basalt_ore
+- emendatusenigmatica:lead_basalt_ore
+- emendatusenigmatica:nickel_basalt_ore
+- emendatusenigmatica:uranium_basalt_ore
+- emendatusenigmatica:osmium_basalt_ore
+- emendatusenigmatica:tin_basalt_ore
+- emendatusenigmatica:zinc_basalt_ore
+- emendatusenigmatica:cobalt_basalt_ore
+- emendatusenigmatica:iridium_basalt_ore
+- emendatusenigmatica:certus_quartz_basalt_ore
+- emendatusenigmatica:charged_certus_quartz_basalt_ore
+- emendatusenigmatica:fluorite_basalt_ore
+- emendatusenigmatica:bitumen_basalt_ore
+- emendatusenigmatica:cinnabar_basalt_ore
+- emendatusenigmatica:apatite_basalt_ore
+- emendatusenigmatica:sulfur_basalt_ore
+- emendatusenigmatica:potassium_nitrate_basalt_ore
+- emendatusenigmatica:arcane_basalt_ore
+- emendatusenigmatica:dimensional_basalt_ore
+- emendatusenigmatica:ruby_basalt_ore
+- emendatusenigmatica:sapphire_basalt_ore
+- emendatusenigmatica:peridot_basalt_ore
+- emendatusenigmatica:coal_soul_soil_ore
+- emendatusenigmatica:iron_soul_soil_ore
+- emendatusenigmatica:gold_soul_soil_ore
+- emendatusenigmatica:diamond_soul_soil_ore
+- emendatusenigmatica:emerald_soul_soil_ore
+- emendatusenigmatica:lapis_soul_soil_ore
+- emendatusenigmatica:redstone_soul_soil_ore
+- emendatusenigmatica:quartz_soul_soil_ore
+- emendatusenigmatica:copper_soul_soil_ore
+- emendatusenigmatica:aluminum_soul_soil_ore
+- emendatusenigmatica:silver_soul_soil_ore
+- emendatusenigmatica:lead_soul_soil_ore
+- emendatusenigmatica:nickel_soul_soil_ore
+- emendatusenigmatica:uranium_soul_soil_ore
+- emendatusenigmatica:osmium_soul_soil_ore
+- emendatusenigmatica:tin_soul_soil_ore
+- emendatusenigmatica:zinc_soul_soil_ore
+- emendatusenigmatica:cobalt_soul_soil_ore
+- emendatusenigmatica:iridium_soul_soil_ore
+- emendatusenigmatica:certus_quartz_soul_soil_ore
+- emendatusenigmatica:charged_certus_quartz_soul_soil_ore
+- emendatusenigmatica:fluorite_soul_soil_ore
+- emendatusenigmatica:bitumen_soul_soil_ore
+- emendatusenigmatica:cinnabar_soul_soil_ore
+- emendatusenigmatica:apatite_soul_soil_ore
+- emendatusenigmatica:sulfur_soul_soil_ore
+- emendatusenigmatica:potassium_nitrate_soul_soil_ore
+- emendatusenigmatica:arcane_soul_soil_ore
+- emendatusenigmatica:dimensional_soul_soil_ore
+- emendatusenigmatica:ruby_soul_soil_ore
+- emendatusenigmatica:sapphire_soul_soil_ore
+- emendatusenigmatica:peridot_soul_soil_ore
+- emendatusenigmatica:coal_end_stone_ore
+- emendatusenigmatica:iron_end_stone_ore
+- emendatusenigmatica:gold_end_stone_ore
+- emendatusenigmatica:diamond_end_stone_ore
+- emendatusenigmatica:emerald_end_stone_ore
+- emendatusenigmatica:lapis_end_stone_ore
+- emendatusenigmatica:redstone_end_stone_ore
+- emendatusenigmatica:quartz_end_stone_ore
+- emendatusenigmatica:copper_end_stone_ore
+- emendatusenigmatica:aluminum_end_stone_ore
+- emendatusenigmatica:silver_end_stone_ore
+- emendatusenigmatica:lead_end_stone_ore
+- emendatusenigmatica:nickel_end_stone_ore
+- emendatusenigmatica:uranium_end_stone_ore
+- emendatusenigmatica:osmium_end_stone_ore
+- emendatusenigmatica:tin_end_stone_ore
+- emendatusenigmatica:zinc_end_stone_ore
+- emendatusenigmatica:cobalt_end_stone_ore
+- emendatusenigmatica:iridium_end_stone_ore
+- emendatusenigmatica:certus_quartz_end_stone_ore
+- emendatusenigmatica:charged_certus_quartz_end_stone_ore
+- emendatusenigmatica:fluorite_end_stone_ore
+- emendatusenigmatica:bitumen_end_stone_ore
+- emendatusenigmatica:cinnabar_end_stone_ore
+- emendatusenigmatica:apatite_end_stone_ore
+- emendatusenigmatica:sulfur_end_stone_ore
+- emendatusenigmatica:potassium_nitrate_end_stone_ore
+- emendatusenigmatica:arcane_end_stone_ore
+- emendatusenigmatica:dimensional_end_stone_ore
+- emendatusenigmatica:ruby_end_stone_ore
+- emendatusenigmatica:sapphire_end_stone_ore
+- emendatusenigmatica:peridot_end_stone_ore
+- emendatusenigmatica:coal_gabbro_ore
+- emendatusenigmatica:iron_gabbro_ore
+- emendatusenigmatica:gold_gabbro_ore
+- emendatusenigmatica:diamond_gabbro_ore
+- emendatusenigmatica:emerald_gabbro_ore
+- emendatusenigmatica:lapis_gabbro_ore
+- emendatusenigmatica:redstone_gabbro_ore
+- emendatusenigmatica:quartz_gabbro_ore
+- emendatusenigmatica:copper_gabbro_ore
+- emendatusenigmatica:aluminum_gabbro_ore
+- emendatusenigmatica:silver_gabbro_ore
+- emendatusenigmatica:lead_gabbro_ore
+- emendatusenigmatica:nickel_gabbro_ore
+- emendatusenigmatica:uranium_gabbro_ore
+- emendatusenigmatica:osmium_gabbro_ore
+- emendatusenigmatica:tin_gabbro_ore
+- emendatusenigmatica:zinc_gabbro_ore
+- emendatusenigmatica:cobalt_gabbro_ore
+- emendatusenigmatica:iridium_gabbro_ore
+- emendatusenigmatica:certus_quartz_gabbro_ore
+- emendatusenigmatica:charged_certus_quartz_gabbro_ore
+- emendatusenigmatica:fluorite_gabbro_ore
+- emendatusenigmatica:bitumen_gabbro_ore
+- emendatusenigmatica:cinnabar_gabbro_ore
+- emendatusenigmatica:apatite_gabbro_ore
+- emendatusenigmatica:sulfur_gabbro_ore
+- emendatusenigmatica:potassium_nitrate_gabbro_ore
+- emendatusenigmatica:arcane_gabbro_ore
+- emendatusenigmatica:dimensional_gabbro_ore
+- emendatusenigmatica:ruby_gabbro_ore
+- emendatusenigmatica:sapphire_gabbro_ore
+- emendatusenigmatica:peridot_gabbro_ore
+- emendatusenigmatica:coal_c_limestone_ore
+- emendatusenigmatica:iron_c_limestone_ore
+- emendatusenigmatica:gold_c_limestone_ore
+- emendatusenigmatica:diamond_c_limestone_ore
+- emendatusenigmatica:emerald_c_limestone_ore
+- emendatusenigmatica:lapis_c_limestone_ore
+- emendatusenigmatica:redstone_c_limestone_ore
+- emendatusenigmatica:quartz_c_limestone_ore
+- emendatusenigmatica:copper_c_limestone_ore
+- emendatusenigmatica:aluminum_c_limestone_ore
+- emendatusenigmatica:silver_c_limestone_ore
+- emendatusenigmatica:lead_c_limestone_ore
+- emendatusenigmatica:nickel_c_limestone_ore
+- emendatusenigmatica:uranium_c_limestone_ore
+- emendatusenigmatica:osmium_c_limestone_ore
+- emendatusenigmatica:tin_c_limestone_ore
+- emendatusenigmatica:zinc_c_limestone_ore
+- emendatusenigmatica:cobalt_c_limestone_ore
+- emendatusenigmatica:iridium_c_limestone_ore
+- emendatusenigmatica:certus_quartz_c_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_c_limestone_ore
+- emendatusenigmatica:fluorite_c_limestone_ore
+- emendatusenigmatica:bitumen_c_limestone_ore
+- emendatusenigmatica:cinnabar_c_limestone_ore
+- emendatusenigmatica:apatite_c_limestone_ore
+- emendatusenigmatica:sulfur_c_limestone_ore
+- emendatusenigmatica:potassium_nitrate_c_limestone_ore
+- emendatusenigmatica:arcane_c_limestone_ore
+- emendatusenigmatica:dimensional_c_limestone_ore
+- emendatusenigmatica:ruby_c_limestone_ore
+- emendatusenigmatica:sapphire_c_limestone_ore
+- emendatusenigmatica:peridot_c_limestone_ore
+- emendatusenigmatica:coal_scoria_ore
+- emendatusenigmatica:iron_scoria_ore
+- emendatusenigmatica:gold_scoria_ore
+- emendatusenigmatica:diamond_scoria_ore
+- emendatusenigmatica:emerald_scoria_ore
+- emendatusenigmatica:lapis_scoria_ore
+- emendatusenigmatica:redstone_scoria_ore
+- emendatusenigmatica:quartz_scoria_ore
+- emendatusenigmatica:copper_scoria_ore
+- emendatusenigmatica:aluminum_scoria_ore
+- emendatusenigmatica:silver_scoria_ore
+- emendatusenigmatica:lead_scoria_ore
+- emendatusenigmatica:nickel_scoria_ore
+- emendatusenigmatica:uranium_scoria_ore
+- emendatusenigmatica:osmium_scoria_ore
+- emendatusenigmatica:tin_scoria_ore
+- emendatusenigmatica:zinc_scoria_ore
+- emendatusenigmatica:cobalt_scoria_ore
+- emendatusenigmatica:iridium_scoria_ore
+- emendatusenigmatica:certus_quartz_scoria_ore
+- emendatusenigmatica:charged_certus_quartz_scoria_ore
+- emendatusenigmatica:fluorite_scoria_ore
+- emendatusenigmatica:bitumen_scoria_ore
+- emendatusenigmatica:cinnabar_scoria_ore
+- emendatusenigmatica:apatite_scoria_ore
+- emendatusenigmatica:sulfur_scoria_ore
+- emendatusenigmatica:potassium_nitrate_scoria_ore
+- emendatusenigmatica:arcane_scoria_ore
+- emendatusenigmatica:dimensional_scoria_ore
+- emendatusenigmatica:ruby_scoria_ore
+- emendatusenigmatica:sapphire_scoria_ore
+- emendatusenigmatica:peridot_scoria_ore
+- emendatusenigmatica:coal_weathered_limestone_ore
+- emendatusenigmatica:iron_weathered_limestone_ore
+- emendatusenigmatica:gold_weathered_limestone_ore
+- emendatusenigmatica:diamond_weathered_limestone_ore
+- emendatusenigmatica:emerald_weathered_limestone_ore
+- emendatusenigmatica:lapis_weathered_limestone_ore
+- emendatusenigmatica:redstone_weathered_limestone_ore
+- emendatusenigmatica:quartz_weathered_limestone_ore
+- emendatusenigmatica:copper_weathered_limestone_ore
+- emendatusenigmatica:aluminum_weathered_limestone_ore
+- emendatusenigmatica:silver_weathered_limestone_ore
+- emendatusenigmatica:lead_weathered_limestone_ore
+- emendatusenigmatica:nickel_weathered_limestone_ore
+- emendatusenigmatica:uranium_weathered_limestone_ore
+- emendatusenigmatica:osmium_weathered_limestone_ore
+- emendatusenigmatica:tin_weathered_limestone_ore
+- emendatusenigmatica:zinc_weathered_limestone_ore
+- emendatusenigmatica:cobalt_weathered_limestone_ore
+- emendatusenigmatica:iridium_weathered_limestone_ore
+- emendatusenigmatica:certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:charged_certus_quartz_weathered_limestone_ore
+- emendatusenigmatica:fluorite_weathered_limestone_ore
+- emendatusenigmatica:bitumen_weathered_limestone_ore
+- emendatusenigmatica:cinnabar_weathered_limestone_ore
+- emendatusenigmatica:apatite_weathered_limestone_ore
+- emendatusenigmatica:sulfur_weathered_limestone_ore
+- emendatusenigmatica:potassium_nitrate_weathered_limestone_ore
+- emendatusenigmatica:arcane_weathered_limestone_ore
+- emendatusenigmatica:dimensional_weathered_limestone_ore
+- emendatusenigmatica:ruby_weathered_limestone_ore
+- emendatusenigmatica:sapphire_weathered_limestone_ore
+- emendatusenigmatica:peridot_weathered_limestone_ore
+- emendatusenigmatica:coal_jasper_ore
+- emendatusenigmatica:iron_jasper_ore
+- emendatusenigmatica:gold_jasper_ore
+- emendatusenigmatica:diamond_jasper_ore
+- emendatusenigmatica:emerald_jasper_ore
+- emendatusenigmatica:lapis_jasper_ore
+- emendatusenigmatica:redstone_jasper_ore
+- emendatusenigmatica:quartz_jasper_ore
+- emendatusenigmatica:copper_jasper_ore
+- emendatusenigmatica:aluminum_jasper_ore
+- emendatusenigmatica:silver_jasper_ore
+- emendatusenigmatica:lead_jasper_ore
+- emendatusenigmatica:nickel_jasper_ore
+- emendatusenigmatica:uranium_jasper_ore
+- emendatusenigmatica:osmium_jasper_ore
+- emendatusenigmatica:tin_jasper_ore
+- emendatusenigmatica:zinc_jasper_ore
+- emendatusenigmatica:cobalt_jasper_ore
+- emendatusenigmatica:iridium_jasper_ore
+- emendatusenigmatica:certus_quartz_jasper_ore
+- emendatusenigmatica:charged_certus_quartz_jasper_ore
+- emendatusenigmatica:fluorite_jasper_ore
+- emendatusenigmatica:bitumen_jasper_ore
+- emendatusenigmatica:cinnabar_jasper_ore
+- emendatusenigmatica:apatite_jasper_ore
+- emendatusenigmatica:sulfur_jasper_ore
+- emendatusenigmatica:potassium_nitrate_jasper_ore
+- emendatusenigmatica:arcane_jasper_ore
+- emendatusenigmatica:dimensional_jasper_ore
+- emendatusenigmatica:ruby_jasper_ore
+- emendatusenigmatica:sapphire_jasper_ore
+- emendatusenigmatica:peridot_jasper_ore
+- emendatusenigmatica:coal_marble_ore
+- emendatusenigmatica:iron_marble_ore
+- emendatusenigmatica:gold_marble_ore
+- emendatusenigmatica:diamond_marble_ore
+- emendatusenigmatica:emerald_marble_ore
+- emendatusenigmatica:lapis_marble_ore
+- emendatusenigmatica:redstone_marble_ore
+- emendatusenigmatica:quartz_marble_ore
+- emendatusenigmatica:copper_marble_ore
+- emendatusenigmatica:aluminum_marble_ore
+- emendatusenigmatica:silver_marble_ore
+- emendatusenigmatica:lead_marble_ore
+- emendatusenigmatica:nickel_marble_ore
+- emendatusenigmatica:uranium_marble_ore
+- emendatusenigmatica:osmium_marble_ore
+- emendatusenigmatica:tin_marble_ore
+- emendatusenigmatica:zinc_marble_ore
+- emendatusenigmatica:cobalt_marble_ore
+- emendatusenigmatica:iridium_marble_ore
+- emendatusenigmatica:certus_quartz_marble_ore
+- emendatusenigmatica:charged_certus_quartz_marble_ore
+- emendatusenigmatica:fluorite_marble_ore
+- emendatusenigmatica:bitumen_marble_ore
+- emendatusenigmatica:cinnabar_marble_ore
+- emendatusenigmatica:apatite_marble_ore
+- emendatusenigmatica:sulfur_marble_ore
+- emendatusenigmatica:potassium_nitrate_marble_ore
+- emendatusenigmatica:arcane_marble_ore
+- emendatusenigmatica:dimensional_marble_ore
+- emendatusenigmatica:ruby_marble_ore
+- emendatusenigmatica:sapphire_marble_ore
+- emendatusenigmatica:peridot_marble_ore
+- emendatusenigmatica:coal_slate_ore
+- emendatusenigmatica:iron_slate_ore
+- emendatusenigmatica:gold_slate_ore
+- emendatusenigmatica:diamond_slate_ore
+- emendatusenigmatica:emerald_slate_ore
+- emendatusenigmatica:lapis_slate_ore
+- emendatusenigmatica:redstone_slate_ore
+- emendatusenigmatica:quartz_slate_ore
+- emendatusenigmatica:copper_slate_ore
+- emendatusenigmatica:aluminum_slate_ore
+- emendatusenigmatica:silver_slate_ore
+- emendatusenigmatica:lead_slate_ore
+- emendatusenigmatica:nickel_slate_ore
+- emendatusenigmatica:uranium_slate_ore
+- emendatusenigmatica:osmium_slate_ore
+- emendatusenigmatica:tin_slate_ore
+- emendatusenigmatica:zinc_slate_ore
+- emendatusenigmatica:cobalt_slate_ore
+- emendatusenigmatica:iridium_slate_ore
+- emendatusenigmatica:certus_quartz_slate_ore
+- emendatusenigmatica:charged_certus_quartz_slate_ore
+- emendatusenigmatica:fluorite_slate_ore
+- emendatusenigmatica:bitumen_slate_ore
+- emendatusenigmatica:cinnabar_slate_ore
+- emendatusenigmatica:apatite_slate_ore
+- emendatusenigmatica:sulfur_slate_ore
+- emendatusenigmatica:potassium_nitrate_slate_ore
+- emendatusenigmatica:arcane_slate_ore
+- emendatusenigmatica:dimensional_slate_ore
+- emendatusenigmatica:ruby_slate_ore
+- emendatusenigmatica:sapphire_slate_ore
+- emendatusenigmatica:peridot_slate_ore
+- emendatusenigmatica:coal_deepslate_ore
+- emendatusenigmatica:iron_deepslate_ore
+- emendatusenigmatica:gold_deepslate_ore
+- emendatusenigmatica:diamond_deepslate_ore
+- emendatusenigmatica:emerald_deepslate_ore
+- emendatusenigmatica:lapis_deepslate_ore
+- emendatusenigmatica:redstone_deepslate_ore
+- emendatusenigmatica:quartz_deepslate_ore
+- emendatusenigmatica:copper_deepslate_ore
+- emendatusenigmatica:aluminum_deepslate_ore
+- emendatusenigmatica:silver_deepslate_ore
+- emendatusenigmatica:lead_deepslate_ore
+- emendatusenigmatica:nickel_deepslate_ore
+- emendatusenigmatica:uranium_deepslate_ore
+- emendatusenigmatica:osmium_deepslate_ore
+- emendatusenigmatica:tin_deepslate_ore
+- emendatusenigmatica:zinc_deepslate_ore
+- emendatusenigmatica:cobalt_deepslate_ore
+- emendatusenigmatica:iridium_deepslate_ore
+- emendatusenigmatica:certus_quartz_deepslate_ore
+- emendatusenigmatica:charged_certus_quartz_deepslate_ore
+- emendatusenigmatica:fluorite_deepslate_ore
+- emendatusenigmatica:bitumen_deepslate_ore
+- emendatusenigmatica:cinnabar_deepslate_ore
+- emendatusenigmatica:apatite_deepslate_ore
+- emendatusenigmatica:sulfur_deepslate_ore
+- emendatusenigmatica:potassium_nitrate_deepslate_ore
+- emendatusenigmatica:arcane_deepslate_ore
+- emendatusenigmatica:dimensional_deepslate_ore
+- emendatusenigmatica:ruby_deepslate_ore
+- emendatusenigmatica:sapphire_deepslate_ore
+- emendatusenigmatica:peridot_deepslate_ore
+- emendatusenigmatica:coal_mossy_stone_ore
+- emendatusenigmatica:iron_mossy_stone_ore
+- emendatusenigmatica:gold_mossy_stone_ore
+- emendatusenigmatica:diamond_mossy_stone_ore
+- emendatusenigmatica:emerald_mossy_stone_ore
+- emendatusenigmatica:lapis_mossy_stone_ore
+- emendatusenigmatica:redstone_mossy_stone_ore
+- emendatusenigmatica:quartz_mossy_stone_ore
+- emendatusenigmatica:copper_mossy_stone_ore
+- emendatusenigmatica:aluminum_mossy_stone_ore
+- emendatusenigmatica:silver_mossy_stone_ore
+- emendatusenigmatica:lead_mossy_stone_ore
+- emendatusenigmatica:nickel_mossy_stone_ore
+- emendatusenigmatica:uranium_mossy_stone_ore
+- emendatusenigmatica:osmium_mossy_stone_ore
+- emendatusenigmatica:tin_mossy_stone_ore
+- emendatusenigmatica:zinc_mossy_stone_ore
+- emendatusenigmatica:cobalt_mossy_stone_ore
+- emendatusenigmatica:iridium_mossy_stone_ore
+- emendatusenigmatica:certus_quartz_mossy_stone_ore
+- emendatusenigmatica:charged_certus_quartz_mossy_stone_ore
+- emendatusenigmatica:fluorite_mossy_stone_ore
+- emendatusenigmatica:bitumen_mossy_stone_ore
+- emendatusenigmatica:cinnabar_mossy_stone_ore
+- emendatusenigmatica:apatite_mossy_stone_ore
+- emendatusenigmatica:sulfur_mossy_stone_ore
+- emendatusenigmatica:potassium_nitrate_mossy_stone_ore
+- emendatusenigmatica:arcane_mossy_stone_ore
+- emendatusenigmatica:dimensional_mossy_stone_ore
+- emendatusenigmatica:ruby_mossy_stone_ore
+- emendatusenigmatica:sapphire_mossy_stone_ore
+- emendatusenigmatica:peridot_mossy_stone_ore
+- emendatusenigmatica:coal_brimstone_ore
+- emendatusenigmatica:iron_brimstone_ore
+- emendatusenigmatica:gold_brimstone_ore
+- emendatusenigmatica:diamond_brimstone_ore
+- emendatusenigmatica:emerald_brimstone_ore
+- emendatusenigmatica:lapis_brimstone_ore
+- emendatusenigmatica:redstone_brimstone_ore
+- emendatusenigmatica:quartz_brimstone_ore
+- emendatusenigmatica:copper_brimstone_ore
+- emendatusenigmatica:aluminum_brimstone_ore
+- emendatusenigmatica:silver_brimstone_ore
+- emendatusenigmatica:lead_brimstone_ore
+- emendatusenigmatica:nickel_brimstone_ore
+- emendatusenigmatica:uranium_brimstone_ore
+- emendatusenigmatica:osmium_brimstone_ore
+- emendatusenigmatica:tin_brimstone_ore
+- emendatusenigmatica:zinc_brimstone_ore
+- emendatusenigmatica:cobalt_brimstone_ore
+- emendatusenigmatica:iridium_brimstone_ore
+- emendatusenigmatica:certus_quartz_brimstone_ore
+- emendatusenigmatica:charged_certus_quartz_brimstone_ore
+- emendatusenigmatica:fluorite_brimstone_ore
+- emendatusenigmatica:bitumen_brimstone_ore
+- emendatusenigmatica:cinnabar_brimstone_ore
+- emendatusenigmatica:apatite_brimstone_ore
+- emendatusenigmatica:sulfur_brimstone_ore
+- emendatusenigmatica:potassium_nitrate_brimstone_ore
+- emendatusenigmatica:arcane_brimstone_ore
+- emendatusenigmatica:dimensional_brimstone_ore
+- emendatusenigmatica:ruby_brimstone_ore
+- emendatusenigmatica:sapphire_brimstone_ore
+- emendatusenigmatica:peridot_brimstone_ore
+- emendatusenigmatica:coal_subzero_ash_ore
+- emendatusenigmatica:iron_subzero_ash_ore
+- emendatusenigmatica:gold_subzero_ash_ore
+- emendatusenigmatica:diamond_subzero_ash_ore
+- emendatusenigmatica:emerald_subzero_ash_ore
+- emendatusenigmatica:lapis_subzero_ash_ore
+- emendatusenigmatica:redstone_subzero_ash_ore
+- emendatusenigmatica:quartz_subzero_ash_ore
+- emendatusenigmatica:copper_subzero_ash_ore
+- emendatusenigmatica:aluminum_subzero_ash_ore
+- emendatusenigmatica:silver_subzero_ash_ore
+- emendatusenigmatica:lead_subzero_ash_ore
+- emendatusenigmatica:nickel_subzero_ash_ore
+- emendatusenigmatica:uranium_subzero_ash_ore
+- emendatusenigmatica:osmium_subzero_ash_ore
+- emendatusenigmatica:tin_subzero_ash_ore
+- emendatusenigmatica:zinc_subzero_ash_ore
+- emendatusenigmatica:cobalt_subzero_ash_ore
+- emendatusenigmatica:iridium_subzero_ash_ore
+- emendatusenigmatica:certus_quartz_subzero_ash_ore
+- emendatusenigmatica:charged_certus_quartz_subzero_ash_ore
+- emendatusenigmatica:fluorite_subzero_ash_ore
+- emendatusenigmatica:bitumen_subzero_ash_ore
+- emendatusenigmatica:cinnabar_subzero_ash_ore
+- emendatusenigmatica:apatite_subzero_ash_ore
+- emendatusenigmatica:sulfur_subzero_ash_ore
+- emendatusenigmatica:potassium_nitrate_subzero_ash_ore
+- emendatusenigmatica:arcane_subzero_ash_ore
+- emendatusenigmatica:dimensional_subzero_ash_ore
+- emendatusenigmatica:ruby_subzero_ash_ore
+- emendatusenigmatica:sapphire_subzero_ash_ore
+- emendatusenigmatica:peridot_subzero_ash_ore
+- emendatusenigmatica:coal_blue_netherrack_ore
+- emendatusenigmatica:iron_blue_netherrack_ore
+- emendatusenigmatica:gold_blue_netherrack_ore
+- emendatusenigmatica:diamond_blue_netherrack_ore
+- emendatusenigmatica:emerald_blue_netherrack_ore
+- emendatusenigmatica:lapis_blue_netherrack_ore
+- emendatusenigmatica:redstone_blue_netherrack_ore
+- emendatusenigmatica:quartz_blue_netherrack_ore
+- emendatusenigmatica:copper_blue_netherrack_ore
+- emendatusenigmatica:aluminum_blue_netherrack_ore
+- emendatusenigmatica:silver_blue_netherrack_ore
+- emendatusenigmatica:lead_blue_netherrack_ore
+- emendatusenigmatica:nickel_blue_netherrack_ore
+- emendatusenigmatica:uranium_blue_netherrack_ore
+- emendatusenigmatica:osmium_blue_netherrack_ore
+- emendatusenigmatica:tin_blue_netherrack_ore
+- emendatusenigmatica:zinc_blue_netherrack_ore
+- emendatusenigmatica:cobalt_blue_netherrack_ore
+- emendatusenigmatica:iridium_blue_netherrack_ore
+- emendatusenigmatica:certus_quartz_blue_netherrack_ore
+- emendatusenigmatica:charged_certus_quartz_blue_netherrack_ore
+- emendatusenigmatica:fluorite_blue_netherrack_ore
+- emendatusenigmatica:bitumen_blue_netherrack_ore
+- emendatusenigmatica:cinnabar_blue_netherrack_ore
+- emendatusenigmatica:apatite_blue_netherrack_ore
+- emendatusenigmatica:sulfur_blue_netherrack_ore
+- emendatusenigmatica:potassium_nitrate_blue_netherrack_ore
+- emendatusenigmatica:arcane_blue_netherrack_ore
+- emendatusenigmatica:dimensional_blue_netherrack_ore
+- emendatusenigmatica:ruby_blue_netherrack_ore
+- emendatusenigmatica:sapphire_blue_netherrack_ore
+- emendatusenigmatica:peridot_blue_netherrack_ore
+- emendatusenigmatica:coal_nylium_soul_soil_ore
+- emendatusenigmatica:iron_nylium_soul_soil_ore
+- emendatusenigmatica:gold_nylium_soul_soil_ore
+- emendatusenigmatica:diamond_nylium_soul_soil_ore
+- emendatusenigmatica:emerald_nylium_soul_soil_ore
+- emendatusenigmatica:lapis_nylium_soul_soil_ore
+- emendatusenigmatica:redstone_nylium_soul_soil_ore
+- emendatusenigmatica:quartz_nylium_soul_soil_ore
+- emendatusenigmatica:copper_nylium_soul_soil_ore
+- emendatusenigmatica:aluminum_nylium_soul_soil_ore
+- emendatusenigmatica:silver_nylium_soul_soil_ore
+- emendatusenigmatica:lead_nylium_soul_soil_ore
+- emendatusenigmatica:nickel_nylium_soul_soil_ore
+- emendatusenigmatica:uranium_nylium_soul_soil_ore
+- emendatusenigmatica:osmium_nylium_soul_soil_ore
+- emendatusenigmatica:tin_nylium_soul_soil_ore
+- emendatusenigmatica:zinc_nylium_soul_soil_ore
+- emendatusenigmatica:cobalt_nylium_soul_soil_ore
+- emendatusenigmatica:iridium_nylium_soul_soil_ore
+- emendatusenigmatica:certus_quartz_nylium_soul_soil_ore
+- emendatusenigmatica:charged_certus_quartz_nylium_soul_soil_ore
+- emendatusenigmatica:fluorite_nylium_soul_soil_ore
+- emendatusenigmatica:bitumen_nylium_soul_soil_ore
+- emendatusenigmatica:cinnabar_nylium_soul_soil_ore
+- emendatusenigmatica:apatite_nylium_soul_soil_ore
+- emendatusenigmatica:sulfur_nylium_soul_soil_ore
+- emendatusenigmatica:potassium_nitrate_nylium_soul_soil_ore
+- emendatusenigmatica:arcane_nylium_soul_soil_ore
+- emendatusenigmatica:dimensional_nylium_soul_soil_ore
+- emendatusenigmatica:ruby_nylium_soul_soil_ore
+- emendatusenigmatica:sapphire_nylium_soul_soil_ore
+- emendatusenigmatica:peridot_nylium_soul_soil_ore
+- emendatusenigmatica:coal_ether_stone_ore
+- emendatusenigmatica:iron_ether_stone_ore
+- emendatusenigmatica:gold_ether_stone_ore
+- emendatusenigmatica:diamond_ether_stone_ore
+- emendatusenigmatica:emerald_ether_stone_ore
+- emendatusenigmatica:lapis_ether_stone_ore
+- emendatusenigmatica:redstone_ether_stone_ore
+- emendatusenigmatica:quartz_ether_stone_ore
+- emendatusenigmatica:copper_ether_stone_ore
+- emendatusenigmatica:aluminum_ether_stone_ore
+- emendatusenigmatica:silver_ether_stone_ore
+- emendatusenigmatica:lead_ether_stone_ore
+- emendatusenigmatica:nickel_ether_stone_ore
+- emendatusenigmatica:uranium_ether_stone_ore
+- emendatusenigmatica:osmium_ether_stone_ore
+- emendatusenigmatica:tin_ether_stone_ore
+- emendatusenigmatica:zinc_ether_stone_ore
+- emendatusenigmatica:cobalt_ether_stone_ore
+- emendatusenigmatica:iridium_ether_stone_ore
+- emendatusenigmatica:certus_quartz_ether_stone_ore
+- emendatusenigmatica:charged_certus_quartz_ether_stone_ore
+- emendatusenigmatica:fluorite_ether_stone_ore
+- emendatusenigmatica:bitumen_ether_stone_ore
+- emendatusenigmatica:cinnabar_ether_stone_ore
+- emendatusenigmatica:apatite_ether_stone_ore
+- emendatusenigmatica:sulfur_ether_stone_ore
+- emendatusenigmatica:potassium_nitrate_ether_stone_ore
+- emendatusenigmatica:arcane_ether_stone_ore
+- emendatusenigmatica:dimensional_ether_stone_ore
+- emendatusenigmatica:ruby_ether_stone_ore
+- emendatusenigmatica:sapphire_ether_stone_ore
+- emendatusenigmatica:peridot_ether_stone_ore
+- emendatusenigmatica:coal_cryptic_stone_ore
+- emendatusenigmatica:iron_cryptic_stone_ore
+- emendatusenigmatica:gold_cryptic_stone_ore
+- emendatusenigmatica:diamond_cryptic_stone_ore
+- emendatusenigmatica:emerald_cryptic_stone_ore
+- emendatusenigmatica:lapis_cryptic_stone_ore
+- emendatusenigmatica:redstone_cryptic_stone_ore
+- emendatusenigmatica:quartz_cryptic_stone_ore
+- emendatusenigmatica:copper_cryptic_stone_ore
+- emendatusenigmatica:aluminum_cryptic_stone_ore
+- emendatusenigmatica:silver_cryptic_stone_ore
+- emendatusenigmatica:lead_cryptic_stone_ore
+- emendatusenigmatica:nickel_cryptic_stone_ore
+- emendatusenigmatica:uranium_cryptic_stone_ore
+- emendatusenigmatica:osmium_cryptic_stone_ore
+- emendatusenigmatica:tin_cryptic_stone_ore
+- emendatusenigmatica:zinc_cryptic_stone_ore
+- emendatusenigmatica:cobalt_cryptic_stone_ore
+- emendatusenigmatica:iridium_cryptic_stone_ore
+- emendatusenigmatica:certus_quartz_cryptic_stone_ore
+- emendatusenigmatica:charged_certus_quartz_cryptic_stone_ore
+- emendatusenigmatica:fluorite_cryptic_stone_ore
+- emendatusenigmatica:bitumen_cryptic_stone_ore
+- emendatusenigmatica:cinnabar_cryptic_stone_ore
+- emendatusenigmatica:apatite_cryptic_stone_ore
+- emendatusenigmatica:sulfur_cryptic_stone_ore
+- emendatusenigmatica:potassium_nitrate_cryptic_stone_ore
+- emendatusenigmatica:arcane_cryptic_stone_ore
+- emendatusenigmatica:dimensional_cryptic_stone_ore
+- emendatusenigmatica:ruby_cryptic_stone_ore
+- emendatusenigmatica:sapphire_cryptic_stone_ore
+- emendatusenigmatica:peridot_cryptic_stone_ore
+- emendatusenigmatica:coal_flavolite_ore
+- emendatusenigmatica:iron_flavolite_ore
+- emendatusenigmatica:gold_flavolite_ore
+- emendatusenigmatica:diamond_flavolite_ore
+- emendatusenigmatica:emerald_flavolite_ore
+- emendatusenigmatica:lapis_flavolite_ore
+- emendatusenigmatica:redstone_flavolite_ore
+- emendatusenigmatica:quartz_flavolite_ore
+- emendatusenigmatica:copper_flavolite_ore
+- emendatusenigmatica:aluminum_flavolite_ore
+- emendatusenigmatica:silver_flavolite_ore
+- emendatusenigmatica:lead_flavolite_ore
+- emendatusenigmatica:nickel_flavolite_ore
+- emendatusenigmatica:uranium_flavolite_ore
+- emendatusenigmatica:osmium_flavolite_ore
+- emendatusenigmatica:tin_flavolite_ore
+- emendatusenigmatica:zinc_flavolite_ore
+- emendatusenigmatica:cobalt_flavolite_ore
+- emendatusenigmatica:iridium_flavolite_ore
+- emendatusenigmatica:certus_quartz_flavolite_ore
+- emendatusenigmatica:charged_certus_quartz_flavolite_ore
+- emendatusenigmatica:fluorite_flavolite_ore
+- emendatusenigmatica:bitumen_flavolite_ore
+- emendatusenigmatica:cinnabar_flavolite_ore
+- emendatusenigmatica:apatite_flavolite_ore
+- emendatusenigmatica:sulfur_flavolite_ore
+- emendatusenigmatica:potassium_nitrate_flavolite_ore
+- emendatusenigmatica:arcane_flavolite_ore
+- emendatusenigmatica:dimensional_flavolite_ore
+- emendatusenigmatica:ruby_flavolite_ore
+- emendatusenigmatica:sapphire_flavolite_ore
+- emendatusenigmatica:peridot_flavolite_ore
+- emendatusenigmatica:coal_sulphuric_rock_ore
+- emendatusenigmatica:iron_sulphuric_rock_ore
+- emendatusenigmatica:gold_sulphuric_rock_ore
+- emendatusenigmatica:diamond_sulphuric_rock_ore
+- emendatusenigmatica:emerald_sulphuric_rock_ore
+- emendatusenigmatica:lapis_sulphuric_rock_ore
+- emendatusenigmatica:redstone_sulphuric_rock_ore
+- emendatusenigmatica:quartz_sulphuric_rock_ore
+- emendatusenigmatica:copper_sulphuric_rock_ore
+- emendatusenigmatica:aluminum_sulphuric_rock_ore
+- emendatusenigmatica:silver_sulphuric_rock_ore
+- emendatusenigmatica:lead_sulphuric_rock_ore
+- emendatusenigmatica:nickel_sulphuric_rock_ore
+- emendatusenigmatica:uranium_sulphuric_rock_ore
+- emendatusenigmatica:osmium_sulphuric_rock_ore
+- emendatusenigmatica:tin_sulphuric_rock_ore
+- emendatusenigmatica:zinc_sulphuric_rock_ore
+- emendatusenigmatica:cobalt_sulphuric_rock_ore
+- emendatusenigmatica:iridium_sulphuric_rock_ore
+- emendatusenigmatica:certus_quartz_sulphuric_rock_ore
+- emendatusenigmatica:charged_certus_quartz_sulphuric_rock_ore
+- emendatusenigmatica:fluorite_sulphuric_rock_ore
+- emendatusenigmatica:bitumen_sulphuric_rock_ore
+- emendatusenigmatica:cinnabar_sulphuric_rock_ore
+- emendatusenigmatica:apatite_sulphuric_rock_ore
+- emendatusenigmatica:sulfur_sulphuric_rock_ore
+- emendatusenigmatica:potassium_nitrate_sulphuric_rock_ore
+- emendatusenigmatica:arcane_sulphuric_rock_ore
+- emendatusenigmatica:dimensional_sulphuric_rock_ore
+- emendatusenigmatica:ruby_sulphuric_rock_ore
+- emendatusenigmatica:sapphire_sulphuric_rock_ore
+- emendatusenigmatica:peridot_sulphuric_rock_ore
+- emendatusenigmatica:coal_violecite_ore
+- emendatusenigmatica:iron_violecite_ore
+- emendatusenigmatica:gold_violecite_ore
+- emendatusenigmatica:diamond_violecite_ore
+- emendatusenigmatica:emerald_violecite_ore
+- emendatusenigmatica:lapis_violecite_ore
+- emendatusenigmatica:redstone_violecite_ore
+- emendatusenigmatica:quartz_violecite_ore
+- emendatusenigmatica:copper_violecite_ore
+- emendatusenigmatica:aluminum_violecite_ore
+- emendatusenigmatica:silver_violecite_ore
+- emendatusenigmatica:lead_violecite_ore
+- emendatusenigmatica:nickel_violecite_ore
+- emendatusenigmatica:uranium_violecite_ore
+- emendatusenigmatica:osmium_violecite_ore
+- emendatusenigmatica:tin_violecite_ore
+- emendatusenigmatica:zinc_violecite_ore
+- emendatusenigmatica:cobalt_violecite_ore
+- emendatusenigmatica:iridium_violecite_ore
+- emendatusenigmatica:certus_quartz_violecite_ore
+- emendatusenigmatica:charged_certus_quartz_violecite_ore
+- emendatusenigmatica:fluorite_violecite_ore
+- emendatusenigmatica:bitumen_violecite_ore
+- emendatusenigmatica:cinnabar_violecite_ore
+- emendatusenigmatica:apatite_violecite_ore
+- emendatusenigmatica:sulfur_violecite_ore
+- emendatusenigmatica:potassium_nitrate_violecite_ore
+- emendatusenigmatica:arcane_violecite_ore
+- emendatusenigmatica:dimensional_violecite_ore
+- emendatusenigmatica:ruby_violecite_ore
+- emendatusenigmatica:sapphire_violecite_ore
+- emendatusenigmatica:peridot_violecite_ore
+- emendatusenigmatica:coal_raw_marble_ore
+- emendatusenigmatica:iron_raw_marble_ore
+- emendatusenigmatica:gold_raw_marble_ore
+- emendatusenigmatica:diamond_raw_marble_ore
+- emendatusenigmatica:emerald_raw_marble_ore
+- emendatusenigmatica:lapis_raw_marble_ore
+- emendatusenigmatica:redstone_raw_marble_ore
+- emendatusenigmatica:quartz_raw_marble_ore
+- emendatusenigmatica:copper_raw_marble_ore
+- emendatusenigmatica:aluminum_raw_marble_ore
+- emendatusenigmatica:silver_raw_marble_ore
+- emendatusenigmatica:lead_raw_marble_ore
+- emendatusenigmatica:nickel_raw_marble_ore
+- emendatusenigmatica:uranium_raw_marble_ore
+- emendatusenigmatica:osmium_raw_marble_ore
+- emendatusenigmatica:tin_raw_marble_ore
+- emendatusenigmatica:zinc_raw_marble_ore
+- emendatusenigmatica:cobalt_raw_marble_ore
+- emendatusenigmatica:iridium_raw_marble_ore
+- emendatusenigmatica:certus_quartz_raw_marble_ore
+- emendatusenigmatica:charged_certus_quartz_raw_marble_ore
+- emendatusenigmatica:fluorite_raw_marble_ore
+- emendatusenigmatica:bitumen_raw_marble_ore
+- emendatusenigmatica:cinnabar_raw_marble_ore
+- emendatusenigmatica:apatite_raw_marble_ore
+- emendatusenigmatica:sulfur_raw_marble_ore
+- emendatusenigmatica:potassium_nitrate_raw_marble_ore
+- emendatusenigmatica:arcane_raw_marble_ore
+- emendatusenigmatica:dimensional_raw_marble_ore
+- emendatusenigmatica:ruby_raw_marble_ore
+- emendatusenigmatica:sapphire_raw_marble_ore
+- emendatusenigmatica:peridot_raw_marble_ore
+- create:copper_ore
+- create:zinc_ore
+
+#forge:storage_blocks/graphite
+- bigreactors:graphite_block
+
+#forge:sheetmetals/iron
+- immersiveengineering:sheetmetal_iron
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+
+#forge:storage_blocks/petcoke
+- immersivepetroleum:petcoke_block
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#minecraft:nylium
+- minecraft:crimson_nylium
+- minecraft:warped_nylium
+
+#productivebees:flowers/gems/benitoite
+- #forge:storage_blocks/benitoite?
+- silentgems:benitoite_glowrose?
+- gemsnjewels:benitoite_block?
+
+#forge:chests/personal
+- mekanism:personal_chest
+
+#forge:terracotta
+- minecraft:terracotta
+- minecraft:white_terracotta
+- minecraft:orange_terracotta
+- minecraft:magenta_terracotta
+- minecraft:light_blue_terracotta
+- minecraft:yellow_terracotta
+- minecraft:lime_terracotta
+- minecraft:pink_terracotta
+- minecraft:gray_terracotta
+- minecraft:light_gray_terracotta
+- minecraft:cyan_terracotta
+- minecraft:purple_terracotta
+- minecraft:blue_terracotta
+- minecraft:brown_terracotta
+- minecraft:green_terracotta
+- minecraft:red_terracotta
+- minecraft:black_terracotta

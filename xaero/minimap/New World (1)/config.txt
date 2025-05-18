@@ -1,0 +1,16 @@
+//waypoints config options
+usingMultiworldDetection:false
+ignoreServerLevelId:false
+teleportationEnabled:true
+usingDefaultTeleportCommand:true
+sortType:NONE
+sortReversed:false
+
+//other config options
+ignoreHeightmaps:false
+
+//dimension types (DO NOT EDIT)
+dimensionType:twilightforest$twilightforest:twilightforest$renderer:true$0.0$256$256$false$false$false$0.25965086$0.125$false
+dimensionType:minecraft$overworld:minecraft$overworld:true$0.0$256$256$false$true$false$0.0$1.0$false
+dimensionType:boss_tools$moon:boss_tools$moon:true$0.0$256$256$false$false$false$0.0$1.0$false
+//server waypoints

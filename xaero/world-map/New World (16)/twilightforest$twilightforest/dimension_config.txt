@@ -1,0 +1,2 @@
+caveModeType:1
+dimensionType:twilightforest$renderer:true$0.0$256$256$false$false$false$0.25965086$0.125$false

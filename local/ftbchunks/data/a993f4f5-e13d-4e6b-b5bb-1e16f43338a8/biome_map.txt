@@ -1,0 +1,17 @@
+#15A biomesoplenty:bayou
+#532 biomesoplenty:bayou_mangrove
+#556 minecraft:beach
+#4F9 minecraft:dark_forest
+#047 biomesoplenty:deep_bayou
+#112 biomesoplenty:dense_woodland
+#010 minecraft:forest
+#005 biomesoplenty:gravel_beach
+#467 biomesoplenty:highland
+#121 biomesoplenty:highland_crag
+#79A minecraft:lukewarm_ocean
+#20D biomesoplenty:marsh
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river
+#452 minecraft:wooded_hills
+#7F2 biomesoplenty:woodland

@@ -1,0 +1,53 @@
+{
+	id: "50A2CA88AE34FF6C"
+	group: "07C1D0FA85C78054"
+	order_index: 0
+	filename: "sss"
+	title: "Chapter 1"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "19E1D6E1F9A34257"
+			tasks: [{
+				id: "355B6E7983832EE6"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "45F2C59F9498127D"
+			tasks: [{
+				id: "297D7A47EDEF3DAA"
+				type: "checkmark"
+				title: "ХАБИБА"
+			}]
+			rewards: [{
+				id: "122995884114706F"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "stage_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "0D4D3997F6A40A2E"
+			tasks: [{
+				id: "40AB6A8A37EB8AE7"
+				type: "gamestage"
+				stage: "stage_1"
+			}]
+			rewards: [{
+				id: "66492CAB42807509"
+				type: "command"
+				command: "/say РАБОТАЕТ ХУЕТА"
+				player_command: false
+			}]
+		}
+	]
+}

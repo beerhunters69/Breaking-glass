@@ -1,0 +1,2 @@
+.probe/*
+!.probe/probe-settings.json

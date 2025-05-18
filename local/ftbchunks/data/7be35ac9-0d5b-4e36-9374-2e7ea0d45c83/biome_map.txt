@@ -1,0 +1,11 @@
+#47F minecraft:birch_forest
+#0D2 minecraft:birch_forest_hills
+#4ED biomesoplenty:dense_marsh
+#010 minecraft:forest
+#20D biomesoplenty:marsh
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#5FF minecraft:river
+#2CF biomesoplenty:shrubland
+#462 biomesoplenty:shrubland_hills
+#452 minecraft:wooded_hills

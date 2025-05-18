@@ -1,0 +1,3 @@
+[18:56:42] [INFO ] Хабиба Мир запустился
+[18:56:42] [INFO ] Loaded script startup_scripts:script.js in 0.35 s
+[18:56:42] [INFO ] Loaded 1/1 KubeJS startup scripts in 1.346 s

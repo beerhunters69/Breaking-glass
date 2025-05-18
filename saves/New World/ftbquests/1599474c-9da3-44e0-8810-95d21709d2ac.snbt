@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "1599474c9da344e0881095d21709d2ac"
+	name: "_MagmaBlock_"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

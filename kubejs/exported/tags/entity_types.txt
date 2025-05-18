@@ -1,0 +1,140 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 18, 2025 12:49:42 AM
+
+#productivebees:solitary_bees
+- productivebees:ashy_mining_bee
+- productivebees:blue_banded_bee
+- productivebees:green_carpenter_bee
+- productivebees:yellow_black_carpenter_bee
+- productivebees:chocolate_mining_bee
+- productivebees:digger_bee
+- productivebees:leafcutter_bee
+- productivebees:mason_bee
+- productivebees:neon_cuckoo_bee
+- productivebees:nomad_bee
+- productivebees:reed_bee
+- productivebees:resin_bee
+- productivebees:sweaty_bee
+- productivebees:bumble_bee
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- productivebees:configurable_bee
+- productivebees:dye_bee
+- productivebees:lumber_bee
+- productivebees:quarry_bee
+- productivebees:rancher_bee
+- productivebees:collector_bee
+- productivebees:hoarder_bee
+- productivebees:farmer_bee
+- productivebees:cupid_bee
+- productivebees:creeper_bee
+- productivebees:ashy_mining_bee
+- productivebees:blue_banded_bee
+- productivebees:green_carpenter_bee
+- productivebees:yellow_black_carpenter_bee
+- productivebees:chocolate_mining_bee
+- productivebees:digger_bee
+- productivebees:leafcutter_bee
+- productivebees:mason_bee
+- productivebees:neon_cuckoo_bee
+- productivebees:nomad_bee
+- productivebees:reed_bee
+- productivebees:resin_bee
+- productivebees:sweaty_bee
+- productivebees:bumble_bee
+
+#productivebees:animals
+- #productivebees:ranchables
+- minecraft:cat
+- minecraft:chicken
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:hoglin
+- minecraft:mule
+- minecraft:mooshroom
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:turtle
+- minecraft:wolf
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#boss_tools:entities/venus_rain
+- boss_tools:pygro
+- boss_tools:mogler
+
+#the_bumblezone:pollen_puff_can_pollinate
+- #productivebees:solitary_bees
+
+#productivebees:ranchables
+- minecraft:cow
+- minecraft:donkey
+- minecraft:horse
+- minecraft:llama
+- minecraft:sheep
+- dyenamics:sheep?
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#boss_tools:entities/venus_fire
+- boss_tools:pygro
+- boss_tools:mogler
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#boss_tools:entities/oxygen
+- minecraft:bat
+- minecraft:bee
+- minecraft:cat
+- minecraft:chicken
+- minecraft:cod
+- minecraft:cow
+- minecraft:donkey
+- minecraft:dolphin
+- minecraft:fox
+- minecraft:horse
+- minecraft:llama
+- minecraft:mule
+- minecraft:ocelot
+- minecraft:panda
+- minecraft:parrot
+- minecraft:pig
+- minecraft:polar_bear
+- minecraft:rabbit
+- minecraft:sheep
+- minecraft:trader_llama
+- minecraft:turtle
+- minecraft:villager
+- minecraft:wolf
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+- artifacts:mimic

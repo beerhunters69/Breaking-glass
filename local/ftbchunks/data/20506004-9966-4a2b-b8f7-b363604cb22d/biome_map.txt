@@ -1,0 +1,8 @@
+#46D biomesoplenty:grove
+#07B biomesoplenty:grove_clearing
+#5F2 biomesoplenty:grove_lakes
+#5A5 biomesoplenty:orchard
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau

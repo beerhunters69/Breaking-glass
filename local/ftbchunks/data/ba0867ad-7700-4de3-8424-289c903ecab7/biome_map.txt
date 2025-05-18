@@ -1,0 +1,15 @@
+#735 biomesoplenty:coniferous_forest
+#5CC minecraft:dark_forest_hills
+#67F biomesoplenty:fir_clearing
+#010 minecraft:forest
+#67B biomesoplenty:grassland
+#2FE biomesoplenty:grassland_clover_patch
+#005 biomesoplenty:gravel_beach
+#79A minecraft:lukewarm_ocean
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#7B5 biomesoplenty:shroomy_wetland
+#4D3 minecraft:swamp
+#02B biomesoplenty:wetland
+#7A5 biomesoplenty:wetland_forest
+#452 minecraft:wooded_hills

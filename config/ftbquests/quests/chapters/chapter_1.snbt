@@ -1,0 +1,59 @@
+{
+	id: "3DFB18E20C2FA8AC"
+	group: "07C1D0FA85C78054"
+	order_index: 1
+	filename: "chapter_1"
+	title: "Age 1"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "700236FFA1BF045D"
+			tasks: [{
+				id: "55628FEEC0942EB9"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			title: "It starts with...."
+			icon: "minecraft:oak_log"
+			x: -4.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["11F861AD15FC0E55"]
+			hide: true
+			id: "2AE012CDDED68556"
+			tasks: [{
+				id: "43778D94B909C457"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [{
+				id: "497CF96FD2FDF472"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "11F861AD15FC0E55"
+			tasks: [{
+				id: "128C216A61D1253A"
+				type: "checkmark"
+				title: "Begin"
+			}]
+		}
+	]
+}
