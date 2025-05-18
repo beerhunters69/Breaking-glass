@@ -2,7 +2,7 @@ priority: 1
 
 settings.logAddedRecipes = true
 settings.logRemovedRecipes = true
-settings.logSkippedRecipes = true
+settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 console.info('Хабиба хабоба2')
@@ -36,6 +36,7 @@ onEvent('recipes', event => {
 	event.recipes.create.pressing('emendatusenigmatica:zinc_plate','#forge:ingots/zinc')
 	//убрать молот из эмендатус энигматики
 	event.remove({id:'emendatusenigmatica:enigmatic_hammer'})
+
 
 })
 
