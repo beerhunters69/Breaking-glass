@@ -1,0 +1,23 @@
+# Set to true to render the rain effect on Venus.
+renderVenusRain = false
+# Set to true to render the rain particles on Venus.
+renderVenusParticles = true
+
+["Star Rendering"]
+	# The options below set the amount of stars to render on the skybox in the each dimension.
+	# Set to 0 to have no stars render or -1 for the default behavior. (requires restart after changing to/from -1)
+	#Range: > -1
+	mercuryStarCount = 6000
+	#Range: > -1
+	mercuryOrbitStarCount = 6000
+	#Range: > -1
+	venusOrbitStarCount = 6000
+	#Range: > -1
+	overworldOrbitStarCount = 6000
+	#Range: > -1
+	moonStarCount = 6000
+	#Range: > -1
+	moonOrbitStarCount = 6000
+	#Range: > -1
+	marsOrbitStarCount = 6000
+

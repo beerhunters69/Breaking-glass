@@ -8,3 +8,15 @@ modernfix/*
 instance.json
 patchouli_data.json
 patchouli_books/*
+logs/*
+lightspeed-cache/*
+.vscode/*
+schematics/*
+options.txt
+.probe/probe-settings.json
+config/xaerominimap_entities.json
+usercache.json
+config/xaerominimap_entities.json
+usernamecache.json
+config/xaerominimap_entities.json
+config/oculus.properties
