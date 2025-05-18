@@ -1,2 +1,5 @@
 .probe/*
 !.probe/probe-settings.json
+saves/*
+xaero/*
+resourcepacks/*
