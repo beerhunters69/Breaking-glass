@@ -230,6 +230,28 @@
       "maxY": -1,
       "maxVeinSize": -1,
       "spawnRate": -1.0
+    },
+    {
+      "ore": "emendatusenigmatica:copper_ore",
+      "filler": "minecraft:stone",
+      "minY": 18,
+      "maxY": 96,
+      "maxVeinSize": 80,
+      "spawnRate": 0.4,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["OVERWORLD"]
+    },
+    {
+      "ore": "emendatusenigmatica:zinc_ore",
+      "filler": "minecraft:stone",
+      "minY": 18,
+      "maxY": 96,
+      "maxVeinSize": 80,
+      "spawnRate": 0.4,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["OVERWORLD"]
     }
   ]
 }
+
+

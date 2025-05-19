@@ -34,3 +34,4 @@ config/oculus.properties
 config/xaerominimap_entities.json
 crash-reports/*
 config/jei/bookmarks.ini
+config/worldedit/*

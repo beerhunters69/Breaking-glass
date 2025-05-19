@@ -9,13 +9,13 @@ renderVenusParticles = true
 	#Range: > -1
 	mercuryStarCount = 6000
 	#Range: > -1
-	mercuryOrbitStarCount = 6000
-	#Range: > -1
 	venusOrbitStarCount = 6000
 	#Range: > -1
-	overworldOrbitStarCount = 6000
+	mercuryOrbitStarCount = 6000
 	#Range: > -1
 	moonStarCount = 6000
+	#Range: > -1
+	overworldOrbitStarCount = 6000
 	#Range: > -1
 	moonOrbitStarCount = 6000
 	#Range: > -1
