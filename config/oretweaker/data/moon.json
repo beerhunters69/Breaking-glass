@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "draconicevolution:overworld_draconium_ore",
+      "filler": "boss_tools:moon_stone",
+      "minY": 0,
+      "maxY": 30,
+      "maxVeinSize": 25,
+      "spawnRate": 100,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["boss_tools:moon"]
+    }
+  ]
+}
