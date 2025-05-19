@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "minecraft:redstone_ore",
+      "filler": "minecraft:stone",
+      "minY": 0,
+      "maxY": 30,
+      "maxVeinSize": 25,
+      "spawnRate": 100,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["twilightforest:twilightforest"]
+    }
+  ]
+}
