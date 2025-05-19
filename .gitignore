@@ -26,3 +26,4 @@ config/oculus.properties
 config/bosstools-performance-client.toml
 config/xaerominimap_entities.json
 config/jei/bookmarks.ini
+disabledmods/*

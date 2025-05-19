@@ -8,5 +8,6 @@ onEvent('recipes', event => {
 	///////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////
                                                        
+event.shaped('1x create:deployer', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'create:electron_tube',C: 'minecraft:air',D: 'create:cogwheel',E: 'create:andesite_casing',F: 'create:cogwheel',G: 'minecraft:air',H: 'kubejs:zinc_hand',I: 'minecraft:air'})
                                                        
 })//////DONT ADD MORE CODE AFTER THIS LINE
