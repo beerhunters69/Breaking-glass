@@ -27,3 +27,10 @@ config/bosstools-performance-client.toml
 config/xaerominimap_entities.json
 config/jei/bookmarks.ini
 disabledmods/*
+config/borealis-common.toml
+config/bosstools-performance-client.toml
+config/kubejsborealis-common.toml
+config/oculus.properties
+config/xaerominimap_entities.json
+crash-reports/*
+config/jei/bookmarks.ini
