@@ -16,11 +16,20 @@
 			type: "checkmark"
 			title: "Readme1"
 		}]
-		rewards: [{
-			id: "07A6D28487CFF242"
-			type: "gamestage"
-			auto: "invisible"
-			stage: "stage_1"
-		}]
+		rewards: [
+			{
+				id: "07A6D28487CFF242"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "one"
+			}
+			{
+				id: "704361509944A074"
+				type: "command"
+				auto: "invisible"
+				command: "/reload"
+				player_command: false
+			}
+		]
 	}]
 }

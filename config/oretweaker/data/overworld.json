@@ -6,7 +6,7 @@
       "minY": 18,
       "maxY": 96,
       "maxVeinSize": 70,
-      "spawnRate": 0.4,
+      "spawnRate": 0.2,
       "biomeBlacklist": [],
       "biomeWhitelist": ["OVERWORLD"]
     },
@@ -16,7 +16,7 @@
       "minY": 18,
       "maxY": 96,
       "maxVeinSize": 70,
-      "spawnRate": 0.4,
+      "spawnRate": 0.2,
       "biomeBlacklist": [],
       "biomeWhitelist": ["OVERWORLD"]
     }
@@ -27,7 +27,7 @@
       "minY": 18,
       "maxY": 96,
       "maxVeinSize": 80,
-      "spawnRate": 0.4,
+      "spawnRate": 0.2,
       "biomeBlacklist": [],
       "biomeWhitelist": ["OVERWORLD"]
     }

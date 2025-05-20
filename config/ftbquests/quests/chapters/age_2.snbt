@@ -1,0 +1,47 @@
+{
+	id: "6415D60D3CE314CC"
+	group: "07C1D0FA85C78054"
+	order_index: 1
+	filename: "age_2"
+	title: "Age 2"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "5EB23F9662FB5FF3"
+			tasks: [{
+				id: "164F47EC8C03DF94"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "0C62A127CABF744B"
+			tasks: [{
+				id: "78CC9D429F20B71B"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [
+				{
+					id: "23BE1802AA93E65E"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "two"
+				}
+				{
+					id: "156E73FD2D1DA5A3"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+	]
+}

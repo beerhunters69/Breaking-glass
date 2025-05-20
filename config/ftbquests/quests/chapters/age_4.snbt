@@ -1,0 +1,51 @@
+{
+	id: "3DBE4AF0C78D3AF6"
+	group: "07C1D0FA85C78054"
+	order_index: 3
+	filename: "age_4"
+	title: "Age 4"
+	icon: {
+		id: "boss_tools:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "4835EB87B2039D92"
+			tasks: [{
+				id: "7FE87BD7D35CB2DA"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "7EBFC782792932CC"
+			tasks: [{
+				id: "00E16163E3BBF4E6"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "245C8B5707ED8333"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "four"
+				}
+				{
+					id: "6126A2D2ACB7D233"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,47 @@
+{
+	id: "6028849F1BBE6A76"
+	group: "07C1D0FA85C78054"
+	order_index: 2
+	filename: "age_3"
+	title: "Age 3"
+	icon: "minecraft:netherrack"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "661700708D4020AA"
+			tasks: [{
+				id: "169C47836C7C48B1"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "0C8A52C43E6289B4"
+			tasks: [{
+				id: "124F9D2AAF7C6A8F"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [
+				{
+					id: "76783274AA92ABFA"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "three"
+				}
+				{
+					id: "6E6933EF058E5274"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+	]
+}
