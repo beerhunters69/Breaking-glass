@@ -7,29 +7,41 @@
 	icon: "minecraft:beacon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		id: "62CD06A0FBBA7586"
-		tasks: [{
-			id: "4A1ABD9487978976"
-			type: "checkmark"
-			title: "Readme1"
-		}]
-		rewards: [
-			{
-				id: "07A6D28487CFF242"
-				type: "gamestage"
-				auto: "invisible"
-				stage: "one"
-			}
-			{
-				id: "704361509944A074"
-				type: "command"
-				auto: "invisible"
-				command: "/reload"
-				player_command: false
-			}
-		]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "62CD06A0FBBA7586"
+			tasks: [{
+				id: "4A1ABD9487978976"
+				type: "checkmark"
+				title: "Readme1"
+			}]
+			rewards: [
+				{
+					id: "07A6D28487CFF242"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "one"
+				}
+				{
+					id: "704361509944A074"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "30E5C87EE820954D"
+			tasks: [{
+				id: "291A71BE9EEA5F25"
+				type: "item"
+				item: "myrtrees:rubberwood_leaves"
+			}]
+		}
+	]
 }

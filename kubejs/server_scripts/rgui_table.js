@@ -11,6 +11,7 @@ onEvent('recipes', event => {
 event.shaped('1x create:deployer', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'create:electron_tube',C: 'minecraft:air',D: 'create:cogwheel',E: 'create:andesite_casing',F: 'create:cogwheel',G: 'minecraft:air',H: 'kubejs:zinc_hand',I: 'minecraft:air'})
 event.shaped('1x create:electron_tube', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'minecraft:red_stained_glass_pane',C: 'minecraft:air',D: 'minecraft:air',E: 'minecraft:torch',F: 'minecraft:air',G: 'minecraft:air',H: '#forge:nuggets/copper',I: 'minecraft:air'})
 event.shaped('1x create:mechanical_press', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'create:andesite_alloy',C: 'minecraft:air',D: 'create:cogwheel',E: 'create:andesite_casing',F: 'create:cogwheel',G: 'minecraft:air',H: '#forge:storage_blocks/zinc',I: 'minecraft:air'})
-event.shapeless('1x minecraft:flint_and_steel', ['minecraft:flint','twilightforest:knightmetal_ingot'])
+event.shapeless('1x minecraft:flint_and_steel', ['minecraft:flint','twilightforest:knightmetal_ingot'])                                                      
+event.shaped('1x twilightforest:knightmetal_pickaxe', ['ABC','DEF','GHI'], {A: 'twilightforest:knightmetal_ingot',B: 'twilightforest:knightmetal_ingot',C: 'twilightforest:knightmetal_ingot',D: 'minecraft:air',E: 'immersiveengineering:stick_treated',F: 'minecraft:air',G: 'minecraft:air',H: 'immersiveengineering:stick_treated',I: 'minecraft:air'})
                                                        
 })//////DONT ADD MORE CODE AFTER THIS LINE

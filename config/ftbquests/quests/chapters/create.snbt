@@ -1,0 +1,178 @@
+{
+	id: "1BF8606714D034AB"
+	group: "3B014E2B6B2BE883"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			optional: true
+			secret: true
+			id: "4FA1C774D540F28C"
+			tasks: [{
+				id: "17863379DCDD7189"
+				type: "checkmark"
+				title: "center"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			shape: "gear"
+			description: [
+				"Welcome to create! This mod will allow you to do basic automation and crafts. It will be requiered to progress"
+				"You also can you Ponder to see how to setup things"
+			]
+			id: "48A067687544DF25"
+			tasks: [{
+				id: "683A47E2DD4FA325"
+				type: "checkmark"
+				title: "Create"
+			}]
+			rewards: [
+				{
+					id: "522287433488D550"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "53A83B56B8E7E1C9"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			description: ["Yes. You will need a lot of it. For now stack is enough"]
+			dependencies: ["48A067687544DF25"]
+			id: "184EEEFD0E6285BF"
+			tasks: [{
+				id: "46EBA3C0569FCDD7"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 64L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			description: ["Casing of all early machines in create"]
+			dependencies: ["48A067687544DF25"]
+			id: "2C0D6176D12E3112"
+			tasks: [{
+				id: "6A680EAD1BD749DF"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			dependencies: ["2C0D6176D12E3112"]
+			id: "1FCB0B1D481F7711"
+			tasks: [{
+				id: "41CB99782AFD9318"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["Create uses stress mechanic. Most of create machines will require rotation power. There is 2 option for now. Waterwheels and Windmills"]
+			dependencies: ["48A067687544DF25"]
+			id: "227FAEBFAC8C1F73"
+			tasks: [{
+				id: "04FDAEA1A1C9CB4C"
+				type: "checkmark"
+				title: "Stress"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -6.5d
+			description: [
+				"You better get bucket first, so it wont be so painful to transfer SU from it, btw the cheapest option to generate SU"
+				"Just google it"
+			]
+			dependencies: ["227FAEBFAC8C1F73"]
+			id: "37B71385F935C0B4"
+			tasks: [{
+				id: "4D279544E892D35B"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -6.5d
+			description: [
+				"Best stress generating machine, it will require you to build the actual windmill"
+				"Just google it"
+			]
+			dependencies: ["227FAEBFAC8C1F73"]
+			id: "452C5002B59F11F0"
+			tasks: [{
+				id: "42CA234ABA346E49"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			description: ["We need them. We love them. We use them"]
+			dependencies: [
+				"1FCB0B1D481F7711"
+				"2C0D6176D12E3112"
+			]
+			id: "183635B89B3F470D"
+			tasks: [{
+				id: "5E3CCB28D864B4FF"
+				type: "checkmark"
+				title: "Plates"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.0d
+			dependencies: ["183635B89B3F470D"]
+			id: "2E698B8D57DF697B"
+			tasks: [{
+				id: "472D235700725F24"
+				type: "item"
+				item: "kubejs:zinc_hand"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["2E698B8D57DF697B"]
+			id: "1F65A7FB796CC9F3"
+			tasks: [{
+				id: "3A35D74D5C5E2551"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			description: ["This is the end of this questline, If you need more info check youtube or other media"]
+			dependencies: ["1F65A7FB796CC9F3"]
+			id: "29503892AD678C87"
+			tasks: [{
+				id: "05091BECF6C66E0B"
+				type: "item"
+				item: "kubejs:tf_portal_item"
+			}]
+		}
+	]
+}
