@@ -97,13 +97,13 @@ undeadSouls = 50
 	wellspringFactionClaims = false
 	#Count of vinteum veins
 	#Range: 1 ~ 100
-	vinteumVeinCount = -1
+	vinteumVeinCount = 1
 	#Max Y-value of vinteum veins
 	#Range: 10 ~ 255
-	vinteumVeinYValue = -1
+	vinteumVeinYValue = 10
 	#Size of vinteum veins
 	#Range: 1 ~ 20
-	vinteumVeinSize = -1
+	vinteumVeinSize = 1
 	#If true, wellsprings will generate with no affinity and the type of lens used will set the affinity of the node.
 	genericWellsprings = false
 	#How far apart wellspring nodes must be as a minimum.  They can be farther than this depending on world seed and generation.

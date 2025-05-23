@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "07C1D0FA85C78054", title: "Through the ages: Normal" }]
+	chapter_groups: [
+		{ id: "07C1D0FA85C78054", title: "Through the ages: Normal" }
+		{ id: "3B014E2B6B2BE883", title: "Mods" }
+	]
 }
