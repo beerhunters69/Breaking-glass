@@ -9,8 +9,14 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: 0.0d
 			y: 0.0d
+			hide_dependency_lines: true
+			hide: true
+			hide_text_until_complete: true
+			optional: true
+			secret: true
 			id: "700236FFA1BF045D"
 			tasks: [{
 				id: "55628FEEC0942EB9"
@@ -19,40 +25,117 @@
 			}]
 		}
 		{
-			title: "It starts with...."
-			icon: "minecraft:oak_log"
-			x: -4.0d
-			y: 0.0d
-			hide_dependency_lines: true
-			dependencies: ["11F861AD15FC0E55"]
-			hide: true
-			id: "2AE012CDDED68556"
+			x: 2.0d
+			y: -3.0d
+			dependencies: [
+				"08D279DD41EA3961"
+				"36F18AFCF7B5E55C"
+				"5144019CC3C80C24"
+				"3299E72081E85086"
+				"530E5031679158F2"
+				"702407CB64FC6F30"
+			]
+			id: "61E8103336D594DD"
 			tasks: [{
-				id: "43778D94B909C457"
+				id: "7FE3E97571087D34"
 				type: "item"
-				title: "Any #minecraft:logs"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:logs"
-					}
-				}
-			}]
-			rewards: [{
-				id: "497CF96FD2FDF472"
-				type: "xp"
-				xp: 10
+				item: "kubejs:tf_portal_item"
 			}]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
-			id: "11F861AD15FC0E55"
+			id: "3299E72081E85086"
 			tasks: [{
-				id: "128C216A61D1253A"
-				type: "checkmark"
-				title: "Begin"
+				id: "0775B45BBFC41EAB"
+				type: "item"
+				item: "minecraft:oak_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "530E5031679158F2"
+			tasks: [{
+				id: "5BAF9B786EA35454"
+				type: "item"
+				item: "minecraft:spruce_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "36F18AFCF7B5E55C"
+			tasks: [{
+				id: "0186F727A4E0A7D0"
+				type: "item"
+				item: "minecraft:birch_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "5144019CC3C80C24"
+			tasks: [{
+				id: "4221FACB0D61D195"
+				type: "item"
+				item: "minecraft:jungle_sapling"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "08D279DD41EA3961"
+			tasks: [{
+				id: "04ACF8B2DE6A84DB"
+				type: "item"
+				item: "minecraft:acacia_sapling"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: [
+				"6C25E7DE261F8858"
+				"3DED767E8A0EAECD"
+			]
+			id: "702407CB64FC6F30"
+			tasks: [{
+				id: "6ECC9319E4657497"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			id: "3DED767E8A0EAECD"
+			tasks: [{
+				id: "5F86E3602B7D093D"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["36D6784F1B065025"]
+			id: "6C25E7DE261F8858"
+			tasks: [{
+				id: "310F86581249FF95"
+				type: "item"
+				item: "kubejs:zinc_hand"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			dependencies: ["3DED767E8A0EAECD"]
+			id: "36D6784F1B065025"
+			tasks: [{
+				id: "583728FDADF42459"
+				type: "item"
+				item: "create:mechanical_press"
 			}]
 		}
 	]

@@ -4,7 +4,7 @@
 	FastItemRenderingEnabled = true
 	#Choose if JEI should give ingredients directly to the inventory (INVENTORY) or pick them up with the mouse (MOUSE_PICKUP).
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
+	GiveMode = "INVENTORY"
 	#Debug mode enabled.
 	DebugMode = false
 	#Enable cheating items into the hotbar by using Shift + numeric keys.
@@ -48,7 +48,7 @@
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TooltipSearchMode = "ENABLED"
 	#Search in advanced tooltips (visible with F3 + H).
-	SearchAdvancedTooltips = false
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip
