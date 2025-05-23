@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "07C1D0FA85C78054", title: "Through the ages: Normal" }]
+	chapter_groups: [
+		{ id: "07C1D0FA85C78054", title: "Through the ages: Normal" }
+		{ id: "7D573DE684812A86", title: "Other" }
+	]
 }

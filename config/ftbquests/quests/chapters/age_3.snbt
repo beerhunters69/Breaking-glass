@@ -10,17 +10,8 @@
 	quests: [
 		{
 			x: 0.0d
-			y: 0.0d
-			id: "661700708D4020AA"
-			tasks: [{
-				id: "169C47836C7C48B1"
-				type: "checkmark"
-				title: "center"
-			}]
-		}
-		{
-			x: 0.0d
 			y: -1.0d
+			shape: "gear"
 			id: "0C8A52C43E6289B4"
 			tasks: [{
 				id: "124F9D2AAF7C6A8F"
@@ -31,6 +22,7 @@
 				{
 					id: "76783274AA92ABFA"
 					type: "gamestage"
+					icon: "minecraft:netherrack"
 					auto: "invisible"
 					stage: "three"
 				}
@@ -42,6 +34,37 @@
 					player_command: false
 				}
 			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["0C8A52C43E6289B4"]
+			secret: true
+			id: "7F527FA9247FC488"
+			tasks: [{
+				id: "11FC39232BD0F764"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["7F527FA9247FC488"]
+			id: "57F043FA1874BB48"
+			tasks: [{
+				id: "0A62A94AC7203E42"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
 		}
 	]
 }

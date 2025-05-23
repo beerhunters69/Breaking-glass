@@ -1,0 +1,211 @@
+{
+	id: "54D07DC08455B094"
+	group: "7D573DE684812A86"
+	order_index: 0
+	filename: "storage_options"
+	title: "Storage options"
+	icon: "appliedenergistics2:drive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			disable_toast: true
+			x: 2.5d
+			y: -2.0d
+			shape: "gear"
+			description: [
+				"Storage options of Age 1"
+				""
+			]
+			id: "448D69BA0F574525"
+			tasks: [{
+				id: "249C22F166249177"
+				type: "gamestage"
+				title: "Age 1"
+				icon: "minecraft:chest"
+				stage: "one"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["448D69BA0F574525"]
+			dependency_requirement: "all_started"
+			id: "0B6679368C2A4CE7"
+			tasks: [{
+				id: "170EEE7D5246B437"
+				type: "item"
+				item: "minecraft:chest"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["448D69BA0F574525"]
+			id: "3791AD2C5D805F48"
+			tasks: [{
+				id: "195FDD554E23776B"
+				type: "item"
+				item: "storagedrawers:oak_full_drawers_1"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["448D69BA0F574525"]
+			id: "6C2A5F5BFAE1B1ED"
+			tasks: [{
+				id: "42C9F69409DED4B7"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["448D69BA0F574525"]
+			id: "246B2D57F8EDF389"
+			tasks: [{
+				id: "77D78272C369BA0C"
+				type: "item"
+				item: "minecraft:barrel"
+			}]
+		}
+		{
+			title: "Age 2"
+			x: 0.5d
+			y: -2.0d
+			shape: "gear"
+			dependencies: ["448D69BA0F574525"]
+			dependency_requirement: "all_started"
+			secret: true
+			id: "4E865E131DBE55C6"
+			tasks: [{
+				id: "5722CCE4CF4F1828"
+				type: "gamestage"
+				title: "Age 2"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				stage: "two"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			dependencies: ["4E865E131DBE55C6"]
+			hide: true
+			id: "4B417E218E176BCE"
+			tasks: [{
+				id: "2667500537CF8C4C"
+				type: "item"
+				item: "toms_storage:ts.storage_terminal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			shape: "gear"
+			dependencies: ["4E865E131DBE55C6"]
+			secret: true
+			id: "20D6502E40FD1166"
+			tasks: [{
+				id: "03467C53F25DB0FE"
+				type: "gamestage"
+				title: "Age 3"
+				icon: "minecraft:netherrack"
+				stage: "three"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.0d
+			shape: "gear"
+			dependencies: ["20D6502E40FD1166"]
+			secret: true
+			id: "09525DFFE1660E36"
+			tasks: [{
+				id: "36AEE4B385CB9C93"
+				type: "gamestage"
+				title: "Age 4"
+				icon: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+				stage: "four"
+			}]
+		}
+		{
+			title: "Storage and access"
+			x: -1.0d
+			y: -5.0d
+			dependencies: ["20D6502E40FD1166"]
+			id: "042E213A0A6F365F"
+			tasks: [
+				{
+					id: "5C4E89FC1CC8532F"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "2F13EA5DFF9DF85A"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "0FFD7011C8F01F29"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+				{
+					id: "01DB8815AB8AD140"
+					type: "item"
+					item: "appliedenergistics2:crafting_terminal"
+				}
+				{
+					id: "08AC9B03601A7D15"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+			]
+		}
+		{
+			title: "Autocrafting"
+			x: -1.0d
+			y: -7.0d
+			dependencies: ["20D6502E40FD1166"]
+			id: "12578FA252186C02"
+			tasks: [
+				{
+					id: "2F4B33472C1BD3C6"
+					type: "item"
+					item: "appliedenergistics2:molecular_assembler"
+				}
+				{
+					id: "21477B63F54B5AFD"
+					type: "item"
+					item: "appliedenergistics2:interface"
+				}
+				{
+					id: "45C831FD1FA299EB"
+					type: "item"
+					item: "appliedenergistics2:1k_crafting_storage"
+				}
+				{
+					id: "33BD0EC811724F99"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "622237CAA29C6447"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	id: "64A4018BB27206DF"
+	group: "7D573DE684812A86"
+	order_index: 1
+	filename: "tips_and_quirks"
+	title: "Tips and useful items"
+	icon: {
+		id: "constructionwand:infinity_wand"
+		Count: 1b
+		tag: {
+			wand_options: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 1.0d
+		y: 0.0d
+		shape: "gear"
+		id: "4F99C1FA4B400CC4"
+		tasks: [{
+			id: "358B28C58FA0040E"
+			type: "gamestage"
+			title: "Age 1"
+			icon: "minecraft:grass_block"
+			stage: ""
+		}]
+	}]
+}
