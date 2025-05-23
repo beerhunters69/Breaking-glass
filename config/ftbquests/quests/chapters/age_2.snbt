@@ -9,20 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			secret: true
-			id: "5EB23F9662FB5FF3"
-			tasks: [{
-				id: "164F47EC8C03DF94"
-				type: "checkmark"
-				title: "center"
-			}]
-		}
-		{
-			x: 0.0d
-			y: -1.0d
-			secret: true
+			x: -3.0d
+			y: 1.5d
+			shape: "gear"
 			id: "0C62A127CABF744B"
 			tasks: [{
 				id: "78CC9D429F20B71B"
@@ -33,6 +22,7 @@
 				{
 					id: "23BE1802AA93E65E"
 					type: "gamestage"
+					icon: "twilightforest:twilight_portal_miniature_structure"
 					auto: "invisible"
 					stage: "two"
 				}
@@ -66,7 +56,10 @@
 			x: 6.5d
 			y: 2.0d
 			description: [""]
-			dependencies: ["001BB0DFA22BEE1A"]
+			dependencies: [
+				"001BB0DFA22BEE1A"
+				"4B0B805E3EA555F4"
+			]
 			dependency_requirement: "all_started"
 			id: "40AE4BFDD103372E"
 			tasks: [{
@@ -128,6 +121,8 @@
 		{
 			x: -1.0d
 			y: 1.5d
+			dependencies: ["0C62A127CABF744B"]
+			hide: true
 			id: "344E4451B408EDFC"
 			tasks: [{
 				id: "0EFDE48D111D2AEF"
@@ -138,13 +133,68 @@
 		{
 			x: 6.5d
 			y: 0.0d
+			optional: true
 			secret: true
+			incompatible: ["001BB0DFA22BEE1A"]
 			id: "2A33AD57DB1803C0"
 			tasks: [{
 				id: "45AECCA8FC2110EF"
 				type: "item"
 				item: "minecraft:bucket"
 			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: [
+				"40AE4BFDD103372E"
+				"7B1FC5744B59E861"
+			]
+			size: 2.0d
+			id: "34310AECA9040D2F"
+			tasks: [{
+				id: "183326369BB92019"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			dependencies: ["4F2B1F47B949DF96"]
+			id: "4B0B805E3EA555F4"
+			tasks: [{
+				id: "7FADD77489FC2D25"
+				type: "item"
+				item: "immersiveengineering:stick_treated"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			dependencies: ["0C62A127CABF744B"]
+			hide: true
+			id: "4F2B1F47B949DF96"
+			tasks: [
+				{
+					id: "3CCE5866252DE23D"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "1C6C50C6ABE59214"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 }

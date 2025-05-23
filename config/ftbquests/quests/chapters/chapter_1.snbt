@@ -9,24 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			disable_toast: true
-			x: 0.0d
-			y: 0.0d
-			hide_dependency_lines: true
-			hide: true
-			hide_text_until_complete: true
-			optional: true
-			secret: true
-			id: "700236FFA1BF045D"
-			tasks: [{
-				id: "55628FEEC0942EB9"
-				type: "checkmark"
-				title: "center"
-			}]
-		}
-		{
 			x: 2.0d
 			y: -3.0d
+			shape: "gear"
 			dependencies: [
 				"08D279DD41EA3961"
 				"36F18AFCF7B5E55C"
@@ -35,6 +20,7 @@
 				"530E5031679158F2"
 				"702407CB64FC6F30"
 			]
+			size: 2.0d
 			id: "61E8103336D594DD"
 			tasks: [{
 				id: "7FE3E97571087D34"
@@ -98,6 +84,7 @@
 			dependencies: [
 				"6C25E7DE261F8858"
 				"3DED767E8A0EAECD"
+				"703BDB8EA33DC6B2"
 			]
 			id: "702407CB64FC6F30"
 			tasks: [{
@@ -130,12 +117,26 @@
 		{
 			x: 6.0d
 			y: -1.0d
-			dependencies: ["3DED767E8A0EAECD"]
+			dependencies: [
+				"3DED767E8A0EAECD"
+				"703BDB8EA33DC6B2"
+			]
 			id: "36D6784F1B065025"
 			tasks: [{
 				id: "583728FDADF42459"
 				type: "item"
 				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			dependencies: ["3DED767E8A0EAECD"]
+			id: "703BDB8EA33DC6B2"
+			tasks: [{
+				id: "4DFB25491F299CF8"
+				type: "item"
+				item: "create:water_wheel"
 			}]
 		}
 	]

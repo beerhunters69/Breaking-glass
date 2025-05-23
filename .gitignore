@@ -36,3 +36,11 @@ crash-reports/*
 config/jei/bookmarks.ini
 config/worldedit/*
 config/jei/*
+config/dynamic_lights_reforged.toml
+config/embeddium_extras.toml
+config/embeddium-options.json
+config/oculus.properties
+config/sidebar_buttons.json
+config/smoothboot.json
+config/xaerominimap_entities.json
+config/jei/bookmarks.ini

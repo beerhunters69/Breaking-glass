@@ -1,6 +1,10 @@
 {
 	chapter_groups: [
 		{ id: "07C1D0FA85C78054", title: "Through the ages: Normal" }
+<<<<<<< HEAD
 		{ id: "3B014E2B6B2BE883", title: "Mods" }
+=======
+		{ id: "7D573DE684812A86", title: "Other" }
+>>>>>>> 8d496ccbb38da602b1d6846d6324ba2dfa7f762d
 	]
 }
