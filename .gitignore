@@ -69,3 +69,4 @@ config/pneumaticcraft/ArmorFeatureStatus.cfg
 config/pneumaticcraft/MicromissileDefaults.cfg
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 config/pneumaticcraft/thirdparty.cfg
+hotbar.nbt
