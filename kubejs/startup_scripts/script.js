@@ -9,10 +9,10 @@ onEvent("item.registry", event => {
 	event.create("tf_portal_item").displayName("Interdimensional transmitter")
 	event.create("incomplete_tf_portal_item").displayName("Parts of the transmitter")
     event.create("zinc_hand").displayName("Zinc hand")
-	
 	event.create("duraluminium_ingot").displayName("Duraluminium ingot")
 	event.create("duraluminium_dust").displayName("Duraluminium dust")
 	event.create('duraluminium_base_dust').displayName("Duraluminium base dust")
+	event.create("duraluminium_gear").displayName("Duraluminium gear")
 })
 
 onEvent("block.registry", event => {
