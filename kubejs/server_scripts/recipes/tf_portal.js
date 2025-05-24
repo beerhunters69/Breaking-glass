@@ -11,4 +11,9 @@ onEvent('recipes', event => {
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:jungle_sapling']),
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:acacia_sapling']),
 	]).transitionalItem('kubejs:incomplete_tf_portal_item').loops(1) 
+
+
+
+
+	
 })

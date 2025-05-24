@@ -1,0 +1,185 @@
+{
+	id: "1097B40E2073B3BE"
+	group: "0AFE0E9AC7269D41"
+	order_index: 3
+	filename: "twilight_forest"
+	title: "Twilight forest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["This mod is about exploration and combat"]
+			id: "5EA970F64EDF87AB"
+			tasks: [{
+				id: "58A54B3F9F1080D6"
+				type: "checkmark"
+				title: "Twilight forest"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			id: "13AEC47C4E4E499A"
+			tasks: [{
+				id: "43B2A64AEBD93D65"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			id: "3DA4C433EE64EC4F"
+			tasks: [{
+				id: "393354AAA7E837D0"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			id: "247818FDE528581A"
+			tasks: [{
+				id: "4A0C0A9D0AB18F57"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			id: "56D0DB2BA3D2B65B"
+			tasks: [{
+				id: "7D2CB8223E0505A6"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			id: "66B9A1B5CDD442BF"
+			tasks: [{
+				id: "1CC9F15E499EBDC1"
+				type: "item"
+				item: "twilightforest:minoshroom_trophy"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.0d
+			id: "2D1AC1DC201B67A4"
+			tasks: [{
+				id: "03D34545D0996D09"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -9.0d
+			dependencies: ["2D1AC1DC201B67A4"]
+			id: "557C7A01D27E0BA0"
+			tasks: [{
+				id: "5D8EB5A6E6B93E29"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			id: "5D0D6CA101417681"
+			tasks: [{
+				id: "046DE7A2E02BA637"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			id: "44D244697EFA204B"
+			tasks: [{
+				id: "5C2EFEFB2A58DFCD"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			dependencies: [
+				"5D0D6CA101417681"
+				"44D244697EFA204B"
+				"557C7A01D27E0BA0"
+			]
+			id: "145C4DFF11DCE6FC"
+			tasks: [{
+				id: "403311F6B07FD93A"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -13.0d
+			dependencies: ["145C4DFF11DCE6FC"]
+			id: "456C3F5951D7BFFF"
+			tasks: [{
+				id: "2589E872A81AFE56"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			id: "731F73505D9F7797"
+			tasks: [{
+				id: "2E82E7E6B4087CED"
+				type: "item"
+				item: "twilightforest:naga_scale"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			id: "277DE4ACC50C7EF8"
+			tasks: [{
+				id: "3D75E99DC4FCBFAC"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -8.0d
+			id: "71B50F6C9C276133"
+			tasks: [{
+				id: "4EFBD0BC13C1E1F3"
+				type: "item"
+				item: "twilightforest:knightmetal_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			id: "077794D4EA0C9615"
+			tasks: [{
+				id: "4F8DCD6A19610873"
+				type: "structure"
+				structure: "minecraft:mineshaft"
+			}]
+		}
+	]
+}
