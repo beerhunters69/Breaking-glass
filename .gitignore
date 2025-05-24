@@ -44,7 +44,6 @@ config/smoothboot.json
 config/xaerominimap_entities.json
 config/jei/bookmarks.ini
 config/smoothboot.json
-config/modernfix-mixins.properties
 config/oculus.properties
 config/structure_layout_optimizer.json5
 config/pneumaticcraft/thirdparty.cfg
@@ -52,7 +51,6 @@ config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 config/pneumaticcraft/MicromissileDefaults.cfg
 config/embeddium-options.json
 config/immersive_aircraft.json
-config/modernfix-mixins.properties
 config/oculus.properties
 config/sidebar_buttons.json
 config/smoothboot.json
