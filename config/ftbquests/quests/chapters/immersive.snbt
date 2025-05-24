@@ -1,0 +1,280 @@
+{
+	id: "703152E53D87208A"
+	group: "0AFE0E9AC7269D41"
+	order_index: 2
+	filename: "immersive"
+	title: "Immersive Engineering"
+	icon: "immersiveengineering:blastbrick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Mod about big machines and automation"]
+			id: "5C2EED0749C00C17"
+			tasks: [{
+				id: "40CE451381B2A16E"
+				type: "checkmark"
+				title: "Immersive engineering"
+			}]
+		}
+		{
+			icon: "immersiveengineering:coke_oven"
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["5C2EED0749C00C17"]
+			size: 1.5d
+			id: "6A4597420CAF8FEB"
+			tasks: [{
+				id: "527EE26FC573E0D9"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["We have jei addon that show you all blocks you need to build multiblock"]
+			id: "6F89F716F0C45A4A"
+			tasks: [{
+				id: "5231220B36EEC376"
+				type: "checkmark"
+				title: "Multiblocks"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["6A4597420CAF8FEB"]
+			id: "1A1A40B76B15AF27"
+			tasks: [{
+				id: "0F68805EC7F1319D"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["1A1A40B76B15AF27"]
+			id: "001241B9E835B2C7"
+			tasks: [{
+				id: "75D329F7511E92A0"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			title: "Cheap components"
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["001241B9E835B2C7"]
+			id: "4CEBFF8D83FF3C75"
+			tasks: [{
+				id: "3219A1B9396FC2AD"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "components"
+					}
+				}
+			}]
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["5C2EED0749C00C17"]
+			size: 1.5d
+			id: "3FFA44FD84CC7325"
+			tasks: [{
+				id: "1A952F0F58B97363"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+			}]
+		}
+		{
+			title: "Finally, steel"
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["3FFA44FD84CC7325"]
+			id: "14176C7B20C7BB19"
+			tasks: [{
+				id: "107EBAEE29EDA24B"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+		{
+			title: "Metal press"
+			icon: "immersiveengineering:metal_press"
+			x: 2.0d
+			y: 5.5d
+			dependencies: ["3744FFB6EFEA0171"]
+			size: 1.5d
+			id: "777D299902CF9EFC"
+			tasks: [{
+				id: "7B4F6BB256877E14"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "4F4DDCCBC562BF28"
+			tasks: [{
+				id: "602D2CC596344E82"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			title: "Crusher"
+			icon: "immersiveengineering:crusher"
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["777D299902CF9EFC"]
+			size: 1.5d
+			id: "6F5097515A192CD8"
+			tasks: [{
+				id: "2A110D40498F890E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Industrial squizer"
+			icon: "immersiveengineering:squeezer"
+			x: 6.0d
+			y: 5.5d
+			dependencies: ["6F5097515A192CD8"]
+			size: 1.5d
+			id: "1A5C5C629DE7A389"
+			tasks: [{
+				id: "66BA0D0DD95D2E6C"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			dependencies: ["1A5C5C629DE7A389"]
+			id: "43D6359A919C2C99"
+			tasks: [{
+				id: "34B00508A5FA1F56"
+				type: "item"
+				item: "immersiveengineering:ingot_hop_graphite"
+			}]
+		}
+		{
+			title: "Sawmill"
+			icon: "immersiveengineering:sawmill"
+			x: -2.25d
+			y: 6.75d
+			dependencies: ["3744FFB6EFEA0171"]
+			size: 1.5d
+			id: "5834946C5F5FA234"
+			tasks: [{
+				id: "7B59220452EB9AED"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "immersiveengineering:arc_furnace"
+			x: 10.5d
+			y: 5.5d
+			description: ["Note: you need a lot of power to operate this, consider building a diesel generator"]
+			dependencies: ["43D6359A919C2C99"]
+			size: 2.5d
+			id: "12080F23688FD8FF"
+			tasks: [{
+				id: "46082F857F92296D"
+				type: "checkmark"
+				title: "Arc furnace"
+			}]
+		}
+		{
+			icon: "immersiveengineering:advanced_blast_furnace"
+			x: -2.25d
+			y: 4.5d
+			dependencies: ["3744FFB6EFEA0171"]
+			size: 1.5d
+			id: "720B5EF2FFD7D0DA"
+			tasks: [{
+				id: "60605FD112D5746F"
+				type: "checkmark"
+				title: "Improved blast furnace"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Please, before you continue, go read power generation chapter in immersive engineering manual"]
+			dependencies: ["14176C7B20C7BB19"]
+			id: "3744FFB6EFEA0171"
+			tasks: [{
+				id: "52C6CC752C61B812"
+				type: "checkmark"
+				title: "Power generation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			description: ["....for oil"]
+			id: "6B611CC681C0860A"
+			tasks: [{
+				id: "0B78AD320D7CEEC6"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			id: "5DA2E656567BBC8C"
+			tasks: [{
+				id: "367FB667B8B7943D"
+				type: "checkmark"
+				title: "Pumpjack"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			id: "021425B2E1DD82F0"
+			tasks: [{
+				id: "1C2138C05083509D"
+				type: "checkmark"
+				title: "Distillation tower"
+			}]
+		}
+		{
+			icon: "immersiveengineering:diesel_generator"
+			x: -2.0d
+			y: 11.5d
+			id: "3B18858340D84FF3"
+			tasks: [{
+				id: "7CE08DFEFDD98E63"
+				type: "checkmark"
+				title: "Diesel generator"
+			}]
+		}
+	]
+}
