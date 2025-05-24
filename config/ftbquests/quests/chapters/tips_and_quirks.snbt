@@ -23,7 +23,7 @@
 			type: "gamestage"
 			title: "Age 1"
 			icon: "minecraft:grass_block"
-			stage: ""
+			stage: "one"
 		}]
 	}]
 }

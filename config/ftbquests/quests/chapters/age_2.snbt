@@ -123,6 +123,7 @@
 			y: 1.5d
 			dependencies: ["0C62A127CABF744B"]
 			hide: true
+			secret: true
 			id: "344E4451B408EDFC"
 			tasks: [{
 				id: "0EFDE48D111D2AEF"
@@ -133,6 +134,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
+			description: ["Congratulations! You've just managed to get a bucket before age 3. Now you can build a nether portal if you want to."]
 			optional: true
 			secret: true
 			incompatible: ["001BB0DFA22BEE1A"]
@@ -171,10 +173,13 @@
 			}]
 		}
 		{
+			title: "Coke oven"
+			icon: "immersiveengineering:coke_oven"
 			x: 3.5d
 			y: 3.0d
 			dependencies: ["0C62A127CABF744B"]
 			hide: true
+			secret: true
 			id: "4F2B1F47B949DF96"
 			tasks: [
 				{
@@ -195,6 +200,25 @@
 					}
 				}
 			]
+		}
+		{
+			title: "Immersive Engineering tab"
+			x: 3.5d
+			y: 4.5d
+			description: ["You can look at the Immersive Engineering tab for more info."]
+			dependencies: ["4F2B1F47B949DF96"]
+			id: "1DF791526C5EC90A"
+			tasks: [{
+				id: "7636329F490E4F86"
+				type: "checkmark"
+				icon: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
 		}
 	]
 }

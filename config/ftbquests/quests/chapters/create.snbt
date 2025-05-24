@@ -100,7 +100,7 @@
 			y: -6.5d
 			description: [
 				"You better get bucket first, so it wont be so painful to transfer SU from it, btw the cheapest option to generate SU"
-				"Just google it"
+				"Just ponder or google it"
 			]
 			dependencies: ["227FAEBFAC8C1F73"]
 			id: "37B71385F935C0B4"
@@ -115,7 +115,7 @@
 			y: -6.5d
 			description: [
 				"Best stress generating machine, it will require you to build the actual windmill"
-				"Just google it"
+				"Just ponder or google it"
 			]
 			dependencies: ["227FAEBFAC8C1F73"]
 			id: "452C5002B59F11F0"
