@@ -115,6 +115,7 @@
 			}]
 		}
 		{
+			title: "Plates"
 			x: 6.0d
 			y: -1.0d
 			dependencies: [
@@ -129,14 +130,37 @@
 			}]
 		}
 		{
+			title: "Stress"
 			x: 5.0d
 			y: -2.0d
+			description: ["You only have to craft one of those to complete the quest."]
 			dependencies: ["3DED767E8A0EAECD"]
+			min_required_tasks: 1
 			id: "703BDB8EA33DC6B2"
+			tasks: [
+				{
+					id: "4DFB25491F299CF8"
+					type: "item"
+					item: "create:water_wheel"
+				}
+				{
+					id: "53E56278F94039B3"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			description: ["You can look at the Create mod tab for more info."]
+			dependencies: ["3DED767E8A0EAECD"]
+			id: "5E7FA9B669AED17A"
 			tasks: [{
-				id: "4DFB25491F299CF8"
-				type: "item"
-				item: "create:water_wheel"
+				id: "0418C33464E67339"
+				type: "checkmark"
+				title: "Create mod tab"
+				icon: "create:large_cogwheel"
 			}]
 		}
 	]

@@ -11,7 +11,7 @@
 		{
 			icon: "minecraft:grass_block"
 			disable_toast: true
-			x: 2.5d
+			x: 2.0d
 			y: -2.0d
 			shape: "gear"
 			description: [
@@ -74,7 +74,7 @@
 		}
 		{
 			title: "Age 2"
-			x: 0.5d
+			x: 0.0d
 			y: -2.0d
 			shape: "gear"
 			dependencies: ["448D69BA0F574525"]
@@ -90,7 +90,7 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -2.0d
 			y: -2.0d
 			dependencies: ["4E865E131DBE55C6"]
 			hide: true
@@ -102,7 +102,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 0.0d
 			y: -6.0d
 			shape: "gear"
 			dependencies: ["4E865E131DBE55C6"]
@@ -117,7 +117,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 2.0d
 			y: -6.0d
 			shape: "gear"
 			dependencies: ["20D6502E40FD1166"]
@@ -137,7 +137,7 @@
 		}
 		{
 			title: "Storage and access"
-			x: -1.0d
+			x: -2.0d
 			y: -5.0d
 			dependencies: ["20D6502E40FD1166"]
 			id: "042E213A0A6F365F"
@@ -175,7 +175,7 @@
 		}
 		{
 			title: "Autocrafting"
-			x: -1.0d
+			x: -2.0d
 			y: -7.0d
 			dependencies: ["20D6502E40FD1166"]
 			id: "12578FA252186C02"
@@ -206,6 +206,18 @@
 					item: "appliedenergistics2:blank_pattern"
 				}
 			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			optional: true
+			secret: true
+			id: "0F176A516D3FADD1"
+			tasks: [{
+				id: "3908F402934693D5"
+				type: "checkmark"
+				title: "center"
+			}]
 		}
 	]
 }

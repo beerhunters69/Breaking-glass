@@ -10,6 +10,8 @@ onEvent("item.registry", event => {
 	event.create("incomplete_tf_portal_item").displayName("Parts of the transmitter")
     event.create("zinc_hand").displayName("Zinc hand")
 	
+	event.create("duraluminium_ingot").displayName("Duraluminium ingot")
+	event.create("duraluminium_dust").displayName("Duraluminium dust")
 })
 
 onEvent("block.registry", event => {

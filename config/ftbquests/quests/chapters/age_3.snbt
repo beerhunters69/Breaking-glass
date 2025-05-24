@@ -10,7 +10,7 @@
 	quests: [
 		{
 			x: 0.0d
-			y: -1.0d
+			y: 0.0d
 			shape: "gear"
 			id: "0C8A52C43E6289B4"
 			tasks: [{
@@ -36,8 +36,10 @@
 			]
 		}
 		{
+			title: "Blast furnace"
+			icon: "immersiveengineering:blast_furnace"
 			x: 2.0d
-			y: -1.0d
+			y: 0.0d
 			dependencies: ["0C8A52C43E6289B4"]
 			secret: true
 			id: "7F527FA9247FC488"
@@ -50,7 +52,7 @@
 		}
 		{
 			x: 3.5d
-			y: -1.0d
+			y: 0.0d
 			dependencies: ["7F527FA9247FC488"]
 			id: "57F043FA1874BB48"
 			tasks: [{
@@ -64,6 +66,135 @@
 						value: "forge:ingots/steel"
 					}
 				}
+			}]
+		}
+		{
+			title: "Tinkers' smeltery"
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["0C8A52C43E6289B4"]
+			secret: true
+			id: "1E09C9055D344838"
+			tasks: [{
+				id: "6D792984630E3D8E"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			title: "Arc furnace"
+			icon: "immersiveengineering:arc_furnace"
+			x: 3.5d
+			y: -1.5d
+			description: ["That's all you need for arc furnace."]
+			dependencies: [
+				"3265DFAFD43E98D8"
+				"51B4EE11D5946276"
+			]
+			id: "704F137AB18A4A77"
+			tasks: [
+				{
+					id: "18C56773434E8D39"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "2BEE3D9F2575E107"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "392B054D02B954FE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "50E709F6E995668F"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "30941BD5F6D74707"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "6F5A68412DD2F0EF"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "0556628D72B3AD3D"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "56EB3468814127FC"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "2B9D533A8D21A3C8"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "7AC1010ACCA96FBF"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 3L
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["0C8A52C43E6289B4"]
+			id: "3265DFAFD43E98D8"
+			tasks: [
+				{
+					id: "545CA565EBF9BD22"
+					type: "item"
+					item: "immersiveengineering:ingot_hop_graphite"
+				}
+				{
+					id: "47F93D10C2C0D2BA"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					match_nbt: false
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			description: [""]
+			dependencies: ["0C8A52C43E6289B4"]
+			id: "51B4EE11D5946276"
+			tasks: [{
+				id: "4E0E87E2F8453590"
+				type: "checkmark"
+				title: "Check Immersive Engineering tab for all multiblocks required"
 			}]
 		}
 	]
