@@ -11,15 +11,6 @@
       "biomeBlacklist": [],
       "biomeWhitelist": ["NETHER"]
     },{
-      "ore": "emendatusenigmatica:tin_netherrack_ore",
-      "filler": "minecraft:netherrack",
-      "minY": 10,
-      "maxY": 118,
-      "maxVeinSize": 40,
-      "spawnRate": 1,
-      "biomeBlacklist": [],
-      "biomeWhitelist": ["NETHER"]
-    },{
       "ore": "emendatusenigmatica:lapis_netherrack_ore",
       "filler": "minecraft:netherrack",
       "minY": 10,
@@ -74,16 +65,7 @@
       "biomeBlacklist": [],
       "biomeWhitelist": ["NETHER"]
     },{
-      "ore": "emendatusenigmatica:silver_netherrack_ore",
-      "filler": "minecraft:netherrack",
-      "minY": 10,
-      "maxY": 118,
-      "maxVeinSize": 40,
-      "spawnRate": 1,
-      "biomeBlacklist": [],
-      "biomeWhitelist": ["NETHER"]
-    },{
-      "ore": "emendatusenigmatica:lead_netherrack_ore",
+      "ore": "emendatusenigmatica:aluminium_netherrack_ore",
       "filler": "minecraft:netherrack",
       "minY": 10,
       "maxY": 118,
