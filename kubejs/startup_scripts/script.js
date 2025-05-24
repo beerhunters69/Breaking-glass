@@ -12,6 +12,8 @@ onEvent("item.registry", event => {
 	
 	event.create("duraluminium_ingot").displayName("Duraluminium ingot")
 	event.create("duraluminium_dust").displayName("Duraluminium dust")
+	event.create("duraluminium_gear").displayName("Duraluminium gear")
+	
 })
 
 onEvent("block.registry", event => {
