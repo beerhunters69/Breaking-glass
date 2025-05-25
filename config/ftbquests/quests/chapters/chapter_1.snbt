@@ -11,7 +11,7 @@
 		{
 			x: 2.0d
 			y: -3.0d
-			shape: "gear"
+			description: [""]
 			dependencies: [
 				"08D279DD41EA3961"
 				"36F18AFCF7B5E55C"
@@ -20,12 +20,11 @@
 				"530E5031679158F2"
 				"702407CB64FC6F30"
 			]
-			size: 2.0d
 			id: "61E8103336D594DD"
 			tasks: [{
 				id: "7FE3E97571087D34"
 				type: "item"
-				item: "kubejs:tf_portal_item"
+				item: "kubejs:tf_inactive_portal_item"
 			}]
 		}
 		{
@@ -151,9 +150,10 @@
 			]
 		}
 		{
+			title: "Hey! Check out Create tab"
 			x: 5.0d
 			y: -4.0d
-			description: ["You can look at the Create mod tab for more info."]
+			description: [""]
 			dependencies: ["3DED767E8A0EAECD"]
 			id: "5E7FA9B669AED17A"
 			tasks: [{
@@ -162,6 +162,136 @@
 				title: "Create mod tab"
 				icon: "create:large_cogwheel"
 			}]
+		}
+		{
+			x: 0.0d
+			y: -7.0d
+			shape: "gear"
+			dependencies: ["4ABA80DA64F2CBAE"]
+			size: 2.0d
+			id: "1B225255526330D6"
+			tasks: [{
+				id: "25162B7B80A26774"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			shape: "gear"
+			dependencies: [
+				"61E8103336D594DD"
+				"34416320BCD819ED"
+				"786725EDC7420312"
+				"3FFEC72831E3E52D"
+				"2DC2A4D5C36CC84E"
+				"3B84CE3052F2D3D3"
+			]
+			size: 1.5d
+			id: "4ABA80DA64F2CBAE"
+			tasks: [{
+				id: "3C5F5B2FFBA6C5DA"
+				type: "item"
+				item: "kubejs:tf_portal_item"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: [
+				"786725EDC7420312"
+				"3B84CE3052F2D3D3"
+			]
+			id: "2DC2A4D5C36CC84E"
+			tasks: [{
+				id: "45709E7D4E08C720"
+				type: "item"
+				item: "ars_nouveau:ritual_sunrise"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: [""]
+			dependencies: ["3B84CE3052F2D3D3"]
+			id: "3FFEC72831E3E52D"
+			tasks: [{
+				id: "692A550656A94057"
+				type: "item"
+				item: "ars_nouveau:ritual_moonfall"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			id: "786725EDC7420312"
+			tasks: [{
+				id: "18395B7B7E7EF36F"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			dependencies: ["17733DE831DA4363"]
+			id: "34416320BCD819ED"
+			tasks: [{
+				id: "17D644EC6A948899"
+				type: "item"
+				item: "ars_nouveau:mana_fiber"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.5d
+			description: [""]
+			dependencies: ["786725EDC7420312"]
+			id: "2A5D01740339B070"
+			tasks: [{
+				id: "73A320D5D649B93A"
+				type: "checkmark"
+				title: "Hey! Check out Ars Nouveau tab"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -7.0d
+			dependencies: [
+				"786725EDC7420312"
+				"3B84CE3052F2D3D3"
+			]
+			id: "17733DE831DA4363"
+			tasks: [{
+				id: "1FA2291C284EC704"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.5d
+			dependencies: ["786725EDC7420312"]
+			id: "3B84CE3052F2D3D3"
+			tasks: [
+				{
+					id: "37F6606365B303FA"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "2B6F9006F5F960E1"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+				{
+					id: "6E37AABD75DC53FB"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+			]
 		}
 	]
 }

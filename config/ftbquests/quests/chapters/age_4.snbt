@@ -14,6 +14,7 @@
 	quests: [{
 		x: 0.0d
 		y: -1.0d
+		secret: true
 		id: "7EBFC782792932CC"
 		tasks: [{
 			id: "00E16163E3BBF4E6"

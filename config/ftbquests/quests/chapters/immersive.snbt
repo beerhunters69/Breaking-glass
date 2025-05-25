@@ -9,6 +9,13 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 0.0d
 			y: 0.0d
 			description: ["Mod about big machines and automation"]
@@ -20,6 +27,7 @@
 			}]
 		}
 		{
+			title: "Coke oven"
 			icon: "immersiveengineering:coke_oven"
 			x: 2.0d
 			y: 0.0d
@@ -30,6 +38,7 @@
 				id: "527EE26FC573E0D9"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
+				count: 27L
 			}]
 		}
 		{
@@ -84,6 +93,7 @@
 			}]
 		}
 		{
+			title: "Blast furnace"
 			icon: "immersiveengineering:blast_furnace"
 			x: 0.0d
 			y: 2.0d
@@ -94,6 +104,7 @@
 				id: "1A952F0F58B97363"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
+				count: 27L
 			}]
 		}
 		{

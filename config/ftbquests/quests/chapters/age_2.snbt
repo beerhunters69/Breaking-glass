@@ -12,6 +12,7 @@
 			x: -3.0d
 			y: 1.5d
 			shape: "gear"
+			secret: true
 			id: "0C62A127CABF744B"
 			tasks: [{
 				id: "78CC9D429F20B71B"
@@ -123,7 +124,6 @@
 			y: 1.5d
 			dependencies: ["0C62A127CABF744B"]
 			hide: true
-			secret: true
 			id: "344E4451B408EDFC"
 			tasks: [{
 				id: "0EFDE48D111D2AEF"
@@ -135,6 +135,7 @@
 			x: 6.5d
 			y: 0.0d
 			description: ["Congratulations! You've just managed to get a bucket before age 3. Now you can build a nether portal if you want to."]
+			hide_dependency_lines: true
 			optional: true
 			secret: true
 			incompatible: ["001BB0DFA22BEE1A"]
@@ -149,11 +150,12 @@
 			x: 8.5d
 			y: 1.5d
 			shape: "gear"
+			description: [""]
 			dependencies: [
 				"40AE4BFDD103372E"
 				"7B1FC5744B59E861"
 			]
-			size: 2.0d
+			size: 1.5d
 			id: "34310AECA9040D2F"
 			tasks: [{
 				id: "183326369BB92019"
@@ -179,30 +181,16 @@
 			y: 3.0d
 			dependencies: ["0C62A127CABF744B"]
 			hide: true
-			secret: true
 			id: "4F2B1F47B949DF96"
-			tasks: [
-				{
-					id: "3CCE5866252DE23D"
-					type: "item"
-					item: "immersiveengineering:cokebrick"
-					count: 27L
-				}
-				{
-					id: "1C6C50C6ABE59214"
-					type: "item"
-					item: {
-						id: "immersiveengineering:hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "3CCE5866252DE23D"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
 		}
 		{
-			title: "Immersive Engineering tab"
+			title: "Hey! Check out Immersive Engineering tab"
 			x: 3.5d
 			y: 4.5d
 			description: ["You can look at the Immersive Engineering tab for more info."]
@@ -218,6 +206,23 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.5d
+			shape: "gear"
+			min_required_dependencies: 1
+			dependencies: [
+				"34310AECA9040D2F"
+				"2A33AD57DB1803C0"
+			]
+			size: 2.0d
+			id: "0FF2F67097E5AC38"
+			tasks: [{
+				id: "784F872C071818D6"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
 			}]
 		}
 	]

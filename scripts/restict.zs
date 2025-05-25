@@ -1,8 +1,7 @@
 import mods.itemstages.ItemStages;
 
-
+ItemStages.createModRestriction('avaritia', s => s in [<item:avaritia:compressed_crafting_table>,<item:avaritia:double_compressed_crafting_table>], "seven");
 ItemStages.createModRestriction("draconicevolution", "seven");
-ItemStages.createModRestriction("avaritia", "seven");
 
 
 ItemStages.createModRestriction("mekanism", "six");
