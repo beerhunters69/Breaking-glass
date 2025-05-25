@@ -171,7 +171,7 @@
 			tasks: [{
 				id: "05091BECF6C66E0B"
 				type: "item"
-				item: "kubejs:tf_portal_item"
+				item: "kubejs:tf_inactive_portal_item"
 			}]
 		}
 	]

@@ -12,6 +12,7 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			secret: true
 			id: "0C8A52C43E6289B4"
 			tasks: [{
 				id: "124F9D2AAF7C6A8F"
@@ -41,7 +42,6 @@
 			x: 2.0d
 			y: 0.0d
 			dependencies: ["0C8A52C43E6289B4"]
-			secret: true
 			id: "7F527FA9247FC488"
 			tasks: [{
 				id: "11FC39232BD0F764"
@@ -73,7 +73,6 @@
 			x: 2.0d
 			y: 1.5d
 			dependencies: ["0C8A52C43E6289B4"]
-			secret: true
 			id: "1E09C9055D344838"
 			tasks: [{
 				id: "6D792984630E3D8E"
@@ -89,7 +88,7 @@
 			description: ["That's all you need for arc furnace."]
 			dependencies: [
 				"3265DFAFD43E98D8"
-				"51B4EE11D5946276"
+				"57F043FA1874BB48"
 			]
 			id: "704F137AB18A4A77"
 			tasks: [
@@ -186,23 +185,11 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -3.0d
-			description: [""]
-			dependencies: ["0C8A52C43E6289B4"]
-			id: "51B4EE11D5946276"
-			tasks: [{
-				id: "4E0E87E2F8453590"
-				type: "checkmark"
-				title: "Check Immersive Engineering tab for all multiblocks required"
-			}]
-		}
-		{
 			x: 13.5d
 			y: -1.5d
 			shape: "gear"
 			dependencies: ["29B6382F587258C8"]
-			size: 3.0d
+			size: 2.0d
 			id: "42B18415FA624119"
 			tasks: [{
 				id: "213BA9B1E8F1AA1D"
@@ -313,6 +300,19 @@
 				id: "2834A39F7953004F"
 				type: "item"
 				item: "boss_tools:nasa_workbench"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["42B18415FA624119"]
+			size: 3.0d
+			id: "7C2A29D8017B2DB3"
+			tasks: [{
+				id: "3335BCEEFAB9C1F2"
+				type: "dimension"
+				dimension: "boss_tools:moon"
 			}]
 		}
 	]

@@ -37,8 +37,8 @@ onEvent('recipes', event => {
 	event.remove({id: 'boss_tools:compressing/compressed_desh'})
 	event.remove({id: 'boss_tools:nasa_workbench'})
 	
-
-	
+	event.remove({id: 'ars_nouveau:sunrise_2'})
+	event.remove({id: 'ars_nouveau:moonfall_2'})
 
 
 })

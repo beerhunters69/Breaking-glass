@@ -3,7 +3,7 @@
 onEvent('recipes', event => {
 // портал в твайлайт
   event.recipes.create.sequenced_assembly([
-		'kubejs:tf_portal_item', 
+		'kubejs:tf_inactive_portal_item', 
 	], 'minecraft:tnt', [ 
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:oak_sapling']),
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:spruce_sapling']),

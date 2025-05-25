@@ -12,6 +12,7 @@ onEvent("item.registry", event => {
 	event.create('duraluminium_base_dust').displayName("Duraluminium base dust")
 	event.create("duraluminium_gear").displayName("Duraluminium gear")
 	event.create("duraluminium_plate").displayName("Duraluminium plate")
+	event.create("tf_inactive_portal_item").displayName("Inactive interdimensional transmitter")
 })
 
 onEvent("block.registry", event => {
