@@ -47,6 +47,13 @@ ItemStages.createModRestriction("ae2wtlib", "three");
 ItemStages.createModRestriction("aeinfinitybooster", "three");
 ItemStages.createModRestriction("ae2extras", "three");
 ItemStages.restrict(<item:minecraft:iron_ingot>, "three");
+ItemStages.restrict(<item:minecraft:iron_helmet>, "three");
+ItemStages.restrict(<item:minecraft:iron_chestplate>,"three");
+ItemStages.restrict(<item:minecraft:iron_leggings>, "three");
+ItemStages.restrict(<item:minecraft:iron_boots>,"three");
+ItemStages.restrict(<item:minecraft:iron_axe>, "three");
+ItemStages.restrict(<item:minecraft:iron_pickaxe>, "three");
+ItemStages.restrict(<item:minecraft:iron_sword>, "three");
 
 
 
