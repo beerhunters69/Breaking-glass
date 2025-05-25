@@ -36,9 +36,10 @@ onEvent('recipes', event => {
 	event.remove({id: 'boss_tools:compressing/compressed_silicon'})
 	event.remove({id: 'boss_tools:compressing/compressed_desh'})
 	event.remove({id: 'boss_tools:nasa_workbench'})
+	event.remove({id: 'create:smelting/scoria'})
 	
-
-	
+	event.remove({id: 'ftbic:blasting/industrial_grade_metal'})
+	event.remove({id: 'ftbic:smelting/industrial_grade_metal'})
 
 
 })
