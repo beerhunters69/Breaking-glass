@@ -1,5 +1,5 @@
 onEvent('recipes', event => {
-    event.recipes.create.mixing('kubejs:duraluminium_dust',[
+    event.recipes.create.mixing('4x kubejs:duraluminium_dust',[
         '#forge:dusts/constantan',
         '#forge:dusts/invar',
         '#forge:dusts/steel',

@@ -207,6 +207,7 @@
 			dependencies: [
 				"57F043FA1874BB48"
 				"704F137AB18A4A77"
+				"2C7F32DB38551A3E"
 			]
 			id: "48B70EE601CF0896"
 			tasks: [{
@@ -313,6 +314,17 @@
 				id: "3335BCEEFAB9C1F2"
 				type: "dimension"
 				dimension: "boss_tools:moon"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["021425B2E1DD82F0"]
+			id: "2C7F32DB38551A3E"
+			tasks: [{
+				id: "688E218D553F81A6"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
 			}]
 		}
 	]

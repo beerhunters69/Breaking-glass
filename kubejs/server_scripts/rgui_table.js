@@ -29,5 +29,6 @@ event.shaped('1x ars_nouveau:arcane_core', ['AAA', 'BCB', 'AAA'], {A: 'ars_nouve
 event.shaped('1x ars_nouveau:crystallizer', ['ABA', 'ACA', 'ABA'], {A: '#forge:ingots/copper',B: 'ars_nouveau:arcane_stone', C: '#forge:gems/mana'})
 event.shaped('1x ars_nouveau:enchanting_apparatus', ['ABA', 'ACA', 'DDD'], {A: '#forge:ingots/zinc',B: '#forge:glass/purple',C: 'minecraft:air',D: 'ars_nouveau:arcane_stone'})
 event.shapeless('1x ars_nouveau:novice_spell_book', ['minecraft:book', 'minecraft:stone_pickaxe', 'minecraft:stone_shovel', 'minecraft:stone_hoe', 'minecraft:stone_axe', 'minecraft:stone_sword', ])
-
+event.shaped('1x productivebees:powered_centrifuge', ['ABC','DEF','GHI'], {A: 'minecraft:redstone',B: 'minecraft:iron_ingot',C: 'minecraft:redstone',D: 'kubejs:duraluminium_ingot',E: 'productivebees:centrifuge',F: 'kubejs:duraluminium_ingot',G: 'minecraft:redstone',H: 'minecraft:iron_ingot',I: 'minecraft:redstone'})                                                
+    
 })//////DONT ADD MORE CODE AFTER THIS LINE
