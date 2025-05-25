@@ -25,4 +25,20 @@ onEvent('recipes', event => {
 	event.remove({id: 'immersiveengineering:crafting/ingot_invar_from_dust_from_blasting'})
 	event.remove({id: 'emendatusenigmatica:ingot_from_dust/smelting/invar'})
 	event.remove({id: 'emendatusenigmatica:ingot_from_dust/blasting/invar'})
+
+	event.remove({id: 'boss_tools:engine_frame'})
+	event.remove({id: 'boss_tools:iron_engine'})
+	event.remove({id: 'boss_tools:rocket_nose_cone'})
+	event.remove({id: 'boss_tools:iron_tank'})
+	event.remove({id: 'boss_tools_giselle_addon:compat/immersiveengineering/metalpress/compressed_steel'})
+	event.remove({id: 'boss_tools:rocket_fins'})
+	event.remove({id: 'boss_tools:compressing/compressed_steel'})
+	event.remove({id: 'boss_tools:compressing/compressed_silicon'})
+	event.remove({id: 'boss_tools:compressing/compressed_desh'})
+	event.remove({id: 'boss_tools:nasa_workbench'})
+	
+
+	
+
+
 })
