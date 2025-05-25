@@ -30,6 +30,7 @@
 				id: "527EE26FC573E0D9"
 				type: "item"
 				item: "immersiveengineering:cokebrick"
+				count: 27L
 			}]
 		}
 		{
@@ -94,6 +95,7 @@
 				id: "1A952F0F58B97363"
 				type: "item"
 				item: "immersiveengineering:blastbrick"
+				count: 27L
 			}]
 		}
 		{

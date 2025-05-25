@@ -197,5 +197,123 @@
 				title: "Check Immersive Engineering tab for all multiblocks required"
 			}]
 		}
+		{
+			x: 13.5d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["29B6382F587258C8"]
+			size: 3.0d
+			id: "42B18415FA624119"
+			tasks: [{
+				id: "213BA9B1E8F1AA1D"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: [
+				"57F043FA1874BB48"
+				"704F137AB18A4A77"
+			]
+			id: "48B70EE601CF0896"
+			tasks: [{
+				id: "412DC03D328161B0"
+				type: "item"
+				item: "kubejs:duraluminium_ingot"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			description: ["...because you will need 3 stacks of duraluminium!"]
+			dependencies: ["48B70EE601CF0896"]
+			id: "42AC90A8D449BED0"
+			tasks: [{
+				id: "192F5CBA13A114F8"
+				type: "checkmark"
+				title: "Be ready...."
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["42AC90A8D449BED0"]
+			id: "43A2ACEAE2EF048E"
+			tasks: [{
+				id: "1F2086DA24B74BE5"
+				type: "item"
+				item: "boss_tools:compressed_steel"
+				count: 14L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["42AC90A8D449BED0"]
+			id: "1DF86BD0A05A27DE"
+			tasks: [{
+				id: "47EB0D2FD0BCEA43"
+				type: "item"
+				item: "boss_tools:iron_tank"
+				count: 2L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["42AC90A8D449BED0"]
+			id: "51257F1A4944AF31"
+			tasks: [{
+				id: "2E88A1F43BFF7826"
+				type: "item"
+				item: "boss_tools:iron_engine"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["42AC90A8D449BED0"]
+			id: "59B15149662ED63C"
+			tasks: [{
+				id: "7BEB7C6F6C829EE1"
+				type: "item"
+				item: "boss_tools:rocket_nose_cone"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			dependencies: ["42AC90A8D449BED0"]
+			id: "22EB6B74C527904E"
+			tasks: [{
+				id: "0AC2E50696C9D2DB"
+				type: "item"
+				item: "boss_tools:rocket_fin"
+				count: 4L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: [
+				"43A2ACEAE2EF048E"
+				"22EB6B74C527904E"
+				"1DF86BD0A05A27DE"
+				"59B15149662ED63C"
+				"51257F1A4944AF31"
+			]
+			id: "29B6382F587258C8"
+			tasks: [{
+				id: "2834A39F7953004F"
+				type: "item"
+				item: "boss_tools:nasa_workbench"
+			}]
+		}
 	]
 }
