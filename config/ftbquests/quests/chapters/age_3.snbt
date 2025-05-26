@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
@@ -207,6 +208,7 @@
 			dependencies: [
 				"57F043FA1874BB48"
 				"704F137AB18A4A77"
+				"02AB747A97FD28EF"
 			]
 			id: "48B70EE601CF0896"
 			tasks: [{
@@ -314,6 +316,26 @@
 				type: "dimension"
 				dimension: "boss_tools:moon"
 			}]
+		}
+		{
+			title: "Hey! Check out Immersive Engineering tab"
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["704F137AB18A4A77"]
+			id: "02AB747A97FD28EF"
+			tasks: [
+				{
+					id: "02C15E29F14EB570"
+					type: "checkmark"
+					title: "Hey! Check out Immersive Engineering tab."
+					icon: "immersivepetroleum:lubricant_bucket"
+				}
+				{
+					id: "3BE3405DDFDDF473"
+					type: "item"
+					item: "immersivepetroleum:lubricant_bucket"
+				}
+			]
 		}
 	]
 }

@@ -12,6 +12,7 @@
 			x: 0.0d
 			y: 1.0d
 			description: ["This mod is about exploration and combat"]
+			dependencies: ["5A4AC2680ACFAC74"]
 			id: "5EA970F64EDF87AB"
 			tasks: [{
 				id: "58A54B3F9F1080D6"
@@ -181,6 +182,19 @@
 				id: "4EFBD0BC13C1E1F3"
 				type: "item"
 				item: "twilightforest:knightmetal_ingot"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			secret: true
+			id: "5A4AC2680ACFAC74"
+			tasks: [{
+				id: "2D81B6273A4E2D37"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
 			}]
 		}
 	]

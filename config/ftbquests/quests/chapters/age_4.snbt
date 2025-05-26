@@ -12,8 +12,10 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
+		disable_toast: true
 		x: 0.0d
-		y: -1.0d
+		y: 0.0d
+		shape: "gear"
 		secret: true
 		id: "7EBFC782792932CC"
 		tasks: [{
