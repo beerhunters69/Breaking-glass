@@ -104,4 +104,16 @@ onEvent('recipes', event => {
         'ftbic:industrial_grade_metal',
         'kubejs:duraluminium_plate',
     )
+    event.recipes.immersiveengineering.arc_furnace(
+        'astralsorcery:starmetal',
+        '9x kubejs:duraluminium_ingot',
+        'astralsorcery:liquid_starlight_bucket',
+        'minecraft:bucket'
+    )
+    event.recipes.immersiveengineering.arc_furnace(
+        'astralsorcery:altar_discovery',
+        'minecraft:crafting_table',
+        '4x twilightforest:aurora_block',
+        'immersiveengineering:concrete_bucket'
+    )
 })
