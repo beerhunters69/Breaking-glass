@@ -12,27 +12,27 @@ ItemStages.createModRestriction("hostilenetworks", "six");
 
 
 ItemStages.createModRestriction("pneumaticcraft", "five");
-ItemStages.restrict(<item:minecraft:diamond>, "five");
+
 ItemStages.createModRestriction("fluxnetworks", "five");
 ItemStages.createModRestriction("bigreactors", "five");
-ItemStages.restrict(<item:minecraft:diamond_helmet>, "five");
-ItemStages.restrict(<item:minecraft:diamond_chestplate>, "five");
-ItemStages.restrict(<item:minecraft:diamond_leggings>, "five");
-ItemStages.restrict(<item:minecraft:diamond_boots>, "five");
-ItemStages.restrict(<item:minecraft:diamond_axe>, "five");
-ItemStages.restrict(<item:minecraft:diamond_pickaxe>, "five");
-ItemStages.restrict(<item:minecraft:diamond_sword>, "five");
-ItemStages.restrict(<item:minecraft:diamond_shovel>, "five");
-ItemStages.restrict(<item:minecraft:diamond_hoe>, "five");
 
 
 
 
 
-
-ItemStages.createModRestriction("resourcefulbees", "four");
+ItemStages.restrict(<item:minecraft:diamond>, "four");
+ItemStages.createModRestriction("productivebees", "four");
 ItemStages.createModRestriction("ftbic", "four");
 ItemStages.createModRestriction("astralsorcery", "four");
+ItemStages.restrict(<item:minecraft:diamond_helmet>, "four");
+ItemStages.restrict(<item:minecraft:diamond_chestplate>, "four");
+ItemStages.restrict(<item:minecraft:diamond_leggings>, "four");
+ItemStages.restrict(<item:minecraft:diamond_boots>, "four");
+ItemStages.restrict(<item:minecraft:diamond_axe>, "four");
+ItemStages.restrict(<item:minecraft:diamond_pickaxe>, "four");
+ItemStages.restrict(<item:minecraft:diamond_sword>, "four");
+ItemStages.restrict(<item:minecraft:diamond_shovel>, "four");
+ItemStages.restrict(<item:minecraft:diamond_hoe>, "four");
 
 
 
