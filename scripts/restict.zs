@@ -12,25 +12,27 @@ ItemStages.createModRestriction("hostilenetworks", "six");
 
 
 ItemStages.createModRestriction("pneumaticcraft", "five");
-ItemStages.restrict(<item:minecraft:diamond>, "five");
+
 ItemStages.createModRestriction("fluxnetworks", "five");
 ItemStages.createModRestriction("bigreactors", "five");
-ItemStages.restrict(<item:minecraft:diamond_helmet>, "five");
-ItemStages.restrict(<item:minecraft:diamond_chestplate>, "five");
-ItemStages.restrict(<item:minecraft:diamond_leggings>, "five");
-ItemStages.restrict(<item:minecraft:diamond_boots>, "five");
-ItemStages.restrict(<item:minecraft:diamond_axe>, "five");
-ItemStages.restrict(<item:minecraft:diamond_pickaxe>, "five");
-ItemStages.restrict(<item:minecraft:diamond_sword>, "five");
 
 
 
 
 
-
-ItemStages.createModRestriction("resourcefulbees", "four");
+ItemStages.restrict(<item:minecraft:diamond>, "four");
+ItemStages.createModRestriction("productivebees", "four");
 ItemStages.createModRestriction("ftbic", "four");
 ItemStages.createModRestriction("astralsorcery", "four");
+ItemStages.restrict(<item:minecraft:diamond_helmet>, "four");
+ItemStages.restrict(<item:minecraft:diamond_chestplate>, "four");
+ItemStages.restrict(<item:minecraft:diamond_leggings>, "four");
+ItemStages.restrict(<item:minecraft:diamond_boots>, "four");
+ItemStages.restrict(<item:minecraft:diamond_axe>, "four");
+ItemStages.restrict(<item:minecraft:diamond_pickaxe>, "four");
+ItemStages.restrict(<item:minecraft:diamond_sword>, "four");
+ItemStages.restrict(<item:minecraft:diamond_shovel>, "four");
+ItemStages.restrict(<item:minecraft:diamond_hoe>, "four");
 
 
 
@@ -47,6 +49,25 @@ ItemStages.createModRestriction("ae2wtlib", "three");
 ItemStages.createModRestriction("aeinfinitybooster", "three");
 ItemStages.createModRestriction("ae2extras", "three");
 ItemStages.restrict(<item:minecraft:iron_ingot>, "three");
+ItemStages.restrict(<item:minecraft:iron_helmet>, "three");
+ItemStages.restrict(<item:minecraft:iron_chestplate>,"three");
+ItemStages.restrict(<item:minecraft:iron_leggings>, "three");
+ItemStages.restrict(<item:minecraft:iron_boots>,"three");
+ItemStages.restrict(<item:minecraft:iron_axe>, "three");
+ItemStages.restrict(<item:minecraft:iron_pickaxe>, "three");
+ItemStages.restrict(<item:minecraft:iron_sword>, "three");
+ItemStages.restrict(<item:minecraft:iron_hoe>, "three");
+ItemStages.restrict(<item:minecraft:iron_shovel>, "three");
+ItemStages.restrict(<item:minecraft:gold_ingot>, "three");
+ItemStages.restrict(<item:minecraft:golden_helmet>, "three");
+ItemStages.restrict(<item:minecraft:golden_chestplate>,"three");
+ItemStages.restrict(<item:minecraft:golden_leggings>, "three");
+ItemStages.restrict(<item:minecraft:golden_boots>,"three");
+ItemStages.restrict(<item:minecraft:golden_axe>, "three");
+ItemStages.restrict(<item:minecraft:golden_pickaxe>, "three");
+ItemStages.restrict(<item:minecraft:golden_sword>, "three");
+ItemStages.restrict(<item:minecraft:golden_hoe>, "three");
+ItemStages.restrict(<item:minecraft:golden_shovel>, "three");
 
 
 
@@ -61,11 +82,11 @@ ItemStages.createModRestriction("apotheosis", "two");
 
 
 
-ItemStages.createModRestriction('boss_tools:solar_panel','disabled');
-ItemStages.createModRestriction('boss_tools:coal_generator','disabled');
-ItemStages.createModRestriction('boss_tools:blast_furnace','disabled');
-ItemStages.createModRestriction('boss_tools:fuel_refinery','disabled');
-ItemStages.createModRestriction('boss_tools:compressor','disabled');
+ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled');
+ItemStages.restrict(<item:boss_tools:coal_generator>,'disabled');
+ItemStages.restrict(<item:boss_tools:blast_furnace>,'disabled');
+ItemStages.restrict(<item:boss_tools:fuel_refinery>,'disabled');
+ItemStages.restrict(<item:boss_tools:compressor>,'disabled');
 
 
 

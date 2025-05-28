@@ -19,6 +19,7 @@
 			x: 0.0d
 			y: 0.0d
 			description: ["Mod about big machines and automation"]
+			dependencies: ["0DC09FCA11B64DE6"]
 			id: "5C2EED0749C00C17"
 			tasks: [{
 				id: "40CE451381B2A16E"
@@ -45,6 +46,7 @@
 			x: -2.0d
 			y: 0.0d
 			description: ["We have jei addon that show you all blocks you need to build multiblock"]
+			dependencies: ["5C2EED0749C00C17"]
 			id: "6F89F716F0C45A4A"
 			tasks: [{
 				id: "5231220B36EEC376"
@@ -299,6 +301,31 @@
 				id: "7CE08DFEFDD98E63"
 				type: "checkmark"
 				title: "Diesel generator"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 0.0d
+			y: -2.0d
+			shape: "gear"
+			secret: true
+			id: "0DC09FCA11B64DE6"
+			tasks: [{
+				id: "709A16C6AA761C70"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.5d
+			shape: "gear"
+			dependencies: ["021425B2E1DD82F0"]
+			id: "328E49D07A608D9F"
+			tasks: [{
+				id: "3039C23C0BB8BE84"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
 			}]
 		}
 	]

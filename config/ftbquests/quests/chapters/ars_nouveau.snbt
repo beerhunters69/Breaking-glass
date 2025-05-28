@@ -1,0 +1,387 @@
+{
+	id: "3F780A7C01FE71C5"
+	group: "0AFE0E9AC7269D41"
+	order_index: 4
+	filename: "ars_nouveau"
+	title: "Ars nouveau"
+	icon: "ars_nouveau:summon_focus"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Used in basically every craft in this mod."]
+			id: "29CDC166D0E31F10"
+			tasks: [{
+				id: "6385C06FA1CFA540"
+				type: "item"
+				item: "ars_nouveau:mana_gem"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Basic crafting station."
+				"To build it, place Arcane Core and surround it with Pedestals, then place Enchanting Apparatus on top of the Core."
+				"For some recipes, you might need to place somewhere close a source jar with some source in it."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "45A61ADE24B9C155"
+			tasks: [
+				{
+					id: "7AA7D24488C181E3"
+					type: "item"
+					item: "ars_nouveau:enchanting_apparatus"
+				}
+				{
+					id: "4020FF49B45A2180"
+					type: "item"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 8L
+				}
+				{
+					id: "22314E8ACD25F541"
+					type: "item"
+					item: "ars_nouveau:arcane_core"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			description: ["Source storage."]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "2ECCFFFB7A3A18B1"
+			tasks: [{
+				id: "275FB47F0EB7F09B"
+				type: "item"
+				item: "ars_nouveau:mana_jar"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"Basic source generator."
+				"Produces source when plants grow nearby."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "193906518EE7B1FA"
+			tasks: [{
+				id: "5F72D6FDCD883377"
+				type: "item"
+				item: "ars_nouveau:mana_condenser"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["This is the end of this questline, If you need more info check youtube or other media."]
+			dependencies: [
+				"45A61ADE24B9C155"
+				"2ECCFFFB7A3A18B1"
+				"193906518EE7B1FA"
+				"3FFB5FE687B07DBF"
+				"611EB18E373F2094"
+			]
+			id: "293F97D16364E1D9"
+			tasks: [{
+				id: "1DE267E66D84A2A7"
+				type: "item"
+				item: "kubejs:tf_portal_item"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"That's basically a magic wand. It has configuration and ~100 distinct spells that you can combine. But remember, it can use only tier 1 spells at the time."
+				""
+				"It uses mana. Mana is \"infinite\", it regenerates over time. You can increase mana capacity and regen speed by wearing mage armor and enchants, eating magic foods and using potions."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "3CF00DC4C2F0F53B"
+			tasks: [{
+				id: "3F4FEC5819252BB0"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["It can use tier 2 spells and has larger mana capasity."]
+			dependencies: ["3CF00DC4C2F0F53B"]
+			id: "7E7CA42C5243E31C"
+			tasks: [{
+				id: "7599A2493EA29CBD"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			description: ["It can use tier 3 spells and has even larger mana capasity."]
+			dependencies: ["7E7CA42C5243E31C"]
+			id: "24AC92B9097E53A4"
+			tasks: [{
+				id: "6598918CE86276DD"
+				type: "item"
+				item: "ars_nouveau:archmage_spell_book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"You can find a lot of information in this book."
+				"Refer to it or to the web for info."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "7186FC6BA4A37E75"
+			tasks: [{
+				id: "54CD68C88FADCF0B"
+				type: "item"
+				item: "ars_nouveau:worn_notebook"
+			}]
+		}
+		{
+			title: "Cooler mage armor"
+			x: -4.0d
+			y: 0.0d
+			description: [
+				"All the same, but better."
+				""
+			]
+			dependencies: ["5A7C5D8B7D673632"]
+			id: "48505D5FFD4069D9"
+			tasks: [
+				{
+					id: "3D90D4020481E3BD"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16922C4E9F4AF795"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "71043F7CAA37E5B5"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "11827003117F9C39"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["45A61ADE24B9C155"]
+			id: "3FFB5FE687B07DBF"
+			tasks: [{
+				id: "762AD603CB7D716C"
+				type: "item"
+				item: "ars_nouveau:mana_bloom_crop"
+			}]
+		}
+		{
+			title: "Cascading and blazing archwood logs"
+			x: 2.0d
+			y: 2.0d
+			description: ["You need some of those for the tablets of Sunrise and Moonfall."]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "611EB18E373F2094"
+			tasks: [
+				{
+					id: "6D7FC848244523A4"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_log"
+					count: 4L
+				}
+				{
+					id: "5C1C19A0D489689C"
+					type: "item"
+					item: "ars_nouveau:red_archwood_log"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "Mage armor"
+			x: -2.0d
+			y: 0.0d
+			description: [
+				"Armor but for mages."
+				"Gives some armor, mana regen and mana capacity."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "5A7C5D8B7D673632"
+			tasks: [
+				{
+					id: "60F15609AC0957F8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3D92A76D2514740C"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F863F09AC6877C3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6E99DE9F7EF7ECFB"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "The \"best\" mage armor."
+			x: -6.0d
+			y: 0.0d
+			description: ["All the same, but even better."]
+			dependencies: ["48505D5FFD4069D9"]
+			id: "7A8C483E9BF4001F"
+			tasks: [
+				{
+					id: "3D08FE9AFF1FA3A1"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BD3B44723DED394"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77A8270D44648F9B"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "186BC74761839BD8"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["Condenses source surrounding it over time, produsing source gems."]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "5E4B202FDD62BB07"
+			tasks: [{
+				id: "139A03BA2D8B2AE5"
+				type: "item"
+				item: "ars_nouveau:crystallizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			description: [
+				"Creates spells (glyphs), that you can learn and they will appear in your spells book."
+				"You will need source jar with some source close to it for it to work."
+			]
+			dependencies: ["29CDC166D0E31F10"]
+			id: "77B75736DEEBAA2A"
+			tasks: [
+				{
+					id: "02A697B36B0CAD06"
+					type: "item"
+					item: "ars_nouveau:glyph_press"
+				}
+				{
+					id: "4536B5206AB43F28"
+					type: "item"
+					item: "ars_nouveau:magic_clay"
+				}
+			]
+		}
+	]
+}

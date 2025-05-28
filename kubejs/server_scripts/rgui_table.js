@@ -30,5 +30,8 @@ event.shaped('1x ars_nouveau:crystallizer', ['ABA', 'ACA', 'ABA'], {A: '#forge:i
 event.shaped('1x ars_nouveau:enchanting_apparatus', ['ABA', 'ACA', 'DDD'], {A: '#forge:ingots/zinc',B: '#forge:glass/purple',C: 'minecraft:air',D: 'ars_nouveau:arcane_stone'})
 event.shapeless('1x ars_nouveau:novice_spell_book', ['minecraft:book', 'minecraft:stone_pickaxe', 'minecraft:stone_shovel', 'minecraft:stone_hoe', 'minecraft:stone_axe', 'minecraft:stone_sword', ])
 event.shaped('1x productivebees:powered_centrifuge', ['ABC','DEF','GHI'], {A: 'minecraft:redstone',B: 'minecraft:iron_ingot',C: 'minecraft:redstone',D: 'kubejs:duraluminium_ingot',E: 'productivebees:centrifuge',F: 'kubejs:duraluminium_ingot',G: 'minecraft:redstone',H: 'minecraft:iron_ingot',I: 'minecraft:redstone'})                                                
+event.shapeless('4x astralsorcery:marble_raw', ['boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone'])
+event.shaped('1x ars_nouveau:glyph_press', ['ABC','DEF','GHI'], {A: 'ars_nouveau:warding_stone',B: 'ars_nouveau:warding_stone',C: 'ars_nouveau:warding_stone',D: 'ars_nouveau:warding_stone',E: 'ars_nouveau:enchanting_apparatus',F: 'ars_nouveau:warding_stone',G: 'ars_nouveau:warding_stone',H: 'ars_nouveau:mana_gem_block',I: 'ars_nouveau:warding_stone'})
+event.shaped('1x ars_nouveau:magic_clay', ['ABC','DEF','GHI'], {A: 'minecraft:clay_ball',B: 'ars_nouveau:mana_gem',C: 'minecraft:air',D: 'ars_nouveau:blank_parchment',E: 'ars_nouveau:mana_gem',F: 'minecraft:air',G: 'minecraft:air',H: 'minecraft:air',I: 'minecraft:air'})
     
 })//////DONT ADD MORE CODE AFTER THIS LINE
