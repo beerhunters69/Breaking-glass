@@ -68,3 +68,9 @@ config/pneumaticcraft/MicromissileDefaults.cfg
 config/pneumaticcraft/PneumaticArmorHUDLayout.cfg
 config/pneumaticcraft/thirdparty.cfg
 hotbar.nbt
+config/cucumber-client.toml
+config/cucumber-common.toml
+config/cucumber-tags.json
+config/jecalculation/config.toml
+config/jecalculation/record.json
+XaeroWaypoints_BACKUP240807/New World/config.txt
