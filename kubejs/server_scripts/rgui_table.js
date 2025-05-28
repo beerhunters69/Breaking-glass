@@ -33,5 +33,6 @@ event.shaped('1x productivebees:powered_centrifuge', ['ABC','DEF','GHI'], {A: 'm
 event.shapeless('4x astralsorcery:marble_raw', ['boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone','boss_tools:moon_stone'])
 event.shaped('1x ars_nouveau:glyph_press', ['ABC','DEF','GHI'], {A: 'ars_nouveau:warding_stone',B: 'ars_nouveau:warding_stone',C: 'ars_nouveau:warding_stone',D: 'ars_nouveau:warding_stone',E: 'ars_nouveau:enchanting_apparatus',F: 'ars_nouveau:warding_stone',G: 'ars_nouveau:warding_stone',H: 'ars_nouveau:mana_gem_block',I: 'ars_nouveau:warding_stone'})
 event.shaped('1x ars_nouveau:magic_clay', ['ABC','DEF','GHI'], {A: 'minecraft:clay_ball',B: 'ars_nouveau:mana_gem',C: 'minecraft:air',D: 'ars_nouveau:blank_parchment',E: 'ars_nouveau:mana_gem',F: 'minecraft:air',G: 'minecraft:air',H: 'minecraft:air',I: 'minecraft:air'})
+event.shaped('1x immersiveengineering:hammer', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: '#forge:ingots/copper',C: 'minecraft:string',D: 'minecraft:air',E: 'minecraft:stick',F: '#forge:ingots/copper',G: 'minecraft:stick',H: 'minecraft:air',I: 'minecraft:air'})
     
 })//////DONT ADD MORE CODE AFTER THIS LINE
