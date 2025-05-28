@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			disable_toast: true
 			x: -3.0d
 			y: 1.5d
 			shape: "gear"
