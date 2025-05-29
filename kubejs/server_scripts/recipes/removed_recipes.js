@@ -44,6 +44,7 @@ onEvent('recipes', event => {
 	event.remove({id: 'ars_nouveau:sunrise_2'})
 	event.remove({id: 'ars_nouveau:moonfall_2'})
 
+	event.remove({id: 'ceramics:unfired_clay_bucket'})
 	
 
 
