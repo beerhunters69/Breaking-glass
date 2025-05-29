@@ -95,11 +95,18 @@
 			dependencies: ["4E865E131DBE55C6"]
 			hide: true
 			id: "4B417E218E176BCE"
-			tasks: [{
-				id: "2667500537CF8C4C"
-				type: "item"
-				item: "toms_storage:ts.storage_terminal"
-			}]
+			tasks: [
+				{
+					id: "2667500537CF8C4C"
+					type: "item"
+					item: "toms_storage:ts.storage_terminal"
+				}
+				{
+					id: "0FDDDE5821CA3F8F"
+					type: "item"
+					item: "toms_storage:ts.inventory_connector"
+				}
+			]
 		}
 		{
 			x: 0.0d

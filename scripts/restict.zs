@@ -70,7 +70,7 @@ ItemStages.restrict(<item:minecraft:golden_hoe>, "three").preventInventory(false
 ItemStages.restrict(<item:minecraft:golden_shovel>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:gold_nugget>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_nugget>, "three").preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:minecraft:bucket>, "three").preventInventory(false).preventPickup(false);
 
 
 ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);

@@ -1,0 +1,8 @@
+{
+  "enableMillstone": true,
+  "enableDryingRack": false,
+  "enableChoppingBlock": true,
+  "enableBasin": false,
+  "basinAllowStack": false,
+  "onlyAcceptMainHandItem": false
+}
