@@ -44,7 +44,7 @@ event.shaped('1x immersive_aircraft:engine', ['ABC','DEF','GHI'], {A: 'minecraft
 event.shaped('1x immersive_aircraft:boiler', ['ABC','DEF','GHI'], {A: '#forge:ingots/copper',B: '#forge:ingots/copper',C: '#forge:ingots/copper',D: '#forge:ingots/copper',E: 'minecraft:air',F: '#forge:ingots/copper',G: '#forge:ingots/copper',H: 'minecraft:furnace',I: '#forge:ingots/copper'})
 event.shaped('1x immersive_aircraft:enhanced_propeller', ['ABC','DEF','GHI'], {A: '#forge:ingots/zinc',B: '#forge:ingots/zinc',C: 'minecraft:air',D: 'minecraft:air',E: 'immersive_aircraft:propeller',F: 'minecraft:air',G: 'minecraft:air',H: '#forge:ingots/zinc',I: '#forge:ingots/zinc'})
 event.shaped('1x immersive_aircraft:industrial_gears', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: '#forge:ingots/copper',C: '#forge:ingots/copper',D: '#forge:ingots/zinc',E: 'minecraft:lever',F: '#forge:ingots/copper',G: '#forge:ingots/zinc',H: '#forge:ingots/zinc',I: 'minecraft:air'})
-event.shapeless('1x primutils:chopping_block', ['#minecraft:logs'])
+event.shapeless('1x primutils:chopping_block', ['#minecraft:logs','#minecraft:logs'])
 event.shaped('1x create:mechanical_saw', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'emendatusenigmatica:zinc_plate',C: 'minecraft:air',D: 'emendatusenigmatica:zinc_plate',E: '#forge:ingots/zinc',F: 'emendatusenigmatica:zinc_plate',G: 'minecraft:air',H: 'create:andesite_casing',I: 'minecraft:air'})
 
 })//////DONT ADD MORE CODE AFTER THIS LINE

@@ -44,6 +44,7 @@ onEvent('recipes', event => {
           count: 4 // Количество досок на выходе
         }
       })
+      event.shapeless( Item.of(plankId), [logId])
       console.log(`Added: ${logId} → ${plankId} (chopAmounts=3)`)
     }
   })

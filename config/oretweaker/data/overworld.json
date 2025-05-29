@@ -30,6 +30,15 @@
       "spawnRate": 0.2,
       "biomeBlacklist": [],
       "biomeWhitelist": ["OVERWORLD"]
+    },{
+      "ore": "emendatusenigmatica:tin_ore",
+      "filler": "minecraft:stone",
+      "minY": 10,
+      "maxY": 118,
+      "maxVeinSize": 40,
+      "spawnRate": 1,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["OVERWORLD"]
     }
   ]
 }
