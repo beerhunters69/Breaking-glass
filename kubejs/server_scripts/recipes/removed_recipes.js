@@ -1,4 +1,5 @@
 priority: 11
+
 onEvent('recipes', event => {
 
 	event.remove({id: 'emendatusenigmatica:enigmatic_hammer'})
@@ -44,7 +45,91 @@ onEvent('recipes', event => {
 	event.remove({id: 'ars_nouveau:sunrise_2'})
 	event.remove({id: 'ars_nouveau:moonfall_2'})
 
+	event.remove({id: 'ceramics:unfired_clay_bucket'})
 	
 
 
 })
+
+onEvent('recipes', event => {
+  // 1. Список всех тегов и предметов досок
+  const plankItems = [
+    '#minecraft:planks',
+    '#forge:planks',
+    '#biomesoplenty:planks',
+    '#twilightforest:planks',
+    'ars_nouveau:archwood_planks',
+    '#tconstruct:planks'
+  ]
+
+  // 2. Удаление рецептов
+  plankItems.forEach(plank => {
+    // Удаляем рецепты, где эти доски являются результатом
+    event.remove({ output: plank })
+    
+    // Альтернативный вариант для более точного удаления:
+    // event.remove({ output: plank, input: '#forge:logs' })
+    // event.remove({ output: plank, input: '#minecraft:logs' })
+  })
+
+  // 3. Ваш код добавления новых рецептов рубки
+  function getPlankId(logId) {
+    const [namespace, path] = logId.split(':')
+    
+    if (logId.includes('archwood')) {
+      return 'ars_nouveau:archwood_planks'
+    }
+    
+    let woodType = path
+    woodType = woodType.replace('_log', '')
+    woodType = woodType.replace('_wood', '')
+    woodType = woodType.replace('_stem', '')
+    woodType = woodType.replace('_hyphae', '')
+    woodType = woodType.replace('_bark', '')
+    
+    if (woodType === path) return null
+    
+    return `${namespace}:${woodType}_planks`
+  }
+
+  const allLogs = Ingredient.of('#kubejs:all_logs').getStacks().toArray()
+  allLogs.forEach(log => {
+    const logId = log.getId()
+    const plankId = getPlankId(logId)
+    
+    if (plankId && Item.exists(plankId)) {
+      event.custom({
+        "type": "primutils:chopping",
+        "chopAmounts": 2,
+        "input": {
+          "item": logId
+        },
+        "output": {
+          "item": plankId,
+          "count": 4
+        }
+      })
+    }
+  })
+})
+onEvent('recipes', event => {
+  const plankItems = [
+    '#minecraft:planks',
+    '#forge:planks',
+    '#biomesoplenty:planks',
+    '#twilightforest:planks',
+    'ars_nouveau:archwood_planks',
+    '#tconstruct:planks'
+  ];
+  
+  // Удаление стандартных рецептов крафта
+  plankItems.forEach(plank => event.remove({ output: plank }));
+  
+  // Удаление рецептов обтесывания из Create
+  plankItems.forEach(plank => {
+    event.remove({ type: 'create:cutting', output: plank });
+  });
+  
+  // Удаление всех рецептов обтесывания
+  event.remove({ id: /create:cutting\/.+/ });
+});

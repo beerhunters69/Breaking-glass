@@ -35,6 +35,12 @@
 					command: "/reload"
 					player_command: false
 				}
+				{
+					id: "2226A049E0B4F09F"
+					type: "command"
+					command: "/say Welcome to age 2!"
+					player_command: false
+				}
 			]
 		}
 		{
@@ -133,21 +139,6 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
-			description: ["Congratulations! You've just managed to get a bucket before age 3. Now you can build a nether portal if you want to."]
-			hide_dependency_lines: true
-			optional: true
-			secret: true
-			incompatible: ["001BB0DFA22BEE1A"]
-			id: "2A33AD57DB1803C0"
-			tasks: [{
-				id: "45AECCA8FC2110EF"
-				type: "item"
-				item: "minecraft:bucket"
-			}]
-		}
-		{
 			x: 8.5d
 			y: 1.5d
 			shape: "gear"
@@ -214,16 +205,25 @@
 			y: 1.5d
 			shape: "gear"
 			min_required_dependencies: 1
-			dependencies: [
-				"34310AECA9040D2F"
-				"2A33AD57DB1803C0"
-			]
+			dependencies: ["34310AECA9040D2F"]
 			size: 2.0d
 			id: "0FF2F67097E5AC38"
 			tasks: [{
 				id: "784F872C071818D6"
 				type: "dimension"
 				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["This mods adds a whole smeltery and smithing, try it out!"]
+			dependencies: ["0C62A127CABF744B"]
+			id: "6A63B1F682366C77"
+			tasks: [{
+				id: "2E1F4A07F565E3D2"
+				type: "checkmark"
+				title: "Tinkers Construct"
 			}]
 		}
 	]
