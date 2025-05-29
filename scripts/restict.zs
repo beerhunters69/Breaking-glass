@@ -37,8 +37,7 @@ ItemStages.restrict(<item:minecraft:diamond_hoe>, "four").preventInventory(false
 
 
 
-ItemStages.createModRestriction("constructsarmory", "three").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("tconstruct", "three").preventInventory(false).preventPickup(false);
+
 ItemStages.createModRestriction("boss_tools", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("boss_tools_giselle_addon", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("immersivepetroleum", "three").preventInventory(false).preventPickup(false);
@@ -81,7 +80,8 @@ ItemStages.createModRestriction("twilightforest", "two").preventInventory(false)
 ItemStages.createModRestriction("toms_storage", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("immersiveengineering", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("apotheosis", "two").preventInventory(false).preventPickup(false);
-
+ItemStages.createModRestriction("constructsarmory", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("tconstruct", "two").preventInventory(false).preventPickup(false);
 
 
 
