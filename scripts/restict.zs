@@ -15,6 +15,17 @@ ItemStages.createModRestriction("pneumaticcraft", "five").preventInventory(false
 
 ItemStages.createModRestriction("fluxnetworks", "five").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("bigreactors", "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_sword>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_axe>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_pickaxe>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_shovel>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_hoe>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_helmet>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_chestplate>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_leggings>, "five").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:netherite_boots>, "five").preventInventory(false).preventPickup(false);
+
+
 
 
 
