@@ -13,17 +13,67 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 1.0d
-		y: 0.0d
-		shape: "gear"
-		id: "4F99C1FA4B400CC4"
-		tasks: [{
-			id: "358B28C58FA0040E"
-			type: "gamestage"
+	quests: [
+		{
 			title: "Age 1"
 			icon: "minecraft:grass_block"
-			stage: "one"
-		}]
-	}]
+			x: 1.0d
+			y: 0.0d
+			shape: "gear"
+			id: "4F99C1FA4B400CC4"
+			tasks: [{
+				id: "48B9C98E4584012B"
+				type: "gamestage"
+				secret: true
+				stage: "one"
+			}]
+		}
+		{
+			title: "Age 2"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 3.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["4F99C1FA4B400CC4"]
+			size: 1.5d
+			id: "7514D58047A950F3"
+			tasks: [{
+				id: "7343F788AA021167"
+				type: "gamestage"
+				stage: "two"
+			}]
+		}
+		{
+			title: "Age 3"
+			icon: "immersiveengineering:blast_furnace"
+			x: 5.5d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["7514D58047A950F3"]
+			size: 2.0d
+			id: "6BFA84DF019BE0FC"
+			tasks: [{
+				id: "652E5B4B519C08D0"
+				type: "gamestage"
+				stage: "three"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "1D9F32EC94E39859"
+			tasks: [{
+				id: "4178A608C0C4726C"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }

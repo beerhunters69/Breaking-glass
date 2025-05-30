@@ -38,6 +38,7 @@
 				{
 					id: "30D9130A84C7DEC2"
 					type: "command"
+					auto: "invisible"
 					command: "/say Welcome to age 2!"
 					player_command: false
 				}
