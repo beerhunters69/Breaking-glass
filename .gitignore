@@ -78,3 +78,7 @@ shaderpacks/ComplementaryUnbound_r5.1.1.zip.txt
 shaderpacks/ComplementaryUnbound_r5.1.1.zip
 ESM/soundsMuffled.dat
 ESM/Minecraft Server/anchors.dat
+config/fasterladderclimbing-client.toml
+config/gravestone-client.toml
+config/solcarrot-client.toml
+config/farmersdelight-client.toml
