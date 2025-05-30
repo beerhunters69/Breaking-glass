@@ -8,15 +8,20 @@ mods.recipestages.Recipes.clearRecipeStage(<item:avaritia:compressed_crafting_ta
 mods.recipestages.Recipes.clearRecipeStage(<item:avaritia:double_compressed_crafting_table>);
 
 
-ItemStages.createModRestriction("mekanism", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("mekanismtools", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("mekanismgenerators", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("hostilenetworks", "six").preventInventory(false).preventPickup(false);
-
+ItemStages.createModRestriction('mekanism', s => s in [<item:mekanism:block_tin>,<item:mekanism:block_copper>,<item:mekanism:block_osmium>,<item:mekanism:ingot_tin>,<item:mekanism:ingot_copper>,<item:mekanism:ingot_osmium>], "six").preventInventory(false).preventPickup(false);
 mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanismtools");
 mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanismgenerators");
 mods.recipestages.Recipes.setRecipeStageByMod("six", "hostilenetworks");
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_tin>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_copper>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_osmium>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_tin>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_copper>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_osmium>);
 
 
 
@@ -54,7 +59,7 @@ mods.recipestages.Recipes.setRecipeStage("five", <item:minecraft:netherite_boots
 ItemStages.createModRestriction("productivebees", "four").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ftbic", "four").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("astralsorcery", "four").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:diamond>, "four").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:diamond>, "four");
 ItemStages.restrict(<item:minecraft:emerald>, "four").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:diamond_helmet>, "four").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:diamond_chestplate>, "four").preventInventory(false).preventPickup(false);

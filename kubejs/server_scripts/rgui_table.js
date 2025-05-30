@@ -46,5 +46,7 @@ event.shaped('1x immersive_aircraft:enhanced_propeller', ['ABC','DEF','GHI'], {A
 event.shaped('1x immersive_aircraft:industrial_gears', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: '#forge:ingots/copper',C: '#forge:ingots/copper',D: '#forge:ingots/zinc',E: 'minecraft:lever',F: '#forge:ingots/copper',G: '#forge:ingots/zinc',H: '#forge:ingots/zinc',I: 'minecraft:air'})
 event.shapeless('1x primutils:chopping_block', ['#minecraft:logs','#minecraft:logs'])
 event.shaped('1x create:mechanical_saw', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'emendatusenigmatica:zinc_plate',C: 'minecraft:air',D: 'emendatusenigmatica:zinc_plate',E: '#forge:ingots/zinc',F: 'emendatusenigmatica:zinc_plate',G: 'minecraft:air',H: 'create:andesite_casing',I: 'minecraft:air'})
+event.shaped('1x artifacts:everlasting_beef', ['ABC','DEF','GHI'], {A: 'minecraft:gold_ingot',B: 'minecraft:sweet_berries',C: 'minecraft:gold_ingot',D: 'minecraft:beef',E: 'minecraft:enchanted_golden_apple',F: 'minecraft:beef',G: 'minecraft:gold_ingot',H: 'minecraft:chicken',I: 'minecraft:gold_ingot'})
+event.shaped('1x artifacts:everlasting_beef', ['ABC','DEF','GHI'], {A: 'minecraft:gold_ingot',B: 'minecraft:sweet_berries',C: 'minecraft:gold_ingot',D: 'minecraft:beef',E: 'minecraft:enchanted_golden_apple',F: 'minecraft:beef',G: 'minecraft:gold_ingot',H: 'minecraft:chicken',I: 'minecraft:gold_ingot'})
 
 })//////DONT ADD MORE CODE AFTER THIS LINE
