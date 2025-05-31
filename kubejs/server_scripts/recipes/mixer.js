@@ -19,7 +19,6 @@ onEvent('recipes', event => {
         'minecraft:redstone',
         Fluid.water(1000)
     ]).heated()
-
-
     
+
 })
