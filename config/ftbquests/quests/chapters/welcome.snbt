@@ -7,40 +7,97 @@
 	icon: "minecraft:beacon"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "Welcome"
-		x: 0.0d
-		y: 0.0d
-		description: [
-			"Welcome to the breaking glass! This modpack is about technology and a bit of magic and exploration."
-			"The main inspiration for this modpack is SevTech ages"
-		]
-		id: "62CD06A0FBBA7586"
-		tasks: [{
-			id: "4A1ABD9487978976"
-			type: "checkmark"
-		}]
-		rewards: [
-			{
-				id: "07A6D28487CFF242"
-				type: "gamestage"
-				auto: "invisible"
-				stage: "one"
-			}
-			{
-				id: "704361509944A074"
-				type: "command"
-				auto: "invisible"
-				command: "/reload"
-				player_command: false
-			}
-			{
-				id: "08E926E35892F27B"
-				type: "command"
-				auto: "invisible"
-				command: "/say Welcome to age 1!"
-				player_command: false
-			}
-		]
-	}]
+	quests: [
+		{
+			title: "Welcome"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Welcome to the breaking glass! This modpack is about technology and a bit of magic and exploration."
+				"The main inspiration for this modpack is SevTech ages"
+			]
+			id: "62CD06A0FBBA7586"
+			tasks: [{
+				id: "4A1ABD9487978976"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "07A6D28487CFF242"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "one"
+				}
+				{
+					id: "704361509944A074"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+				{
+					id: "08E926E35892F27B"
+					type: "command"
+					auto: "invisible"
+					command: "/say Welcome to age 1!"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			secret: true
+			id: "3144CF8F8674EF24"
+			tasks: [{
+				id: "12013B2D8D9768B9"
+				type: "checkmark"
+				title: "DEV"
+			}]
+			rewards: [
+				{
+					id: "6538F39152A6263D"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "one"
+				}
+				{
+					id: "55B1DE5A1BABA15B"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "two"
+				}
+				{
+					id: "1791D56363D99B5A"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "three"
+				}
+				{
+					id: "66320294178A185D"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "four"
+				}
+				{
+					id: "32A1D7F8D97B3171"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "five"
+				}
+				{
+					id: "5FBF857194E228DB"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "six"
+				}
+				{
+					id: "13EEF104B82AB50F"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "seven"
+				}
+			]
+		}
+	]
 }
