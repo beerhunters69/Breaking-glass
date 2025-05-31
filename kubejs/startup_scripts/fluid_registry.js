@@ -1,14 +1,6 @@
-onEvent('fluid.registry', event => {
-      
-    
-    
-    event.create('molten_angelic_alloy')
-    .thickTexture(0x311d3b)
-    .bucketColor(0x311d3b)
-    .displayName('Molten Angelic Alloy')
-    .rarity(epic)
-    .luminosity(1)
+//0x630991
 
-    
-//#311d3b
+onEvent('fluid.registry', event => {
+  event.create('molten_angelic_alloy').displayName('Molten Angelic Alloy').stillTexture('kubejs:block/molten_angelic_alloy_still').flowingTexture('kubejs:block/molten_angelic_alloy_flow')
+
 })
