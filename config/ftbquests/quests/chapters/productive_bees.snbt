@@ -1,0 +1,1061 @@
+{
+	id: "515F1AA7A58F27E1"
+	group: "0AFE0E9AC7269D41"
+	order_index: 6
+	filename: "productive_bees"
+	title: "Productive bees"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -12.5d
+			id: "4F8E2DE08FA8E8A8"
+			tasks: [{
+				id: "764A738FFDD8B7E1"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:prismarine"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			dependencies: ["3C620A10D7D162B5"]
+			id: "7BEE995F194B738C"
+			tasks: [{
+				id: "64B9950E91D76FA9"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:aquamarine"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.5d
+			dependencies: ["07C6A68F2EB13FEC"]
+			id: "2E6C812336058C10"
+			tasks: [{
+				id: "3CA0498D052DA0E4"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:awakened"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -6.5d
+			dependencies: ["64D0B6B74A8170BA"]
+			id: "51E551C52456C4BC"
+			tasks: [{
+				id: "5B98781848372F6D"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:fluix"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -9.0d
+			dependencies: ["21C24981D16FEE71"]
+			id: "07C6A68F2EB13FEC"
+			tasks: [{
+				id: "22AF7199B9A3485A"
+				type: "item"
+				item: {
+					id: "productivebees:configurable_honeycomb"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconium"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -9.0d
+			dependencies: [
+				"0F56E7806752A806"
+				"1FAF3C7880505312"
+			]
+			id: "525D24026E07EB5A"
+			tasks: [{
+				id: "40790CACDA2D4C7C"
+				type: "item"
+				item: "productivebees:honeycomb_bauxite"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -9.0d
+			dependencies: [
+				"147D94E47928AA0B"
+				"66AD1129A1723CCA"
+			]
+			id: "0A51872B79F9443B"
+			tasks: [{
+				id: "33F3FFFDD173702B"
+				type: "item"
+				item: "productivebees:honeycomb_blazing"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -12.5d
+			id: "36C0D62977438F64"
+			tasks: [{
+				id: "13175358EA627C2C"
+				type: "item"
+				item: "productivebees:honeycomb_bone"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -4.0d
+			dependencies: [
+				"2C1C9F4C83BC3571"
+				"52C2D2C2AFD09373"
+			]
+			id: "3B98CC7D92CB6C85"
+			tasks: [{
+				id: "598B09E538865A73"
+				type: "item"
+				item: "productivebees:honeycomb_brazen"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: [
+				"6D0F8D2CF2A34067"
+				"52C2D2C2AFD09373"
+			]
+			id: "58D866BE3747EB65"
+			tasks: [{
+				id: "54A37F1603D8F353"
+				type: "item"
+				item: "productivebees:honeycomb_bronze"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -9.0d
+			dependencies: [
+				"1FAF3C7880505312"
+				"0F56E7806752A806"
+			]
+			id: "52C2D2C2AFD09373"
+			tasks: [{
+				id: "778A4D4211A08BBE"
+				type: "item"
+				item: "productivebees:honeycomb_copper"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -4.0d
+			dependencies: [
+				"0F2C5733475FE3DD"
+				"44256F536B2C676A"
+			]
+			id: "3C620A10D7D162B5"
+			tasks: [{
+				id: "58899345718F4E82"
+				type: "item"
+				item: "productivebees:honeycomb_diamond"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -12.5d
+			id: "21C24981D16FEE71"
+			tasks: [{
+				id: "7BEF9CAFFA03A3D9"
+				type: "item"
+				item: "productivebees:honeycomb_draconic"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: [
+				"4A43D1AA957B8838"
+				"1A9A0E3D7EF80012"
+			]
+			id: "5172867B69C11A76"
+			tasks: [{
+				id: "7E76E1540B86107E"
+				type: "item"
+				item: "productivebees:honeycomb_electrum"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			dependencies: [
+				"3C620A10D7D162B5"
+				"42C812C7037962AB"
+			]
+			id: "07169BA2E533AAE4"
+			tasks: [{
+				id: "71C7790BD2EF35EC"
+				type: "item"
+				item: "productivebees:honeycomb_emerald"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -12.5d
+			id: "44256F536B2C676A"
+			tasks: [{
+				id: "6B0B923C2E776DB0"
+				type: "item"
+				item: "productivebees:honeycomb_ender"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			dependencies: [
+				"2C5CCA0CA7926253"
+				"3C620A10D7D162B5"
+			]
+			id: "54128DFD3B54A600"
+			tasks: [{
+				id: "5A70FFDD9E1C8C4A"
+				type: "item"
+				item: "productivebees:honeycomb_enderium"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			dependencies: [
+				"0F2C5733475FE3DD"
+				"07169BA2E533AAE4"
+			]
+			id: "37E6B6F091385ECD"
+			tasks: [{
+				id: "3BBBFF89C8DF2773"
+				type: "item"
+				item: "productivebees:honeycomb_experience"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			dependencies: [
+				"3F877052AD55BC31"
+				"0A51872B79F9443B"
+			]
+			id: "12D635FFB8490A45"
+			tasks: [{
+				id: "72B375BFEE0E45C6"
+				type: "item"
+				item: "productivebees:honeycomb_fossilised"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			dependencies: [
+				"52C2D2C2AFD09373"
+				"00F5DC6C0018D589"
+			]
+			id: "753738246729A387"
+			tasks: [{
+				id: "015084E9BCFB113E"
+				type: "item"
+				item: "productivebees:honeycomb_constantan"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			dependencies: ["3C620A10D7D162B5"]
+			id: "587F40619E49D5A9"
+			tasks: [{
+				id: "6B8623ED17953487"
+				type: "item"
+				item: "productivebees:honeycomb_fluorite"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			dependencies: [
+				"4A43D1AA957B8838"
+				"6D0F8D2CF2A34067"
+			]
+			id: "7F68B4C08BB13FE2"
+			tasks: [{
+				id: "48DDFA95C05B9508"
+				type: "item"
+				item: "productivebees:honeycomb_lumium"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -12.5d
+			id: "66AD1129A1723CCA"
+			tasks: [{
+				id: "3B3E2F405DF69BBF"
+				type: "item"
+				item: "productivebees:honeycomb_magmatic"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: [
+				"3C620A10D7D162B5"
+				"1A9A0E3D7EF80012"
+			]
+			id: "0E652698C4D9EC40"
+			tasks: [{
+				id: "0B49F9AA8E880BA3"
+				type: "item"
+				item: "productivebees:honeycomb_netherite"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			dependencies: [
+				"043B0AD781F989DC"
+				"01BFFB09B28F94DE"
+			]
+			id: "00F5DC6C0018D589"
+			tasks: [{
+				id: "4D062D6A667249AB"
+				type: "item"
+				item: "productivebees:honeycomb_nickel"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -9.0d
+			dependencies: [
+				"66AD1129A1723CCA"
+				"01BFFB09B28F94DE"
+			]
+			id: "5EF23A467A108237"
+			tasks: [{
+				id: "1CC7FF3ABF63AC1F"
+				type: "item"
+				item: "productivebees:honeycomb_obsidian"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.5d
+			dependencies: [
+				"3A812530D27E3ED5"
+				"043B0AD781F989DC"
+			]
+			id: "26DC55E6D0C896AC"
+			tasks: [{
+				id: "67039B4F18677963"
+				type: "item"
+				item: "productivebees:honeycomb_osmium"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.0d
+			dependencies: [
+				"7D85A273F1390A0D"
+				"043B0AD781F989DC"
+			]
+			id: "2C5CCA0CA7926253"
+			tasks: [{
+				id: "7AAC219177D3C59D"
+				type: "item"
+				item: "productivebees:honeycomb_leaden"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -6.5d
+			dependencies: [
+				"6110226CF3873BF5"
+				"7D85A273F1390A0D"
+			]
+			id: "0F2C5733475FE3DD"
+			tasks: [{
+				id: "7B4F4A2F135BD948"
+				type: "item"
+				item: "productivebees:honeycomb_lapis"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -9.0d
+			dependencies: [
+				"1FAF3C7880505312"
+				"0F56E7806752A806"
+			]
+			id: "043B0AD781F989DC"
+			tasks: [{
+				id: "30436277CBBAD4C0"
+				type: "item"
+				item: "productivebees:honeycomb_iron"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			dependencies: [
+				"043B0AD781F989DC"
+				"00F5DC6C0018D589"
+			]
+			id: "726BD60782D44E84"
+			tasks: [{
+				id: "040C4A054D88AF56"
+				type: "item"
+				item: "productivebees:honeycomb_invar"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -9.0d
+			dependencies: [
+				"72915342AA9F1FEE"
+				"1FAF3C7880505312"
+			]
+			id: "1A9A0E3D7EF80012"
+			tasks: [{
+				id: "3280E5DF8985F944"
+				type: "item"
+				item: "productivebees:honeycomb_gold"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.5d
+			id: "3598280736019421"
+			tasks: [{
+				id: "5BE1E7D7A369E5F5"
+				type: "item"
+				item: "productivebees:honeycomb_glowing"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -9.0d
+			dependencies: ["01BFFB09B28F94DE"]
+			id: "0EF088BB168C35CD"
+			tasks: [{
+				id: "722FC517EB85E7EE"
+				type: "item"
+				item: "productivebees:honeycomb_frosty"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -12.5d
+			id: "3A991EE3F44B41CB"
+			tasks: [{
+				id: "5EF903BBF1DB817F"
+				type: "item"
+				item: "productivebees:honeycomb_powdery"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.0d
+			dependencies: [
+				"5EF23A467A108237"
+				"26DC55E6D0C896AC"
+			]
+			id: "6DF74CAA7B7EFA92"
+			tasks: [{
+				id: "74708E6E375751CB"
+				type: "item"
+				item: "productivebees:honeycomb_refined_obsidian"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -12.5d
+			id: "1FAF3C7880505312"
+			tasks: [{
+				id: "3193832396CCEF92"
+				type: "item"
+				item: "productivebees:honeycomb_quartz"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			dependencies: [
+				"52C2D2C2AFD09373"
+				"4A43D1AA957B8838"
+			]
+			id: "5F44A9C128582610"
+			tasks: [{
+				id: "62D7E10A54DA0F01"
+				type: "item"
+				item: "productivebees:honeycomb_signalum"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -9.0d
+			dependencies: [
+				"7AC52B9081581FCA"
+				"147D94E47928AA0B"
+			]
+			id: "6217C86FE0EF7E62"
+			tasks: [{
+				id: "5681590AC07DF701"
+				type: "item"
+				item: "productivebees:honeycomb_silicon"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -12.5d
+			id: "2BDBC36E00510E5C"
+			tasks: [{
+				id: "72A4E2AE44958DAB"
+				type: "item"
+				item: "productivebees:honeycomb_ghostly"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			id: "47F20859B9B736AD"
+			tasks: [{
+				id: "54A4CD92708AD5AD"
+				type: "item"
+				item: "productivebees:honeycomb_sky_slimy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "18C92E09CD9C01D7"
+			tasks: [{
+				id: "30BCA86951CAB488"
+				type: "item"
+				item: "productivebees:honeycomb_tinkers_bronze"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			id: "29CBCF152E7D966F"
+			tasks: [{
+				id: "3449CD336B1DD5BE"
+				type: "item"
+				item: "productivebees:honeycomb_slimesteel"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "6EB8E2F3AAD31FDC"
+			tasks: [{
+				id: "0495369B6407D35B"
+				type: "item"
+				item: "productivebees:honeycomb_rose_gold"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			id: "5B666A4502C931D0"
+			tasks: [{
+				id: "449D3F51BEEA47C2"
+				type: "item"
+				item: "productivebees:honeycomb_queens_slime"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			id: "150C1B750CAAA315"
+			tasks: [{
+				id: "65D242FC73D54FDD"
+				type: "item"
+				item: "productivebees:honeycomb_pig_iron"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			id: "118CE626767B5383"
+			tasks: [{
+				id: "17F79DE61F066718"
+				type: "item"
+				item: "productivebees:honeycomb_knightslime"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			id: "271B7D70CFE97572"
+			tasks: [{
+				id: "6EC29704A105123B"
+				type: "item"
+				item: "productivebees:honeycomb_manyullyn"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "1BE994ECEEB5F217"
+			tasks: [{
+				id: "754F56E2034DB969"
+				type: "item"
+				item: "productivebees:honeycomb_hepatizon"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			id: "09CB525FF7A2B982"
+			tasks: [{
+				id: "0A5D4475AAACDF94"
+				type: "item"
+				item: "productivebees:honeycomb_cobalt"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -6.5d
+			dependencies: [
+				"043B0AD781F989DC"
+				"01BFFB09B28F94DE"
+			]
+			id: "2C1C9F4C83BC3571"
+			tasks: [{
+				id: "3213304C44D473D6"
+				type: "item"
+				item: "productivebees:honeycomb_zinc"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -9.0d
+			dependencies: ["36C0D62977438F64"]
+			id: "4947741E12F3CE35"
+			tasks: [{
+				id: "3C00E9D37921847F"
+				type: "item"
+				item: "productivebees:honeycomb_withered"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.5d
+			dependencies: [
+				"66AD1129A1723CCA"
+				"12D635FFB8490A45"
+			]
+			id: "0ED9937F0DD96BE1"
+			tasks: [{
+				id: "394B58C94127A21C"
+				type: "item"
+				item: "productivebees:honeycomb_sulfur"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			dependencies: [
+				"3A991EE3F44B41CB"
+				"043B0AD781F989DC"
+			]
+			id: "2543BA15128E447C"
+			tasks: [{
+				id: "6ED8F91E74C3307E"
+				type: "item"
+				item: "productivebees:honeycomb_radioactive"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -9.0d
+			dependencies: ["3F877052AD55BC31"]
+			id: "26B1E8435D815B13"
+			tasks: [{
+				id: "55D51106734B10CE"
+				type: "item"
+				item: "productivebees:honeycomb_tea"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.5d
+			dependencies: [
+				"1FAF3C7880505312"
+				"0F56E7806752A806"
+			]
+			id: "6D0F8D2CF2A34067"
+			tasks: [{
+				id: "1E829ED1C887A464"
+				type: "item"
+				item: "productivebees:honeycomb_tin"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -9.0d
+			dependencies: [
+				"44256F536B2C676A"
+				"1FAF3C7880505312"
+			]
+			id: "64D0B6B74A8170BA"
+			tasks: [{
+				id: "54E7B94D81334E17"
+				type: "item"
+				item: "productivebees:honeycomb_spacial"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			dependencies: [
+				"043B0AD781F989DC"
+				"12D635FFB8490A45"
+			]
+			id: "31435B74B3D4945B"
+			tasks: [{
+				id: "21E887788758D544"
+				type: "item"
+				item: "productivebees:honeycomb_steel"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -12.5d
+			id: "42C812C7037962AB"
+			tasks: [{
+				id: "67AF87FE9A969262"
+				type: "item"
+				item: "productivebees:honeycomb_slimy"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -9.0d
+			dependencies: [
+				"64EC28FF5AB48500"
+				"3598280736019421"
+			]
+			id: "6110226CF3873BF5"
+			tasks: [{
+				id: "6B55F47F92A7EFB9"
+				type: "item"
+				item: "productivebees:honeycomb_redstone"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			dependencies: [
+				"043B0AD781F989DC"
+				"72915342AA9F1FEE"
+			]
+			id: "4A43D1AA957B8838"
+			tasks: [{
+				id: "60D37387E3AC71AB"
+				type: "item"
+				item: "productivebees:honeycomb_silver"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -12.5d
+			id: "147D94E47928AA0B"
+			tasks: [{
+				id: "07FD541037D5146A"
+				type: "item"
+				item: "productivebees:spawn_egg_nomad_bee"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -12.5d
+			id: "7AC52B9081581FCA"
+			tasks: [{
+				id: "70230D7400298809"
+				type: "item"
+				item: "productivebees:spawn_egg_reed_bee"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -12.5d
+			id: "01BFFB09B28F94DE"
+			tasks: [{
+				id: "747AF60F3B7D6890"
+				type: "item"
+				item: "productivebees:spawn_egg_sweaty_bee"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -12.5d
+			id: "0F56E7806752A806"
+			tasks: [{
+				id: "08FA67E3EB3E4BA6"
+				type: "item"
+				item: "productivebees:spawn_egg_ashy_mining_bee"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -12.5d
+			id: "3F877052AD55BC31"
+			tasks: [{
+				id: "3EFBB64FB1BE11F3"
+				type: "item"
+				item: "productivebees:spawn_egg_leafcutter_bee"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -12.5d
+			id: "7D85A273F1390A0D"
+			tasks: [{
+				id: "45D5DFEC66E2395C"
+				type: "item"
+				item: "productivebees:spawn_egg_blue_banded_bee"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -12.5d
+			id: "72915342AA9F1FEE"
+			tasks: [{
+				id: "1E0F6667185138BD"
+				type: "item"
+				item: "productivebees:spawn_egg_mason_bee"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -12.5d
+			id: "64EC28FF5AB48500"
+			tasks: [{
+				id: "5623B76D94DD13C0"
+				type: "item"
+				item: "productivebees:spawn_egg_chocolate_mining_bee"
+			}]
+		}
+		{
+			x: 15.5d
+			y: -12.5d
+			id: "3A812530D27E3ED5"
+			tasks: [{
+				id: "3A92B0B1A144DA6D"
+				type: "item"
+				item: "productivebees:spawn_egg_neon_cuckoo_bee"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -12.0d
+			id: "32300FD71F8ECAB8"
+			tasks: [{
+				id: "67918416DC10D370"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -12.0d
+			id: "4198F484D45C896C"
+			tasks: [{
+				id: "30870A5CC4F129AA"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -10.5d
+			id: "3EFFA246C60595EA"
+			tasks: [{
+				id: "181079D60F0AEBFB"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: -10.5d
+			id: "16BDFC12B5EB6C1D"
+			tasks: [{
+				id: "4F89F6D9E230DD00"
+				type: "item"
+				title: "Any #productivebees:expansion_boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -14.0d
+			id: "36F0D037EEB9C35C"
+			tasks: [{
+				id: "669690A34BEAC99A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -5.5d
+			id: "2A45798BF397873C"
+			tasks: [{
+				id: "5C9CF2A43589ABAA"
+				type: "item"
+				item: "productivebees:upgrade_base"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			id: "41E9C6EE0DC8192A"
+			tasks: [{
+				id: "755ACA5097E1BDF9"
+				type: "item"
+				item: "productivebees:upgrade_productivity"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			id: "1E801187A39F447F"
+			tasks: [{
+				id: "4C816D6691F2EF33"
+				type: "item"
+				item: "productivebees:upgrade_range"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -3.5d
+			id: "4F3FFB9FB93DC97D"
+			tasks: [{
+				id: "66D7108EAE9301C1"
+				type: "item"
+				item: "productivebees:upgrade_filter"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -5.5d
+			id: "2721D9E82CB910DC"
+			tasks: [{
+				id: "5B5159A2CAC3A962"
+				type: "item"
+				item: "productivebees:upgrade_bee_sampler"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -6.5d
+			id: "116A800FEBC78CCD"
+			tasks: [{
+				id: "5666DE2950C00163"
+				type: "item"
+				item: "productivebees:upgrade_anti_teleport"
+			}]
+		}
+		{
+			x: -9.0d
+			y: -7.5d
+			id: "29B6169802004C37"
+			tasks: [{
+				id: "2B1B861C9FAEB20D"
+				type: "item"
+				item: "productivebees:upgrade_comb_block"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			id: "5817E69611B341D6"
+			tasks: [{
+				id: "2329D6F2664C795D"
+				type: "item"
+				item: "productivebees:upgrade_breeding"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.5d
+			id: "31094D43DD3638BF"
+			tasks: [{
+				id: "1AB89524E415F506"
+				type: "item"
+				item: "productivebees:upgrade_time"
+			}]
+		}
+		{
+			x: -12.0d
+			y: -6.5d
+			id: "7F855298BF465C24"
+			tasks: [{
+				id: "43A3184629537B63"
+				type: "item"
+				item: "productivebees:upgrade_productivity"
+			}]
+		}
+	]
+}
