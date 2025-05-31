@@ -116,4 +116,9 @@ onEvent('recipes', event => {
         '4x twilightforest:aurora_block',
         'immersiveengineering:concrete_bucket'
     )
+    event.recipes.immersiveengineering.arc_furnace(
+        'create:blaze_cake',
+        'create:blaze_cake_base',
+        'minecraft:cobblestone'
+    )
 })

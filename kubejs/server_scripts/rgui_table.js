@@ -48,5 +48,6 @@ event.shapeless('1x primutils:chopping_block', ['#minecraft:logs','#minecraft:lo
 event.shaped('1x create:mechanical_saw', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'emendatusenigmatica:zinc_plate',C: 'minecraft:air',D: 'emendatusenigmatica:zinc_plate',E: '#forge:ingots/zinc',F: 'emendatusenigmatica:zinc_plate',G: 'minecraft:air',H: 'create:andesite_casing',I: 'minecraft:air'})
 event.shaped('1x artifacts:everlasting_beef', ['ABC','DEF','GHI'], {A: 'minecraft:gold_ingot',B: 'minecraft:sweet_berries',C: 'minecraft:gold_ingot',D: 'minecraft:beef',E: 'minecraft:enchanted_golden_apple',F: 'minecraft:beef',G: 'minecraft:gold_ingot',H: 'minecraft:chicken',I: 'minecraft:gold_ingot'})
 event.shaped('1x artifacts:everlasting_beef', ['ABC','DEF','GHI'], {A: 'minecraft:gold_ingot',B: 'minecraft:sweet_berries',C: 'minecraft:gold_ingot',D: 'minecraft:beef',E: 'minecraft:enchanted_golden_apple',F: 'minecraft:beef',G: 'minecraft:gold_ingot',H: 'minecraft:chicken',I: 'minecraft:gold_ingot'})
+event.shapeless('1x create:creative_blaze_cake', ['create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake','create:blaze_cake'])
 
 })//////DONT ADD MORE CODE AFTER THIS LINE

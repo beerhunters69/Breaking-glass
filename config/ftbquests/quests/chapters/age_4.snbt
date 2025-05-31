@@ -11,37 +11,59 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		disable_toast: true
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		secret: true
-		id: "7EBFC782792932CC"
-		tasks: [{
-			id: "00E16163E3BBF4E6"
-			type: "dimension"
-			dimension: "boss_tools:moon"
-		}]
-		rewards: [
-			{
-				id: "245C8B5707ED8333"
-				type: "gamestage"
-				icon: {
-					id: "boss_tools:rocket_t1"
-					Count: 1b
-					tag: { }
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			secret: true
+			id: "7EBFC782792932CC"
+			tasks: [{
+				id: "00E16163E3BBF4E6"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "245C8B5707ED8333"
+					type: "gamestage"
+					icon: {
+						id: "boss_tools:rocket_t1"
+						Count: 1b
+						tag: { }
+					}
+					auto: "invisible"
+					stage: "four"
 				}
-				auto: "invisible"
-				stage: "four"
-			}
-			{
-				id: "6126A2D2ACB7D233"
-				type: "command"
-				auto: "invisible"
-				command: "/reload"
-				player_command: false
-			}
-		]
-	}]
+				{
+					id: "6126A2D2ACB7D233"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			id: "78ADAD00464681FD"
+			tasks: [{
+				id: "502E496EAF0023A3"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "546C24CA7C96864E"
+			tasks: [{
+				id: "0C053171AF5FB0CB"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+	]
 }
