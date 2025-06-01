@@ -344,5 +344,84 @@
 				}
 			]
 		}
+		{
+			x: 13.5d
+			y: 1.0d
+			dependencies: ["42B18415FA624119"]
+			id: "287F6E65D22D4FF3"
+			tasks: [{
+				id: "4908CDDD55CCA683"
+				type: "item"
+				item: {
+					id: "boss_tools:space_suit"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["42B18415FA624119"]
+			id: "558D3DF5E9392814"
+			tasks: [{
+				id: "529438DDFC338FB9"
+				type: "item"
+				item: {
+					id: "boss_tools:space_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.762244897959178d
+			y: 1.7727040816326465d
+			dependencies: ["42B18415FA624119"]
+			id: "22647E1E66EAB75F"
+			tasks: [{
+				id: "360E8195A0733C0F"
+				type: "item"
+				item: {
+					id: "boss_tools:space_pants"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 14.25d
+			y: 1.8035714285714235d
+			dependencies: ["42B18415FA624119"]
+			id: "5A3678B47DB04583"
+			tasks: [{
+				id: "2AC21AB291A2B7A4"
+				type: "item"
+				item: {
+					id: "boss_tools:oxygen_mask"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			dependencies: ["42B18415FA624119"]
+			id: "495CB994D08AA134"
+			tasks: [{
+				id: "61177279E08F52DA"
+				type: "item"
+				item: "boss_tools_giselle_addon:oxygen_can"
+			}]
+		}
 	]
 }

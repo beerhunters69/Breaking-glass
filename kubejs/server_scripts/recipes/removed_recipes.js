@@ -64,6 +64,11 @@ onEvent('recipes', event => {
   event.remove({id:"minecraft:netherite_ingot"})
 
 
+  event.remove({id:"pneumaticcraft:reinforced_stone"})
+  event.remove({id:"pneumaticcraft:explosion_crafting/compressed_iron_ingot"})
+
+  event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})
+  event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_lpg"})
 })
 
 onEvent('recipes', event => {

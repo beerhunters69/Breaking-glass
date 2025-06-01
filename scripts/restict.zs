@@ -159,7 +159,7 @@ mods.recipestages.Recipes.setRecipeStage("three", <item:minecraft:bucket>);
 ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("twilightforest", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("toms_storage", "two").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>], "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>.withTag({AS_Amulet_Holder: [362366796, -1650244384, -2012178990, 386519724]}),<item:immersiveengineering:hammer>], "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("apotheosis", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("constructsarmory", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("tconstruct", "two").preventInventory(false).preventPickup(false);

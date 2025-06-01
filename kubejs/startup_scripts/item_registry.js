@@ -16,6 +16,8 @@ onEvent("item.registry", event => {
 	event.create("angelic_alloy_ingot").displayName("Angelic Alloy ingot")
 	event.create("angelic_alloy_plate").displayName("Angelic Alloy plate")
 	event.create("netherite_base").displayName("Netherite Base")
+	event.create("wgnc").displayName("Weapon Grade Netherite Compound")
+	
 	
 	
 })
