@@ -47,6 +47,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
+			optional: true
 			secret: true
 			id: "3144CF8F8674EF24"
 			tasks: [{
