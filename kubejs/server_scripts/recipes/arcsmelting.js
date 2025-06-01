@@ -99,6 +99,12 @@ onEvent('recipes', event => {
         'minecraft:egg',
         'minecraft:sand'
     )
+    event.recipes.immersiveengineering.arc_furnace(
+        Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:slimy"}}'),
+        'minecraft:egg',
+        'minecraft:slime_ball'
+    )
+
     //Beeblock end
     event.recipes.immersiveengineering.arc_furnace(
         'ftbic:industrial_grade_metal',
@@ -115,5 +121,10 @@ onEvent('recipes', event => {
         'minecraft:crafting_table',
         '4x twilightforest:aurora_block',
         'immersiveengineering:concrete_bucket'
+    )
+    event.recipes.immersiveengineering.arc_furnace(
+        'create:blaze_cake',
+        'create:blaze_cake_base',
+        'minecraft:cobblestone'
     )
 })

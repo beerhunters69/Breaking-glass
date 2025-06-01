@@ -46,7 +46,21 @@ onEvent('recipes', event => {
 	event.remove({id: 'ars_nouveau:moonfall_2'})
 
 	event.remove({id: 'ceramics:unfired_clay_bucket'})
+  event.remove({id:"minecraft:flint_and_steel"})
 	
+  event.remove({id: 'minecraft:ender_eye'})
+  event.remove({id:"astralsorcery:infuser/ender_pearl"})
+  event.remove({id:"tconstruct:smeltery/casting/ender/eye"})
+
+  event.remove({id:"boss_tools:workbenching/tier2"})
+  event.remove({id:"boss_tools:oxygen_mask"})
+  event.remove({id:"boss_tools:space_suit"})
+  event.remove({id:"boss_tools:oxygen_tank"})
+  event.remove({id:"boss_tools:oxygen_gear"})
+  event.remove({id:"boss_tools:space_leggings"})
+  event.remove({id:"boss_tools:space_boots"})
+  
+  
 
 
 })
@@ -132,4 +146,7 @@ onEvent('recipes', event => {
   
   // Удаление всех рецептов обтесывания
   event.remove({ id: /create:cutting\/.+/ });
+
+
+
 });

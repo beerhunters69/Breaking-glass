@@ -27,4 +27,4 @@ DimensionStages.stageDimensionWithMessage("minecraft:the_nether", "You re too с
 // 
 // Example 2 
 // DimensionStages.stageDimensionWithMessage("minecraft:the_nether", "Access denied.", "two", "three");
-DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The end is too scary, come back later.", "six");
+DimensionStages.stageDimensionWithMessage("minecraft:the_end", "The end is too крутой for you, сосунка, come back when you see the red planet.", "six");

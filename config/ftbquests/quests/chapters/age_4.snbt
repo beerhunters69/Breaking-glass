@@ -11,37 +11,149 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		disable_toast: true
-		x: 0.0d
-		y: 0.0d
-		shape: "gear"
-		secret: true
-		id: "7EBFC782792932CC"
-		tasks: [{
-			id: "00E16163E3BBF4E6"
-			type: "dimension"
-			dimension: "boss_tools:moon"
-		}]
-		rewards: [
-			{
-				id: "245C8B5707ED8333"
-				type: "gamestage"
-				icon: {
-					id: "boss_tools:rocket_t1"
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			secret: true
+			id: "7EBFC782792932CC"
+			tasks: [{
+				id: "00E16163E3BBF4E6"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+			rewards: [
+				{
+					id: "245C8B5707ED8333"
+					type: "gamestage"
+					icon: {
+						id: "boss_tools:rocket_t1"
+						Count: 1b
+						tag: { }
+					}
+					auto: "invisible"
+					stage: "four"
+				}
+				{
+					id: "6126A2D2ACB7D233"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "78ADAD00464681FD"
+			tasks: [{
+				id: "502E496EAF0023A3"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "546C24CA7C96864E"
+			tasks: [{
+				id: "0C053171AF5FB0CB"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "270A97088E87FE06"
+			tasks: [{
+				id: "52C97FEA7EF27179"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "52E312AA0D8AF051"
+			tasks: [{
+				id: "5CA1C11ECC54E00B"
+				type: "item"
+				item: "twilightforest:carminite_reactor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "393BB38EFB3AA1C1"
+			tasks: [{
+				id: "6F7F31A054D37938"
+				type: "item"
+				item: "kubejs:angelic_alloy_plate"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "516CAC052F353466"
+			tasks: [{
+				id: "6742C5362201760D"
+				type: "item"
+				item: {
+					id: "ftbic:thick_neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "657430E8B142B34F"
+			tasks: [{
+				id: "7E0C1AC668A39F0F"
+				type: "item"
+				item: {
+					id: "tconstruct:large_plate"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:queens_slime"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"657430E8B142B34F"
+				"516CAC052F353466"
+				"270A97088E87FE06"
+				"52E312AA0D8AF051"
+				"393BB38EFB3AA1C1"
+			]
+			id: "4E5601D0DACDB86D"
+			tasks: [{
+				id: "1DEFB3BC29A0A32C"
+				type: "item"
+				item: {
+					id: "boss_tools:rocket_t2"
 					Count: 1b
 					tag: { }
 				}
-				auto: "invisible"
-				stage: "four"
-			}
-			{
-				id: "6126A2D2ACB7D233"
-				type: "command"
-				auto: "invisible"
-				command: "/reload"
-				player_command: false
-			}
-		]
-	}]
+			}]
+		}
+	]
 }

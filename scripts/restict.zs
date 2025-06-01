@@ -8,15 +8,18 @@ mods.recipestages.Recipes.clearRecipeStage(<item:avaritia:compressed_crafting_ta
 mods.recipestages.Recipes.clearRecipeStage(<item:avaritia:double_compressed_crafting_table>);
 
 
-ItemStages.createModRestriction("mekanism", "six").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("mekanismtools", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("mekanismgenerators", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("hostilenetworks", "six").preventInventory(false).preventPickup(false);
-
+ItemStages.createModRestriction('mekanism', s => s in [<item:mekanism:block_tin>,<item:mekanism:block_copper>,<item:mekanism:block_osmium>,<item:mekanism:ingot_tin>,<item:mekanism:ingot_copper>,<item:mekanism:ingot_osmium>], "six").preventInventory(false).preventPickup(false);
 mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanism");
-mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanismtools");
 mods.recipestages.Recipes.setRecipeStageByMod("six", "mekanismgenerators");
 mods.recipestages.Recipes.setRecipeStageByMod("six", "hostilenetworks");
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_tin>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_copper>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:block_osmium>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_tin>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_copper>);
+mods.recipestages.Recipes.clearRecipeStage(<item:mekanism:ingot_osmium>);
 
 
 
@@ -54,7 +57,7 @@ mods.recipestages.Recipes.setRecipeStage("five", <item:minecraft:netherite_boots
 ItemStages.createModRestriction("productivebees", "four").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ftbic", "four").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("astralsorcery", "four").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:diamond>, "four").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:diamond>, "four");
 ItemStages.restrict(<item:minecraft:emerald>, "four").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:diamond_helmet>, "four").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:diamond_chestplate>, "four").preventInventory(false).preventPickup(false);
@@ -92,6 +95,7 @@ ItemStages.createModRestriction("appliedenergistics2", "three").preventInventory
 ItemStages.createModRestriction("ae2wtlib", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("aeinfinitybooster", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2extras", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("ae2fc", "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_ingot>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_helmet>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_chestplate>,"three").preventInventory(false).preventPickup(false);
@@ -116,6 +120,7 @@ ItemStages.restrict(<item:minecraft:gold_nugget>, "three").preventInventory(fals
 ItemStages.restrict(<item:minecraft:iron_nugget>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:bucket>, "three").preventInventory(false).preventPickup(false);
 
+mods.recipestages.Recipes.setRecipeStageByMod("three", "ae2fc");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "boss_tools");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "boss_tools_giselle_addon");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "immersivepetroleum");
@@ -151,11 +156,10 @@ mods.recipestages.Recipes.setRecipeStage("three", <item:minecraft:iron_nugget>);
 mods.recipestages.Recipes.setRecipeStage("three", <item:minecraft:bucket>);
 
 
-
 ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("twilightforest", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("toms_storage", "two").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("immersiveengineering", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>], "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("apotheosis", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("constructsarmory", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("tconstruct", "two").preventInventory(false).preventPickup(false);
@@ -166,6 +170,8 @@ mods.recipestages.Recipes.setRecipeStageByMod("two", "immersiveengineering");
 mods.recipestages.Recipes.setRecipeStageByMod("two", "apotheosis");
 mods.recipestages.Recipes.setRecipeStageByMod("two", "constructsarmory");
 mods.recipestages.Recipes.setRecipeStageByMod("two", "tconstruct");
+mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:alloybrick>);
+mods.recipestages.Recipes.clearRecipeStage(<item:immersiveengineering:hammer>);
 
 
 ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled').preventInventory(false).preventPickup(false);

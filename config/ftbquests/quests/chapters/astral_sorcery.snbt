@@ -1,0 +1,380 @@
+{
+	id: "7BB1617DCEE4BDE6"
+	group: "0AFE0E9AC7269D41"
+	order_index: 5
+	filename: "astral_sorcery"
+	title: "Astral sorcery"
+	icon: "astralsorcery:tome"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			secret: true
+			id: "23F4DD42EEE60C41"
+			tasks: [{
+				id: "47514183D37A3647"
+				type: "dimension"
+				dimension: "boss_tools:moon"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["23F4DD42EEE60C41"]
+			id: "2806C55001B07B1B"
+			tasks: [{
+				id: "680B95CEE0F89490"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: ["23F4DD42EEE60C41"]
+			id: "1F44FCE2E1CBEDF0"
+			tasks: [{
+				id: "7E121DECF41267B5"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["23F4DD42EEE60C41"]
+			id: "03952A7F356963A9"
+			tasks: [{
+				id: "1C7C54C02201C18B"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["2806C55001B07B1B"]
+			id: "2E6A7F63BC26A4F8"
+			tasks: [{
+				id: "66D80D39EAB1AF13"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["2E6A7F63BC26A4F8"]
+			id: "0D9314FEFAA2CD28"
+			tasks: [{
+				id: "3D6B3C62B4141D10"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			dependencies: [
+				"171E0CA4BF756F40"
+				"0D9314FEFAA2CD28"
+			]
+			id: "25416012E23D612F"
+			tasks: [{
+				id: "404194F71DD6555C"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["2E6A7F63BC26A4F8"]
+			id: "75DCA1E97C165A2E"
+			tasks: [{
+				id: "4515B2D7D9EA8181"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["75DCA1E97C165A2E"]
+			id: "191AC97FE2155CBA"
+			tasks: [
+				{
+					id: "677169DB5669A0F6"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:discidia"
+							}
+						}
+					}
+				}
+				{
+					id: "2E522569945DF2F0"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:aevitas"
+							}
+						}
+					}
+				}
+				{
+					id: "497E1421FCC5D96B"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:vicio"
+							}
+						}
+					}
+				}
+				{
+					id: "10B9F4E314F30DAD"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:evorsio"
+							}
+						}
+					}
+				}
+				{
+					id: "5C6F98E801E89199"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:armara"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["2E6A7F63BC26A4F8"]
+			id: "171E0CA4BF756F40"
+			tasks: [{
+				id: "04CAA80E81B32084"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			dependencies: ["25416012E23D612F"]
+			id: "7BD84C4F52C0D616"
+			tasks: [{
+				id: "15F573EB7926D13A"
+				type: "item"
+				item: "astralsorcery:starmetal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			dependencies: ["25416012E23D612F"]
+			id: "2A5365B5350C1DF7"
+			tasks: [{
+				id: "0DA4708EDA65922D"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.0d
+			dependencies: ["25416012E23D612F"]
+			id: "18D1488C504BAD35"
+			tasks: [{
+				id: "22A1270D672CD20A"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 12.0d
+			dependencies: ["7BD84C4F52C0D616"]
+			id: "24CE92CE30449E24"
+			tasks: [{
+				id: "6D3DE9AB3D42B576"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 8.0d
+			dependencies: ["25416012E23D612F"]
+			id: "29ACA521F2E085DD"
+			tasks: [{
+				id: "18DD03D5D9404387"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.0d
+			dependencies: ["25416012E23D612F"]
+			id: "26504EC67019A3F8"
+			tasks: [{
+				id: "0F2230690330C3B2"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.0d
+			dependencies: ["0D9314FEFAA2CD28"]
+			id: "0DFE364AE3A29C0B"
+			tasks: [{
+				id: "121988ACCDC87871"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+			}]
+		}
+		{
+			x: -9.0d
+			y: 8.0d
+			dependencies: ["29ACA521F2E085DD"]
+			id: "190E3453263642B7"
+			tasks: [{
+				id: "3B78531C1AFD6DAA"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.0d
+			dependencies: ["25416012E23D612F"]
+			id: "7AFCECEC769B9FF7"
+			tasks: [{
+				id: "23FF316BCED789B6"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			dependencies: ["7BD84C4F52C0D616"]
+			id: "469C786E10E40DA0"
+			tasks: [{
+				id: "324D78DE6CC1A01B"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 14.0d
+			dependencies: ["24CE92CE30449E24"]
+			id: "0AE011B100A73952"
+			tasks: [{
+				id: "761CE24818E40AF7"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 16.0d
+			dependencies: ["0AE011B100A73952"]
+			id: "2BC305681C7AAE6A"
+			tasks: [{
+				id: "20BF178ABB20DD73"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.0d
+			dependencies: ["25416012E23D612F"]
+			id: "2847F88E8B30E23A"
+			tasks: [{
+				id: "464A73508BCCABDD"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 18.0d
+			dependencies: ["2BC305681C7AAE6A"]
+			id: "3C044804B5958FC4"
+			tasks: [{
+				id: "7AD5F094960692D4"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+	]
+}
