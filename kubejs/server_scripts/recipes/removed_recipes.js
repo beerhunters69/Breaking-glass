@@ -60,7 +60,8 @@ onEvent('recipes', event => {
   event.remove({id:"boss_tools:space_leggings"})
   event.remove({id:"boss_tools:space_boots"})
   
-  
+  event.remove({id:"tconstruct:smeltery/alloys/molten_netherite"})
+  event.remove({id:"minecraft:netherite_ingot"})
 
 
 })

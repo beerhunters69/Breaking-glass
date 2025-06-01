@@ -13,8 +13,10 @@ onEvent("item.registry", event => {
 	event.create("duraluminium_gear").displayName("Duraluminium gear")
 	event.create("duraluminium_plate").displayName("Duraluminium plate")
 	event.create("tf_inactive_portal_item").displayName("Inactive interdimensional transmitter")
-	event.create("angelic_alloy_ingot").displayName("Angelic alloy ingot")
-	event.create("angelic_alloy_plate").displayName("Angelic alloy plate")
+	event.create("angelic_alloy_ingot").displayName("Angelic Alloy ingot")
+	event.create("angelic_alloy_plate").displayName("Angelic Alloy plate")
+	event.create("netherite_base").displayName("Netherite Base")
+	
 	
 })
 
