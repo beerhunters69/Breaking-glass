@@ -221,11 +221,33 @@
 			description: ["This mods adds a whole smeltery and smithing, try it out!"]
 			dependencies: ["0C62A127CABF744B"]
 			id: "6A63B1F682366C77"
-			tasks: [{
-				id: "2E1F4A07F565E3D2"
-				type: "checkmark"
-				title: "Tinkers Construct"
-			}]
+			tasks: [
+				{
+					id: "2E1F4A07F565E3D2"
+					type: "checkmark"
+					title: "Tinkers Construct"
+				}
+				{
+					id: "310908AAECE8F9DD"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "66922678F6CDA8DF"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "5EA766F874252FAB"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "5DB2AD9FBA44B67F"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+			]
 		}
 	]
 }
