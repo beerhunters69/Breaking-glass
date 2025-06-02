@@ -223,11 +223,6 @@
 			id: "6A63B1F682366C77"
 			tasks: [
 				{
-					id: "2E1F4A07F565E3D2"
-					type: "checkmark"
-					title: "Tinkers Construct"
-				}
-				{
 					id: "310908AAECE8F9DD"
 					type: "item"
 					item: "tconstruct:seared_melter"
