@@ -42,7 +42,7 @@ onEvent('recipes', event => {
     const allPlanks = Ingredient.of('#minecraft:planks').getStacks().toArray()
 
      allPlanks.forEach(plank => {
-            event.recipes.create.cutting('4x minecraft:stick', plank).processingTime(50) 
+            event.recipes.create.cutting('4x minecraft:stick', plank).processingTime(10) 
         })
 })
 

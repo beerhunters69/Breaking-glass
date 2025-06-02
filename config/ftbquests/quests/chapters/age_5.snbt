@@ -1,0 +1,36 @@
+{
+	id: "1D90417067DF5C15"
+	group: "0166456A4DB1C0E1"
+	order_index: 4
+	filename: "age_5"
+	title: "Age 5"
+	icon: "pneumaticcraft:pressure_gauge"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		secret: true
+		id: "6BA6F3BE5247E87B"
+		tasks: [{
+			id: "3C6CABF1C3B59DDE"
+			type: "dimension"
+			dimension: "boss_tools:mars"
+		}]
+		rewards: [
+			{
+				id: "3B97BD30AE11BA7C"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "five"
+			}
+			{
+				id: "11EBD33592D4A684"
+				type: "command"
+				auto: "invisible"
+				command: "/reload"
+				player_command: false
+			}
+		]
+	}]
+}

@@ -60,9 +60,15 @@ onEvent('recipes', event => {
   event.remove({id:"boss_tools:space_leggings"})
   event.remove({id:"boss_tools:space_boots"})
   
-  
+  event.remove({id:"tconstruct:smeltery/alloys/molten_netherite"})
+  event.remove({id:"minecraft:netherite_ingot"})
 
 
+  event.remove({id:"pneumaticcraft:reinforced_stone"})
+  event.remove({id:"pneumaticcraft:explosion_crafting/compressed_iron_ingot"})
+
+  event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})
+  event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_lpg"})
 })
 
 onEvent('recipes', event => {
