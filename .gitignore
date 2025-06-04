@@ -83,3 +83,4 @@ config/gravestone-client.toml
 config/solcarrot-client.toml
 config/farmersdelight-client.toml
 screenshots/*
+essential/*
