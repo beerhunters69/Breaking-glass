@@ -84,3 +84,5 @@ config/solcarrot-client.toml
 config/farmersdelight-client.toml
 screenshots/*
 essential/*
+config/presencefootsteps/userconfig.json
+config/ambientsounds-client.json
