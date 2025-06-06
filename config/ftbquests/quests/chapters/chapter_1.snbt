@@ -293,17 +293,5 @@
 				}
 			]
 		}
-		{
-			icon: "immersiveengineering:alloy_smelter"
-			x: 7.0d
-			y: -6.5d
-			id: "0649B5883DD733AC"
-			tasks: [{
-				id: "5D4C2A66408535C2"
-				type: "item"
-				item: "immersiveengineering:alloybrick"
-				count: 8L
-			}]
-		}
 	]
 }

@@ -26,6 +26,24 @@
 				type: "checkmark"
 				title: "Immersive engineering"
 			}]
+			rewards: [
+				{
+					id: "5E6B42448FE730A8"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0F47DFB7ADDF3A42"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+			]
 		}
 		{
 			title: "Coke oven"
@@ -292,9 +310,9 @@
 		}
 		{
 			icon: "immersiveengineering:diesel_generator"
-			x: -2.0d
-			y: 11.5d
-			dependencies: ["021425B2E1DD82F0"]
+			x: -3.964285714285708d
+			y: 11.464285714285708d
+			dependencies: ["2ECE6C4BD7AFCB26"]
 			size: 1.5d
 			id: "3B18858340D84FF3"
 			tasks: [{
@@ -326,6 +344,19 @@
 				id: "3039C23C0BB8BE84"
 				type: "item"
 				item: "immersivepetroleum:lubricant_bucket"
+			}]
+		}
+		{
+			title: "Sulfur Recovery Unit"
+			icon: "immersivepetroleum:hydrotreater"
+			x: -2.0d
+			y: 11.5d
+			dependencies: ["021425B2E1DD82F0"]
+			size: 1.5d
+			id: "2ECE6C4BD7AFCB26"
+			tasks: [{
+				id: "2346E214CFC05848"
+				type: "checkmark"
 			}]
 		}
 	]

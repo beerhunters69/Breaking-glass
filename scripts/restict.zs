@@ -56,16 +56,7 @@ ItemStages.createModRestriction("ae2wtlib", "three").preventInventory(false).pre
 ItemStages.createModRestriction("aeinfinitybooster", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2extras", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2fc", "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_ingot>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_helmet>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_chestplate>,"three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_leggings>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_boots>,"three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_axe>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_pickaxe>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_sword>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_hoe>, "three").preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:minecraft:iron_shovel>, "three").preventInventory(false).preventPickup(false);
+
 ItemStages.restrict(<item:minecraft:gold_ingot>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:golden_helmet>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:golden_chestplate>,"three").preventInventory(false).preventPickup(false);
@@ -80,6 +71,25 @@ ItemStages.restrict(<item:minecraft:gold_nugget>, "three").preventInventory(fals
 ItemStages.restrict(<item:minecraft:iron_nugget>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:bucket>, "three").preventInventory(false).preventPickup(false);
 
+
+ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("twilightforest", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("toms_storage", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>.withTag({AS_Amulet_Holder: [362366796, -1650244384, -2012178990, 386519724]}),<item:immersiveengineering:hammer>], "two").preventInventory(false).preventPickup(false).preventUsing(false);
+ItemStages.createModRestriction("apotheosis", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("constructsarmory", "two").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("tconstruct", "two").preventInventory(false).preventPickup(false);
+
+ItemStages.restrict(<item:minecraft:iron_ingot>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_helmet>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_chestplate>,"two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_leggings>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_boots>,"two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_axe>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_pickaxe>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_sword>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_hoe>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_shovel>, "two").preventInventory(false).preventPickup(false);
 
 
 ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled').preventInventory(false).preventPickup(false);
