@@ -62,5 +62,21 @@ event.custom(
   "result": "kubejs:wgnc",
   "cooling_time": 60
 })
+
+event.custom(
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "forge:ender_pearls"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_wgnc",
+    "amount": 144
+  },
+  "result": "minecraft:ender_eye",
+  "cooling_time": 60
+})
+
 })
 

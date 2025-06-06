@@ -15,8 +15,13 @@ onEvent('recipes', event => {
         '#forge:dusts/nickel'
     ]).heated()
     event.recipes.create.mixing(Item.of('appliedenergistics2:charged_certus_quartz_crystal', 32),[
+        Item.of('emendatusenigmatica:certus_quartz_gem',64),
+        'minecraft:redstone_block',
+        Fluid.water(1000)
+    ]).heated()
+    event.recipes.create.mixing(Item.of('appliedenergistics2:charged_certus_quartz_crystal', 32),[
         Item.of('appliedenergistics2:certus_quartz_crystal',64),
-        'minecraft:redstone',
+        'minecraft:redstone_block',
         Fluid.water(1000)
     ]).heated()
     

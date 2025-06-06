@@ -58,5 +58,7 @@ event.shaped('1x boss_tools:space_pants', ['ABC','DEF','GHI'], {A: 'kubejs:dural
 event.shaped('1x boss_tools:space_boots', ['ABC','DEF','GHI'], {A: 'minecraft:white_wool',B: 'minecraft:air',C: 'minecraft:white_wool',D: 'kubejs:duraluminium_ingot',E: 'minecraft:air',F: 'kubejs:duraluminium_ingot',G: 'kubejs:duraluminium_plate',H: 'minecraft:air',I: 'kubejs:duraluminium_plate'})
 event.shaped('8x pneumaticcraft:pressure_tube', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'minecraft:air',C: 'minecraft:air',D: 'kubejs:wgnc',E: 'minecraft:glass',F: 'kubejs:wgnc',G: 'minecraft:air',H: 'minecraft:air',I: 'minecraft:air'})
 event.shaped('16x pneumaticcraft:reinforced_stone', ['ABC','DEF','GHI'], {A: 'minecraft:stone',B: 'minecraft:stone',C: 'minecraft:stone',D: 'minecraft:stone',E: 'kubejs:wgnc',F: 'minecraft:stone',G: 'minecraft:stone',H: 'minecraft:stone',I: 'minecraft:stone'})
+event.shapeless('1x appliedenergistics2:sky_stone_block', ['minecraft:obsidian','minecraft:obsidian','minecraft:obsidian','minecraft:obsidian'])
+event.shaped('1x minecraft:enchanting_table', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'minecraft:book',C: 'minecraft:air',D: 'kubejs:duraluminium_plate',E: 'minecraft:crying_obsidian',F: 'kubejs:duraluminium_plate',G: 'minecraft:obsidian',H: 'minecraft:obsidian',I: 'minecraft:obsidian'})
 
 })//////DONT ADD MORE CODE AFTER THIS LINE
