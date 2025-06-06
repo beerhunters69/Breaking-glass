@@ -5,4 +5,8 @@ event.recipes.immersiveengineering.crusher('emendatusenigmatica:diamond_dust', "
 event.recipes.immersiveengineering.crusher('mekanism:dust_netherite', "minecraft:netherite_ingot")
 event.recipes.immersiveengineering.crusher('2x emendatusenigmatica:iridium_dust', 'emendatusenigmatica:iridium_chunk')
 event.recipes.immersiveengineering.crusher('emendatusenigmatica:iridium_dust', 'emendatusenigmatica:iridium_ingot')
+event.recipes.immersiveengineering.crusher('appliedenergistics2:nether_quartz_dust', '#forge:gems/quartz')
+event.recipes.immersiveengineering.crusher('appliedenergistics2:fluix_dust', '#forge:gems/fluix')
+event.recipes.immersiveengineering.crusher('appliedenergistics2:certus_quartz_dust', '#forge:gems/certus_quartz')
+event.recipes.immersiveengineering.crusher('appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_gem')
 })

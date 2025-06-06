@@ -45,6 +45,19 @@ onEvent('recipes', event => {
         }
       })
       event.shapeless( Item.of(plankId), [logId])
+      event.custom(
+      {
+        "type":"immersiveengineering:sawmill",
+        "secondaries":[
+          {"output":{"tag":"forge:dusts/wood"},
+          "stripping":false}],
+          "result":{"item":plankId,"count":6},//R
+          "energy":1600,"input":
+          [
+            {"item":logId}
+          ],
+      }
+      )
       console.log(`Added: ${logId} → ${plankId} (chopAmounts=3)`)
     }
   })
