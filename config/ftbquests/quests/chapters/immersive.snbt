@@ -18,7 +18,10 @@
 			}
 			x: 0.0d
 			y: 0.0d
-			description: ["Mod about big machines and automation"]
+			description: [
+				"Mod about big machines and automation"
+				"Btw. Hammer can be used to create plates, and wire cutters can be used to create wires from those plates"
+			]
 			dependencies: ["0DC09FCA11B64DE6"]
 			id: "5C2EED0749C00C17"
 			tasks: [{
@@ -50,6 +53,10 @@
 			icon: "immersiveengineering:coke_oven"
 			x: 2.0d
 			y: 0.0d
+			description: [
+				"This multiblock will create creosote and coal coke for you, better save up for later"
+				"P.S. You better make 4 of those"
+			]
 			dependencies: ["5C2EED0749C00C17"]
 			size: 1.5d
 			id: "6A4597420CAF8FEB"
@@ -75,6 +82,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			description: ["Use it to create treated planks, it will be required for machinery and other cool stuff like earlygame shulkers(reinforced crate)."]
 			dependencies: ["6A4597420CAF8FEB"]
 			id: "1A1A40B76B15AF27"
 			tasks: [{
@@ -86,6 +94,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
+			description: ["This little table can saveup you resources, try to make engineer blueprint to see it recieps"]
 			dependencies: ["1A1A40B76B15AF27"]
 			id: "001241B9E835B2C7"
 			tasks: [{
@@ -93,11 +102,17 @@
 				type: "item"
 				item: "immersiveengineering:workbench"
 			}]
+			rewards: [{
+				id: "78204DED795F20A2"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			title: "Cheap components"
 			x: 8.0d
 			y: 0.0d
+			description: ["Finally, cheap components aaaaand garden cloche"]
 			dependencies: ["001241B9E835B2C7"]
 			id: "4CEBFF8D83FF3C75"
 			tasks: [{
@@ -110,13 +125,20 @@
 						blueprint: "components"
 					}
 				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "5AB68150DA5DD11C"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
 			title: "Blast furnace"
 			icon: "immersiveengineering:blast_furnace"
-			x: 0.0d
-			y: 2.0d
+			x: 0.07976190476189515d
+			y: 1.8511904761904745d
+			description: ["This little girl will make you some steel, save up for the future"]
 			dependencies: ["5C2EED0749C00C17"]
 			size: 1.5d
 			id: "3FFA44FD84CC7325"
@@ -126,12 +148,19 @@
 				item: "immersiveengineering:blastbrick"
 				count: 27L
 			}]
+			rewards: [{
+				id: "61C85153403741CE"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			title: "Finally, steel"
 			x: 0.0d
 			y: 4.0d
+			description: ["Some gray metal you say, but you will need a lot of it, so be ready"]
 			dependencies: ["3FFA44FD84CC7325"]
+			dependency_requirement: "all_started"
 			id: "14176C7B20C7BB19"
 			tasks: [{
 				id: "107EBAEE29EDA24B"
@@ -145,25 +174,48 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5BA882656236DA70"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			title: "Metal press"
 			icon: "immersiveengineering:metal_press"
-			x: 2.0d
-			y: 5.5d
+			x: 1.9464285714285765d
+			y: 5.452380952380949d
 			dependencies: ["3744FFB6EFEA0171"]
 			size: 1.5d
 			id: "777D299902CF9EFC"
-			tasks: [{
-				id: "7B4F6BB256877E14"
-				type: "item"
-				item: "immersiveengineering:mold_plate"
+			tasks: [
+				{
+					id: "7B4F6BB256877E14"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "337D7079F6111A8B"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+				{
+					id: "77C6C57A011F1C34"
+					type: "item"
+					item: "boss_tools_giselle_addon:mold_compressing"
+				}
+			]
+			rewards: [{
+				id: "3C05746719A314F6"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
 			title: "Arc furnace components"
 			x: 8.0d
 			y: 2.5d
+			description: ["You will need this to create full graphite electrode (not 50% like in metal press)"]
 			dependencies: ["001241B9E835B2C7"]
 			id: "4F4DDCCBC562BF28"
 			tasks: [{
@@ -173,9 +225,15 @@
 					id: "immersiveengineering:blueprint"
 					Count: 1b
 					tag: {
-						blueprint: "molds"
+						blueprint: "electrode"
 					}
 				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "0782A50FCBBAA129"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
@@ -186,9 +244,21 @@
 			dependencies: ["777D299902CF9EFC"]
 			size: 1.5d
 			id: "6F5097515A192CD8"
-			tasks: [{
-				id: "2A110D40498F890E"
-				type: "checkmark"
+			tasks: [
+				{
+					id: "2A110D40498F890E"
+					type: "checkmark"
+				}
+				{
+					id: "09000AB49407F7B5"
+					type: "item"
+					item: "immersiveengineering:dust_iron"
+				}
+			]
+			rewards: [{
+				id: "1AF65DFA9A33DD40"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
@@ -199,9 +269,21 @@
 			dependencies: ["6F5097515A192CD8"]
 			size: 1.5d
 			id: "1A5C5C629DE7A389"
-			tasks: [{
-				id: "66BA0D0DD95D2E6C"
-				type: "checkmark"
+			tasks: [
+				{
+					id: "66BA0D0DD95D2E6C"
+					type: "checkmark"
+				}
+				{
+					id: "7DBD7E5254FA9AEC"
+					type: "item"
+					item: "immersiveengineering:dust_hop_graphite"
+				}
+			]
+			rewards: [{
+				id: "5C130D665A43EB25"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
@@ -214,6 +296,11 @@
 				type: "item"
 				item: "immersiveengineering:ingot_hop_graphite"
 			}]
+			rewards: [{
+				id: "3D117F380532483A"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			title: "Sawmill"
@@ -223,9 +310,21 @@
 			dependencies: ["3744FFB6EFEA0171"]
 			size: 1.5d
 			id: "5834946C5F5FA234"
-			tasks: [{
-				id: "7B59220452EB9AED"
-				type: "checkmark"
+			tasks: [
+				{
+					id: "7B59220452EB9AED"
+					type: "checkmark"
+				}
+				{
+					id: "4F862F63EC837961"
+					type: "item"
+					item: "immersiveengineering:dust_wood"
+				}
+			]
+			rewards: [{
+				id: "57E2FA3216AF9DFC"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
@@ -239,29 +338,69 @@
 			]
 			size: 2.5d
 			id: "12080F23688FD8FF"
-			tasks: [{
-				id: "46082F857F92296D"
-				type: "checkmark"
-				title: "Arc furnace"
-			}]
+			tasks: [
+				{
+					id: "46082F857F92296D"
+					type: "checkmark"
+					title: "Arc furnace"
+				}
+				{
+					id: "28C9593A7AADEF70"
+					type: "item"
+					item: "kubejs:duraluminium_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "30449941AEA21052"
+					type: "random"
+					table_id: 1120989259941692271L
+				}
+				{
+					id: "082A4B75FFFBEAB4"
+					type: "random"
+					table_id: 1120989259941692271L
+				}
+				{
+					id: "01AF94777D03B8FA"
+					type: "random"
+					table_id: 1120989259941692271L
+				}
+			]
 		}
 		{
 			icon: "immersiveengineering:advanced_blast_furnace"
 			x: -2.25d
-			y: 4.5d
+			y: 3.75d
 			dependencies: ["3744FFB6EFEA0171"]
 			size: 1.5d
 			id: "720B5EF2FFD7D0DA"
-			tasks: [{
-				id: "60605FD112D5746F"
-				type: "checkmark"
-				title: "Improved blast furnace"
+			tasks: [
+				{
+					id: "60605FD112D5746F"
+					type: "checkmark"
+					title: "Improved blast furnace"
+				}
+				{
+					id: "3A704B24AD64828E"
+					type: "item"
+					item: "immersiveengineering:slag"
+				}
+			]
+			rewards: [{
+				id: "70E44DD93B85C9BE"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
 			x: 0.0d
 			y: 5.5d
-			description: ["Please, before you continue, go read power generation chapter in immersive engineering manual"]
+			description: [
+				"So, for all next machines you will need some POWER."
+				"Go and use that treated wood for couple of waterwheels or windmills and dont forget to connect them to the kinetic dynamo"
+				"P.S. Read engineer manual if you dont understand"
+			]
 			dependencies: ["14176C7B20C7BB19"]
 			id: "3744FFB6EFEA0171"
 			tasks: [{
@@ -273,7 +412,11 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["....for oil"]
+			description: [
+				"Be ready..."
+				"Connect this thing to the power and rbm it, in a couple of seconds you will know what resources are lies below your feet, use F3+G to see chunks. These core samples are one per chunk"
+				"Reminder: you are looking for oil"
+			]
 			dependencies: ["3744FFB6EFEA0171"]
 			id: "6B611CC681C0860A"
 			tasks: [{
@@ -281,11 +424,17 @@
 				type: "item"
 				item: "immersiveengineering:sample_drill"
 			}]
+			rewards: [{
+				id: "24F7DADD44173F05"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			icon: "immersivepetroleum:pumpjack"
 			x: 0.0d
 			y: 9.5d
+			description: ["This thing will consume all your power to get some oil from beneath, or other liquids."]
 			dependencies: ["6B611CC681C0860A"]
 			size: 1.5d
 			id: "5DA2E656567BBC8C"
@@ -294,31 +443,61 @@
 				type: "checkmark"
 				title: "Pumpjack"
 			}]
+			rewards: [{
+				id: "30773EB7628A4D95"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
 		}
 		{
 			icon: "immersivepetroleum:distillationtower"
 			x: 0.0d
 			y: 11.5d
+			description: [
+				"And here is the fun part begin"
+				"This thing will consume even more power to distill that oil, so you can get some fractions, 2 of them are for power generation so follow the quest line, and the last one is for resourses, you better save it"
+			]
 			dependencies: ["5DA2E656567BBC8C"]
 			size: 1.5d
 			id: "021425B2E1DD82F0"
-			tasks: [{
-				id: "1C2138C05083509D"
-				type: "checkmark"
-				title: "Distillation tower"
+			tasks: [
+				{
+					id: "1C2138C05083509D"
+					type: "checkmark"
+					title: "Distillation tower"
+				}
+				{
+					id: "02846ED7E160B0A5"
+					type: "item"
+					item: "immersivepetroleum:bitumen"
+				}
+			]
+			rewards: [{
+				id: "13BBE3C091CC6498"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
 			icon: "immersiveengineering:diesel_generator"
 			x: -3.964285714285708d
 			y: 11.464285714285708d
-			dependencies: ["2ECE6C4BD7AFCB26"]
+			shape: "pentagon"
+			dependencies: [
+				"2ECE6C4BD7AFCB26"
+				"7EDBBB01F769CEEB"
+			]
 			size: 1.5d
 			id: "3B18858340D84FF3"
 			tasks: [{
 				id: "7CE08DFEFDD98E63"
 				type: "checkmark"
 				title: "Diesel generator"
+			}]
+			rewards: [{
+				id: "222C589912B5491F"
+				type: "random"
+				table_id: 1120989259941692271L
 			}]
 		}
 		{
@@ -354,8 +533,144 @@
 			dependencies: ["021425B2E1DD82F0"]
 			size: 1.5d
 			id: "2ECE6C4BD7AFCB26"
+			tasks: [
+				{
+					id: "2346E214CFC05848"
+					type: "checkmark"
+				}
+				{
+					id: "63D541956CCDFDC2"
+					type: "item"
+					item: "immersiveengineering:dust_sulfur"
+				}
+			]
+			rewards: [{
+				id: "6792508A3978AD5B"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 12.5d
+			shape: "gear"
+			dependencies: ["021425B2E1DD82F0"]
+			id: "789357B5DEBB5CDE"
 			tasks: [{
-				id: "2346E214CFC05848"
+				id: "6CF6F7059E39D8D8"
+				type: "item"
+				item: "immersivepetroleum:gasoline_bucket"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 14.0d
+			shape: "gear"
+			dependencies: [
+				"021425B2E1DD82F0"
+				"2ECE6C4BD7AFCB26"
+			]
+			id: "7EDBBB01F769CEEB"
+			tasks: [{
+				id: "7815B509FDB3BC29"
+				type: "item"
+				item: "immersivepetroleum:diesel_bucket"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.5d
+			shape: "pentagon"
+			dependencies: ["789357B5DEBB5CDE"]
+			size: 1.5d
+			id: "648A936F43AC69F8"
+			tasks: [{
+				id: "19F698972F1DD86A"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "59935053CC0A4961"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			description: ["This little crop will give you industrial hemp, that can be used in isolation of your wires or making windmills"]
+			dependencies: ["5C2EED0749C00C17"]
+			id: "10DC8848E5ED92DC"
+			tasks: [{
+				id: "34D1B38E29875663"
+				type: "item"
+				item: "immersiveengineering:seed"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			hide_dependency_lines: false
+			dependencies: ["3219A1B9396FC2AD"]
+			id: "3682CCFD20F06634"
+			tasks: [{
+				id: "3879823F89038392"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "461D70AB11A3ADEA"
+				type: "random"
+				table_id: 1120989259941692271L
+			}]
+		}
+		{
+			icon: "immersiveengineering:alloy_smelter"
+			x: 3.75d
+			y: 2.25d
+			description: [
+				""
+				"Kiln can be used for early alloys alike bronze or other cool stuff"
+			]
+			dependencies: ["5C2EED0749C00C17"]
+			size: 1.5d
+			id: "330728D7D7A6209C"
+			tasks: [{
+				id: "7303451C8F3771A2"
+				type: "item"
+				title: "Kiln"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: ["Yes, we added alternaitive recipe for steel, because we dont want to make this game about waiting, yet..."]
+			dependencies: [
+				"6F5097515A192CD8"
+				"330728D7D7A6209C"
+			]
+			id: "5383F882262A2250"
+			tasks: [{
+				id: "5E792558E2AFADB2"
+				type: "checkmark"
+				title: "Alternate steel"
+			}]
+		}
+		{
+			title: "Big fluid tanks"
+			icon: "immersiveengineering:tank"
+			x: 0.0d
+			y: 13.0d
+			description: [
+				"You need them, you want them, you use them."
+				"This multiblock will contain 500 buckets of any fluid."
+			]
+			dependencies: ["021425B2E1DD82F0"]
+			id: "47C6DF30F2AA8006"
+			tasks: [{
+				id: "70AE00A5BA3793E3"
 				type: "checkmark"
 			}]
 		}

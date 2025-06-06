@@ -143,78 +143,6 @@
 			}]
 		}
 		{
-			title: "Storage and access"
-			x: -2.0d
-			y: -5.0d
-			dependencies: ["20D6502E40FD1166"]
-			id: "042E213A0A6F365F"
-			tasks: [
-				{
-					id: "5C4E89FC1CC8532F"
-					type: "item"
-					item: "appliedenergistics2:drive"
-				}
-				{
-					id: "2F13EA5DFF9DF85A"
-					type: "item"
-					item: {
-						id: "appliedenergistics2:1k_storage_cell"
-						Count: 1b
-						tag: { }
-					}
-				}
-				{
-					id: "0FFD7011C8F01F29"
-					type: "item"
-					item: "appliedenergistics2:energy_acceptor"
-				}
-				{
-					id: "01DB8815AB8AD140"
-					type: "item"
-					item: "appliedenergistics2:crafting_terminal"
-				}
-				{
-					id: "08AC9B03601A7D15"
-					type: "item"
-					item: "appliedenergistics2:fluix_glass_cable"
-				}
-			]
-		}
-		{
-			title: "Autocrafting"
-			x: -2.0d
-			y: -7.0d
-			dependencies: ["20D6502E40FD1166"]
-			id: "12578FA252186C02"
-			tasks: [
-				{
-					id: "2F4B33472C1BD3C6"
-					type: "item"
-					item: "appliedenergistics2:molecular_assembler"
-				}
-				{
-					id: "21477B63F54B5AFD"
-					type: "item"
-					item: "appliedenergistics2:interface"
-				}
-				{
-					id: "45C831FD1FA299EB"
-					type: "item"
-					item: "appliedenergistics2:1k_crafting_storage"
-				}
-				{
-					id: "33BD0EC811724F99"
-					type: "item"
-					item: "appliedenergistics2:pattern_terminal"
-				}
-				{
-					id: "622237CAA29C6447"
-					type: "item"
-					item: "appliedenergistics2:blank_pattern"
-				}
-			]
-		}
-		{
 			x: 0.0d
 			y: 0.0d
 			optional: true
@@ -224,6 +152,34 @@
 				id: "3908F402934693D5"
 				type: "checkmark"
 				title: "center"
+			}]
+		}
+		{
+			icon: {
+				id: "ae2wtlib:wireless_crafting_terminal"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: -7.0d
+			dependencies: ["20D6502E40FD1166"]
+			id: "28103A9CF19C5B97"
+			tasks: [{
+				id: "2C58AB62A5768291"
+				type: "checkmark"
+				title: "AE2"
+			}]
+		}
+		{
+			icon: "refinedstorage:crafting_grid"
+			x: -2.0d
+			y: -5.5d
+			dependencies: ["20D6502E40FD1166"]
+			id: "13A6B040DACE571A"
+			tasks: [{
+				id: "01D4C265403D9227"
+				type: "checkmark"
+				title: "Refined Storage"
 			}]
 		}
 	]

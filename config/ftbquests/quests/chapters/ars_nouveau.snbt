@@ -21,7 +21,7 @@
 		}
 		{
 			x: 2.0d
-			y: 0.0d
+			y: -1.5d
 			description: [
 				"Basic crafting station."
 				"To build it, place Arcane Core and surround it with Pedestals, then place Enchanting Apparatus on top of the Core."
@@ -49,8 +49,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: -2.0d
+			y: 1.5d
 			description: ["Source storage."]
 			dependencies: ["29CDC166D0E31F10"]
 			id: "2ECCFFFB7A3A18B1"
@@ -61,8 +61,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: -1.0d
+			y: 2.0d
 			description: [
 				"Basic source generator."
 				"Produces source when plants grow nearby."
@@ -81,8 +81,6 @@
 			description: ["This is the end of this questline, If you need more info check youtube or other media."]
 			dependencies: [
 				"45A61ADE24B9C155"
-				"2ECCFFFB7A3A18B1"
-				"193906518EE7B1FA"
 				"3FFB5FE687B07DBF"
 				"611EB18E373F2094"
 			]
@@ -206,7 +204,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 2.0d
 			y: 0.0d
 			dependencies: ["45A61ADE24B9C155"]
 			id: "3FFB5FE687B07DBF"

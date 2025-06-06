@@ -44,7 +44,7 @@ ItemStages.restrict(<item:minecraft:diamond_hoe>, "four").preventInventory(false
 
 
 
-
+ItemStages.createModRestriction("thermal", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("boss_tools", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("boss_tools_giselle_addon", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("immersivepetroleum", "three").preventInventory(false).preventPickup(false);
@@ -92,13 +92,30 @@ ItemStages.restrict(<item:minecraft:iron_hoe>, "two").preventInventory(false).pr
 ItemStages.restrict(<item:minecraft:iron_shovel>, "two").preventInventory(false).preventPickup(false);
 
 
-ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled').preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:boss_tools:coal_generator>,'disabled').preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:boss_tools:blast_furnace>,'disabled').preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:boss_tools:fuel_refinery>,'disabled').preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:boss_tools:compressor>,'disabled').preventInventory(false).preventPickup(false);
-ItemStages.restrict(<item:pipez:energy_pipe>,'disabled').preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled');
+ItemStages.restrict(<item:boss_tools:coal_generator>,'disabled');
+ItemStages.restrict(<item:boss_tools:blast_furnace>,'disabled');
+ItemStages.restrict(<item:boss_tools:fuel_refinery>,'disabled');
+ItemStages.restrict(<item:boss_tools:compressor>,'disabled');
+ItemStages.restrict(<item:boss_tools_giselle_addon:electric_blast_furnace>,'disabled');
+ItemStages.restrict(<item:thermal:machine_insolator>,'disabled');
+ItemStages.restrict(<item:thermal:machine_furnace>,'disabled');
+ItemStages.restrict(<item:thermal:machine_sawmill>,'disabled');
+ItemStages.restrict(<item:thermal:machine_pulverizer>,'disabled');
+ItemStages.restrict(<item:thermal:machine_smelter>,'disabled');
+ItemStages.restrict(<item:thermal:machine_centrifuge>,'disabled');
+ItemStages.restrict(<item:thermal:machine_press>,'disabled');
+ItemStages.restrict(<item:thermal:machine_pyrolyzer>,'disabled');
+ItemStages.restrict(<item:thermal:machine_refinery>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_stirling>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_magmatic>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_numismatic>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_disenchantment>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_gourmand>,'disabled');
+ItemStages.restrict(<item:thermal:dynamo_lapidary>,'disabled');
+ItemStages.restrict(<item:pneumaticcraft:thermopneumatic_processing_plant>,'disabled');
+ItemStages.restrict(<item:pneumaticcraft:refinery>,'disabled');
+ItemStages.restrict(<item:pneumaticcraft:refinery_output>,'disabled');
 
 
 
