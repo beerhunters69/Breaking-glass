@@ -69,6 +69,11 @@ onEvent('recipes', event => {
 
   event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_biodiesel"})
   event.remove({id:"pneumaticcraft:thermo_plant/plastic_from_lpg"})
+  event.remove({id:"create:compat/ae2/milling/iron"})
+
+  event.remove({id:"thermal:compat/immersiveengineering/compression_ip_gasoline"})
+
+ 
 })
 
 onEvent('recipes', event => {

@@ -83,3 +83,8 @@ config/gravestone-client.toml
 config/solcarrot-client.toml
 config/farmersdelight-client.toml
 screenshots/*
+essential/*
+config/presencefootsteps/userconfig.json
+config/ambientsounds-client.json
+ESM/KADDE_V - Pmrgite pjlst/anchors.dat
+backups/*

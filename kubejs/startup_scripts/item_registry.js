@@ -1,5 +1,4 @@
-// priority: 0
-
+// priority: 1
 onEvent("item.registry", event => {
 	// Register new items here
 	// event.create("example_item").displayName("Example Item")
@@ -17,9 +16,8 @@ onEvent("item.registry", event => {
 	event.create("angelic_alloy_plate").displayName("Angelic Alloy plate")
 	event.create("netherite_base").displayName("Netherite Base")
 	event.create("wgnc").displayName("Weapon Grade Netherite Compound")
-	
-	
-	
+	event.create("fiery_metal_composite").displayName("Fiery metal composite")
+
 })
 
 onEvent("block.registry", event => {
@@ -27,4 +25,3 @@ onEvent("block.registry", event => {
 	// event.create("example_block").material("wood").hardness(1.0).displayName("Example Block")
 })
 
-	

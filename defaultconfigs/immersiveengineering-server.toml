@@ -60,27 +60,27 @@
 	[wires.cable]
 		#The maximum length of cable wires
 		#Range: > 0
-		maxLength = 32
+		maxLength = 64
 
 	[wires.redstone]
 		#The maximum length of redstone wires
 		#Range: > 0
-		maxLength = 32
+		maxLength = 64
 
 	[wires.insulated_copper]
 		#The maximum length of insulated_copper wires
 		#Range: > 0
-		maxLength = 16
+		maxLength = 32
 
 	[wires.insulated_electrum]
 		#The maximum length of insulated_electrum wires
 		#Range: > 0
-		maxLength = 16
+		maxLength = 32
 
 [machines]
 	#The base Flux that is output by the dynamo. This will be modified by the rotation modifier of the attached water- or windmill
 	#Range: 0.0 ~ 2.147483647E9
-	dynamo_output = 3.0
+	dynamo_output = 12.0
 	#Output modifier for the energy created by the Thermoelectric Generator
 	#Range: 0.0 ~ 2.147483647E9
 	thermoelectric_output = 1.0

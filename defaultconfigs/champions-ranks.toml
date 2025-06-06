@@ -10,7 +10,7 @@
   tier = 1
   numAffixes = 1
   defaultColor = 0xffff00
-  chance = 0.05
+  chance = 0.3
   growthFactor = 1
   effects = []
   presetAffixes = []
@@ -19,22 +19,30 @@
   numAffixes = 2
   defaultColor = 0xff9900
   chance = 0.2
-  growthFactor = 4
+  growthFactor = 2
   effects = []
   presetAffixes = []
 [[ranks]]
   tier = 3
   numAffixes = 3
   defaultColor = 0x66ffff
-  chance = 0.2
-  growthFactor = 9
+  chance = 0.1
+  growthFactor = 4
   effects = []
   presetAffixes = []
 [[ranks]]
   tier = 4
   numAffixes = 4
   defaultColor = 0xcc33ff
-  chance = 0.2
-  growthFactor = 16
+  chance = 0.05
+  growthFactor = 6
+  effects = []
+  presetAffixes = []
+[[ranks]]
+  tier = 5
+  numAffixes = 5
+  defaultColor = 0xf54002
+  chance = 0.025
+  growthFactor = 7
   effects = []
   presetAffixes = []
