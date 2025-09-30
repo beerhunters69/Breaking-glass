@@ -100,5 +100,28 @@
 				}
 			]
 		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Ooopsy"
+			description: ["To cut story short, press M, click gear button and find under minimap \"Enabled\", then click it."]
+			id: "1AE72AC85B3CE118"
+			tasks: [{
+				id: "461B4EE6C044ADB9"
+				type: "checkmark"
+				title: "A second map!?"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["For those of you who seek for worthy opponent. There is a legend of the 4 star Hydra that can replace regular hydra"]
+			id: "574E0A9254716F2A"
+			tasks: [{
+				id: "4F8FDF479EC8D895"
+				type: "checkmark"
+				title: "Special mobs"
+			}]
+		}
 	]
 }

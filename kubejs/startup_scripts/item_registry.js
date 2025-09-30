@@ -17,7 +17,9 @@ onEvent("item.registry", event => {
 	event.create("netherite_base").displayName("Netherite Base")
 	event.create("wgnc").displayName("Weapon Grade Netherite Compound")
 	event.create("fiery_metal_composite").displayName("Fiery metal composite")
-
+	event.create("incomplete_irirdium_circuit").displayName("Incomplete iridium circuit")
+	event.create("interval_circuit").displayName("Interval circuit")
+	event.create("netherite_wire").displayName("Netherite wire")
 })
 
 onEvent("block.registry", event => {

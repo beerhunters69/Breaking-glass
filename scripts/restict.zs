@@ -56,6 +56,9 @@ ItemStages.createModRestriction("ae2wtlib", "three").preventInventory(false).pre
 ItemStages.createModRestriction("aeinfinitybooster", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2extras", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2fc", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("extrastorage", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("refinedstorage", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("cabletiers", "three").preventInventory(false).preventPickup(false);
 
 ItemStages.restrict(<item:minecraft:gold_ingot>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:golden_helmet>, "three").preventInventory(false).preventPickup(false);

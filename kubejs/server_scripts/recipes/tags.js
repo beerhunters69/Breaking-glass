@@ -24,5 +24,6 @@ onEvent('fluid.tags', event => {
   event.add('forge:molten_angelic_alloy', 'kubejs:molten_angelic_alloy')
   event.add('forge:molten_cwgnc', 'kubejs:molten_cwgnc')
   event.add('forge:molten_wgnc', 'kubejs:molten_wgnc')
+  event.add('forge:latex', 'thermal:latex')
 
 })
