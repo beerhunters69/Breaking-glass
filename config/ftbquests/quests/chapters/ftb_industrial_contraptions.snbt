@@ -1,7 +1,7 @@
 {
 	id: "2695E82F3F57EB92"
 	group: "0AFE0E9AC7269D41"
-	order_index: 7
+	order_index: 8
 	filename: "ftb_industrial_contraptions"
 	title: "FTB Industrial Contraptions"
 	icon: "ftbic:iridium_circuit"
@@ -109,7 +109,7 @@
 		{
 			x: 3.5d
 			y: -3.0d
-			description: ["If you're going to connect those wire to your diesel gen from immerive, they will defenetly burn. Beware of that"]
+			description: ["If you're going to connect those wire to your diesel gen from immerive, they will definitely burn. Beware of that"]
 			dependencies: ["303E4FDE05B61838"]
 			id: "43A2EAA3D1D9A087"
 			tasks: [{
@@ -349,7 +349,7 @@
 			tasks: [{
 				id: "28DDFE25B35FDC0E"
 				type: "item"
-				item: "kubejs:incomplete_irirdium_circuit"
+				item: "kubejs:incomplete_iridium_circuit"
 			}]
 		}
 	]

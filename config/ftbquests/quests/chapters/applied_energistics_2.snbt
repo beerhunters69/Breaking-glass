@@ -1,0 +1,328 @@
+{
+	id: "57395C24B7469344"
+	group: "0AFE0E9AC7269D41"
+	order_index: 5
+	filename: "applied_energistics_2"
+	title: "Applied energistics 2"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Age 3"
+			icon: "minecraft:music_disc_pigstep"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			secret: true
+			id: "33DFE9524EC0266E"
+			tasks: [{
+				id: "09010029933BD6C5"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+		}
+		{
+			title: "All over again..."
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Nether and certus quartz are required to progress in"
+				"Applied Energistics 2 (AE2 for short)."
+			]
+			dependencies: ["33DFE9524EC0266E"]
+			id: "25A7EE9CCD16E587"
+			tasks: [
+				{
+					id: "088026F6E6104315"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+				{
+					id: "24C6C487DC599164"
+					type: "item"
+					item: "emendatusenigmatica:certus_quartz_gem"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: [
+				"Like it's non-charged twin, it can be used in pretty much all recipes."
+				"Interesting part is it's required to craft fluix crystals."
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"08419D5BF784582F"
+				"331E25F185B4558F"
+			]
+			dependency_requirement: "one_completed"
+			id: "1C469A2F3A52DB87"
+			tasks: [{
+				id: "40574F25A039F96C"
+				type: "item"
+				item: "appliedenergistics2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:charger"
+			x: 3.0d
+			y: -1.0d
+			description: [
+				"AE2 charger accepts only \"proprietary\" certus quartz."
+				"You can obtain it by re-crafting from a certus quartz block."
+				"Also, charger needs some sort of power - rf or eu."
+			]
+			dependencies: ["25A7EE9CCD16E587"]
+			optional: true
+			id: "08419D5BF784582F"
+			tasks: [
+				{
+					id: "6686AAD9880D85EA"
+					type: "item"
+					item: "appliedenergistics2:charger"
+				}
+				{
+					id: "74C6529C76E0126B"
+					type: "item"
+					item: "appliedenergistics2:certus_quartz_crystal"
+				}
+				{
+					id: "73DDD40A980A9948"
+					type: "item"
+					item: "appliedenergistics2:quartz_block"
+				}
+			]
+		}
+		{
+			icon: "create:mechanical_mixer"
+			x: 3.0d
+			y: 1.0d
+			description: [""]
+			dependencies: ["25A7EE9CCD16E587"]
+			optional: true
+			id: "331E25F185B4558F"
+			tasks: [
+				{
+					id: "59B96FB6786D0DA8"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "70456F895302EBDF"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "15ACBCE182CB5368"
+					type: "item"
+					item: "emendatusenigmatica:certus_quartz_gem"
+					count: 64L
+				}
+			]
+		}
+		{
+			title: "And now it's time to shine!"
+			x: 6.0d
+			y: 0.0d
+			description: [
+				"You need to drop all that in water or mixer with water."
+				""
+			]
+			dependencies: ["1C469A2F3A52DB87"]
+			id: "1C5D2B6DCDC4DEEE"
+			tasks: [
+				{
+					id: "60FFF45E2E23243A"
+					type: "item"
+					item: "appliedenergistics2:charged_certus_quartz_crystal"
+				}
+				{
+					id: "4BE80188067305E5"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+				{
+					id: "448B579473D9AE83"
+					type: "item"
+					item: "minecraft:quartz"
+				}
+			]
+		}
+		{
+			title: "No meteors for you"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Sadly or happily?"
+			description: [
+				"In this pack, meteors don't spawn."
+				"So, where you can find presses?"
+				"it's simple, you can't."
+				"You need to craft them on an enchanting apparatus."
+				""
+				"Don't worry, i'm not completely insane, you can copy them in inscriber."
+			]
+			dependencies: ["33DFE9524EC0266E"]
+			id: "7452D2BFE076C686"
+			tasks: [
+				{
+					id: "79C4E0B42210FF57"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor_press"
+				}
+				{
+					id: "6A19BB97C134EAB0"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor_press"
+				}
+				{
+					id: "0A06701EFB35D7E5"
+					type: "item"
+					item: "appliedenergistics2:logic_processor_press"
+				}
+				{
+					id: "7CEF300D26B75840"
+					type: "item"
+					item: "appliedenergistics2:silicon_press"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: [
+				""
+				"And there you have it! Fluix crystal is the foundation in AE2, specifically autocrafting."
+			]
+			dependencies: ["1C5D2B6DCDC4DEEE"]
+			id: "14C2F21F338426EA"
+			tasks: [{
+				id: "5FE806E42159F138"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["I advise you to craft 5 or more of these."]
+			dependencies: ["7452D2BFE076C686"]
+			id: "5B966C917A13F113"
+			tasks: [{
+				id: "15442CEA5880C8C0"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			title: "One half at a time..."
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["5B966C917A13F113"]
+			id: "0D41D3C2BBF1E892"
+			tasks: [
+				{
+					id: "000A8ABA7910B7B4"
+					type: "item"
+					item: "appliedenergistics2:printed_calculation_processor"
+				}
+				{
+					id: "0BEAF8C49C9864E0"
+					type: "item"
+					item: "appliedenergistics2:printed_engineering_processor"
+				}
+				{
+					id: "476AD9B5BBA19702"
+					type: "item"
+					item: "appliedenergistics2:printed_logic_processor"
+				}
+				{
+					id: "1B354CCEF0CA7E67"
+					type: "item"
+					item: "appliedenergistics2:printed_silicon"
+				}
+			]
+		}
+		{
+			title: "Processors"
+			x: 4.0d
+			y: 4.0d
+			description: [
+				"I STRONGLY advise you to craft at least 32 of every processor."
+				"For now..."
+			]
+			dependencies: ["0D41D3C2BBF1E892"]
+			id: "02736D59A6AC56AC"
+			tasks: [
+				{
+					id: "497BA8C10D6819CB"
+					type: "item"
+					item: "appliedenergistics2:logic_processor"
+				}
+				{
+					id: "3D6313AE7742DB78"
+					type: "item"
+					item: "appliedenergistics2:calculation_processor"
+				}
+				{
+					id: "19E107E1E19A04EC"
+					type: "item"
+					item: "appliedenergistics2:engineering_processor"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "2706DE5A851E2CA5"
+			tasks: [
+				{
+					id: "4D94968DEC906B03"
+					type: "item"
+					item: "appliedenergistics2:purified_certus_quartz_crystal"
+				}
+				{
+					id: "027D3F358CC2F521"
+					type: "item"
+					item: "appliedenergistics2:purified_nether_quartz_crystal"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			id: "58C6B89B973F4D35"
+			tasks: [{
+				id: "6D5CC50DDF3D77EE"
+				type: "item"
+				item: "appliedenergistics2:purified_fluix_crystal"
+			}]
+		}
+		{
+			title: "Purity is key"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "A little bit of waiting"
+			description: [
+				"In AE2 exists two kinds of crystals:"
+				"Raw form - vanilla quartz or regular certus/fluix crystals."
+				"Pure form - pure quartz/certus/fluix crystals."
+			]
+			dependencies: ["25A7EE9CCD16E587"]
+			id: "4D4C51127D9D4E36"
+			tasks: [
+				{
+					id: "7545B362CC683F0E"
+					type: "item"
+					item: "appliedenergistics2:certus_crystal_seed"
+				}
+				{
+					id: "59952057A133CE94"
+					type: "item"
+					item: "appliedenergistics2:nether_quartz_seed"
+				}
+			]
+		}
+	]
+}

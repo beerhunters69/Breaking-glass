@@ -244,7 +244,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
-			description: ["Be ware, there is a champion version of any boss you will encounter. Goodluck..."]
+			description: ["Beware, there is a champion version of any boss you will encounter. Goodluck..."]
 			dependencies: ["0C62A127CABF744B"]
 			id: "7A18CB1ED10511F1"
 			tasks: [{

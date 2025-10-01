@@ -238,5 +238,17 @@
 				player_command: false
 			}]
 		}
+		{
+			x: 11.0d
+			y: 0.0d
+			shape: "gear"
+			dependencies: ["4E5601D0DACDB86D"]
+			id: "640010A4289A89CD"
+			tasks: [{
+				id: "097281403C7E3374"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+		}
 	]
 }

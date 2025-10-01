@@ -11,6 +11,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
+			shape: "gear"
 			secret: true
 			id: "6BA6F3BE5247E87B"
 			tasks: [{
@@ -100,6 +101,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			dependencies: ["6BA6F3BE5247E87B"]
 			id: "457FAB6324ED93D4"
 			tasks: [{
 				id: "0485C2E180957229"

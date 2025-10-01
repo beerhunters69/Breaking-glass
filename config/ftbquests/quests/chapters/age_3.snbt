@@ -53,6 +53,7 @@
 			}]
 		}
 		{
+			title: "Steel"
 			x: 3.5d
 			y: 0.0d
 			dependencies: ["7F527FA9247FC488"]
@@ -209,7 +210,7 @@
 			dependencies: [
 				"57F043FA1874BB48"
 				"704F137AB18A4A77"
-				"02AB747A97FD28EF"
+				"5E99AA48369390E8"
 			]
 			id: "48B70EE601CF0896"
 			tasks: [{
@@ -321,23 +322,23 @@
 		}
 		{
 			title: "Hey! Check out Immersive Engineering tab"
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			x: 3.5d
 			y: -3.0d
 			dependencies: ["704F137AB18A4A77"]
 			id: "02AB747A97FD28EF"
-			tasks: [
-				{
-					id: "02C15E29F14EB570"
-					type: "checkmark"
-					title: "Hey! Check out Immersive Engineering tab."
-					icon: "immersivepetroleum:lubricant_bucket"
-				}
-				{
-					id: "3BE3405DDFDDF473"
-					type: "item"
-					item: "immersivepetroleum:lubricant_bucket"
-				}
-			]
+			tasks: [{
+				id: "02C15E29F14EB570"
+				type: "checkmark"
+				title: "Hey! Check out Immersive Engineering tab."
+				icon: "immersivepetroleum:lubricant_bucket"
+			}]
 		}
 		{
 			x: 13.5d
@@ -433,6 +434,16 @@
 				type: "command"
 				command: "/reload"
 				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			id: "5E99AA48369390E8"
+			tasks: [{
+				id: "5C2A7A94048FC667"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
 			}]
 		}
 	]

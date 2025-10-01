@@ -198,12 +198,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -6.5d
-			dependencies: [
-				"786725EDC7420312"
-				"3B84CE3052F2D3D3"
-			]
+			x: 4.0d
+			y: -7.0d
+			dependencies: ["786725EDC7420312"]
 			id: "2DC2A4D5C36CC84E"
 			tasks: [{
 				id: "45709E7D4E08C720"
@@ -212,10 +209,9 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -6.5d
+			x: 4.0d
+			y: -6.0d
 			description: [""]
-			dependencies: ["3B84CE3052F2D3D3"]
 			id: "3FFEC72831E3E52D"
 			tasks: [{
 				id: "692A550656A94057"
@@ -234,8 +230,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -6.0d
+			x: 3.0d
+			y: -6.5d
 			dependencies: ["17733DE831DA4363"]
 			id: "34416320BCD819ED"
 			tasks: [{
@@ -257,8 +253,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -7.0d
+			x: 3.0d
+			y: -7.5d
 			dependencies: [
 				"786725EDC7420312"
 				"3B84CE3052F2D3D3"
@@ -271,7 +267,8 @@
 			}]
 		}
 		{
-			x: 2.0d
+			icon: "ars_nouveau:enchanting_apparatus"
+			x: 1.5d
 			y: -7.5d
 			dependencies: ["786725EDC7420312"]
 			id: "3B84CE3052F2D3D3"

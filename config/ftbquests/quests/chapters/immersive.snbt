@@ -501,6 +501,8 @@
 			}]
 		}
 		{
+			title: "Age 2"
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			disable_toast: true
 			x: 0.0d
 			y: -2.0d
@@ -598,7 +600,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
-			description: ["This little crop will give you industrial hemp, that can be used in isolation of your wires or making windmills"]
+			description: ["This little crop will give you industrial hemp, that can be used in isolation of your wires or making strings."]
 			dependencies: ["5C2EED0749C00C17"]
 			id: "10DC8848E5ED92DC"
 			tasks: [{
@@ -644,9 +646,10 @@
 			}]
 		}
 		{
+			title: "Alternative steel"
 			x: 4.0d
 			y: 4.0d
-			description: ["Yes, we added alternaitive recipe for steel, because we dont want to make this game about waiting, yet..."]
+			description: ["Yes, we added alternative recipe for steel, because we dont want to make this game about waiting, yet..."]
 			dependencies: [
 				"6F5097515A192CD8"
 				"330728D7D7A6209C"

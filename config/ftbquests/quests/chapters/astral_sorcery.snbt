@@ -1,7 +1,7 @@
 {
 	id: "7BB1617DCEE4BDE6"
 	group: "0AFE0E9AC7269D41"
-	order_index: 5
+	order_index: 6
 	filename: "astral_sorcery"
 	title: "Astral sorcery"
 	icon: "astralsorcery:tome"
@@ -9,8 +9,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Age 4"
+			icon: {
+				id: "boss_tools:rocket_t1"
+				Count: 1b
+				tag: { }
+			}
 			x: -0.5d
 			y: 0.0d
+			shape: "gear"
 			secret: true
 			id: "23F4DD42EEE60C41"
 			tasks: [{
