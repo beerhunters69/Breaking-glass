@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "boss_tools:mars_stone"
 			x: -1.0d
 			y: 0.0d
 			shape: "gear"
@@ -19,17 +20,27 @@
 				type: "dimension"
 				dimension: "boss_tools:mars"
 			}]
-			rewards: [{
-				id: "3B97BD30AE11BA7C"
-				type: "gamestage"
-				icon: "pneumaticcraft:pressure_gauge"
-				auto: "invisible"
-				stage: "five"
-			}]
+			rewards: [
+				{
+					id: "3B97BD30AE11BA7C"
+					type: "gamestage"
+					icon: "pneumaticcraft:pressure_gauge"
+					auto: "invisible"
+					stage: "five"
+				}
+				{
+					id: "62BC65367F5FE8F1"
+					type: "command"
+					auto: "enabled"
+					command: "/say Welcome to stage 5!"
+					player_command: false
+				}
+			]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
+			dependencies: ["6BA6F3BE5247E87B"]
 			id: "20B3D0CACF3371C0"
 			tasks: [{
 				id: "2A36E186101C128C"
@@ -38,8 +49,9 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: -1.5d
+			dependencies: ["6BA6F3BE5247E87B"]
 			id: "7CB6F06B585E1561"
 			tasks: [{
 				id: "421A961E141173A3"
@@ -48,8 +60,9 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: 1.5d
+			dependencies: ["6BA6F3BE5247E87B"]
 			id: "34CBC31A95B549B4"
 			tasks: [{
 				id: "13F83E3887D3A37A"
@@ -58,8 +71,12 @@
 			}]
 		}
 		{
-			x: 9.544217687074841d
-			y: -1.6386054421768748d
+			x: 9.236394557823132d
+			y: -1.0157312925170103d
+			dependencies: [
+				"692978B38CEBBDF2"
+				"74DE295EA15BE555"
+			]
 			size: 2.0d
 			id: "6462FBD6DEB39FED"
 			tasks: [{
@@ -69,8 +86,9 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -1.5d
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["62423E56E39F3845"]
 			id: "74DE295EA15BE555"
 			tasks: [{
 				id: "108464B44A45249E"
@@ -79,8 +97,9 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 9.5d
 			y: 1.5d
+			dependencies: ["1587BD6310904B43"]
 			id: "692978B38CEBBDF2"
 			tasks: [{
 				id: "4FEB795C2AFD774D"
@@ -89,13 +108,15 @@
 			}]
 		}
 		{
-			x: 6.0d
+			title: "Assembly line"
+			icon: "pneumaticcraft:assembly_controller"
+			x: 7.0d
 			y: 1.5d
+			dependencies: ["30B1B2A9FC9973DA"]
 			id: "1587BD6310904B43"
 			tasks: [{
-				id: "0B0690F661FB8D77"
-				type: "item"
-				item: "pneumaticcraft:assembly_controller"
+				id: "13B7A4D4E75CC70D"
+				type: "checkmark"
 			}]
 		}
 		{
@@ -117,8 +138,9 @@
 		}
 		{
 			title: "Netherite dust"
-			x: 6.0d
+			x: 5.5d
 			y: 0.0d
+			dependencies: ["661408C39DEC3270"]
 			id: "62423E56E39F3845"
 			tasks: [{
 				id: "0E3D987794C109DA"
@@ -134,8 +156,9 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
+			dependencies: ["20B3D0CACF3371C0"]
 			id: "661408C39DEC3270"
 			tasks: [{
 				id: "6E051CB30448E4C8"

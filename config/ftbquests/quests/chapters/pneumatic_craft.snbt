@@ -4,13 +4,17 @@
 	order_index: 9
 	filename: "pneumatic_craft"
 	title: "Pneumatic craft"
+	icon: "pneumaticcraft:pressure_gauge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -0.5d
 			y: 0.0d
-			dependencies: ["1D90417067DF5C15"]
+			dependencies: [
+				"1D90417067DF5C15"
+				"4A9323A23CFF0835"
+			]
 			id: "145A8A3D511F25DE"
 			tasks: [{
 				id: "1327E3539F398368"
@@ -21,6 +25,7 @@
 		{
 			x: -0.5d
 			y: 2.0d
+			dependencies: ["145A8A3D511F25DE"]
 			id: "0BCED150C1ECBE63"
 			tasks: [{
 				id: "75A914096576A834"
@@ -31,6 +36,7 @@
 		{
 			x: 1.5d
 			y: 0.0d
+			dependencies: ["145A8A3D511F25DE"]
 			id: "7CCFA53E780613D4"
 			tasks: [{
 				id: "1F44344BE929F89F"
@@ -41,6 +47,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
+			dependencies: ["7CCFA53E780613D4"]
 			id: "779C292CA2FF28A2"
 			tasks: [{
 				id: "7FFA5E9B59F3CCE1"
@@ -51,6 +58,7 @@
 		{
 			x: 4.5d
 			y: -2.0d
+			dependencies: ["779C292CA2FF28A2"]
 			id: "05536A35CA551BF7"
 			tasks: [{
 				id: "1FBA68AE3F561FDA"
@@ -61,6 +69,7 @@
 		{
 			x: 4.5d
 			y: 2.0d
+			dependencies: ["779C292CA2FF28A2"]
 			id: "711FAB3388B30947"
 			tasks: [{
 				id: "37F7F7451569FAD0"
@@ -71,6 +80,7 @@
 		{
 			x: 6.0d
 			y: -3.0d
+			dependencies: ["63C6C1CABFD06E13"]
 			id: "17C08970C2B24735"
 			tasks: [{
 				id: "1209BC7B8B8AF23C"
@@ -81,6 +91,7 @@
 		{
 			x: 7.5d
 			y: -1.0d
+			dependencies: ["63C6C1CABFD06E13"]
 			id: "4B5AA8F8350D660F"
 			tasks: [{
 				id: "4228309D3924A9F6"
@@ -91,6 +102,7 @@
 		{
 			x: 9.5d
 			y: -1.0d
+			dependencies: ["4B5AA8F8350D660F"]
 			id: "157E6D55AE1410E5"
 			tasks: [{
 				id: "183583B78793E5E5"
@@ -101,6 +113,10 @@
 		{
 			x: 7.5d
 			y: -2.5d
+			dependencies: [
+				"63C6C1CABFD06E13"
+				"1A3E82237B253BDD"
+			]
 			id: "79F8D67660EA678E"
 			tasks: [{
 				id: "2C8BE7F080624EAA"
@@ -110,7 +126,8 @@
 		}
 		{
 			x: 7.5d
-			y: -4.5d
+			y: -4.0d
+			dependencies: ["1D90417067DF5C15"]
 			id: "1A3E82237B253BDD"
 			tasks: [{
 				id: "63DC33975C5DB8F4"
@@ -121,6 +138,10 @@
 		{
 			x: 5.5d
 			y: 0.0d
+			dependencies: [
+				"05536A35CA551BF7"
+				"711FAB3388B30947"
+			]
 			id: "63C6C1CABFD06E13"
 			tasks: [{
 				id: "08339950211B625C"
@@ -131,6 +152,7 @@
 		{
 			x: 7.5d
 			y: 0.5d
+			dependencies: ["63C6C1CABFD06E13"]
 			id: "4ADBC885FF1A1C93"
 			tasks: [{
 				id: "097173B3B3093136"
@@ -141,6 +163,7 @@
 		{
 			x: 7.5d
 			y: 2.0d
+			dependencies: ["63C6C1CABFD06E13"]
 			id: "47CECAAA91AB6524"
 			tasks: [{
 				id: "4A819BC31E39BAE2"
@@ -151,6 +174,10 @@
 		{
 			x: 11.5d
 			y: -1.0d
+			dependencies: [
+				"157E6D55AE1410E5"
+				"79F8D67660EA678E"
+			]
 			id: "0CE27DAE18AC63B2"
 			tasks: [{
 				id: "765F41064FFAA31D"
@@ -160,7 +187,12 @@
 		}
 		{
 			x: 11.5d
-			y: 1.5d
+			y: 0.5d
+			dependencies: [
+				"0CE27DAE18AC63B2"
+				"47CECAAA91AB6524"
+				"4ADBC885FF1A1C93"
+			]
 			id: "057103C852F18562"
 			tasks: [{
 				id: "15AA9FF2A5A11C93"
@@ -169,8 +201,12 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 5.0d
+			x: 7.5d
+			y: -5.5d
+			dependencies: [
+				"1A3E82237B253BDD"
+				"2E2EB6D975668003"
+			]
 			id: "139E582DAB710F67"
 			tasks: [{
 				id: "61793A9531455EB7"
@@ -179,8 +215,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 6.0d
+			x: 1.5d
+			y: -5.5d
+			dependencies: ["7CCFA53E780613D4"]
 			id: "2E2EB6D975668003"
 			tasks: [{
 				id: "7FA1889458A0DB29"
@@ -189,8 +226,9 @@
 			}]
 		}
 		{
-			x: 14.5d
-			y: 1.5d
+			x: 15.0d
+			y: 0.5d
+			dependencies: ["057103C852F18562"]
 			id: "30B1B2A9FC9973DA"
 			tasks: [
 				{
@@ -228,6 +266,7 @@
 		{
 			x: -0.5d
 			y: 4.5d
+			dependencies: ["4310C87833802562"]
 			id: "68FE6DDB9BE98324"
 			tasks: [{
 				id: "2FC02FF074D9B4B8"
@@ -238,6 +277,7 @@
 		{
 			x: -0.5d
 			y: 5.5d
+			dependencies: ["4310C87833802562"]
 			id: "18A49EC61843EDB6"
 			tasks: [{
 				id: "120D8EBDA7FC3263"
@@ -248,6 +288,7 @@
 		{
 			x: -0.5d
 			y: 3.5d
+			dependencies: ["4310C87833802562"]
 			id: "17F020DFCBE3E3E5"
 			tasks: [{
 				id: "5F28D5E50714FFFF"
@@ -258,11 +299,23 @@
 		{
 			x: 1.5d
 			y: 4.5d
+			dependencies: ["7CCFA53E780613D4"]
 			id: "4310C87833802562"
 			tasks: [{
 				id: "65AC6CCBB86C8089"
 				type: "item"
 				item: "pneumaticcraft:upgrade_matrix"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["74DE295EA15BE555"]
+			id: "4A9323A23CFF0835"
+			tasks: [{
+				id: "1EB8593DEC9BE756"
+				type: "item"
+				item: "kubejs:wgnc"
 			}]
 		}
 	]

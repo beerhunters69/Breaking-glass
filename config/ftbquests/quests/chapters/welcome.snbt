@@ -96,8 +96,14 @@
 				{
 					id: "13EEF104B82AB50F"
 					type: "gamestage"
-					auto: "invisible"
 					stage: "seven"
+				}
+				{
+					id: "63684D340DCC93A1"
+					type: "command"
+					auto: "invisible"
+					command: "/reload"
+					player_command: false
 				}
 			]
 		}
