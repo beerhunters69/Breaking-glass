@@ -72,6 +72,11 @@ onEvent('recipes', event => {
   event.remove({id:"create:compat/ae2/milling/iron"})
 
   event.remove({id:"thermal:compat/immersiveengineering/compression_ip_gasoline"})
+  event.remove({ output: 'ftbic:rubber' })
+  event.remove({ output: 'thermal:cured_rubber' })
+  event.remove({id:"ftbic:shapeless/iridium_circuit"})
+  
+  
 
  
 })

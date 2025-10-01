@@ -8,4 +8,7 @@ onEvent('recipes', event => {
     event.recipes.immersiveengineering.metal_press('kubejs:angelic_alloy_plate', 'kubejs:angelic_alloy_ingot', 'immersiveengineering:mold_plate')
     
     event.recipes.immersiveengineering.metal_press('kubejs:netherite_base', '#forge:ingots/netherite_scrap', 'boss_tools_giselle_addon:mold_compressing')
+
+    event.recipes.immersiveengineering.metal_press('kubejs:netherite_wire', 'minecraft:netherite_ingot', 'immersiveengineering:mold_wire')
+    event.recipes.immersiveengineering.metal_press('emendatusenigmatica:lapis_plate', 'minecraft:lapis_lazuli', 'immersiveengineering:mold_plate')
     })

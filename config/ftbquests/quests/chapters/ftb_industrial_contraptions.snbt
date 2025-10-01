@@ -1,0 +1,391 @@
+{
+	id: "2695E82F3F57EB92"
+	group: "0AFE0E9AC7269D41"
+	order_index: 8
+	filename: "ftb_industrial_contraptions"
+	title: "FTB Industrial Contraptions"
+	icon: "ftbic:iridium_circuit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Iridium"
+			x: 13.0d
+			y: -10.5d
+			dependencies: ["1D90417067DF5C15"]
+			id: "3ACBD273E01CA57C"
+			tasks: [{
+				id: "700FA2BCBD510EC6"
+				type: "item"
+				title: "Any #forge:ingots/iridium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/iridium"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.0d
+			dependencies: ["3DBE4AF0C78D3AF6"]
+			id: "2280121D7A77FFBF"
+			tasks: [{
+				id: "17BD741C9FB4409A"
+				type: "item"
+				item: "ftbic:industrial_grade_metal"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: [
+				"This mod looks like Industrial Craft 2 and you will be right!"
+				"It has it's own things so, its not just a port of IC2"
+			]
+			dependencies: [
+				"264001E3732909A7"
+				"2280121D7A77FFBF"
+			]
+			id: "303E4FDE05B61838"
+			tasks: [{
+				id: "6FD2C71BD20388C1"
+				type: "checkmark"
+				title: "FTB Industrial Contraptions"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -10.5d
+			subtitle: "God has abandoned us...."
+			description: ["You see, you need rubber. How do you get rubber? You need this piece of scrap. It will \"eventually\" give you some sweet latex, that can be transformed into sweet sweet rubber."]
+			hide_dependency_lines: true
+			dependencies: ["2280121D7A77FFBF"]
+			hide_text_until_complete: false
+			id: "4E5454786DB4A80B"
+			tasks: [{
+				id: "102A40DF1652AEBC"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			dependencies: ["41DA664FDE02EEC5"]
+			id: "264001E3732909A7"
+			tasks: [{
+				id: "1900312F10C13F6C"
+				type: "item"
+				item: "ftbic:rubber"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			dependencies: ["4E5454786DB4A80B"]
+			id: "41DA664FDE02EEC5"
+			tasks: [{
+				id: "4992C75D533AA3B9"
+				type: "item"
+				item: "kubejs:molten_rubber_bucket"
+			}]
+		}
+		{
+			title: "Circuits?"
+			icon: "ftbic:electronic_circuit"
+			x: 6.0d
+			y: -3.0d
+			description: ["Dont worry, there wont be so much, only 3 of them."]
+			dependencies: ["43A2EAA3D1D9A087"]
+			id: "5D54B321057657CB"
+			tasks: [{
+				id: "0899A53376A7CD57"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			description: ["If you're going to connect those wire to your diesel gen from immerive, they will definitely burn. Beware of that"]
+			dependencies: ["303E4FDE05B61838"]
+			id: "43A2EAA3D1D9A087"
+			tasks: [{
+				id: "2DC2079091B10E6E"
+				type: "item"
+				item: "ftbic:lv_cable"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			description: [
+				"There is a reason for additional descriptions on all ftbic machines. This is called voltage or throughput. Every machine has its limit, if you exceed it - it will break. (NOT explode). Fix it with fuse and it will run as it wasnt using those 1024 amps."
+				"To overcome those restrictions use the transformer upgrade. you need 3 of them on"
+			]
+			dependencies: ["303E4FDE05B61838"]
+			id: "2AC0A978150B61BE"
+			tasks: [{
+				id: "4F8805C57ECD7980"
+				type: "checkmark"
+				title: "Voltages"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			description: ["Efficient silicon production and coolant cells"]
+			dependencies: ["36628899D083DBFE"]
+			id: "45C89B664AEFA5B8"
+			tasks: [{
+				id: "060D15A5E70C7830"
+				type: "item"
+				item: "ftbic:centrifuge"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			description: ["Finally cheap industrial grade metal and compressed copper"]
+			dependencies: ["36628899D083DBFE"]
+			id: "5D1F31F76718563B"
+			tasks: [{
+				id: "34CC08AD04879188"
+				type: "item"
+				item: "ftbic:compressor"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["36628899D083DBFE"]
+			id: "5CDD2234D781F02F"
+			tasks: [{
+				id: "5EAFB1CBAFBAA528"
+				type: "item"
+				item: "ftbic:macerator"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -0.5d
+			description: ["Those uranium rods need special machinery "]
+			dependencies: ["36628899D083DBFE"]
+			id: "2B24B371801E8A01"
+			tasks: [{
+				id: "7840EB6CAF2DE47C"
+				type: "item"
+				item: "ftbic:canning_machine"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			description: [
+				"More efficient way to produce plates"
+				"and gears"
+			]
+			dependencies: ["36628899D083DBFE"]
+			id: "3B7371862085AAB3"
+			tasks: [{
+				id: "7096889D2FB52DA6"
+				type: "item"
+				item: "ftbic:roller"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -6.5d
+			description: ["More wires? Yes, please!"]
+			dependencies: ["36628899D083DBFE"]
+			id: "08F3FC889961B906"
+			tasks: [{
+				id: "5343302DDC25BAE1"
+				type: "item"
+				item: "ftbic:extruder"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			description: ["Your diesel generator will make much more than most of the gen from ftbic, so better rush solar panels or nuclear"]
+			dependencies: ["43A2EAA3D1D9A087"]
+			id: "5385D8081FB5F2F9"
+			tasks: [{
+				id: "31D654533076DC26"
+				type: "checkmark"
+				title: "Power"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["5D54B321057657CB"]
+			id: "36628899D083DBFE"
+			tasks: [{
+				id: "7AB466E698C8B0AA"
+				type: "item"
+				item: "ftbic:electronic_circuit"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.5d
+			dependencies: [
+				"08F3FC889961B906"
+				"7E2327C668C5B39D"
+				"661408C39DEC3270"
+			]
+			id: "11E547EDD053614A"
+			tasks: [{
+				id: "0E730A8B0EDFAAAA"
+				type: "item"
+				item: "kubejs:netherite_wire"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 13.0d
+			y: -5.0d
+			dependencies: [
+				"3B7371862085AAB3"
+				"661408C39DEC3270"
+			]
+			id: "7E2327C668C5B39D"
+			tasks: [{
+				id: "1C8FD5C4408CCFC4"
+				type: "item"
+				item: "thermal:netherite_plate"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.5d
+			dependencies: ["45C89B664AEFA5B8"]
+			id: "255EBD558DAABE65"
+			tasks: [{
+				id: "3844C7F85196BD43"
+				type: "item"
+				item: {
+					id: "ftbic:small_coolant_cell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.0d
+			dependencies: ["5D1F31F76718563B"]
+			id: "2066B4B3EC57C01F"
+			tasks: [{
+				id: "719F955250E45751"
+				type: "item"
+				item: "ftbic:dense_copper_plate"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			dependencies: ["2B24B371801E8A01"]
+			id: "7017DB1378AB9C17"
+			tasks: [{
+				id: "568053B31D5FEC7F"
+				type: "item"
+				item: {
+					id: "ftbic:uranium_fuel_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			dependencies: ["2066B4B3EC57C01F"]
+			id: "00136E6A7B96334A"
+			tasks: [{
+				id: "5C181D852BCE29D9"
+				type: "item"
+				item: {
+					id: "ftbic:neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.0d
+			dependencies: ["00136E6A7B96334A"]
+			size: 2.0d
+			id: "7E64D02A1D84AE66"
+			tasks: [{
+				id: "7172F81C4CE923C8"
+				type: "item"
+				item: {
+					id: "ftbic:thick_neutron_reflector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.5d
+			dependencies: ["3ACBD273E01CA57C"]
+			id: "2D1E8AEBCED207BA"
+			tasks: [{
+				id: "3F5B7554F726A9FC"
+				type: "item"
+				item: "emendatusenigmatica:iridium_plate"
+			}]
+		}
+		{
+			x: 15.0d
+			y: -7.5d
+			dependencies: [
+				"11E547EDD053614A"
+				"2D1E8AEBCED207BA"
+			]
+			id: "759A5C7E03B1BEA1"
+			tasks: [{
+				id: "28DDFE25B35FDC0E"
+				type: "item"
+				item: "kubejs:incomplete_iridium_circuit"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -7.5d
+			dependencies: ["759A5C7E03B1BEA1"]
+			id: "493EB81D91D7057D"
+			tasks: [{
+				id: "2043E090DA4A08CA"
+				type: "item"
+				item: "ftbic:iridium_circuit"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -7.5d
+			dependencies: ["493EB81D91D7057D"]
+			id: "3CF036862FE1566E"
+			tasks: [{
+				id: "4EBE4A4F57EE0BDB"
+				type: "item"
+				item: "ftbic:antimatter_constructor"
+			}]
+		}
+	]
+}

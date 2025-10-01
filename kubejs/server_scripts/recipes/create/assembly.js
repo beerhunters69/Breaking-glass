@@ -12,8 +12,11 @@ onEvent('recipes', event => {
 		event.recipes.createDeploying('kubejs:incomplete_tf_portal_item', ['kubejs:incomplete_tf_portal_item', 'minecraft:acacia_sapling']),
 	]).transitionalItem('kubejs:incomplete_tf_portal_item').loops(1) 
 
-
-
-
-	
+	event.recipes.create.sequenced_assembly([
+		'kubejs:incomplete_iridium_circuit', 
+	], '#forge:plates/iridium', [ 
+		event.recipes.createDeploying('kubejs:interval_circuit', ['kubejs:interval_circuit', 'kubejs:netherite_wire']),
+		event.recipes.createDeploying('kubejs:interval_circuit', ['kubejs:interval_circuit', 'pneumaticcraft:transistor']),
+		event.recipes.createDeploying('kubejs:interval_circuit', ['kubejs:interval_circuit', 'pneumaticcraft:capacitor']),
+	]).transitionalItem('kubejs:interval_circuit').loops(3) 
 })

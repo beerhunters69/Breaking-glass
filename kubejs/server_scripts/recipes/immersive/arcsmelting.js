@@ -1,6 +1,6 @@
 onEvent('recipes', event => {
     event.recipes.immersiveengineering.arc_furnace("kubejs:duraluminium_ingot", "kubejs:duraluminium_dust")
-    event.recipes.immersiveengineering.arc_furnace('immersiveengineering:ingot_steel', 'minecraft:iron_ingot',Item.of("minecraft:coal",2),'immersiveengineering:slag')
+    event.recipes.immersiveengineering.arc_furnace('immersiveengineering:ingot_steel', 'minecraft:iron_ingot', Item.of("minecraft:coal", 2), 'immersiveengineering:slag')
     // event.recipes.immersiveengineering.arc_furnace('mysticalagriculture:prosperity_seed_base','twilightforest:magic_beans',Item.of('mysticalagriculture:prosperity_shard',4))
 
     //Beeblock
@@ -17,7 +17,7 @@ onEvent('recipes', event => {
     event.recipes.immersiveengineering.arc_furnace(
         'productivebees:spawn_egg_chocolate_mining_bee',
         'minecraft:egg',
-        [Item.of('minecraft:iron_pickaxe'),'minecraft:cocoa_beans']
+        [Item.of('minecraft:iron_pickaxe'), 'minecraft:cocoa_beans']
     )
     event.recipes.immersiveengineering.arc_furnace(
         Item.of('productivebees:spawn_egg_configurable_bee', '{EntityTag:{type:"productivebees:crystalline"}}'),

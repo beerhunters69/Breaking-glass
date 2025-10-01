@@ -1,7 +1,7 @@
 {
 	id: "515F1AA7A58F27E1"
 	group: "0AFE0E9AC7269D41"
-	order_index: 6
+	order_index: 7
 	filename: "productive_bees"
 	title: "Productive bees"
 	icon: "minecraft:bee_nest"
@@ -1012,8 +1012,15 @@
 			}]
 		}
 		{
+			title: "Age 4"
+			icon: {
+				id: "boss_tools:rocket_t1"
+				Count: 1b
+				tag: { }
+			}
 			x: -5.0d
 			y: -7.0d
+			shape: "gear"
 			hide_dependency_lines: true
 			secret: true
 			id: "5C0BFD47225DED09"

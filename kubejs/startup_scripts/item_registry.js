@@ -17,7 +17,10 @@ onEvent("item.registry", event => {
 	event.create("netherite_base").displayName("Netherite Base")
 	event.create("wgnc").displayName("Weapon Grade Netherite Compound")
 	event.create("fiery_metal_composite").displayName("Fiery metal composite")
-
+	event.create("incomplete_iridium_circuit").displayName("Incomplete iridium circuit")
+	event.create("interval_circuit").displayName("Interval circuit")
+	event.create("netherite_wire").displayName("Netherite wire")
+	event.create("engraved_pearl").displayName("Engraved pearl")
 })
 
 onEvent("block.registry", event => {

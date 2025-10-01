@@ -19,6 +19,16 @@
       "spawnRate": 1,
       "biomeBlacklist": [],
       "biomeWhitelist": ["boss_tools:mars"]
+    },
+    {
+      "ore": "emendatusenigmatica:uranium_sand_ore",
+      "filler": "boss_tools:mars_stone",
+      "minY": 0,
+      "maxY": 110,
+      "maxVeinSize": 25,
+      "spawnRate": 1,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["boss_tools:mars"]
     }
   ]
 }

@@ -67,7 +67,7 @@ event.custom(
 {
   "type": "tconstruct:casting_table",
   "cast": {
-    "tag": "forge:ender_pearls"
+    "item": "kubejs:engraved_pearl"
   },
   "cast_consumed": true,
   "fluid": {
