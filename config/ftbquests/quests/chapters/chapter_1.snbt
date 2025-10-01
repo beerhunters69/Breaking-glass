@@ -164,6 +164,7 @@
 			}]
 		}
 		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: 0.0d
 			y: -7.0d
 			shape: "gear"

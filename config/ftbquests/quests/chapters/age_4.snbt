@@ -13,9 +13,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "boss_tools:chesse"
 			disable_toast: true
-			x: 0.0d
-			y: 0.0d
+			x: -0.5d
+			y: 0.5d
 			shape: "gear"
 			secret: true
 			id: "7EBFC782792932CC"
@@ -37,17 +38,16 @@
 					stage: "four"
 				}
 				{
-					id: "6126A2D2ACB7D233"
+					id: "0A5A77A1AA419828"
 					type: "command"
-					auto: "invisible"
-					command: "/reload"
-					player_command: false
+					command: "/say Welcome to stage 4!"
+					player_command: true
 				}
 			]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 			dependencies: ["7EBFC782792932CC"]
 			id: "78ADAD00464681FD"
 			tasks: [{
@@ -57,8 +57,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: -2.0d
+			y: 1.0d
 			dependencies: ["7EBFC782792932CC"]
 			id: "546C24CA7C96864E"
 			tasks: [{
@@ -68,9 +68,14 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
-			dependencies: ["7EBFC782792932CC"]
+			x: 5.5d
+			y: 0.5d
+			description: ["Follow Astral Sorcery quest line to achive observatory"]
+			dependencies: [
+				"63CD338083AAD6BC"
+				"46CE8C14D34DC9DC"
+				"4F4C5DBC9CE95056"
+			]
 			id: "270A97088E87FE06"
 			tasks: [{
 				id: "52C97FEA7EF27179"
@@ -79,8 +84,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: -4.0d
+			description: ["Steal one from Ghast Tower (Twilight Forest)"]
 			dependencies: ["7EBFC782792932CC"]
 			id: "52E312AA0D8AF051"
 			tasks: [{
@@ -90,9 +96,9 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 7.0d
 			y: -2.0d
-			dependencies: ["7EBFC782792932CC"]
+			dependencies: ["14E8D54F79F7C044"]
 			id: "393BB38EFB3AA1C1"
 			tasks: [{
 				id: "6F7F31A054D37938"
@@ -101,8 +107,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 3.0d
+			y: 4.0d
+			description: ["Check out the FTBIC quests to know what you need to get this"]
 			dependencies: ["7EBFC782792932CC"]
 			id: "516CAC052F353466"
 			tasks: [{
@@ -118,8 +125,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 2.0d
+			x: 3.0d
+			y: 5.0d
 			dependencies: ["7EBFC782792932CC"]
 			id: "657430E8B142B34F"
 			tasks: [{
@@ -135,7 +142,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 9.0d
 			y: 0.0d
 			dependencies: [
 				"657430E8B142B34F"
@@ -153,6 +160,82 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			description: ["Try out mixing its molten version using Immersive engineering mixer"]
+			dependencies: [
+				"0C7A6AC0EB804A10"
+				"63CD338083AAD6BC"
+			]
+			id: "14E8D54F79F7C044"
+			tasks: [{
+				id: "1DF3A2FE810537DF"
+				type: "item"
+				item: "kubejs:angelic_alloy_ingot"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "0C7A6AC0EB804A10"
+			tasks: [{
+				id: "34264EA4EC848252"
+				type: "item"
+				item: "emendatusenigmatica:cobalt_chunk"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "63CD338083AAD6BC"
+			tasks: [{
+				id: "61A917CA210C4BE1"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["7EBFC782792932CC"]
+			id: "4F4C5DBC9CE95056"
+			tasks: [{
+				id: "525864B03473BBCF"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "46CE8C14D34DC9DC"
+			tasks: [{
+				id: "0BBCB585A433CC7E"
+				type: "item"
+				item: "minecraft:emerald"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["7EBFC782792932CC"]
+			id: "050DA933C280E279"
+			tasks: [{
+				id: "2FFEDA082DDB1B59"
+				type: "checkmark"
+				title: "Manual reload"
+			}]
+			rewards: [{
+				id: "6DF6EFEA15F9AED5"
+				type: "command"
+				command: "/reload"
+				player_command: false
 			}]
 		}
 	]

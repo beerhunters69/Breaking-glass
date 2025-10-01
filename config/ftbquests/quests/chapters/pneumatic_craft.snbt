@@ -1,0 +1,269 @@
+{
+	id: "2B0F6AD076EA6B5D"
+	group: "0AFE0E9AC7269D41"
+	order_index: 8
+	filename: "pneumatic_craft"
+	title: "Pneumatic craft"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["1D90417067DF5C15"]
+			id: "145A8A3D511F25DE"
+			tasks: [{
+				id: "1327E3539F398368"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			id: "0BCED150C1ECBE63"
+			tasks: [{
+				id: "75A914096576A834"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "7CCFA53E780613D4"
+			tasks: [{
+				id: "1F44344BE929F89F"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "779C292CA2FF28A2"
+			tasks: [{
+				id: "7FFA5E9B59F3CCE1"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_wall"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			id: "05536A35CA551BF7"
+			tasks: [{
+				id: "1FBA68AE3F561FDA"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_valve"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			id: "711FAB3388B30947"
+			tasks: [{
+				id: "37F7F7451569FAD0"
+				type: "item"
+				item: "pneumaticcraft:pressure_chamber_interface"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			id: "17C08970C2B24735"
+			tasks: [{
+				id: "1209BC7B8B8AF23C"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			id: "4B5AA8F8350D660F"
+			tasks: [{
+				id: "4228309D3924A9F6"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			id: "157E6D55AE1410E5"
+			tasks: [{
+				id: "183583B78793E5E5"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.5d
+			id: "79F8D67660EA678E"
+			tasks: [{
+				id: "2C8BE7F080624EAA"
+				type: "item"
+				item: "pneumaticcraft:empty_pcb"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			id: "1A3E82237B253BDD"
+			tasks: [{
+				id: "63DC33975C5DB8F4"
+				type: "item"
+				item: "pneumaticcraft:plastic"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			id: "63C6C1CABFD06E13"
+			tasks: [{
+				id: "08339950211B625C"
+				type: "checkmark"
+				title: "Pressure chamber Multiblock"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			id: "4ADBC885FF1A1C93"
+			tasks: [{
+				id: "097173B3B3093136"
+				type: "item"
+				item: "pneumaticcraft:capacitor"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			id: "47CECAAA91AB6524"
+			tasks: [{
+				id: "4A819BC31E39BAE2"
+				type: "item"
+				item: "pneumaticcraft:transistor"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			id: "0CE27DAE18AC63B2"
+			tasks: [{
+				id: "765F41064FFAA31D"
+				type: "item"
+				item: "pneumaticcraft:unassembled_pcb"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			id: "057103C852F18562"
+			tasks: [{
+				id: "15AA9FF2A5A11C93"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			id: "139E582DAB710F67"
+			tasks: [{
+				id: "61793A9531455EB7"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			id: "2E2EB6D975668003"
+			tasks: [{
+				id: "7FA1889458A0DB29"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			id: "30B1B2A9FC9973DA"
+			tasks: [
+				{
+					id: "1224CA915CC28A6A"
+					type: "item"
+					item: "pneumaticcraft:assembly_platform"
+				}
+				{
+					id: "2E65409AE536B1D9"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_import"
+				}
+				{
+					id: "047232E31B622754"
+					type: "item"
+					item: "pneumaticcraft:assembly_io_unit_export"
+				}
+				{
+					id: "7C3DE40BDD2A1E45"
+					type: "item"
+					item: "pneumaticcraft:assembly_drill"
+				}
+				{
+					id: "480E193520F1E694"
+					type: "item"
+					item: "pneumaticcraft:assembly_laser"
+				}
+				{
+					id: "0C3AE1B4CDF62CE5"
+					type: "item"
+					item: "pneumaticcraft:assembly_controller"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			id: "68FE6DDB9BE98324"
+			tasks: [{
+				id: "2FC02FF074D9B4B8"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			id: "18A49EC61843EDB6"
+			tasks: [{
+				id: "120D8EBDA7FC3263"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			id: "17F020DFCBE3E3E5"
+			tasks: [{
+				id: "5F28D5E50714FFFF"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "4310C87833802562"
+			tasks: [{
+				id: "65AC6CCBB86C8089"
+				type: "item"
+				item: "pneumaticcraft:upgrade_matrix"
+			}]
+		}
+	]
+}

@@ -13,7 +13,7 @@ onEvent('recipes', event => {
 	]).transitionalItem('kubejs:incomplete_tf_portal_item').loops(1) 
 
 	event.recipes.create.sequenced_assembly([
-		'kubejs:incomplete_irirdium_circuit', 
+		'kubejs:incomplete_iridium_circuit', 
 	], '#forge:plates/iridium', [ 
 		event.recipes.createDeploying('kubejs:interval_circuit', ['kubejs:interval_circuit', 'kubejs:netherite_wire']),
 		event.recipes.createDeploying('kubejs:interval_circuit', ['kubejs:interval_circuit', 'pneumaticcraft:transistor']),

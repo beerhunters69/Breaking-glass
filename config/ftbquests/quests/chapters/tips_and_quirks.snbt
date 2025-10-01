@@ -17,8 +17,8 @@
 		{
 			title: "Age 1"
 			icon: "minecraft:grass_block"
-			x: 1.0d
-			y: 0.0d
+			x: -0.5714285714285765d
+			y: 1.017857142857146d
 			shape: "gear"
 			id: "4F99C1FA4B400CC4"
 			tasks: [{
@@ -31,8 +31,8 @@
 		{
 			title: "Age 2"
 			icon: "twilightforest:twilight_portal_miniature_structure"
-			x: 3.0d
-			y: 0.0d
+			x: 2.1428571428571317d
+			y: -0.9107142857142847d
 			shape: "gear"
 			dependencies: ["4F99C1FA4B400CC4"]
 			size: 1.5d
@@ -46,8 +46,8 @@
 		{
 			title: "Age 3"
 			icon: "immersiveengineering:blast_furnace"
-			x: 5.5d
-			y: 0.0d
+			x: 4.999999999999993d
+			y: 1.875d
 			shape: "gear"
 			dependencies: ["7514D58047A950F3"]
 			size: 2.0d
@@ -59,20 +59,109 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
+			title: "Wands"
+			x: -1.0d
+			y: -5.0d
+			description: ["Useful tool for building"]
 			id: "1D9F32EC94E39859"
-			tasks: [{
-				id: "4178A608C0C4726C"
-				type: "item"
-				item: {
-					id: "constructionwand:stone_wand"
-					Count: 1b
-					tag: {
-						wand_options: { }
-						Damage: 0
+			tasks: [
+				{
+					id: "4178A608C0C4726C"
+					type: "item"
+					item: {
+						id: "constructionwand:stone_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+					match_nbt: true
+				}
+				{
+					id: "52CDB944719FD966"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
 					}
 				}
+				{
+					id: "2582C600472C5459"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Age 4"
+			icon: "boss_tools:chesse"
+			x: 7.0d
+			y: -2.5d
+			shape: "gear"
+			dependencies: ["6BFA84DF019BE0FC"]
+			size: 2.5d
+			id: "137E68BB337E7587"
+			tasks: [{
+				id: "14F27A50BE086AEB"
+				type: "gamestage"
+				stage: "four"
+			}]
+		}
+		{
+			title: "Age 5"
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 9.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["137E68BB337E7587"]
+			size: 3.0d
+			id: "1E5999E1121E3D20"
+			tasks: [{
+				id: "1F481C88CF2DF70A"
+				type: "gamestage"
+				stage: "five"
+			}]
+		}
+		{
+			title: "Tinkers' Construct"
+			x: 1.0d
+			y: -5.0d
+			description: [
+				"The GOAT for early equipment"
+				"P.S. It's little brother will be used a lot in the future"
+				"{image:kubejs:textures/quests/Useful.png width:100 height:100 align:1}"
+			]
+			id: "297BE58625954FB9"
+			tasks: [{
+				id: "7CC3DFDA7C94D36A"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			description: [
+				"Checkout the Pipez pipes"
+				"Very useful for transporting everythings"
+			]
+			id: "2D44D46EAE4E7FAA"
+			tasks: [{
+				id: "787EB3E7C0DE1679"
+				type: "item"
+				item: "pipez:item_pipe"
 			}]
 		}
 	]

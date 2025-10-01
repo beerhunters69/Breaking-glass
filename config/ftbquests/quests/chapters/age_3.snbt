@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "minecraft:music_disc_pigstep"
 			disable_toast: true
 			x: 0.0d
 			y: 0.0d
@@ -29,18 +30,11 @@
 					stage: "three"
 				}
 				{
-					id: "6E6933EF058E5274"
-					type: "command"
-					auto: "invisible"
-					command: "/reload"
-					player_command: false
-				}
-				{
 					id: "30D9130A84C7DEC2"
 					type: "command"
 					auto: "invisible"
-					command: "/say Welcome to age 2!"
-					player_command: false
+					command: "/say Welcome to age 3!"
+					player_command: true
 				}
 			]
 		}
@@ -312,6 +306,7 @@
 			}]
 		}
 		{
+			icon: "boss_tools:chesse"
 			x: 17.5d
 			y: -1.5d
 			shape: "gear"
@@ -421,6 +416,23 @@
 				id: "61177279E08F52DA"
 				type: "item"
 				item: "boss_tools_giselle_addon:oxygen_can"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["0C8A52C43E6289B4"]
+			id: "2B73793E6894461C"
+			tasks: [{
+				id: "61485A8090DA0134"
+				type: "checkmark"
+				title: "Manual reload"
+			}]
+			rewards: [{
+				id: "2397FB193F0D5F16"
+				type: "command"
+				command: "/reload"
+				player_command: false
 			}]
 		}
 	]

@@ -7,30 +7,139 @@
 	icon: "pneumaticcraft:pressure_gauge"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		x: 0.0d
-		y: 0.0d
-		secret: true
-		id: "6BA6F3BE5247E87B"
-		tasks: [{
-			id: "3C6CABF1C3B59DDE"
-			type: "dimension"
-			dimension: "boss_tools:mars"
-		}]
-		rewards: [
-			{
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			secret: true
+			id: "6BA6F3BE5247E87B"
+			tasks: [{
+				id: "3C6CABF1C3B59DDE"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+			rewards: [{
 				id: "3B97BD30AE11BA7C"
 				type: "gamestage"
+				icon: "pneumaticcraft:pressure_gauge"
 				auto: "invisible"
 				stage: "five"
-			}
-			{
-				id: "11EBD33592D4A684"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "20B3D0CACF3371C0"
+			tasks: [{
+				id: "2A36E186101C128C"
+				type: "item"
+				item: "minecraft:ancient_debris"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "7CB6F06B585E1561"
+			tasks: [{
+				id: "421A961E141173A3"
+				type: "item"
+				item: "emendatusenigmatica:uranium_chunk"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "34CBC31A95B549B4"
+			tasks: [{
+				id: "13F83E3887D3A37A"
+				type: "item"
+				item: "emendatusenigmatica:iridium_chunk"
+			}]
+		}
+		{
+			x: 9.544217687074841d
+			y: -1.6386054421768748d
+			size: 2.0d
+			id: "6462FBD6DEB39FED"
+			tasks: [{
+				id: "320D77BC6B038993"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			id: "74DE295EA15BE555"
+			tasks: [{
+				id: "108464B44A45249E"
+				type: "item"
+				item: "kubejs:wgnc"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			id: "692978B38CEBBDF2"
+			tasks: [{
+				id: "4FEB795C2AFD774D"
+				type: "item"
+				item: "kubejs:engraved_pearl"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			id: "1587BD6310904B43"
+			tasks: [{
+				id: "0B0690F661FB8D77"
+				type: "item"
+				item: "pneumaticcraft:assembly_controller"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			id: "457FAB6324ED93D4"
+			tasks: [{
+				id: "0485C2E180957229"
+				type: "checkmark"
+				title: "Manual reload"
+			}]
+			rewards: [{
+				id: "5094F79093CA1C90"
 				type: "command"
-				auto: "invisible"
 				command: "/reload"
 				player_command: false
-			}
-		]
-	}]
+			}]
+		}
+		{
+			title: "Netherite dust"
+			x: 6.0d
+			y: 0.0d
+			id: "62423E56E39F3845"
+			tasks: [{
+				id: "0E3D987794C109DA"
+				type: "item"
+				title: "Any #forge:dusts/netherite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/netherite"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "661408C39DEC3270"
+			tasks: [{
+				id: "6E051CB30448E4C8"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+	]
 }

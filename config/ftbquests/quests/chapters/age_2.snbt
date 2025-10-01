@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			disable_toast: true
 			x: -3.0d
 			y: 1.5d
@@ -29,18 +30,11 @@
 					stage: "two"
 				}
 				{
-					id: "156E73FD2D1DA5A3"
-					type: "command"
-					auto: "invisible"
-					command: "/reload"
-					player_command: false
-				}
-				{
 					id: "2226A049E0B4F09F"
 					type: "command"
 					auto: "invisible"
 					command: "/say Welcome to age 2!"
-					player_command: false
+					player_command: true
 				}
 			]
 		}
@@ -155,6 +149,7 @@
 			}]
 		}
 		{
+			icon: "minecraft:music_disc_pigstep"
 			x: 10.464285714285708d
 			y: 1.1607142857142883d
 			shape: "gear"
@@ -256,6 +251,24 @@
 				id: "11A7F5576DD0EA3B"
 				type: "checkmark"
 				title: "Before you enter any twilight forest dungeon..."
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			description: [""]
+			dependencies: ["0C62A127CABF744B"]
+			id: "76FC864B61D2A7BC"
+			tasks: [{
+				id: "54E470C1312AC898"
+				type: "checkmark"
+				title: "Manual reload"
+			}]
+			rewards: [{
+				id: "3B2C1AB13439F0A3"
+				type: "command"
+				command: "/reload"
+				player_command: false
 			}]
 		}
 	]
