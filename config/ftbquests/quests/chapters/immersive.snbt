@@ -501,10 +501,13 @@
 			}]
 		}
 		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			disable_toast: true
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
+			description: [""]
+			dependencies: ["6415D60D3CE314CC"]
 			secret: true
 			id: "0DC09FCA11B64DE6"
 			tasks: [{

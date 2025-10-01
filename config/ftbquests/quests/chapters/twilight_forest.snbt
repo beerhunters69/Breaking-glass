@@ -185,6 +185,7 @@
 			}]
 		}
 		{
+			icon: "twilightforest:twilight_portal_miniature_structure"
 			disable_toast: true
 			x: 0.0d
 			y: 3.0d

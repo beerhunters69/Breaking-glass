@@ -208,8 +208,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.5d
+			x: 3.5d
+			y: -5.5d
 			description: ["Your diesel generator will make much more than most of the gen from ftbic, so better rush solar panels or nuclear"]
 			dependencies: ["43A2EAA3D1D9A087"]
 			id: "5385D8081FB5F2F9"
@@ -233,7 +233,11 @@
 		{
 			x: 13.0d
 			y: -6.5d
-			dependencies: ["08F3FC889961B906"]
+			dependencies: [
+				"08F3FC889961B906"
+				"7E2327C668C5B39D"
+				"661408C39DEC3270"
+			]
 			id: "11E547EDD053614A"
 			tasks: [{
 				id: "0E730A8B0EDFAAAA"
@@ -242,9 +246,13 @@
 			}]
 		}
 		{
+			disable_toast: true
 			x: 13.0d
 			y: -5.0d
-			dependencies: ["3B7371862085AAB3"]
+			dependencies: [
+				"3B7371862085AAB3"
+				"661408C39DEC3270"
+			]
 			id: "7E2327C668C5B39D"
 			tasks: [{
 				id: "1C8FD5C4408CCFC4"
@@ -335,6 +343,7 @@
 		{
 			x: 13.0d
 			y: -8.5d
+			dependencies: ["3ACBD273E01CA57C"]
 			id: "2D1E8AEBCED207BA"
 			tasks: [{
 				id: "3F5B7554F726A9FC"
@@ -345,11 +354,37 @@
 		{
 			x: 15.0d
 			y: -7.5d
+			dependencies: [
+				"11E547EDD053614A"
+				"2D1E8AEBCED207BA"
+			]
 			id: "759A5C7E03B1BEA1"
 			tasks: [{
 				id: "28DDFE25B35FDC0E"
 				type: "item"
-				item: "kubejs:incomplete_irirdium_circuit"
+				item: "kubejs:incomplete_iridium_circuit"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -7.5d
+			dependencies: ["759A5C7E03B1BEA1"]
+			id: "493EB81D91D7057D"
+			tasks: [{
+				id: "2043E090DA4A08CA"
+				type: "item"
+				item: "ftbic:iridium_circuit"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -7.5d
+			dependencies: ["493EB81D91D7057D"]
+			id: "3CF036862FE1566E"
+			tasks: [{
+				id: "4EBE4A4F57EE0BDB"
+				type: "item"
+				item: "ftbic:antimatter_constructor"
 			}]
 		}
 	]

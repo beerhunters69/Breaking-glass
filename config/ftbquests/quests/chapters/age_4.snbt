@@ -40,6 +40,7 @@
 				{
 					id: "0A5A77A1AA419828"
 					type: "command"
+					auto: "enabled"
 					command: "/say Welcome to stage 4!"
 					player_command: true
 				}
@@ -236,6 +237,18 @@
 				type: "command"
 				command: "/reload"
 				player_command: false
+			}]
+		}
+		{
+			icon: "boss_tools:mars_stone"
+			x: 11.0d
+			y: 0.0d
+			dependencies: ["4E5601D0DACDB86D"]
+			id: "480DA6DAB2D847AD"
+			tasks: [{
+				id: "20B8AF9765679BE2"
+				type: "dimension"
+				dimension: "boss_tools:mars"
 			}]
 		}
 	]
