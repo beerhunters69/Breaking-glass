@@ -11,10 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			dependencies: [
-				"1D90417067DF5C15"
-				"4A9323A23CFF0835"
-			]
+			dependencies: ["1D90417067DF5C15"]
 			id: "145A8A3D511F25DE"
 			tasks: [{
 				id: "1327E3539F398368"
@@ -305,17 +302,6 @@
 				id: "65AC6CCBB86C8089"
 				type: "item"
 				item: "pneumaticcraft:upgrade_matrix"
-			}]
-		}
-		{
-			x: -2.0d
-			y: -2.0d
-			dependencies: ["74DE295EA15BE555"]
-			id: "4A9323A23CFF0835"
-			tasks: [{
-				id: "1EB8593DEC9BE756"
-				type: "item"
-				item: "kubejs:wgnc"
 			}]
 		}
 	]
