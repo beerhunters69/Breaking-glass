@@ -21,6 +21,7 @@ onEvent("item.registry", event => {
 	event.create("interval_circuit").displayName("Interval circuit")
 	event.create("netherite_wire").displayName("Netherite wire")
 	event.create("engraved_pearl").displayName("Engraved pearl")
+	event.create("end_portal_stabilizer").displayName("End Portal Stabilizer").glow(true)
 })
 
 onEvent("block.registry", event => {

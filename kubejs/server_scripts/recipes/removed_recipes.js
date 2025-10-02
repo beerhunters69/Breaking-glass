@@ -75,7 +75,7 @@ onEvent('recipes', event => {
   event.remove({ output: 'ftbic:rubber' })
   event.remove({ output: 'thermal:cured_rubber' })
   event.remove({id:"ftbic:shapeless/iridium_circuit"})
-  
+  event.remove({id:"bigreactors:reactor/basic/casing"})
   
 
  

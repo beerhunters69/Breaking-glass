@@ -1,0 +1,446 @@
+{
+	id: "0131AB7FD2ECC3D4"
+	group: "0AFE0E9AC7269D41"
+	order_index: 10
+	filename: "extreme_reactors"
+	title: "Extreme Reactors"
+	icon: "bigreactors:yellorium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Visit mars"
+			icon: "boss_tools:mars_stone"
+			x: 0.0d
+			y: 0.0d
+			secret: true
+			id: "730467342C718D15"
+			tasks: [{
+				id: "2CE38C283FB74DE8"
+				type: "dimension"
+				dimension: "boss_tools:mars"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["730467342C718D15"]
+			id: "3CAF734479DEFA84"
+			tasks: [{
+				id: "645CB6F57AF5077C"
+				type: "item"
+				item: "boss_tools:mars_sand"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			dependencies: ["730467342C718D15"]
+			id: "130ADA7D90A3D238"
+			tasks: [{
+				id: "51996F9D37B19057"
+				type: "item"
+				item: "bigreactors:graphite_ingot"
+			}]
+		}
+		{
+			title: "Get some uranium"
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["730467342C718D15"]
+			id: "51782F206963245C"
+			tasks: [{
+				id: "5586535A3CA0FEF2"
+				type: "item"
+				title: "Any #forge:ingots/uranium"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/uranium"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: [
+				"3CAF734479DEFA84"
+				"130ADA7D90A3D238"
+			]
+			id: "21F2D45F1296B7FB"
+			tasks: [{
+				id: "337FCFBB7D9F6352"
+				type: "item"
+				item: "bigreactors:basic_reactorcasing"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["21F2D45F1296B7FB"]
+			id: "2E552F7356A6E86F"
+			tasks: [{
+				id: "382A400E3951062C"
+				type: "item"
+				item: "bigreactors:basic_reactorcontroller"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			dependencies: ["130ADA7D90A3D238"]
+			id: "5FE3C2B5789DFB30"
+			tasks: [{
+				id: "16AF18F9194693E0"
+				type: "item"
+				item: "bigreactors:basic_reactorfuelrod"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			dependencies: ["21F2D45F1296B7FB"]
+			id: "15F63BF04B08231A"
+			tasks: [{
+				id: "17D46E09D9376B1A"
+				type: "item"
+				item: "bigreactors:basic_reactorcontrolrod"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["21F2D45F1296B7FB"]
+			id: "6F0DF0A2131B7EC7"
+			tasks: [{
+				id: "1DA3F40F1DC3FBE9"
+				type: "item"
+				item: "bigreactors:basic_reactorpowertapfe_active"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			description: [
+				"Go build that boi to get some POWAH"
+				"{image:kubejs:textures/quests/reacto2r.png width:100 height:100 align:1}"
+			]
+			dependencies: [
+				"6F0DF0A2131B7EC7"
+				"21F2D45F1296B7FB"
+				"15F63BF04B08231A"
+				"2E552F7356A6E86F"
+				"5FE3C2B5789DFB30"
+			]
+			id: "2AB033C5B5538EA1"
+			tasks: [{
+				id: "3643255F7292E8D2"
+				type: "checkmark"
+				title: "Reactor"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.5d
+			description: ["Yellorium aka Uranium (nobody cares)"]
+			dependencies: [
+				"51782F206963245C"
+				"2AB033C5B5538EA1"
+			]
+			id: "42F473EEA1FECD5D"
+			tasks: [{
+				id: "5478A8CDB3CB381B"
+				type: "checkmark"
+				title: "Yellorium"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.5d
+			dependencies: ["42F473EEA1FECD5D"]
+			id: "3A1ACF1A6016CB33"
+			tasks: [{
+				id: "48435B48189FCCAA"
+				type: "item"
+				item: "bigreactors:cyanite_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			dependencies: ["3A1ACF1A6016CB33"]
+			id: "714D0A269EFF06EA"
+			tasks: [{
+				id: "24C6E842DABFE893"
+				type: "item"
+				item: "bigreactors:reprocessorcasing"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			description: [
+				"{image:kubejs:textures/quests/reprocessor.png width:100 height:100 align:1}"
+				"{image:kubejs:textures/quests/reprocessorbottom.png width:100 height:100 align:1}"
+			]
+			dependencies: [
+				"714D0A269EFF06EA"
+				"57CF7B83B819C131"
+				"412B2054C92935E3"
+				"498B0B95A7DD3CDF"
+				"341547691F5B98CD"
+				"2B2A863ECCF0F07B"
+				"4FA5075083FA0EBE"
+			]
+			id: "7448F83BA30AD5A0"
+			tasks: [{
+				id: "1A0D813C2BD23972"
+				type: "checkmark"
+				title: "Reprocessor"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 5.5d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "412B2054C92935E3"
+			tasks: [{
+				id: "4CA31590330F2C24"
+				type: "item"
+				item: "bigreactors:reprocessorcontroller"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "4FA5075083FA0EBE"
+			tasks: [{
+				id: "58F67A0D6F1A3241"
+				type: "item"
+				item: "bigreactors:reprocessorwasteinjector"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "498B0B95A7DD3CDF"
+			tasks: [{
+				id: "68703B485913F671"
+				type: "item"
+				item: "bigreactors:reprocessorfluidinjector"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "341547691F5B98CD"
+			tasks: [{
+				id: "17CEC435EEEC2558"
+				type: "item"
+				item: "bigreactors:reprocessoroutputport"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.0d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "57CF7B83B819C131"
+			tasks: [{
+				id: "77D110E2A093D988"
+				type: "item"
+				item: "bigreactors:reprocessorcollector"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			dependencies: ["714D0A269EFF06EA"]
+			id: "2B2A863ECCF0F07B"
+			tasks: [{
+				id: "5B05EBF254D41D29"
+				type: "item"
+				item: "bigreactors:reprocessorpowerport"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			dependencies: [
+				"61CCDB3E33DF58CA"
+				"25D906A9107EA3A7"
+			]
+			id: "01FA10BA5E068913"
+			tasks: [{
+				id: "0C0CE586FE42DE09"
+				type: "item"
+				item: "bigreactors:blutonium_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 10.5d
+			description: [
+				"This is the part when the new extreme reactors became a bit f***y"
+				"You will need defenetly more than 1 of each machine, so you gotta get ready"
+			]
+			dependencies: ["01FA10BA5E068913"]
+			id: "7AF5D40CE43BA03C"
+			tasks: [{
+				id: "0F336B0F58697433"
+				type: "checkmark"
+				title: "IMPORTANT"
+			}]
+		}
+		{
+			icon: "bigreactors:verderium_bucket"
+			x: 8.0d
+			y: 10.5d
+			dependencies: ["7AF5D40CE43BA03C"]
+			dependency_requirement: "one_completed"
+			id: "248F799FDE62A977"
+			tasks: [
+				{
+					id: "6EC12883EEAC74D3"
+					type: "item"
+					item: "bigreactors:verderium_bucket"
+				}
+				{
+					id: "182559E0E1FCBF65"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 14.5d
+			dependencies: [
+				"483D9547BFEC5EFB"
+				"70243520C64612C3"
+			]
+			id: "5CB99457170398FE"
+			tasks: [{
+				id: "2847E8AAA4733232"
+				type: "item"
+				item: "bigreactors:inanite_ingot"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 12.5d
+			dependencies: ["7AF5D40CE43BA03C"]
+			id: "4E7BEBA5AA0C1EB8"
+			tasks: [{
+				id: "67256A240702E428"
+				type: "item"
+				item: "bigreactors:ludicrite_ingot"
+			}]
+		}
+		{
+			title: "Magentite bucket"
+			icon: "bigreactors:magentite_bucket"
+			x: 12.0d
+			y: 10.5d
+			dependencies: ["7AF5D40CE43BA03C"]
+			dependency_requirement: "one_completed"
+			id: "394A6CF5419A7CAF"
+			tasks: [
+				{
+					id: "383CA16C97179448"
+					type: "item"
+					item: "bigreactors:magentite_bucket"
+				}
+				{
+					id: "01EB571B48DE07F6"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 12.5d
+			dependencies: [
+				"394A6CF5419A7CAF"
+				"4E7BEBA5AA0C1EB8"
+			]
+			id: "70243520C64612C3"
+			tasks: [{
+				id: "570F7965602B8B14"
+				type: "item"
+				item: "bigreactors:ridiculite_ingot"
+			}]
+		}
+		{
+			icon: "bigreactors:rossinite_bucket"
+			x: 8.0d
+			y: 12.5d
+			dependencies: ["248F799FDE62A977"]
+			id: "483D9547BFEC5EFB"
+			tasks: [
+				{
+					id: "6B2AF99387CA5605"
+					type: "item"
+					item: "bigreactors:rossinite_bucket"
+				}
+				{
+					id: "17A10DB864B0935E"
+					type: "checkmark"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 8.5d
+			description: [
+				"They exist"
+				""
+				"This is it"
+				""
+				"Idk, you need more power? Go build that thing"
+				"P.S. Dont forget to build reinforced reactor"
+			]
+			dependencies: ["7448F83BA30AD5A0"]
+			id: "25D906A9107EA3A7"
+			tasks: [{
+				id: "73210884B5DF4110"
+				type: "checkmark"
+				title: "Turbines"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			description: [
+				"{image:kubejs:textures/quests/daniel.png width:100 height:100 align:1}"
+				"TBH the only change is the cost and fluid input and outputs"
+				"If you want more energy - use turbines with reinforced reactor"
+				"If you want to reach the End - use reinforced reactor"
+				"The solution - Use reinforced reactor"
+			]
+			dependencies: ["7448F83BA30AD5A0"]
+			id: "61CCDB3E33DF58CA"
+			tasks: [{
+				id: "563EDA98CF53C13A"
+				type: "checkmark"
+				title: "\"Reinforced\" reactors"
+			}]
+		}
+		{
+			title: "Fluidizer"
+			icon: "bigreactors:fluidizercontroller"
+			x: 5.0d
+			y: 8.5d
+			description: ["Oh, and one more thing. You will need to use this to convert some of yours sweet radioactive materials to radioactive liquid that defently wont be consumed by me."]
+			dependencies: ["61CCDB3E33DF58CA"]
+			id: "6BE6E7E70CC3EBB9"
+			tasks: [{
+				id: "7B3A93677591DB56"
+				type: "checkmark"
+			}]
+		}
+	]
+}
