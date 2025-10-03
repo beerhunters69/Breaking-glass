@@ -1,0 +1,149 @@
+{
+	id: "18B63160BAFF76F2"
+	group: "0AFE0E9AC7269D41"
+	order_index: 11
+	filename: "apotheosis_enchantments"
+	title: "Apotheosis: enchantments"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -4.0d
+			id: "60893DFF9093E106"
+			tasks: [{
+				id: "148222A403BE88BF"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			id: "130A1330F5937FD6"
+			tasks: [{
+				id: "742793D1C99C693A"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "060DD329646B1071"
+			tasks: [{
+				id: "3F93A183FA5824FD"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "5DB0D52461942CD9"
+			tasks: [{
+				id: "5E98C0F9A3672D89"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "5A2F0A21EC523B55"
+			tasks: [{
+				id: "1FF67E6162FD453D"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "1D23F721D92F7C5E"
+			tasks: [{
+				id: "27862C3F8FA40FBF"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "235C538459729596"
+			tasks: [{
+				id: "162E6942889B1CEE"
+				type: "item"
+				item: "apotheosis:enchantment_library"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "4B1711C6A879D51F"
+			tasks: [{
+				id: "64690873168CE8FC"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			min_required_tasks: 1
+			id: "58AA41743124F0A5"
+			tasks: [
+				{
+					id: "2A298EA6FD3614DF"
+					type: "item"
+					item: "apotheosis:scrap_tome"
+				}
+				{
+					id: "740B0D3B9B033FED"
+					type: "item"
+					item: "apotheosis:null_book"
+				}
+				{
+					id: "5F8512BA0DCFC96D"
+					type: "item"
+					item: "apotheosis:armor_head_book"
+				}
+				{
+					id: "1D55688FD4CA0948"
+					type: "item"
+					item: "apotheosis:armor_chest_book"
+				}
+				{
+					id: "24A031FCBA6D93C3"
+					type: "item"
+					item: "apotheosis:armor_legs_book"
+				}
+				{
+					id: "5EAA0AADC4DCED2C"
+					type: "item"
+					item: "apotheosis:armor_feet_book"
+				}
+				{
+					id: "50CCB86ED2ACBB69"
+					type: "item"
+					item: "apotheosis:weapon_book"
+				}
+				{
+					id: "3DEEFD86F078F690"
+					type: "item"
+					item: "apotheosis:digger_book"
+				}
+				{
+					id: "09DD182AA68056B4"
+					type: "item"
+					item: "apotheosis:fishing_rod_book"
+				}
+				{
+					id: "4F8BBA23E8B15D02"
+					type: "item"
+					item: "apotheosis:bow_book"
+				}
+			]
+		}
+	]
+}

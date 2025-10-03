@@ -33,6 +33,11 @@
 	#Disable if you don't want the World Breaker to break unbreakable blocks.
 	enabled = true
 
+["Neutron pile EMC"]
+	#Amount of EMC for neutron pile (ProjectE)
+	#Range: > 0
+	amount = 7200
+
 ["Axe Radius"]
 	#Range of breaking radius
 	#Range: > 0
@@ -72,6 +77,6 @@
 	"Trash of matter clusters" = "[dirt, sand, gravel, cobblestone, netherrack, granite, diorite, andesite]"
 
 ["Night vision of the Infinity Helmet"]
-	#Disable if the Infinity Helmet' night vision is too ridiculous
+	#Disable if the Infinity Helmet' night vision
 	enabled = true
 

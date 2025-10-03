@@ -1,0 +1,5 @@
+
+["Night vision keybind of the Infinity Helmet"]
+	#Enable it to change night vision in infinity helmet using the keyboard button, enable it on first: 'Disable if the Infinity Helmet' night vision' 
+	enabled = false
+

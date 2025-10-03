@@ -13,6 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Visit moon"
 			icon: "boss_tools:chesse"
 			disable_toast: true
 			x: -0.5d
