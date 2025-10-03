@@ -210,7 +210,7 @@
 			dependencies: [
 				"57F043FA1874BB48"
 				"704F137AB18A4A77"
-				"328E49D07A608D9F"
+				"3AB499B777210938"
 			]
 			id: "48B70EE601CF0896"
 			tasks: [{
@@ -434,6 +434,18 @@
 				type: "command"
 				command: "/reload"
 				player_command: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["0C8A52C43E6289B4"]
+			id: "3AB499B777210938"
+			tasks: [{
+				id: "276CDC8E39065F48"
+				type: "item"
+				item: "immersivepetroleum:lubricant_bucket"
 			}]
 		}
 	]
