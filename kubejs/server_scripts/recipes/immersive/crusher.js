@@ -9,4 +9,5 @@ event.recipes.immersiveengineering.crusher('appliedenergistics2:nether_quartz_du
 event.recipes.immersiveengineering.crusher('appliedenergistics2:fluix_dust', '#forge:gems/fluix')
 event.recipes.immersiveengineering.crusher('appliedenergistics2:certus_quartz_dust', '#forge:gems/certus_quartz')
 event.recipes.immersiveengineering.crusher('appliedenergistics2:certus_quartz_dust', 'emendatusenigmatica:certus_quartz_gem')
+event.recipes.immersiveengineering.crusher('astralsorcery:stardust', 'astralsorcery:starmetal_ingot')
 })

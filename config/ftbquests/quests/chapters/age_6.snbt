@@ -1,0 +1,49 @@
+{
+	id: "33EF05911C79B5A6"
+	group: "0166456A4DB1C0E1"
+	order_index: 5
+	filename: "age_6"
+	title: "Age 6"
+	icon: {
+		id: "hostilenetworks:data_model"
+		Count: 1b
+		tag: {
+			data_model: {
+				id: "hostilenetworks:ender_dragon"
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The end"
+			icon: "minecraft:end_stone"
+			x: 0.0d
+			y: 0.0d
+			id: "059975E679EE2E82"
+			tasks: [{
+				id: "3E7E7B4BD01CD6EC"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Literally"
+			description: [
+				""
+				"You've come so far"
+				"But it is not over!"
+				"Age 6 is final, but it is divided into 2 parts"
+			]
+			id: "0F40C789E44E6E36"
+			tasks: [{
+				id: "48A2C05A09C62813"
+				type: "checkmark"
+				title: "The end is near"
+			}]
+		}
+	]
+}

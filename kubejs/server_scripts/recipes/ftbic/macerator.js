@@ -185,5 +185,24 @@ onEvent('recipes', event => {
             ]
         }
     )
+    event.custom(
+        {
+            "type": "ftbic:macerating",
+            "inputItems": [
+                {
+                    "ingredient": {
+                        "item": "astralsorcery:starmetal_ingot"
+                    },
+                    "count": 1
+                }
+            ],
+            "outputItems": [
+                {
+                    "item": 'astralsorcery:stardust',
+                    "count": 1
+                }
+            ]
+        }
+    )
 }
 )

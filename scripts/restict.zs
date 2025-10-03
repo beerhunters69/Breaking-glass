@@ -7,8 +7,7 @@ ItemStages.createModRestriction("draconicevolution", "seven").preventInventory(f
 ItemStages.createModRestriction("mekanismgenerators", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("hostilenetworks", "six").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction('mekanism', s => s in [<item:mekanism:block_tin>,<item:mekanism:block_copper>,<item:mekanism:block_osmium>,<item:mekanism:ingot_tin>,<item:mekanism:ingot_copper>,<item:mekanism:ingot_osmium>], "six").preventInventory(false).preventPickup(false);
-
-
+ItemStages.createModRestriction("betterendforge", "six").preventInventory(false).preventPickup(false);
 
 ItemStages.createModRestriction("pneumaticcraft", "five").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("fluxnetworks", "five").preventInventory(false).preventPickup(false);

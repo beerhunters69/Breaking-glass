@@ -19,6 +19,7 @@
 				"3299E72081E85086"
 				"530E5031679158F2"
 				"702407CB64FC6F30"
+				"1991CAC9B0231463"
 			]
 			id: "61E8103336D594DD"
 			tasks: [{
@@ -290,6 +291,17 @@
 					item: "ars_nouveau:arcane_core"
 				}
 			]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			size: 2.0d
+			id: "1991CAC9B0231463"
+			tasks: [{
+				id: "1E1C3777D5A96483"
+				type: "item"
+				item: "primutils:chopping_block"
+			}]
 		}
 	]
 }

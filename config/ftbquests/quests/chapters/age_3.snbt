@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Nether"
 			icon: "minecraft:music_disc_pigstep"
 			disable_toast: true
 			x: 0.0d
