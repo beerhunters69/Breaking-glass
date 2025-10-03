@@ -156,9 +156,9 @@
 			y: 2.0d
 			subtitle: "Sadly or happily?"
 			description: [
-				"In this pack, meteors don't spawn."
+				"In this pack meteors don't spawn."
 				"So, where you can find presses?"
-				"it's simple, you can't."
+				"The answer is simple, you can't."
 				"You need to craft them on an enchanting apparatus."
 				""
 				"Don't worry, i'm not completely insane, you can copy them in inscriber."
@@ -192,8 +192,8 @@
 			x: 8.0d
 			y: 0.0d
 			description: [
-				""
 				"And there you have it! Fluix crystal is the foundation in AE2, specifically autocrafting."
+				""
 			]
 			dependencies: ["1C5D2B6DCDC4DEEE"]
 			id: "14C2F21F338426EA"
@@ -206,7 +206,15 @@
 		{
 			x: 0.0d
 			y: 4.0d
-			description: ["I advise you to craft 5 or more of these."]
+			description: [
+				"I advise you to craft 5 or more of these."
+				""
+				"It's a bit tricky to setup, because you can import/export only 1* slot per side."
+				""
+				"Inscriber has 4 slots, 3 input and 1 output."
+				"You can import/export items into middle slots from 4 sides respectively."
+				"You can import into top/bottom slots from their respective side."
+			]
 			dependencies: ["7452D2BFE076C686"]
 			id: "5B966C917A13F113"
 			tasks: [{
@@ -219,6 +227,7 @@
 			title: "One half at a time..."
 			x: 2.0d
 			y: 4.0d
+			description: ["Engineering circuit now has alternative craft (from source gems)."]
 			dependencies: ["5B966C917A13F113"]
 			id: "0D41D3C2BBF1E892"
 			tasks: [
@@ -247,12 +256,15 @@
 		{
 			title: "Processors"
 			x: 4.0d
-			y: 4.0d
+			y: 6.0d
 			description: [
 				"I STRONGLY advise you to craft at least 32 of every processor."
 				"For now..."
 			]
-			dependencies: ["0D41D3C2BBF1E892"]
+			dependencies: [
+				"0D41D3C2BBF1E892"
+				"2706DE5A851E2CA5"
+			]
 			id: "02736D59A6AC56AC"
 			tasks: [
 				{
@@ -273,8 +285,20 @@
 			]
 		}
 		{
+			title: "Pure form"
 			x: 4.0d
 			y: 2.0d
+			subtitle: "A little bit of waiting..."
+			description: [
+				""
+				"To obtain pure form crystals, you have to \"grow\" their respective seeds."
+				"For now, you have 1 option:"
+				"Throw them in water and wait like 20 minutes."
+				"OR"
+				"Throw them in water, with growth accelerators surrounding water block (5 max). Don't forget to power those things."
+				""
+			]
+			dependencies: ["4D4C51127D9D4E36"]
 			id: "2706DE5A851E2CA5"
 			tasks: [
 				{
@@ -290,8 +314,15 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: 1.0d
+			title: "Pure form 2.0"
+			x: 6.0d
+			y: 2.0d
+			description: [
+				""
+				"All the same..."
+			]
+			dependencies: ["077FD3D84AC80C69"]
+			optional: true
 			id: "58C6B89B973F4D35"
 			tasks: [{
 				id: "6D5CC50DDF3D77EE"
@@ -303,11 +334,12 @@
 			title: "Purity is key"
 			x: 2.0d
 			y: 2.0d
-			subtitle: "A little bit of waiting"
 			description: [
 				"In AE2 exists two kinds of crystals:"
 				"Raw form - vanilla quartz or regular certus/fluix crystals."
 				"Pure form - pure quartz/certus/fluix crystals."
+				""
+				"Pure form is needed for some recipes and it's 2x cheaper than raw form."
 			]
 			dependencies: ["25A7EE9CCD16E587"]
 			id: "4D4C51127D9D4E36"
@@ -323,6 +355,325 @@
 					item: "appliedenergistics2:nether_quartz_seed"
 				}
 			]
+		}
+		{
+			title: "Corruption?"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "Not really"
+			description: ["They work like the other two seeds."]
+			dependencies: ["14C2F21F338426EA"]
+			optional: true
+			id: "077FD3D84AC80C69"
+			tasks: [{
+				id: "7204B1ED22042258"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal_seed"
+			}]
+		}
+		{
+			title: "I'm speed"
+			icon: "appliedenergistics2:quartz_growth_accelerator"
+			x: 6.0d
+			y: 4.0d
+			description: ["Side note: They accept power ONLY through AE2 cables."]
+			min_required_dependencies: 1
+			dependencies: [
+				"2706DE5A851E2CA5"
+				"58C6B89B973F4D35"
+				"4446B7AB63A5B262"
+			]
+			dependency_requirement: "one_completed"
+			id: "2B3DB269D17ABA2C"
+			tasks: [
+				{
+					id: "55B6BE3024C43318"
+					type: "item"
+					item: "appliedenergistics2:quartz_growth_accelerator"
+				}
+				{
+					id: "2E34BE12F51ABFF8"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+			]
+		}
+		{
+			icon: "appliedenergistics2:energy_acceptor"
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"This is you first \"core\" of the AE2 network."
+				""
+				"On each side it has 8 \"channels\". Basically, you can connect no more than 8 devices to one side."
+				"There is 6 sides, so 48 total devices."
+				""
+				"Don't worry, you will unlock better one eventually."
+			]
+			dependencies: ["14C2F21F338426EA"]
+			id: "4446B7AB63A5B262"
+			tasks: [
+				{
+					id: "003BB68D217036C4"
+					type: "item"
+					item: "appliedenergistics2:energy_acceptor"
+				}
+				{
+					id: "0FC4D07BE2A8B5FE"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			subtitle: "That's pretty big"
+			description: [
+				"Storage for cells."
+				""
+				""
+				""
+			]
+			dependencies: ["02736D59A6AC56AC"]
+			id: "4F6F1A457BF2EB1C"
+			tasks: [{
+				id: "6D9B67D74BF60206"
+				type: "item"
+				item: "appliedenergistics2:drive"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: [
+				"02736D59A6AC56AC"
+				"5B670BF6B653A286"
+			]
+			id: "4031FE67806D713C"
+			tasks: [{
+				id: "13B8C4A5A68B0A62"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			id: "5B670BF6B653A286"
+			tasks: [{
+				id: "76ED5AB59DD84CDC"
+				type: "item"
+				item: "appliedenergistics2:sky_stone_block"
+			}]
+		}
+		{
+			title: "I'm not an electrician..."
+			x: 8.0d
+			y: 4.0d
+			description: [
+				"Cables deliver power and channels to AE2 blocks."
+				""
+				"Basic ones like glass and covered deliver only 8 channels."
+				"There is also one advantage of using basic cables, you can place attachment on them."
+				""
+				"Dense cables deliver 32 channels, but you can't place attachments on them."
+			]
+			dependencies: ["4446B7AB63A5B262"]
+			id: "31BACE921F574824"
+			tasks: [
+				{
+					id: "772D7DB815032612"
+					type: "item"
+					item: "appliedenergistics2:fluix_glass_cable"
+				}
+				{
+					id: "3594C989F5482DAB"
+					type: "item"
+					item: "appliedenergistics2:fluix_covered_cable"
+				}
+				{
+					id: "0BD6E00263D3C638"
+					type: "item"
+					item: "appliedenergistics2:fluix_covered_dense_cable"
+				}
+			]
+		}
+		{
+			title: "...but i'm smart"
+			x: 10.0d
+			y: 4.0d
+			description: [
+				"Smart cables display the number of channels currently in use."
+				""
+				"Can DRASTICALLY reduse your fps if you use shaders."
+			]
+			dependencies: ["31BACE921F574824"]
+			optional: true
+			id: "2285A3B726BED7F3"
+			tasks: [
+				{
+					id: "4E5D14C8A047C3DF"
+					type: "item"
+					item: "appliedenergistics2:fluix_smart_cable"
+				}
+				{
+					id: "7149328A412AD85B"
+					type: "item"
+					item: "appliedenergistics2:fluix_smart_dense_cable"
+				}
+			]
+		}
+		{
+			title: "Storing items"
+			x: 6.0d
+			y: 8.0d
+			id: "06768AAFC5CD6E42"
+			tasks: [
+				{
+					id: "49E78B29A3D293F9"
+					type: "item"
+					item: "appliedenergistics2:1k_cell_component"
+				}
+				{
+					id: "0D506382A710C7E8"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			id: "4D5497F8B8B1CA19"
+			tasks: [{
+				id: "2DA6331967DC2154"
+				type: "item"
+				item: "appliedenergistics2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			id: "78CE38FC79D7B22A"
+			tasks: [{
+				id: "4964405C681B4E41"
+				type: "item"
+				item: "appliedenergistics2:crafting_accelerator"
+			}]
+		}
+		{
+			title: "...but i like attachments"
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Unbelivable..."
+			description: [
+				"Like i said before, they attach on basic cables."
+				"I hope you already understand what export/import bus does."
+			]
+			dependencies: ["31BACE921F574824"]
+			id: "70EDCC4C1CA94A7A"
+			tasks: [
+				{
+					id: "50E304EC2B823669"
+					type: "item"
+					item: "appliedenergistics2:storage_bus"
+				}
+				{
+					id: "5B7B2B56DF394ED0"
+					type: "item"
+					item: "appliedenergistics2:import_bus"
+				}
+				{
+					id: "04646E368C88B439"
+					type: "item"
+					item: "appliedenergistics2:export_bus"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 10.0d
+			id: "44064011161E0496"
+			tasks: [{
+				id: "3BCE62FB9819934B"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:interface"
+			x: 2.0d
+			y: 8.0d
+			dependencies: ["02736D59A6AC56AC"]
+			id: "07DC963B3133566A"
+			tasks: [
+				{
+					id: "7D075F2DE245CAD3"
+					type: "item"
+					item: "appliedenergistics2:interface"
+				}
+				{
+					id: "7A47D6B764B49D3B"
+					type: "item"
+					item: "appliedenergistics2:cable_interface"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			id: "106C9D141DBAA307"
+			tasks: [{
+				id: "64407FE5CC05A56E"
+				type: "item"
+				item: "appliedenergistics2:pattern_terminal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			id: "007AD93D625A0637"
+			tasks: [{
+				id: "2C87D13656EA003E"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			id: "4D65063EB42EFDE3"
+			tasks: [
+				{
+					id: "5414C458F0952C17"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:1k_fluid_storage_cell"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "11531A398720E0E3"
+					type: "item"
+					item: "appliedenergistics2:1k_fluid_cell_component"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			id: "6162A6A36CF85A73"
+			tasks: [{
+				id: "293C780CBB042624"
+				type: "item"
+				item: "ae2fc:part_fluid_pattern_terminal"
+			}]
 		}
 	]
 }
