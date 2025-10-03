@@ -1,0 +1,11 @@
+{
+	id: "7718EDDA4A68E476"
+	order_index: 1
+	title: "Astral sorcery completion"
+	icon: "astralsorcery:resonating_gem"
+	loot_size: 1
+	rewards: [
+		{ item: "refinedstorage:creative_controller" }
+		{ item: "appliedenergistics2:creative_energy_cell" }
+	]
+}

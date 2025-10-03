@@ -136,8 +136,8 @@
 		{
 			title: "Blast furnace"
 			icon: "immersiveengineering:blast_furnace"
-			x: 0.07976190476189515d
-			y: 1.8511904761904745d
+			x: -0.017857142857138797d
+			y: 1.8392857142857153d
 			description: ["This little girl will make you some steel, save up for the future"]
 			dependencies: ["5C2EED0749C00C17"]
 			size: 1.5d

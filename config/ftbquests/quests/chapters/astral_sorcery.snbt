@@ -29,6 +29,13 @@
 		{
 			x: -0.5d
 			y: 2.0d
+			subtitle: "Yep. Reading time!"
+			description: [
+				"This is the manual"
+				"If you dont understand what you need to do to complete the quest - book will answer it"
+				""
+				"P.S. If the craft you need isn't crafting it seem you need to upgrade your altar"
+			]
 			dependencies: ["23F4DD42EEE60C41"]
 			id: "2806C55001B07B1B"
 			tasks: [{
@@ -40,6 +47,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
+			description: ["You better save up em"]
 			dependencies: ["23F4DD42EEE60C41"]
 			id: "1F44FCE2E1CBEDF0"
 			tasks: [{
@@ -51,6 +59,7 @@
 		{
 			x: -1.5d
 			y: -1.5d
+			description: ["These little pebbles will be useful very soon"]
 			dependencies: ["23F4DD42EEE60C41"]
 			id: "03952A7F356963A9"
 			tasks: [{
@@ -68,6 +77,10 @@
 		{
 			x: -0.5d
 			y: 4.0d
+			description: [
+				"This is the heart of the Astral sorcery"
+				"This fancy crafting table will upgrade itself when you perform special rituals"
+			]
 			dependencies: ["2806C55001B07B1B"]
 			id: "2E6A7F63BC26A4F8"
 			tasks: [{
@@ -79,6 +92,14 @@
 		{
 			x: -1.5d
 			y: 6.0d
+			subtitle: "Well"
+			description: [
+				"Finally."
+				""
+				"The well"
+				""
+				"Click with rock crystal or aquamarine and it will slowly collect precious starlight"
+			]
 			dependencies: ["2E6A7F63BC26A4F8"]
 			id: "0D9314FEFAA2CD28"
 			tasks: [{
@@ -90,6 +111,12 @@
 		{
 			x: -0.5d
 			y: 8.0d
+			subtitle: "Now the fun begins...."
+			description: [
+				"This is the first block you have encountered that will want you to build a special structure for it."
+				""
+				"Open your astral tome and find the scematic"
+			]
 			dependencies: [
 				"171E0CA4BF756F40"
 				"0D9314FEFAA2CD28"
@@ -103,7 +130,22 @@
 		}
 		{
 			x: 2.5d
-			y: 6.0d
+			y: 4.0d
+			subtitle: "Uuhhh.... Ohhh....."
+			description: [
+				"This is the tricky part"
+				"There is 3 types of telescopic devices in Astral sorcery"
+				"Looking glass -> Telescope -> Observatory"
+				"All of them serve one purpose - get all possible constellations"
+				""
+				"Follow this steps to unlock your first constellation"
+				"1. Craft constellation paper. When you have unlocked \"Exploration\" tree, any first 5-6 constellation papers you touch will be \"readable\" to you"
+				"2. Choose constellation you want and check what moon phase it will appear"
+				"3. Wait for the moon phase and start looking through your looking glass"
+				"4. When you see some strange stars that is kinda on the first plan - you found a constellation. !!! It may be not the constellation you're looking for !!! But you better train yourself on it to understand next steps"
+				"5. When you find constellation hold shift and start connectiong stars as it was in constellaton paper"
+				"6.If everything done right your constellation paper top black line will change it colour and you can even see this constellation without looking glass"
+			]
 			dependencies: ["2E6A7F63BC26A4F8"]
 			id: "75DCA1E97C165A2E"
 			tasks: [{
@@ -113,81 +155,14 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: 6.0d
-			dependencies: ["75DCA1E97C165A2E"]
-			id: "191AC97FE2155CBA"
-			tasks: [
-				{
-					id: "677169DB5669A0F6"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellationName: "astralsorcery:discidia"
-							}
-						}
-					}
-				}
-				{
-					id: "2E522569945DF2F0"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellationName: "astralsorcery:aevitas"
-							}
-						}
-					}
-				}
-				{
-					id: "497E1421FCC5D96B"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellationName: "astralsorcery:vicio"
-							}
-						}
-					}
-				}
-				{
-					id: "10B9F4E314F30DAD"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellationName: "astralsorcery:evorsio"
-							}
-						}
-					}
-				}
-				{
-					id: "5C6F98E801E89199"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: {
-								constellationName: "astralsorcery:armara"
-							}
-						}
-					}
-				}
-			]
-		}
-		{
 			x: 0.5d
 			y: 6.0d
+			subtitle: "No, you're not a wizard...."
+			description: [
+				"...because you're an astronomer!"
+				""
+				"This little rod since now must be used in every craft with celestial altars"
+			]
 			dependencies: ["2E6A7F63BC26A4F8"]
 			id: "171E0CA4BF756F40"
 			tasks: [{
@@ -199,6 +174,8 @@
 		{
 			x: -0.5d
 			y: 10.0d
+			subtitle: "Marvelous..."
+			description: ["You could make this block earlier, but quest is here, so you guessed it you will now need much more of that"]
 			dependencies: ["25416012E23D612F"]
 			id: "7BD84C4F52C0D616"
 			tasks: [{
@@ -208,8 +185,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 10.0d
+			x: -2.5d
+			y: 14.0d
 			dependencies: ["25416012E23D612F"]
 			id: "2A5365B5350C1DF7"
 			tasks: [{
@@ -219,8 +196,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 10.0d
+			x: -4.5d
+			y: 14.0d
 			dependencies: ["25416012E23D612F"]
 			id: "18D1488C504BAD35"
 			tasks: [{
@@ -231,7 +208,12 @@
 		}
 		{
 			x: -0.5d
-			y: 12.0d
+			y: 12.5d
+			subtitle: "Gilded glory"
+			description: [
+				""
+				"This is pre-final altar and it will open you a very important new multiblock structure."
+			]
 			dependencies: ["7BD84C4F52C0D616"]
 			id: "24CE92CE30449E24"
 			tasks: [{
@@ -243,6 +225,25 @@
 		{
 			x: -7.0d
 			y: 8.0d
+			description: [
+				"Oh the attunement. It has 2 main uses."
+				""
+				"Firstly, you need a constellation you want to attune to something"
+				"Telescopic tools will help you with that"
+				""
+				"Once you have your constellation, put it in one hand and get some relays"
+				"If your constellation is in the sky this night, little stars on the field will appear."
+				"Place relays only in blocks with center of these little stars"
+				"Then the attunement altar will start making noise and relays will form the constellation"
+				""
+				"1."
+				"You can throw rock crystal in it and it will attune to that constellation revealing its true powers"
+				""
+				"2."
+				"You can yourself step into attunement altar and attune yourself to specified constellation"
+				""
+				"This will open you a skill tree that can be modified with astral tome"
+			]
 			dependencies: ["25416012E23D612F"]
 			id: "29ACA521F2E085DD"
 			tasks: [{
@@ -252,40 +253,49 @@
 			}]
 		}
 		{
-			x: -5.0d
+			x: -5.5d
 			y: 10.0d
+			description: ["This lense can transmit starlight from it source to it consumer"]
 			dependencies: ["25416012E23D612F"]
 			id: "26504EC67019A3F8"
-			tasks: [{
-				id: "0F2230690330C3B2"
-				type: "item"
-				item: {
-					id: "astralsorcery:lens"
-					Count: 1b
-					tag: {
-						astralsorcery: {
-							crystalProperties: {
-								attributes: [
-									{
-										property: "astralsorcery:purity"
-										pLevel: 2
-										discovered: 1b
-									}
-									{
-										property: "astralsorcery:shape"
-										pLevel: 3
-										discovered: 1b
-									}
-								]
+			tasks: [
+				{
+					id: "0F2230690330C3B2"
+					type: "item"
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
 							}
 						}
 					}
 				}
-			}]
+				{
+					id: "6AEF3196CA686C91"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 6.0d
+			description: ["Drop some wood in liquid starlight and you will get some \"better\" wood"]
 			dependencies: ["0D9314FEFAA2CD28"]
 			id: "0DFE364AE3A29C0B"
 			tasks: [{
@@ -295,8 +305,10 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 8.0d
+			x: -9.5d
+			y: 5.0d
+			subtitle: "Rituals?"
+			description: ["When I was talking about true powers of the rock crystals I wasnt joking. You need to put your rock crystal on ritual altar and it will start taking the effect"]
 			dependencies: ["29ACA521F2E085DD"]
 			id: "190E3453263642B7"
 			tasks: [{
@@ -306,8 +318,12 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 10.0d
+			x: -6.5d
+			y: 13.0d
+			description: [
+				"The \"legal\" form of teleportation across dimensions it sort of a net. Beware that anybody with celestial gate can access any other celestial gate"
+				"Dont forget to build the multiblock structure!"
+			]
 			dependencies: ["25416012E23D612F"]
 			id: "7AFCECEC769B9FF7"
 			tasks: [{
@@ -323,8 +339,8 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 12.0d
+			x: 1.5d
+			y: 10.0d
 			dependencies: ["7BD84C4F52C0D616"]
 			id: "469C786E10E40DA0"
 			tasks: [{
@@ -341,7 +357,9 @@
 		}
 		{
 			x: -0.5d
-			y: 14.0d
+			y: 14.5d
+			subtitle: "Consume more of my starlight..."
+			description: ["This amalgamation will require you not only build another structure, but constantly resupply it with liquid starlight"]
 			dependencies: ["24CE92CE30449E24"]
 			id: "0AE011B100A73952"
 			tasks: [{
@@ -352,8 +370,18 @@
 		}
 		{
 			x: -0.5d
-			y: 16.0d
-			dependencies: ["0AE011B100A73952"]
+			y: 18.5d
+			description: [
+				"The final altar"
+				""
+				"Good job"
+				""
+				"You still need to place some arcs, so it will run, but you will do it eventually. BUT"
+				"This altar has its own mechanic"
+				"Remember how you placed relays on attunement altar? You need attuned crystal and relays here"
+				"Place rockcrystal in slot and when you form the craft in it, it will show you where to put other inputs"
+			]
+			dependencies: ["79CD8C3F13564ECC"]
 			id: "2BC305681C7AAE6A"
 			tasks: [{
 				id: "20BF178ABB20DD73"
@@ -364,6 +392,7 @@
 		{
 			x: 2.5d
 			y: 8.0d
+			description: ["This is the time you should research other constellations, because you will need one specific in order to craft observatory"]
 			dependencies: ["25416012E23D612F"]
 			id: "2847F88E8B30E23A"
 			tasks: [{
@@ -374,13 +403,24 @@
 		}
 		{
 			x: -0.5d
-			y: 18.0d
-			dependencies: ["2BC305681C7AAE6A"]
+			y: 21.5d
+			subtitle: "The final stand"
+			description: ["Observatory is the final boss of Astral sorcery. If you made up here it seems you hate this mod or you like it."]
+			dependencies: [
+				"2BC305681C7AAE6A"
+				"2A5365B5350C1DF7"
+				"18D1488C504BAD35"
+			]
 			id: "3C044804B5958FC4"
 			tasks: [{
 				id: "7AD5F094960692D4"
 				type: "item"
 				item: "astralsorcery:observatory"
+			}]
+			rewards: [{
+				id: "7BED7089666EFD75"
+				type: "choice"
+				table_id: 8581870611761521782L
 			}]
 		}
 		{
@@ -398,6 +438,99 @@
 				id: "713D6F12A08E84AE"
 				type: "checkmark"
 				title: "well"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 16.5d
+			subtitle: "Silly lil gem"
+			dependencies: ["0AE011B100A73952"]
+			id: "79CD8C3F13564ECC"
+			tasks: [{
+				id: "0442C490106C0BB2"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+		}
+		{
+			title: "Collector crystalls"
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			x: -8.0d
+			y: 10.0d
+			description: [
+				"This crystal can collect much more starlight than relays, if your starlight demand is still \"cosmic\" you can try build one"
+				"Dont forget to build multiblock structure!"
+			]
+			dependencies: ["26504EC67019A3F8"]
+			id: "19BCB1CA503B2DC4"
+			tasks: [{
+				id: "1F29B17FEE7193EE"
+				type: "checkmark"
+				title: "Collector"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: [
+				"This little things can collect starlight as well as your main altar, and even automaticly tranfer starlight to it. The trick is you cant spam em, they must be no other relays in 14 block radius"
+				"Oh and dont forget to put lens on it!"
+			]
+			dependencies: ["2E6A7F63BC26A4F8"]
+			id: "540182394299A90A"
+			tasks: [{
+				id: "60F58DC97E8179AD"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 5.0d
+			description: ["If for some reason you dont want to be attuned to the constellation, you need to craft shifting star and use it, so you can reset your skill tree"]
+			dependencies: ["29ACA521F2E085DD"]
+			id: "23B7EB602164D07C"
+			tasks: [{
+				id: "19F9691710F5D352"
+				type: "item"
+				item: "astralsorcery:shifting_star"
 			}]
 		}
 	]
