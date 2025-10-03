@@ -76,6 +76,9 @@ onEvent('recipes', event => {
   event.remove({ output: 'thermal:cured_rubber' })
   event.remove({id:"ftbic:shapeless/iridium_circuit"})
   event.remove({id:"bigreactors:reactor/basic/casing"})
+  event.remove({id:"hostilenetworks:living_matter/sim_chamber"})
+  event.remove({id:"hostilenetworks:living_matter/loot_fabricator"})
+  event.remove({id:"hostilenetworks:living_matter/framework"})
 })
 
 onEvent('recipes', event => {

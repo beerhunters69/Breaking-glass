@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Mars"
 			icon: "boss_tools:mars_stone"
 			x: -1.0d
 			y: 0.0d
@@ -227,6 +228,29 @@
 				type: "gamestage"
 				auto: "invisible"
 				stage: "unlock_end"
+			}]
+		}
+		{
+			title: "The end"
+			icon: {
+				id: "hostilenetworks:data_model"
+				Count: 1b
+				tag: {
+					data_model: {
+						id: "hostilenetworks:ender_dragon"
+					}
+				}
+			}
+			x: 7.5d
+			y: -4.5d
+			shape: "rsquare"
+			dependencies: ["02DB6EEBC2B13210"]
+			size: 3.0d
+			id: "3BED68C5F0EA38F3"
+			tasks: [{
+				id: "40587CB1342125D0"
+				type: "dimension"
+				dimension: "minecraft:the_end"
 			}]
 		}
 	]

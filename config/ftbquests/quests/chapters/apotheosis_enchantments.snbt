@@ -4,12 +4,18 @@
 	order_index: 11
 	filename: "apotheosis_enchantments"
 	title: "Apotheosis: enchantments"
+	icon: "minecraft:enchanting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: 0.0d
 			y: -4.0d
+			dependencies: [
+				"235C538459729596"
+				"130A1330F5937FD6"
+				"060DD329646B1071"
+			]
 			id: "60893DFF9093E106"
 			tasks: [{
 				id: "148222A403BE88BF"
@@ -20,6 +26,7 @@
 		{
 			x: 1.5d
 			y: -2.5d
+			dependencies: ["5A2F0A21EC523B55"]
 			id: "130A1330F5937FD6"
 			tasks: [{
 				id: "742793D1C99C693A"
@@ -30,6 +37,7 @@
 		{
 			x: -1.5d
 			y: -2.5d
+			dependencies: ["5DB0D52461942CD9"]
 			id: "060DD329646B1071"
 			tasks: [{
 				id: "3F93A183FA5824FD"
@@ -40,6 +48,7 @@
 		{
 			x: -1.5d
 			y: -0.5d
+			dependencies: ["1D23F721D92F7C5E"]
 			id: "5DB0D52461942CD9"
 			tasks: [{
 				id: "5E98C0F9A3672D89"
@@ -50,6 +59,11 @@
 		{
 			x: 1.5d
 			y: -0.5d
+			dependencies: [
+				"1D23F721D92F7C5E"
+				"33EF05911C79B5A6"
+			]
+			hide: true
 			id: "5A2F0A21EC523B55"
 			tasks: [{
 				id: "1FF67E6162FD453D"
@@ -59,7 +73,26 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
+			description: [
+				"When you first time open enchanting table, it will be different from vanilla minecraft"
+				"You will find 3 new lines:"
+				"Eterna"
+				"Quanta"
+				"Arcana"
+				""
+				"First of all, eterna. All \"vanilla\" bookshelf now give you a little bit of eterna, BUT it will eventually reach it limit."
+				"The more eterna you get - more levels enchanting table will consume and higher lvl enchantments will appear"
+				""
+				"Quanta is the second line. The higher the value - more enchantments you'll get. Beware with the chance to get regular enchantments, grows the chance to get curse enchantment"
+				""
+				"And the last one - Arcana"
+				"Arcana controls rarity of enchantments."
+				"Btw if you want to get more info - go read \"book of shadows\""
+				""
+				"There is also good combinations of different shelf, you better try them out"
+			]
+			dependencies: ["6028849F1BBE6A76"]
 			id: "1D23F721D92F7C5E"
 			tasks: [{
 				id: "27862C3F8FA40FBF"
@@ -70,6 +103,10 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			dependencies: [
+				"664C8937FB2AC007"
+				"4B1711C6A879D51F"
+			]
 			id: "235C538459729596"
 			tasks: [{
 				id: "162E6942889B1CEE"
@@ -79,7 +116,8 @@
 		}
 		{
 			x: 0.0d
-			y: 1.0d
+			y: 0.5d
+			dependencies: ["1D23F721D92F7C5E"]
 			id: "4B1711C6A879D51F"
 			tasks: [{
 				id: "64690873168CE8FC"
@@ -88,8 +126,15 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: 3.0d
+			x: 3.0d
+			y: 2.5d
+			description: [
+				"Tomes will act as 'base' of an item, but after enchantment will be consumed and get enchantments of the base item."
+				""
+				"Example: "
+				"Enchant tome of helmets and you will get enchanted book with helmet enchantments"
+			]
+			dependencies: ["1D23F721D92F7C5E"]
 			min_required_tasks: 1
 			id: "58AA41743124F0A5"
 			tasks: [
@@ -144,6 +189,18 @@
 					item: "apotheosis:bow_book"
 				}
 			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["Those library will store your enchantments so you will get full control of your equipment"]
+			dependencies: ["58AA41743124F0A5"]
+			id: "664C8937FB2AC007"
+			tasks: [{
+				id: "35D4260411B42FAC"
+				type: "checkmark"
+				title: "Storing your enchantments"
+			}]
 		}
 	]
 }

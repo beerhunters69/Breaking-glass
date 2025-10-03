@@ -9,6 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			disable_toast: true
 			x: -3.0d

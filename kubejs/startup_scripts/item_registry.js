@@ -22,6 +22,7 @@ onEvent("item.registry", event => {
 	event.create("netherite_wire").displayName("Netherite wire")
 	event.create("engraved_pearl").displayName("Engraved pearl")
 	event.create("end_portal_stabilizer").displayName("End Portal Stabilizer").glow(true)
+	event.create("collapsed_singularity").displayName("Collapsed Singularity").glow(true)
 })
 
 onEvent("block.registry", event => {
