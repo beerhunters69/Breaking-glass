@@ -146,6 +146,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: [
 				"657430E8B142B34F"
 				"516CAC052F353466"
@@ -153,6 +154,7 @@
 				"52E312AA0D8AF051"
 				"393BB38EFB3AA1C1"
 			]
+			size: 2.0d
 			id: "4E5601D0DACDB86D"
 			tasks: [{
 				id: "1DEFB3BC29A0A32C"
@@ -242,9 +244,11 @@
 		}
 		{
 			icon: "boss_tools:mars_stone"
-			x: 11.0d
+			x: 12.0d
 			y: 0.0d
+			shape: "gear"
 			dependencies: ["4E5601D0DACDB86D"]
+			size: 3.0d
 			id: "480DA6DAB2D847AD"
 			tasks: [{
 				id: "20B8AF9765679BE2"

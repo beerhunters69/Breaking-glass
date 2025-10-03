@@ -227,7 +227,7 @@
 			title: "One half at a time..."
 			x: 2.0d
 			y: 4.0d
-			description: ["Engineering circuit now has alternative craft (from source gems)."]
+			description: ["Engineering circuit now has alternative crafting recipe (from source gems)."]
 			dependencies: ["5B966C917A13F113"]
 			id: "0D41D3C2BBF1E892"
 			tasks: [
@@ -449,12 +449,21 @@
 		}
 		{
 			x: 6.0d
-			y: 6.0d
-			description: ["This is \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."]
+			y: 4.0d
+			description: [
+				"This is \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."
+				""
+				"On each side it has 32 \"channels\". Basically, you can connect no more than 32 devices to one side."
+				"There is 6 sides, so 192 total devices."
+				""
+				"You can built 7x7x7 cube (only edges) out of this and they will all work."
+			]
 			dependencies: [
 				"02736D59A6AC56AC"
 				"5B670BF6B653A286"
+				"58C6B89B973F4D35"
 			]
+			optional: true
 			id: "4031FE67806D713C"
 			tasks: [{
 				id: "13B8C4A5A68B0A62"
@@ -464,11 +473,12 @@
 		}
 		{
 			icon: "appliedenergistics2:sky_stone_block"
-			x: 6.0d
-			y: 4.0d
+			x: 7.0d
+			y: 5.0d
 			description: ["Because there is \"no\" meteors you can craft sky stone from obsidian."]
 			hide_dependency_lines: true
 			dependencies: ["33DFE9524EC0266E"]
+			optional: true
 			id: "5B670BF6B653A286"
 			tasks: [
 				{
@@ -495,7 +505,7 @@
 				""
 				"Dense cables deliver 32 channels, but you can't place attachments on them."
 			]
-			dependencies: ["4031FE67806D713C"]
+			dependencies: ["02736D59A6AC56AC"]
 			id: "31BACE921F574824"
 			tasks: [
 				{
@@ -542,8 +552,17 @@
 		}
 		{
 			title: "Storing items"
+			icon: {
+				id: "appliedenergistics2:1k_storage_cell"
+				Count: 1b
+				tag: { }
+			}
 			x: 6.0d
 			y: 8.0d
+			description: [
+				"All cells have a mechanic called \"types\", that's basically "
+				"1k can store only ~500 items"
+			]
 			id: "06768AAFC5CD6E42"
 			tasks: [
 				{
@@ -665,6 +684,12 @@
 			}]
 		}
 		{
+			title: "Storing fluids"
+			icon: {
+				id: "appliedenergistics2:1k_fluid_storage_cell"
+				Count: 1b
+				tag: { }
+			}
 			x: 6.0d
 			y: 10.0d
 			id: "4D65063EB42EFDE3"
@@ -713,13 +738,15 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 7.0d
+			icon: "appliedenergistics2:quantum_entangled_singularity"
+			x: 6.0d
+			y: 5.0d
 			description: [
-				"In this pack channels are disabled by default."
+				"In this pack channels are disabled by default. You don't need to worry about them."
 				"If you want to enable them for some reason, go to config/ae2ao.toml"
 			]
 			dependencies: ["4031FE67806D713C"]
+			optional: true
 			id: "10E6BE6D02A5E53E"
 			tasks: [{
 				id: "24EE41B949152159"
@@ -770,14 +797,14 @@
 		{
 			title: "P2P"
 			icon: "appliedenergistics2:me_p2p_tunnel"
-			x: 10.0d
+			x: 12.0d
 			y: 8.0d
 			description: [
 				"P2P is a wormhole of it's own (Literally)."
 				"It connects two places by using mag- technology."
 				"You need a memory card to link p2p together."
 				"Example setup:"
-				"{image:#FFFFFF width:100 height:100 align:1}"
+				"{image:kubejs:textures/quests/AE2_P2P_example.png width:177 height:100 align:1}"
 				"P2p can transfer not only AE2 channels. It can transfer FE, items, redstone signal, etc."
 				"For example, you can right click on the P2P with some kind of battery, that will transform it to FE P2P."
 			]
@@ -802,8 +829,19 @@
 			]
 		}
 		{
-			x: 12.0d
-			y: 4.0d
+			title: "...but i use singularities"
+			icon: "appliedenergistics2:quantum_link"
+			x: 8.0d
+			y: 8.0d
+			description: [
+				"They work like p2p transferring channels, but don't need to be supplied by one (channel). They need only power and an entangled singularity."
+				"Example setup:"
+				"{image:kubejs:textures/quests/AE2_quantum_ring_example.png width:177 height:100 align:1}"
+			]
+			dependencies: [
+				"31BACE921F574824"
+				"2D7C8FA9756258F5"
+			]
 			id: "32F5670C4AE33FDA"
 			tasks: [
 				{
@@ -827,6 +865,60 @@
 				type: "item"
 				item: "appliedenergistics2:crafting_monitor"
 			}]
+		}
+		{
+			icon: "appliedenergistics2:singularity"
+			x: 8.0d
+			y: 10.0d
+			id: "54D877959C84AC6B"
+			tasks: [
+				{
+					id: "24B656F90658AC85"
+					type: "item"
+					item: "appliedenergistics2:singularity"
+				}
+				{
+					id: "0224F53B0FA5CCF0"
+					type: "item"
+					item: "appliedenergistics2:condenser"
+				}
+				{
+					id: "76B649BF7B7A5D91"
+					type: "item"
+					item: "appliedenergistics2:64k_cell_component"
+				}
+			]
+		}
+		{
+			icon: "appliedenergistics2:quantum_entangled_singularity"
+			x: 10.0d
+			y: 8.0d
+			subtitle: "I'm confused"
+			description: [
+				"Just drop 1 singularity, 1 ender dust and blow it up."
+				"Note: you get 2 entangled singularities per explosion."
+			]
+			dependencies: ["54D877959C84AC6B"]
+			id: "2D7C8FA9756258F5"
+			tasks: [
+				{
+					id: "194E3C924D2CD403"
+					type: "item"
+					item: "appliedenergistics2:quantum_entangled_singularity"
+					match_nbt: false
+					weak_nbt_match: true
+				}
+				{
+					id: "754A9A6906C0FEA1"
+					type: "item"
+					item: "appliedenergistics2:ender_dust"
+				}
+				{
+					id: "1AA932A581F29C06"
+					type: "item"
+					item: "appliedenergistics2:tiny_tnt"
+				}
+			]
 		}
 	]
 }

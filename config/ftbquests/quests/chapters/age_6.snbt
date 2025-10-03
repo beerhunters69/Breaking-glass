@@ -21,6 +21,7 @@
 			icon: "minecraft:end_stone"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			id: "059975E679EE2E82"
 			tasks: [{
 				id: "3E7E7B4BD01CD6EC"

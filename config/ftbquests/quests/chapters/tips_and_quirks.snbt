@@ -164,5 +164,36 @@
 				item: "pipez:item_pipe"
 			}]
 		}
+		{
+			x: 1.0d
+			y: -3.5d
+			description: ["Can locate given structure."]
+			id: "71B9EF292A9A838B"
+			tasks: [{
+				id: "284762FD68685460"
+				type: "item"
+				item: {
+					id: "explorerscompass:explorerscompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "emendatusenigmatica:enderium_gear"
+			x: 3.0d
+			y: -3.5d
+			description: [
+				"Don't forget to change the volume of ambient sounds and presence footsteps."
+				""
+				"ESC->Mods->Ambient sounds/presence footsteps"
+			]
+			id: "77B25FE0B542CAC0"
+			tasks: [{
+				id: "08ACD74C76CB5A96"
+				type: "checkmark"
+				title: "Settings"
+			}]
+		}
 	]
 }
