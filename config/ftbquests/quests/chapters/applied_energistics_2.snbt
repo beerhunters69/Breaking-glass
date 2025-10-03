@@ -151,7 +151,7 @@
 			]
 		}
 		{
-			title: "No meteors for you"
+			title: "No meteors for you..."
 			x: 0.0d
 			y: 2.0d
 			subtitle: "Sadly or happily?"
@@ -374,9 +374,13 @@
 		{
 			title: "I'm speed"
 			icon: "appliedenergistics2:quartz_growth_accelerator"
-			x: 6.0d
+			x: 8.0d
 			y: 4.0d
-			description: ["Side note: They accept power ONLY through AE2 cables."]
+			description: [
+				"Side note: They accept power ONLY through AE2 cables."
+				"Example setup:"
+				"{image:kubejs:textures/quests/AE2_growth_accelerators.png width:177 height:100 align:1}"
+			]
 			min_required_dependencies: 1
 			dependencies: [
 				"2706DE5A851E2CA5"
@@ -403,7 +407,7 @@
 			x: 10.0d
 			y: 2.0d
 			description: [
-				"This is you first \"core\" of the AE2 network."
+				"This is you first \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."
 				""
 				"On each side it has 8 \"channels\". Basically, you can connect no more than 8 devices to one side."
 				"There is 6 sides, so 48 total devices."
@@ -446,6 +450,7 @@
 		{
 			x: 6.0d
 			y: 6.0d
+			description: ["This is \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."]
 			dependencies: [
 				"02736D59A6AC56AC"
 				"5B670BF6B653A286"
@@ -458,28 +463,39 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 6.0d
+			icon: "appliedenergistics2:sky_stone_block"
+			x: 6.0d
+			y: 4.0d
+			description: ["Because there is \"no\" meteors you can craft sky stone from obsidian."]
+			hide_dependency_lines: true
+			dependencies: ["33DFE9524EC0266E"]
 			id: "5B670BF6B653A286"
-			tasks: [{
-				id: "76ED5AB59DD84CDC"
-				type: "item"
-				item: "appliedenergistics2:sky_stone_block"
-			}]
+			tasks: [
+				{
+					id: "76ED5AB59DD84CDC"
+					type: "item"
+					item: "appliedenergistics2:sky_stone_block"
+				}
+				{
+					id: "30A901B69B0E2D08"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+			]
 		}
 		{
 			title: "I'm not an electrician..."
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 			description: [
-				"Cables deliver power and channels to AE2 blocks."
+				"Cables deliver power and channels to AE2 blocks. CHANNELS ARE DISABLED BY DEFAULT."
 				""
 				"Basic ones like glass and covered deliver only 8 channels."
 				"There is also one advantage of using basic cables, you can place attachment on them."
 				""
 				"Dense cables deliver 32 channels, but you can't place attachments on them."
 			]
-			dependencies: ["4446B7AB63A5B262"]
+			dependencies: ["4031FE67806D713C"]
 			id: "31BACE921F574824"
 			tasks: [
 				{
@@ -504,7 +520,7 @@
 			x: 10.0d
 			y: 4.0d
 			description: [
-				"Smart cables display the number of channels currently in use."
+				"Smart cables display the number of channels currently in use. CHANNELS ARE DISABLED BY DEFAULT."
 				""
 				"Can DRASTICALLY reduse your fps if you use shaders."
 			]
@@ -574,6 +590,10 @@
 			description: [
 				"Like i said before, they attach on basic cables."
 				"I hope you already understand what export/import bus does."
+				""
+				"Storage bus is a little tricky. Basically, you can connect it to any inventory (chest, barrel, drawer, etc.) and that inventory would be used by AE2 like any other cell."
+				""
+				"That's basic attachments, you would use them frequently."
 			]
 			dependencies: ["31BACE921F574824"]
 			id: "70EDCC4C1CA94A7A"
@@ -673,6 +693,139 @@
 				id: "293C780CBB042624"
 				type: "item"
 				item: "ae2fc:part_fluid_pattern_terminal"
+			}]
+		}
+		{
+			title: "...but not really"
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"There is meteors from bosstools, but they contain only sky stone. So go back to crafting presses."
+				""
+			]
+			dependencies: ["7452D2BFE076C686"]
+			optional: true
+			id: "52B6FDCED9F375FD"
+			tasks: [{
+				id: "6A52F1152B634BC4"
+				type: "item"
+				item: "boss_tools:sky_stone"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			description: [
+				"In this pack channels are disabled by default."
+				"If you want to enable them for some reason, go to config/ae2ao.toml"
+			]
+			dependencies: ["4031FE67806D713C"]
+			id: "10E6BE6D02A5E53E"
+			tasks: [{
+				id: "24EE41B949152159"
+				type: "checkmark"
+				title: "Channels"
+				icon: "appliedenergistics2:singularity"
+			}]
+		}
+		{
+			title: "Advanced attachments"
+			x: 12.0d
+			y: 6.0d
+			description: [
+				"Annihilation plane breaks block and exports them into AE2 storage. It can use enchantments like fortune and silk touch."
+				""
+				"Formation plane places blocks from AE2 storage into."
+				""
+				"Storage monitor allows you to view the quantity of selected item."
+				""
+				"Level emitter is a > or < switch. It emits redstone signal if an item (in AE2 storage) is below or above certain level."
+			]
+			dependencies: ["70EDCC4C1CA94A7A"]
+			optional: true
+			id: "38F8C3CFF8EA0ACF"
+			tasks: [
+				{
+					id: "670EEB9913AFCCC6"
+					type: "item"
+					item: "appliedenergistics2:annihilation_plane"
+				}
+				{
+					id: "049F116DBF516E53"
+					type: "item"
+					item: "appliedenergistics2:formation_plane"
+				}
+				{
+					id: "15E214234AD938F4"
+					type: "item"
+					item: "appliedenergistics2:storage_monitor"
+				}
+				{
+					id: "686D6D0CDE4345E7"
+					type: "item"
+					item: "appliedenergistics2:level_emitter"
+				}
+			]
+		}
+		{
+			title: "P2P"
+			icon: "appliedenergistics2:me_p2p_tunnel"
+			x: 10.0d
+			y: 8.0d
+			description: [
+				"P2P is a wormhole of it's own (Literally)."
+				"It connects two places by using mag- technology."
+				"You need a memory card to link p2p together."
+				"Example setup:"
+				"{image:#FFFFFF width:100 height:100 align:1}"
+				"P2p can transfer not only AE2 channels. It can transfer FE, items, redstone signal, etc."
+				"For example, you can right click on the P2P with some kind of battery, that will transform it to FE P2P."
+			]
+			dependencies: ["70EDCC4C1CA94A7A"]
+			optional: true
+			id: "391D4A9355BD255A"
+			tasks: [
+				{
+					id: "3E3AE458F8F49B41"
+					type: "item"
+					item: "appliedenergistics2:me_p2p_tunnel"
+				}
+				{
+					id: "5B4AB643C45B78EC"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:memory_card"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			id: "32F5670C4AE33FDA"
+			tasks: [
+				{
+					id: "5182AE1B385CF36A"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+				{
+					id: "43C276E7AD98C2DF"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			id: "4A3BD978BE188448"
+			tasks: [{
+				id: "25702529E60879EE"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
 			}]
 		}
 	]

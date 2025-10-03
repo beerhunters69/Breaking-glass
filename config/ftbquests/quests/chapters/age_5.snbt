@@ -166,5 +166,68 @@
 				item: "minecraft:netherite_ingot"
 			}]
 		}
+		{
+			title: "Not again..."
+			icon: "minecraft:end_portal_frame"
+			x: -1.0d
+			y: -4.5d
+			shape: "pentagon"
+			description: [
+				"Something seems of..."
+				""
+				"Why isnt it working?"
+				""
+				"Why I cant just teleport to the end?"
+			]
+			secret: true
+			id: "3DD65A799B42D15E"
+			tasks: [{
+				id: "6C1191F7EEC0266A"
+				type: "observation"
+				title: "Find a portal"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:end_portal"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.5d
+			subtitle: "God, help me"
+			description: [
+				"It seems like portal materia rejects you. Dont worry, there is the solution"
+				"But it will require some tricky inanite"
+			]
+			dependencies: ["3DD65A799B42D15E"]
+			id: "4E52B2AF580C5242"
+			tasks: [{
+				id: "28326B294DE43D92"
+				type: "checkmark"
+				title: "The realization"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			subtitle: "Yep, no more tricks"
+			description: [
+				"Officaly, welcome to the endgame"
+				""
+				"P.S. Dont lost it"
+			]
+			dependencies: ["4E52B2AF580C5242"]
+			id: "02DB6EEBC2B13210"
+			tasks: [{
+				id: "1FCD3BE50EA009C0"
+				type: "item"
+				item: "kubejs:end_portal_stabilizer"
+			}]
+			rewards: [{
+				id: "2CC4FE3625AAC79F"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "unlock_end"
+			}]
+		}
 	]
 }
