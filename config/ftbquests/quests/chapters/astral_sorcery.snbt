@@ -383,5 +383,22 @@
 				item: "astralsorcery:observatory"
 			}]
 		}
+		{
+			icon: "artifacts:crystal_heart"
+			x: -2.5d
+			y: 0.0d
+			shape: "heart"
+			description: [
+				"{image:kubejs:textures/quests/well.png width:100 height:100 align:1}"
+				"I dont want to discribe every detail about this mod. I love it, but too much text. Go watch some youtube guide. It will be 100% better then me telling you brainrot things"
+			]
+			dependencies: ["23F4DD42EEE60C41"]
+			id: "4B75D81D4BE14DDF"
+			tasks: [{
+				id: "713D6F12A08E84AE"
+				type: "checkmark"
+				title: "well"
+			}]
+		}
 	]
 }

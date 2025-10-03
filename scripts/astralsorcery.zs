@@ -28,3 +28,11 @@ val air = <item:minecraft:air>;
     [<item:ftbic:thick_neutron_reflector>, <item:kubejs:angelic_alloy_plate>, <item:appliedenergistics2:singularity>, <item:kubejs:angelic_alloy_plate>, <item:ftbic:thick_neutron_reflector>],
     [<item:kubejs:angelic_alloy_plate>,<item:immersiveengineering:capacitor_hv>, <item:boss_tools:rocket_t1>, <item:immersiveengineering:capacitor_hv>, <item:kubejs:angelic_alloy_plate>]
 ], 500, 4000);
+
+<recipetype:astralsorcery:altar>.addRecipe("endrestricter", "RADIANCE", <item:kubejs:end_portal_stabilizer>, [
+    [air, air, <item:kubejs:tf_portal_item>, air, air],
+    [air, <item:minecraft:nether_star>, <item:appliedenergistics2:singularity>, <item:minecraft:nether_star>, air],
+    [<item:kubejs:angelic_alloy_plate>, <item:astralsorcery:infused_glass>, <item:ftbic:antimatter_crystal>, <item:astralsorcery:infused_glass>, <item:kubejs:angelic_alloy_plate>],
+    [<item:kubejs:angelic_alloy_plate>, <item:bigreactors:inanite_ingot>, <item:ftbic:antimatter_crystal>, <item:bigreactors:inanite_ingot>, <item:kubejs:angelic_alloy_plate>],
+    [<item:kubejs:angelic_alloy_plate>, <item:ftbic:iridium_circuit>, <item:ftbic:antimatter_crystal>, <item:ftbic:iridium_circuit>, <item:kubejs:angelic_alloy_plate>]
+    ], 500, 4000);

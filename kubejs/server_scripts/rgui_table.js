@@ -60,5 +60,6 @@ event.shaped('8x pneumaticcraft:pressure_tube', ['ABC','DEF','GHI'], {A: 'minecr
 event.shaped('16x pneumaticcraft:reinforced_stone', ['ABC','DEF','GHI'], {A: 'minecraft:stone',B: 'minecraft:stone',C: 'minecraft:stone',D: 'minecraft:stone',E: 'kubejs:wgnc',F: 'minecraft:stone',G: 'minecraft:stone',H: 'minecraft:stone',I: 'minecraft:stone'})
 event.shapeless('1x appliedenergistics2:sky_stone_block', ['minecraft:obsidian','minecraft:obsidian','minecraft:obsidian','minecraft:obsidian'])
 event.shaped('1x minecraft:enchanting_table', ['ABC','DEF','GHI'], {A: 'minecraft:air',B: 'minecraft:book',C: 'minecraft:air',D: 'kubejs:duraluminium_plate',E: 'minecraft:crying_obsidian',F: 'kubejs:duraluminium_plate',G: 'minecraft:obsidian',H: 'minecraft:obsidian',I: 'minecraft:obsidian'})
+event.shaped('1x bigreactors:basic_reactorcasing', ['ABC','DEF','GHI'], {A: 'minecraft:iron_ingot',B: 'bigreactors:graphite_ingot',C: 'minecraft:iron_ingot',D: 'bigreactors:graphite_ingot',E: 'boss_tools:mars_sand',F: 'bigreactors:graphite_ingot',G: 'minecraft:iron_ingot',H: 'bigreactors:graphite_ingot',I: 'minecraft:iron_ingot'})
 
 })//////DONT ADD MORE CODE AFTER THIS LINE

@@ -1,0 +1,24 @@
+{
+  "oreConfig": [
+    {
+      "ore": "emendatusenigmatica:fluorite_end_stone_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 0,
+      "maxY": 110,
+      "maxVeinSize": 40,
+      "spawnRate": 2,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["END"]
+    },
+    {
+      "ore": "emendatusenigmatica:osmium_end_stone_ore",
+      "filler": "minecraft:end_stone",
+      "minY": 0,
+      "maxY": 110,
+      "maxVeinSize": 40,
+      "spawnRate": 2,
+      "biomeBlacklist": [],
+      "biomeWhitelist": ["END"]
+    }
+  ]
+}
