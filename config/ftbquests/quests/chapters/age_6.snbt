@@ -22,11 +22,12 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
+			secret: true
 			id: "059975E679EE2E82"
 			tasks: [{
-				id: "3E7E7B4BD01CD6EC"
-				type: "dimension"
-				dimension: "minecraft:the_end"
+				id: "4AA210F824A19563"
+				type: "gamestage"
+				stage: "six"
 			}]
 		}
 		{
@@ -39,6 +40,7 @@
 				"But it is not over!"
 				"Age 6 is final, but it is divided into 2 parts"
 			]
+			dependencies: ["059975E679EE2E82"]
 			id: "0F40C789E44E6E36"
 			tasks: [{
 				id: "48A2C05A09C62813"

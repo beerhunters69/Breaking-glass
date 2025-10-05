@@ -18,26 +18,17 @@
 			secret: true
 			id: "0C62A127CABF744B"
 			tasks: [{
-				id: "78CC9D429F20B71B"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
+				id: "0D2AC4AEA23A0BA4"
+				type: "gamestage"
+				stage: "two"
 			}]
-			rewards: [
-				{
-					id: "23BE1802AA93E65E"
-					type: "gamestage"
-					icon: "twilightforest:twilight_portal_miniature_structure"
-					auto: "invisible"
-					stage: "two"
-				}
-				{
-					id: "2226A049E0B4F09F"
-					type: "command"
-					auto: "enabled"
-					command: "/say Welcome to age 2!"
-					player_command: true
-				}
-			]
+			rewards: [{
+				id: "2226A049E0B4F09F"
+				type: "command"
+				auto: "enabled"
+				command: "/say Welcome to age 2!"
+				player_command: true
+			}]
 		}
 		{
 			x: 6.5d
@@ -162,6 +153,12 @@
 				id: "784F872C071818D6"
 				type: "dimension"
 				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "67D645C014D79C4B"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "three"
 			}]
 		}
 		{

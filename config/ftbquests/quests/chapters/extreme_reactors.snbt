@@ -1,7 +1,7 @@
 {
 	id: "0131AB7FD2ECC3D4"
 	group: "0AFE0E9AC7269D41"
-	order_index: 10
+	order_index: 9
 	filename: "extreme_reactors"
 	title: "Extreme Reactors"
 	icon: "bigreactors:yellorium_ingot"
@@ -16,9 +16,9 @@
 			secret: true
 			id: "730467342C718D15"
 			tasks: [{
-				id: "2CE38C283FB74DE8"
-				type: "dimension"
-				dimension: "boss_tools:mars"
+				id: "571D5B913A940126"
+				type: "gamestage"
+				stage: "five"
 			}]
 		}
 		{

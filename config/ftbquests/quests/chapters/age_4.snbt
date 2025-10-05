@@ -22,30 +22,17 @@
 			secret: true
 			id: "7EBFC782792932CC"
 			tasks: [{
-				id: "00E16163E3BBF4E6"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "1B2C31D1F3920D68"
+				type: "gamestage"
+				stage: "four"
 			}]
-			rewards: [
-				{
-					id: "245C8B5707ED8333"
-					type: "gamestage"
-					icon: {
-						id: "boss_tools:rocket_t1"
-						Count: 1b
-						tag: { }
-					}
-					auto: "invisible"
-					stage: "four"
-				}
-				{
-					id: "0A5A77A1AA419828"
-					type: "command"
-					auto: "enabled"
-					command: "/say Welcome to stage 4!"
-					player_command: true
-				}
-			]
+			rewards: [{
+				id: "0A5A77A1AA419828"
+				type: "command"
+				auto: "enabled"
+				command: "/say Welcome to stage 4!"
+				player_command: true
+			}]
 		}
 		{
 			x: -2.0d
@@ -254,6 +241,12 @@
 				id: "20B8AF9765679BE2"
 				type: "dimension"
 				dimension: "boss_tools:mars"
+			}]
+			rewards: [{
+				id: "067DC3BB23BCB3CE"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "five"
 			}]
 		}
 	]

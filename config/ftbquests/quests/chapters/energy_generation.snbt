@@ -1,0 +1,254 @@
+{
+	id: "60B409FC45F30626"
+	group: "325078DB6FE518EA"
+	order_index: 0
+	filename: "energy_generation"
+	title: "Energy generation"
+	icon: "mekanismgenerators:wind_generator"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["Here will be options for energy generation in your playthrough"]
+			id: "379E1F8F96F639AE"
+			tasks: [{
+				id: "6FBD9ADD36A20FD3"
+				type: "checkmark"
+				title: "Power generation"
+			}]
+		}
+		{
+			icon: "minecraft:netherrack"
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["379E1F8F96F639AE"]
+			secret: true
+			id: "41056625B838A36D"
+			tasks: [{
+				id: "41FCFF021E3DE374"
+				type: "gamestage"
+				stage: "three"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: [
+				"IE power gen is probably the best way to generate energy in 3 age"
+				""
+				"It splits up to 2 options:"
+				"Waterwheel and windmill"
+			]
+			dependencies: ["41056625B838A36D"]
+			id: "748CA44D995CB419"
+			tasks: [{
+				id: "1E12A5B0333953A2"
+				type: "checkmark"
+				title: "Immersive engineering"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.0d
+			description: [
+				"Waterwheel are cheap and really hard to setup, but requires a lot of space"
+				"{image:kubejs:textures/quests/waterwhweel.png width:100 height:100 align:1}"
+				"You need a water flowing in one direction where are redstone blocks placed"
+				"The more spots you covered, the more energy waterwheel will generate"
+				"{image:kubejs:textures/quests/kinetic.png width:100 height:100 align:1}"
+				"You also need to place kinetic dyanmo in special way. Black dot must look into waterwheel shaft"
+				"you can place 3 waterwheels per 1 kinetic dynamo"
+				""
+				"1 waterwheel if you build it correctly will generate ~92 rf/t"
+			]
+			dependencies: ["748CA44D995CB419"]
+			id: "4AB48AA5D0BA218B"
+			tasks: [{
+				id: "5255C50B9770D006"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"If waterwheels are so good, why wont just use em? Because windmills are GOAT."
+				""
+				"First of all, yes you need a lot of industrial hemp, but this is only a matter of time if you have garden cloche."
+				""
+				"And second: windmils take a little of space, the require minimum of preparation"
+				"{image:kubejs:textures/quests/kinetic2.png width:100 height:100 align:1}"
+				"It also need to be connected with shaft to the black dot in kinetic dynamo"
+				""
+				"1 Windmill will generate ~142 rf/t"
+			]
+			dependencies: ["748CA44D995CB419"]
+			id: "614B4602BDA986EB"
+			tasks: [
+				{
+					id: "12A0D950788A8504"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+				{
+					id: "652FB8548BDA07A2"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Diesel generator"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Really noisy"
+			description: [
+				"This big boi will require you whole infrastructure to supply it with diesel"
+				""
+				"In return it generate 16384 rf/t"
+			]
+			dependencies: ["748CA44D995CB419"]
+			id: "37D59E76EFC6E728"
+			tasks: [{
+				id: "01BA7CA5EFC300FD"
+				type: "advancement"
+				advancement: "immersiveengineering:main/mb_dieselgen"
+				criterion: ""
+			}]
+		}
+		{
+			icon: {
+				id: "boss_tools:rocket_t1"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -6.0d
+			dependencies: ["41056625B838A36D"]
+			secret: true
+			id: "3682D7E518B5F7DD"
+			tasks: [{
+				id: "38190BB9ADA370D7"
+				type: "gamestage"
+				stage: "four"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			description: ["As it was in IC2, there is also 2 options: Nuclear or Solar. But actually usable solar panels, that can generate normal amounts are locked behind stage 5, so you got only 1 option here and it is kinda scary at first look"]
+			dependencies: ["3682D7E518B5F7DD"]
+			id: "0A694D80DA5A100E"
+			tasks: [{
+				id: "06FBCD395AC0A968"
+				type: "checkmark"
+				title: "FTB Industrial Contraptions"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			description: [
+				"Nuclear reactor is scary. One white box that can explode 10 chunk radius because YOU forgot 1 vent. Pretty scary huh?"
+				""
+				"Dont worry, we will show you schematic that will work very efficient and more importantly - safe."
+				""
+				"I must tell, crafting all of these components will take some time, so you better go complete astral sorcery and get that creative energy for your ae/rs, cause making manualy all that will be quite hard"
+				"{image:kubejs:textures/quests/reacto3r.png width:120 height:100 align:1}"
+			]
+			dependencies: ["0A694D80DA5A100E"]
+			id: "3C9B682F0672B109"
+			tasks: [{
+				id: "27AA8FF0157C4F3A"
+				type: "item"
+				item: "ftbic:nuclear_reactor"
+			}]
+		}
+		{
+			title: "Components for nuclear reactor"
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["3C9B682F0672B109"]
+			id: "364300EA3274938F"
+			tasks: [
+				{
+					id: "35EC59FA257F613D"
+					type: "item"
+					item: {
+						id: "ftbic:overclocked_heat_vent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 25L
+				}
+				{
+					id: "4B396AFF7E6D6F16"
+					type: "item"
+					item: "ftbic:component_heat_vent"
+					count: 15L
+				}
+				{
+					id: "1349D12B25E374A2"
+					type: "item"
+					item: {
+						id: "ftbic:quad_uranium_fuel_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 6L
+				}
+				{
+					id: "749894C4B0CC40FB"
+					type: "item"
+					item: {
+						id: "ftbic:thick_neutron_reflector"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			icon: "boss_tools:mars_sand"
+			x: 0.0d
+			y: -10.0d
+			dependencies: ["3682D7E518B5F7DD"]
+			secret: true
+			id: "6E8D034328480365"
+			tasks: [{
+				id: "31247FB1681C6523"
+				type: "gamestage"
+				stage: "five"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			description: [
+				"If you need even more power, you can make a reactor from extreme reactors"
+				""
+				"And even after that you can upgrade it and make turbine, so you make even more power"
+				""
+				"Any way check Extreme Reactors tab"
+			]
+			dependencies: ["6E8D034328480365"]
+			id: "2D58EF1794FA2B24"
+			tasks: [{
+				id: "4972C71909DF27B6"
+				type: "checkmark"
+				title: "Extreme reactors"
+			}]
+		}
+	]
+}

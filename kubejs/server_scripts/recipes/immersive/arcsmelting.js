@@ -127,4 +127,9 @@ onEvent('recipes', event => {
         'create:blaze_cake_base',
         'minecraft:cobblestone'
     )
+    event.recipes.immersiveengineering.arc_furnace(
+        '2x thermal:enderium_ingot',
+        '3x #forge:ingots/lead',
+        ['#forge:dusts/diamond','2x minecraft:ender_pearl']
+    )
 })

@@ -177,6 +177,12 @@
 				type: "dimension"
 				dimension: "twilightforest:twilightforest"
 			}]
+			rewards: [{
+				id: "190636843362741A"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "two"
+			}]
 		}
 		{
 			x: 2.0d

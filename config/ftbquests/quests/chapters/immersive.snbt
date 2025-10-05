@@ -1,7 +1,7 @@
 {
 	id: "703152E53D87208A"
 	group: "0AFE0E9AC7269D41"
-	order_index: 2
+	order_index: 1
 	filename: "immersive"
 	title: "Immersive Engineering"
 	icon: "immersiveengineering:blastbrick"
@@ -512,9 +512,9 @@
 			secret: true
 			id: "0DC09FCA11B64DE6"
 			tasks: [{
-				id: "709A16C6AA761C70"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
+				id: "03781FD7D846A21C"
+				type: "gamestage"
+				stage: "two"
 			}]
 		}
 		{
@@ -678,6 +678,144 @@
 				id: "70AE00A5BA3793E3"
 				type: "checkmark"
 			}]
+		}
+		{
+			title: "How do I connect?"
+			x: 2.0d
+			y: 7.5d
+			subtitle: "But? How?"
+			description: [
+				"How do I wire in IE?"
+				""
+				"Well, you need to place connector to the enregy Input/Output and connect it with a wire to another connector. Connectors can have only 1 connection"
+				""
+				"This connection will be P2P and it is not so effective"
+				""
+				"Instead, you can wire connector to the relay and from relay to the as many as you want connectors or relays"
+				""
+				"Same rule applies to all wires in this mod"
+			]
+			dependencies: ["3744FFB6EFEA0171"]
+			id: "1FCC51A42783C8DF"
+			tasks: [
+				{
+					id: "754EF3F478D3208B"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "42715DC6A9AF0BEE"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "7EFC658D1532BC10"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+		}
+		{
+			title: "Ouch."
+			x: 3.0d
+			y: 8.5d
+			subtitle: "That hurts!"
+			description: [
+				"Well, your wires are live, and they will hurt you when you touch them. There is 2 solutions to this problem"
+				""
+				"Solution A:"
+				"Insulated wires. They will require you to insulate your every wire. Beware that insulated wires are shorter than regular one!"
+				""
+				"Solution B:"
+				"Faraday Armour. Did I mention that HV wires oneshots you? And more importantly... They cannot be isolated. This left us with our only hope. Faraday armour. It fully negates any damage from wires, but have bad durability and you will need to change your armour every time you work with elecricity"
+				""
+			]
+			dependencies: ["1FCC51A42783C8DF"]
+			id: "1C07F199CFCF0751"
+			tasks: [
+				{
+					id: "58AD91AD16A42333"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+				}
+				{
+					id: "0AA96935B9E6B919"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 9.5d
+			subtitle: "Dear god...."
+			dependencies: ["1C07F199CFCF0751"]
+			id: "0112BD9CB9D02B89"
+			tasks: [
+				{
+					id: "713ADC45A4E23798"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BD886E02245019F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "249B5843E1790E4E"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4743E72773BA2F27"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			description: ["If you want to transfer a lot of energy, but dont want to use HV wires, you can use transformers. HV->MV, MV->LV"]
+			dependencies: ["1FCC51A42783C8DF"]
+			id: "67379A3E5D866583"
+			tasks: [
+				{
+					id: "78851BFE7C2AF703"
+					type: "item"
+					item: "immersiveengineering:transformer"
+				}
+				{
+					id: "3143072B981673A2"
+					type: "item"
+					item: "immersiveengineering:transformer_hv"
+				}
+			]
 		}
 	]
 }

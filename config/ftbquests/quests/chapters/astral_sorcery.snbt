@@ -1,7 +1,7 @@
 {
 	id: "7BB1617DCEE4BDE6"
 	group: "0AFE0E9AC7269D41"
-	order_index: 6
+	order_index: 5
 	filename: "astral_sorcery"
 	title: "Astral sorcery"
 	icon: "astralsorcery:tome"
@@ -21,9 +21,9 @@
 			secret: true
 			id: "23F4DD42EEE60C41"
 			tasks: [{
-				id: "47514183D37A3647"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "27264D393CE20CA1"
+				type: "gamestage"
+				stage: "four"
 			}]
 		}
 		{

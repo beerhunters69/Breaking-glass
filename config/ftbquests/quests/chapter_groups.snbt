@@ -1,6 +1,8 @@
 {
 	chapter_groups: [
 		{ id: "0166456A4DB1C0E1", title: "Through the ages" }
+		{ id: "35F270EC60742126", title: "Storage" }
+		{ id: "325078DB6FE518EA", title: "Energy" }
 		{ id: "0AFE0E9AC7269D41", title: "Mods" }
 	]
 }

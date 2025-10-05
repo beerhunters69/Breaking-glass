@@ -17,26 +17,17 @@
 			secret: true
 			id: "6BA6F3BE5247E87B"
 			tasks: [{
-				id: "3C6CABF1C3B59DDE"
-				type: "dimension"
-				dimension: "boss_tools:mars"
+				id: "4406CB9EC10C43EC"
+				type: "gamestage"
+				stage: "five"
 			}]
-			rewards: [
-				{
-					id: "3B97BD30AE11BA7C"
-					type: "gamestage"
-					icon: "pneumaticcraft:pressure_gauge"
-					auto: "invisible"
-					stage: "five"
-				}
-				{
-					id: "62BC65367F5FE8F1"
-					type: "command"
-					auto: "enabled"
-					command: "/say Welcome to stage 5!"
-					player_command: false
-				}
-			]
+			rewards: [{
+				id: "62BC65367F5FE8F1"
+				type: "command"
+				auto: "enabled"
+				command: "/say Welcome to stage 5!"
+				player_command: false
+			}]
 		}
 		{
 			x: 1.5d
@@ -47,17 +38,6 @@
 				id: "2A36E186101C128C"
 				type: "item"
 				item: "minecraft:ancient_debris"
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.5d
-			dependencies: ["6BA6F3BE5247E87B"]
-			id: "7CB6F06B585E1561"
-			tasks: [{
-				id: "421A961E141173A3"
-				type: "item"
-				item: "emendatusenigmatica:uranium_chunk"
 			}]
 		}
 		{
@@ -267,6 +247,12 @@
 				id: "55711991ECDF57B7"
 				type: "dimension"
 				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "01E4C3941E190CEE"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "six"
 			}]
 		}
 	]

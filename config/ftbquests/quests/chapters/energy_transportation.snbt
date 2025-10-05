@@ -1,0 +1,163 @@
+{
+	id: "21ED54F419AF20F8"
+	group: "325078DB6FE518EA"
+	order_index: 1
+	filename: "energy_transportation"
+	title: "Energy transportation"
+	icon: "fluxnetworks:flux_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"At some point you will encounter a new challenge"
+				""
+				"Your wires dont have enought throughput"
+				""
+				"We have solution for that"
+				""
+				"Behold! A power of the wifi!"
+			]
+			dependencies: ["1D90417067DF5C15"]
+			id: "2A190184C00751E2"
+			tasks: [{
+				id: "7DD881343D5B3D8F"
+				type: "checkmark"
+				title: "Energy transportation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			dependencies: ["2A190184C00751E2"]
+			id: "31B83B04E9DD4CD6"
+			tasks: [{
+				id: "13E2241629F94214"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["31B83B04E9DD4CD6"]
+			id: "6330EE74022FBA37"
+			tasks: [{
+				id: "64386F0B704C3E18"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["6330EE74022FBA37"]
+			id: "65FF362EAAB2449D"
+			tasks: [{
+				id: "11B7E5A6964BE507"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["6330EE74022FBA37"]
+			id: "7C7DD9F140DD6A6C"
+			tasks: [{
+				id: "44F9A872C197F210"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			title: "Creating a system"
+			x: 0.0d
+			y: -8.5d
+			description: [
+				"So, you have your plugs and points, what can you do with them? "
+				""
+				"Place point or plug, open it and find there a cross"
+				""
+				"You can change privacy setting, colour, name. Then confirm and here you go - wireless energy"
+				""
+				"Plugs are input points of your system. Place them at the generators"
+				""
+				"Points are outputs, so you need to place them near cable, or even straight up on machine"
+			]
+			dependencies: [
+				"65FF362EAAB2449D"
+				"7C7DD9F140DD6A6C"
+			]
+			id: "7CA46139BC09CA58"
+			tasks: [{
+				id: "7A9203134F00199D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Wireless charging your items in your inventory"
+			x: -1.5d
+			y: -10.0d
+			description: [
+				"Place controller down and open your chargin menu. Then click checkbox and select what you want to charge. Then apply"
+				""
+			]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "332CEB34337AFB0F"
+			tasks: [{
+				id: "5645B1E360D36B8D"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			description: ["This thing can store up your energy and it will work as wireless capacitor for your network. Upgraded version will have more space for more energy"]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "1EE0EA6A53013716"
+			tasks: [{
+				id: "78148C3422935063"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			dependencies: ["1EE0EA6A53013716"]
+			id: "57CA171F5AA2D855"
+			tasks: [{
+				id: "45FF8EE78E83A096"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -14.0d
+			dependencies: ["57CA171F5AA2D855"]
+			id: "4CA6B7B5102AE377"
+			tasks: [{
+				id: "488D7DC61B29179A"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			description: ["This rod will make your life easier, cause it will copy paste configuration from one device to another. For example it will help you when you're placing new plug and when you click it with configurator, it will connect to your network"]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "300AD291CE378AB6"
+			tasks: [{
+				id: "1832BDB2E32A3A38"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "515F1AA7A58F27E1"
 	group: "0AFE0E9AC7269D41"
-	order_index: 7
+	order_index: 6
 	filename: "productive_bees"
 	title: "Productive bees"
 	icon: "minecraft:bee_nest"
@@ -15,10 +15,10 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "4F8E2DE08FA8E8A8"
 			tasks: [{
-				id: "764A738FFDD8B7E1"
+				id: "4C47A03396FA0ED0"
 				type: "item"
 				item: {
-					id: "productivebees:configurable_honeycomb"
+					id: "productivebees:spawn_egg_configurable_bee"
 					Count: 1b
 					tag: {
 						EntityTag: {
@@ -139,9 +139,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "36C0D62977438F64"
 			tasks: [{
-				id: "13175358EA627C2C"
+				id: "5D8CB7CC8547EA2B"
 				type: "item"
-				item: "productivebees:honeycomb_bone"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:skeletal"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -207,9 +215,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "21C24981D16FEE71"
 			tasks: [{
-				id: "7BEF9CAFFA03A3D9"
+				id: "2FD36605700550D4"
 				type: "item"
-				item: "productivebees:honeycomb_draconic"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:draconic"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -247,9 +263,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "44256F536B2C676A"
 			tasks: [{
-				id: "6B0B923C2E776DB0"
+				id: "16475D4883C8FDED"
 				type: "item"
-				item: "productivebees:honeycomb_ender"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ender"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -340,9 +364,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "66AD1129A1723CCA"
 			tasks: [{
-				id: "3B3E2F405DF69BBF"
+				id: "09694DFCB706A371"
 				type: "item"
-				item: "productivebees:honeycomb_magmatic"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:magmatic"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -501,9 +533,9 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "3A991EE3F44B41CB"
 			tasks: [{
-				id: "5EF903BBF1DB817F"
+				id: "631C501FA27D4BD5"
 				type: "item"
-				item: "productivebees:honeycomb_powdery"
+				item: "productivebees:spawn_egg_creeper_bee"
 			}]
 		}
 		{
@@ -527,9 +559,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "1FAF3C7880505312"
 			tasks: [{
-				id: "3193832396CCEF92"
+				id: "686FCD440AAE92E0"
 				type: "item"
-				item: "productivebees:honeycomb_quartz"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:crystalline"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -567,9 +607,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "2BDBC36E00510E5C"
 			tasks: [{
-				id: "72A4E2AE44958DAB"
+				id: "79057F59F6F3746A"
 				type: "item"
-				item: "productivebees:honeycomb_ghostly"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:ghostly"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -685,9 +733,17 @@
 			dependencies: ["5C0BFD47225DED09"]
 			id: "42C812C7037962AB"
 			tasks: [{
-				id: "67AF87FE9A969262"
+				id: "51759E8EEC4BA106"
 				type: "item"
-				item: "productivebees:honeycomb_slimy"
+				item: {
+					id: "productivebees:spawn_egg_configurable_bee"
+					Count: 1b
+					tag: {
+						EntityTag: {
+							type: "productivebees:slimy"
+						}
+					}
+				}
 			}]
 		}
 		{
@@ -851,6 +907,7 @@
 			}]
 		}
 		{
+			title: "Advanced beehives"
 			x: -10.0d
 			y: -10.5d
 			hide_dependency_lines: true
@@ -870,6 +927,7 @@
 			}]
 		}
 		{
+			title: "Expansion box"
 			x: -8.5d
 			y: -10.5d
 			hide_dependency_lines: true
@@ -1025,9 +1083,9 @@
 			secret: true
 			id: "5C0BFD47225DED09"
 			tasks: [{
-				id: "16607257E6195599"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "6F6F5A966CD45721"
+				type: "gamestage"
+				stage: "four"
 			}]
 		}
 	]
