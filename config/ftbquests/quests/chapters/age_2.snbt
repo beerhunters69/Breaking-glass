@@ -26,7 +26,7 @@
 				id: "2226A049E0B4F09F"
 				type: "command"
 				auto: "enabled"
-				command: "/say Welcome to age 2!"
+				command: "/tell @p Welcome to age 2!"
 				player_command: true
 			}]
 		}
@@ -254,7 +254,10 @@
 		{
 			x: -4.5d
 			y: 1.5d
-			description: [""]
+			description: [
+				""
+				"If your new recipes not loading, consider using this manual reload"
+			]
 			dependencies: ["0C62A127CABF744B"]
 			id: "76FC864B61D2A7BC"
 			tasks: [{

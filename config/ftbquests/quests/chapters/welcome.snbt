@@ -40,8 +40,8 @@
 					id: "08E926E35892F27B"
 					type: "command"
 					auto: "invisible"
-					command: "/say Welcome to age 1!"
-					player_command: true
+					command: "/tell @p Welcome to age 1!"
+					player_command: false
 				}
 			]
 		}

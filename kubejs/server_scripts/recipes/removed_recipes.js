@@ -79,6 +79,19 @@ onEvent('recipes', event => {
   event.remove({id:"hostilenetworks:living_matter/sim_chamber"})
   event.remove({id:"hostilenetworks:living_matter/loot_fabricator"})
   event.remove({id:"hostilenetworks:living_matter/framework"})
+
+
+  event.remove({output: 'mekanism:ingot_bronze'})
+  event.remove({output: 'mekanism:ingot_copper'})
+  event.remove({output: 'mekanism:ingot_tin'})
+  event.remove({output: 'mekanism:ingot_lead'})
+  event.remove({output: 'mekanism:ingot_uranium'})
+  event.remove({output: 'boss_tools:steel_ingot'})
+  event.remove({output: 'mekanism:ingot_steel'})
+  event.remove({output: 'emendatusenigmatica:steel_ingot'})
+  event.remove({output: 'mekanism:block_bronze'})
+  event.remove({output: 'mekanism:block_tin'})
+  event.remove({output: 'mekanism:block_charcoal'})
 })
 
 onEvent('recipes', event => {

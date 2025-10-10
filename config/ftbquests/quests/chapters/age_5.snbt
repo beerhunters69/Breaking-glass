@@ -25,7 +25,7 @@
 				id: "62BC65367F5FE8F1"
 				type: "command"
 				auto: "enabled"
-				command: "/say Welcome to stage 5!"
+				command: "/tell @p Welcome to stage 5!"
 				player_command: false
 			}]
 		}
@@ -103,6 +103,7 @@
 		{
 			x: -3.0d
 			y: 0.0d
+			description: ["If your new recipes not loading, consider using this manual reload"]
 			dependencies: ["6BA6F3BE5247E87B"]
 			id: "457FAB6324ED93D4"
 			tasks: [{
