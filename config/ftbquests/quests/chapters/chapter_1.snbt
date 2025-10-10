@@ -302,7 +302,10 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["You propably saw that your plank crafting skills are laking, behold a power of a log!"]
+			description: [
+				"You propably saw that your plank crafting skills are laking, behold a power of a log!"
+				"You can place log in it and then cut it with axe"
+			]
 			size: 2.0d
 			id: "1991CAC9B0231463"
 			tasks: [{
