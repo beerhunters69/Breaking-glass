@@ -22,7 +22,7 @@
               }
             }
           ],
-          "name": "minecraft:gold_nugget"
+          "name": "emendatusenigmatica:copper_ingot"
         },
         {
           "type": "minecraft:item",
@@ -190,7 +190,7 @@
               }
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "emendatusenigmatica:zinc_ingot"
         },
         {
           "type": "minecraft:item",

@@ -272,5 +272,17 @@
 				player_command: false
 			}]
 		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Finally, you can transport liquids!"]
+			dependencies: ["0C62A127CABF744B"]
+			id: "676C50F30AC81024"
+			tasks: [{
+				id: "0F3F23C07FB696AF"
+				type: "item"
+				item: "ceramics:clay_bucket"
+			}]
+		}
 	]
 }
