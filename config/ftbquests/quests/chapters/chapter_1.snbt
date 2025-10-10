@@ -188,6 +188,7 @@
 			x: 2.0d
 			y: -5.0d
 			shape: "gear"
+			description: ["Surround a 2x2 pool with saplings and toss it in!"]
 			dependencies: [
 				"61E8103336D594DD"
 				"34416320BCD819ED"
@@ -301,6 +302,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			description: ["You propably saw that your plank crafting skills are laking, behold a power of a log!"]
 			size: 2.0d
 			id: "1991CAC9B0231463"
 			tasks: [{
