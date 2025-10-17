@@ -401,17 +401,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 9,
-          "functions": [
-            {
-              "function": "dungeoncrawl:random_item",
-              "loot_level": 4
-            }
-          ],
-          "name": "minecraft:air"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 3,
           "functions": [
             {

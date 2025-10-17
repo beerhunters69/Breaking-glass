@@ -40,7 +40,7 @@
 					id: "08E926E35892F27B"
 					type: "command"
 					auto: "invisible"
-					command: "/tell @p Welcome to age 1!"
+					command: "/tellraw @p {\"text\":\"Welcome to age 3!\"}/tellraw @p {\"text\":\"Welcome to age 1!\"}"
 					player_command: false
 				}
 			]

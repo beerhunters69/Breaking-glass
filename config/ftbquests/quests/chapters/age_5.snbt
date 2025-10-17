@@ -25,7 +25,7 @@
 				id: "62BC65367F5FE8F1"
 				type: "command"
 				auto: "enabled"
-				command: "/tell @p Welcome to stage 5!"
+				command: "/tellraw @p {\"text\":\"Welcome to age 5!\"}"
 				player_command: false
 			}]
 		}

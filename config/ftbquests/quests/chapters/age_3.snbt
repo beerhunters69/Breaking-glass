@@ -26,8 +26,8 @@
 				id: "30D9130A84C7DEC2"
 				type: "command"
 				auto: "enabled"
-				command: "/tell @p Welcome to age 3!"
-				player_command: true
+				command: "/tellraw @p {\"text\":\"Welcome to age 3!\"}"
+				player_command: false
 			}]
 		}
 		{

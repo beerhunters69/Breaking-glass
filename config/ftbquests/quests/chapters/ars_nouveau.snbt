@@ -11,12 +11,21 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Used in basically every craft in this mod."]
+			description: [
+				"Used in basically every craft in this mod."
+				"P.S. Dont eat all berries....."
+			]
 			id: "29CDC166D0E31F10"
 			tasks: [{
 				id: "6385C06FA1CFA540"
 				type: "item"
 				item: "ars_nouveau:mana_gem"
+			}]
+			rewards: [{
+				id: "53D9C701AFB4F9CA"
+				type: "item"
+				item: "ars_nouveau:mana_berry"
+				count: 16
 			}]
 		}
 		{

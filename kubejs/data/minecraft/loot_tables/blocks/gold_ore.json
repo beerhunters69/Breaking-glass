@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:written_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{pages:['{\"text\":\"(\\\\u2022\\\\u203f\\\\u2022)\"}'],title:\"Huh...\",author:\"Angry dev\",generation:2}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
