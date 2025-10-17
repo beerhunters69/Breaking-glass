@@ -98,7 +98,10 @@ ItemStages.restrict(<item:minecraft:iron_pickaxe>, "two").preventInventory(false
 ItemStages.restrict(<item:minecraft:iron_sword>, "two").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_hoe>, "two").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_shovel>, "two").preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:emendatusenigmatica:brass_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:emendatusenigmatica:bronze_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:thermal:bronze_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:mekanism:dust_bronze>, "two").preventInventory(false).preventPickup(false);
 
 ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled');
 ItemStages.restrict(<item:boss_tools:coal_generator>,'disabled');
