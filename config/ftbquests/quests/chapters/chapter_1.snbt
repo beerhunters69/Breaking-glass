@@ -314,5 +314,17 @@
 				item: "primutils:chopping_block"
 			}]
 		}
+		{
+			x: -5.0d
+			y: -3.0d
+			subtitle: "In the beningin.... In the.... In the benin..... In the beningig"
+			description: ["Wellp, the world is not the same as it was. There is no standart ores in the overworld. You recall to your memories and find ancient knowlage about strange forest that was separated from this realm"]
+			id: "2152175D6A848CEA"
+			tasks: [{
+				id: "15880D1367B11541"
+				type: "checkmark"
+				title: "In the benin..... In the beningin..... In the"
+			}]
+		}
 	]
 }
