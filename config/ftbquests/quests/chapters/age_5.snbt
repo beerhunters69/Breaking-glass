@@ -11,6 +11,7 @@
 		{
 			title: "Mars"
 			icon: "boss_tools:mars_stone"
+			disable_toast: true
 			x: -1.0d
 			y: 0.0d
 			shape: "gear"
@@ -214,7 +215,7 @@
 			description: [
 				"Officaly, welcome to the endgame"
 				""
-				"P.S. Dont lost it"
+				"P.S. Dont lose it"
 			]
 			dependencies: ["4E52B2AF580C5242"]
 			id: "02DB6EEBC2B13210"
@@ -255,6 +256,7 @@
 			}]
 		}
 		{
+			title: "Visit the End"
 			icon: "minecraft:end_stone"
 			disable_toast: true
 			x: 14.0d

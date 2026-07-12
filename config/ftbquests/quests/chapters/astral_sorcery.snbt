@@ -1,7 +1,7 @@
 {
 	id: "7BB1617DCEE4BDE6"
-	group: "0AFE0E9AC7269D41"
-	order_index: 6
+	group: "1EF5D1B91143F878"
+	order_index: 0
 	filename: "astral_sorcery"
 	title: "Astral sorcery"
 	icon: "astralsorcery:tome"
@@ -15,15 +15,21 @@
 				Count: 1b
 				tag: { }
 			}
+			disable_toast: true
 			x: -0.5d
 			y: 0.0d
 			shape: "gear"
 			secret: true
 			id: "23F4DD42EEE60C41"
 			tasks: [{
-				id: "47514183D37A3647"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "5D27AA4860208B60"
+				type: "gamestage"
+				icon: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+				stage: "four"
 			}]
 		}
 		{
@@ -431,6 +437,7 @@
 			description: [
 				"{image:kubejs:textures/quests/well.png width:100 height:100 align:1}"
 				"I dont want to discribe every detail about this mod. I love it, but too much text. Go watch some youtube guide. It will be 100% better then me telling you brainrot things"
+				"P.S. Different dev: he described them anyway :)."
 			]
 			dependencies: ["23F4DD42EEE60C41"]
 			id: "4B75D81D4BE14DDF"

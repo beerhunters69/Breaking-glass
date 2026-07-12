@@ -4,7 +4,7 @@ onEvent('recipes', event => {
 
 	event.remove({id: 'emendatusenigmatica:enigmatic_hammer'})
 
-    event.remove({id: 'create:crafting/kinetics/deployer'})
+  event.remove({id: 'create:crafting/kinetics/deployer'})
 
 	event.remove({id: 'create:crafting/kinetics/mechanical_press'})
 
@@ -79,6 +79,10 @@ onEvent('recipes', event => {
   event.remove({id:"hostilenetworks:living_matter/sim_chamber"})
   event.remove({id:"hostilenetworks:living_matter/loot_fabricator"})
   event.remove({id:"hostilenetworks:living_matter/framework"})
+
+  event.remove({id:"refinedstorage:raw_basic_processor"})
+  event.remove({id:"refinedstorage:raw_improved_processor"})
+  event.remove({id:"refinedstorage:raw_advanced_processor"})
 })
 
 onEvent('recipes', event => {

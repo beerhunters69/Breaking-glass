@@ -5,7 +5,6 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
-console.info('Хабиба хабоба2')
 
 
 onEvent('item.tags', event => {
@@ -19,7 +18,6 @@ onEvent('item.tags', event => {
 })
 
 onEvent('fluid.tags', event => {
-  // Get the #forge:cobblestone tag collection and add Diamond Ore to it
   event.add('forge:liquid_starlight', 'astralsorcery:liquid_starlight')
   event.add('forge:molten_angelic_alloy', 'kubejs:molten_angelic_alloy')
   event.add('forge:molten_cwgnc', 'kubejs:molten_cwgnc')

@@ -1,7 +1,7 @@
 {
 	id: "2695E82F3F57EB92"
-	group: "0AFE0E9AC7269D41"
-	order_index: 8
+	group: "1EF5D1B91143F878"
+	order_index: 2
 	filename: "ftb_industrial_contraptions"
 	title: "FTB Industrial Contraptions"
 	icon: "ftbic:iridium_circuit"
@@ -30,7 +30,7 @@
 		{
 			x: -2.5d
 			y: -3.0d
-			dependencies: ["3DBE4AF0C78D3AF6"]
+			dependencies: ["0BFD4502DF53ED97"]
 			id: "2280121D7A77FFBF"
 			tasks: [{
 				id: "17BD741C9FB4409A"
@@ -57,11 +57,10 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -10.5d
+			x: -2.5d
+			y: -5.5d
 			subtitle: "God has abandoned us...."
 			description: ["You see, you need rubber. How do you get rubber? You need this piece of scrap. It will \"eventually\" give you some sweet latex, that can be transformed into sweet sweet rubber."]
-			hide_dependency_lines: true
 			dependencies: ["2280121D7A77FFBF"]
 			hide_text_until_complete: false
 			id: "4E5454786DB4A80B"
@@ -109,7 +108,7 @@
 		{
 			x: 3.5d
 			y: -3.0d
-			description: ["If you're going to connect those wire to your diesel gen from immerive, they will definitely burn. Beware of that"]
+			description: ["If you're going to connect those wire to your diesel gen from immersive, they will definitely burn. Beware of that"]
 			dependencies: ["303E4FDE05B61838"]
 			id: "43A2EAA3D1D9A087"
 			tasks: [{
@@ -120,10 +119,10 @@
 		}
 		{
 			x: 0.5d
-			y: 0.5d
+			y: -0.5d
 			description: [
 				"There is a reason for additional descriptions on all ftbic machines. This is called voltage or throughput. Every machine has its limit, if you exceed it - it will break. (NOT explode). Fix it with fuse and it will run as it wasnt using those 1024 amps."
-				"To overcome those restrictions use the transformer upgrade. you need 3 of them on"
+				"To overcome those restrictions use the transformer upgrade. you need 3 of them to use max amps on the lowest tier of machine."
 			]
 			dependencies: ["303E4FDE05B61838"]
 			id: "2AC0A978150B61BE"
@@ -385,6 +384,25 @@
 				id: "4EBE4A4F57EE0BDB"
 				type: "item"
 				item: "ftbic:antimatter_constructor"
+			}]
+		}
+		{
+			title: "Age 4"
+			disable_toast: true
+			x: -5.5d
+			y: -3.0d
+			shape: "gear"
+			secret: true
+			id: "0BFD4502DF53ED97"
+			tasks: [{
+				id: "071E9C9C98693BCD"
+				type: "gamestage"
+				icon: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+				stage: "four"
 			}]
 		}
 	]

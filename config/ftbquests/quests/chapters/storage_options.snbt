@@ -1,7 +1,7 @@
 {
 	id: "54D07DC08455B094"
-	group: "0AFE0E9AC7269D41"
-	order_index: 1
+	group: ""
+	order_index: 3
 	filename: "storage_options"
 	title: "Storage options"
 	icon: "appliedenergistics2:drive"
@@ -29,7 +29,7 @@
 		}
 		{
 			x: 4.0d
-			y: -3.5d
+			y: -4.0d
 			dependencies: ["448D69BA0F574525"]
 			dependency_requirement: "all_started"
 			id: "0B6679368C2A4CE7"
@@ -41,7 +41,7 @@
 		}
 		{
 			x: 4.0d
-			y: -1.5d
+			y: -2.0d
 			dependencies: ["448D69BA0F574525"]
 			id: "3791AD2C5D805F48"
 			tasks: [{
@@ -52,7 +52,7 @@
 		}
 		{
 			x: 4.0d
-			y: -0.5d
+			y: -1.0d
 			dependencies: ["448D69BA0F574525"]
 			id: "6C2A5F5BFAE1B1ED"
 			tasks: [{
@@ -63,7 +63,7 @@
 		}
 		{
 			x: 4.0d
-			y: -2.5d
+			y: -3.0d
 			dependencies: ["448D69BA0F574525"]
 			id: "246B2D57F8EDF389"
 			tasks: [{
@@ -74,6 +74,7 @@
 		}
 		{
 			title: "Age 2"
+			disable_toast: true
 			x: 0.0d
 			y: -2.0d
 			shape: "gear"
@@ -90,10 +91,20 @@
 			}]
 		}
 		{
+			title: "Tom's simple storage"
+			icon: "toms_storage:ts.storage_terminal"
 			x: -2.0d
 			y: -2.0d
+			description: [
+				"Name didn't lie, it is very simple to understand."
+				""
+				"To begin you need a terminal and an inventory connector."
+				""
+				"Just place inventory connectors close to any inventory (chest, barrel, backpack, dank, etc.) and place terminal on one of the connectors."
+				""
+				"This mod has comprehensive item descriptions, so look at them if you want to do more in-depth stuff."
+			]
 			dependencies: ["4E865E131DBE55C6"]
-			hide: true
 			id: "4B417E218E176BCE"
 			tasks: [
 				{
@@ -109,6 +120,7 @@
 			]
 		}
 		{
+			disable_toast: true
 			x: 0.0d
 			y: -6.0d
 			shape: "gear"
@@ -119,11 +131,12 @@
 				id: "03467C53F25DB0FE"
 				type: "gamestage"
 				title: "Age 3"
-				icon: "minecraft:netherrack"
+				icon: "minecraft:music_disc_pigstep"
 				stage: "three"
 			}]
 		}
 		{
+			disable_toast: true
 			x: 2.0d
 			y: -6.0d
 			shape: "gear"
@@ -164,6 +177,7 @@
 			x: -2.0d
 			y: -7.0d
 			dependencies: ["20D6502E40FD1166"]
+			hide: true
 			id: "28103A9CF19C5B97"
 			tasks: [{
 				id: "2C58AB62A5768291"
@@ -172,15 +186,28 @@
 			}]
 		}
 		{
+			title: "Hey! Check out Refined Storage tab"
 			icon: "refinedstorage:crafting_grid"
 			x: -2.0d
 			y: -5.5d
 			dependencies: ["20D6502E40FD1166"]
+			hide: true
 			id: "13A6B040DACE571A"
 			tasks: [{
 				id: "01D4C265403D9227"
 				type: "checkmark"
 				title: "Refined Storage"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["448D69BA0F574525"]
+			id: "64C1BB9C9689F0BF"
+			tasks: [{
+				id: "296909D75C3DB5EF"
+				type: "item"
+				item: "dankstorage:dank_1"
 			}]
 		}
 	]

@@ -1,0 +1,70 @@
+{
+	id: "2B9BEA5737679274"
+	group: ""
+	order_index: 2
+	filename: "settings"
+	title: "Settings"
+	icon: "emendatusenigmatica:enderium_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "pipez:wrench"
+			x: 0.0d
+			y: 0.0d
+			dependencies: [
+				"139A2EDF52D55F00"
+				"07B02099AD84C1A0"
+				"4E61D11CD5E61FAE"
+			]
+			id: "3F406774147995EE"
+			tasks: [{
+				id: "145796B1D12035DE"
+				type: "checkmark"
+				title: "I'm ready boss!"
+			}]
+		}
+		{
+			icon: "minecraft:rabbit_foot"
+			x: 0.0d
+			y: -2.5d
+			description: ["This modpack's folder -> config folder -> presencefootsteps folder -> open userconfig.json with any text editor and change the volume. (you might have to restart the game for it to take effect)."]
+			id: "139A2EDF52D55F00"
+			tasks: [{
+				id: "12952E7D5F9A2919"
+				type: "checkmark"
+				title: "Footsteps"
+			}]
+		}
+		{
+			icon: "minecraft:pufferfish"
+			x: 2.5d
+			y: 0.0d
+			description: ["ESC -> Mods -> Ambient sounds -> change the volume. (you might have to restart the game for it to take effect)"]
+			id: "07B02099AD84C1A0"
+			tasks: [{
+				id: "70809328D148A67E"
+				type: "checkmark"
+				title: "Ambient sounds"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:purple_smart_cable"
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"This is a server-side setting (you can't change it if you are not the host/server admin)."
+				""
+				"ESC -> Mods -> AE2AO -> change \"Disable Channels\" to true/false. (you might have to restart the game for it to take effect)."
+				""
+				"AE2 questline is written with consideration for channels, but the mechanic is disabled by default."
+			]
+			id: "4E61D11CD5E61FAE"
+			tasks: [{
+				id: "6F6ACEAB4653C66F"
+				type: "checkmark"
+				title: "AE2 channels"
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "1097B40E2073B3BE"
-	group: "0AFE0E9AC7269D41"
-	order_index: 3
+	group: "67203FE2FB977AF0"
+	order_index: 1
 	filename: "twilight_forest"
 	title: "Twilight forest"
 	icon: "twilightforest:twilight_portal_miniature_structure"
@@ -194,9 +194,10 @@
 			secret: true
 			id: "5A4AC2680ACFAC74"
 			tasks: [{
-				id: "2D81B6273A4E2D37"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
+				id: "2066D5CADF004027"
+				type: "gamestage"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				stage: "two"
 			}]
 		}
 	]

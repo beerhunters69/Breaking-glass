@@ -1,7 +1,7 @@
 {
 	id: "57395C24B7469344"
-	group: "0AFE0E9AC7269D41"
-	order_index: 5
+	group: "6ED8F5A214066882"
+	order_index: 0
 	filename: "applied_energistics_2"
 	title: "Applied energistics 2"
 	icon: "appliedenergistics2:controller"
@@ -11,15 +11,17 @@
 		{
 			title: "Age 3"
 			icon: "minecraft:music_disc_pigstep"
+			disable_toast: true
 			x: 0.0d
 			y: 0.0d
 			shape: "gear"
 			secret: true
 			id: "33DFE9524EC0266E"
 			tasks: [{
-				id: "09010029933BD6C5"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
+				id: "5571BCE9F77FB418"
+				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
+				stage: "three"
 			}]
 		}
 		{
@@ -27,8 +29,8 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"Nether and certus quartz are required to progress in"
-				"Applied Energistics 2 (AE2 for short)."
+				"Obtaining nether and certus quartz is the first step in Applied Energistics 2 (AE2 for short)."
+				""
 			]
 			dependencies: ["33DFE9524EC0266E"]
 			id: "25A7EE9CCD16E587"
@@ -70,9 +72,9 @@
 			x: 3.0d
 			y: -1.0d
 			description: [
-				"AE2 charger accepts only \"proprietary\" certus quartz."
+				"AE2 charger accepts only \"proprietary\" certus quartz. (AE2 spaghetti-code)."
 				"You can obtain it by re-crafting from a certus quartz block."
-				"Also, charger needs some sort of power - rf or eu."
+				"Also, charger needs some sort of power - fe or eu."
 			]
 			dependencies: ["25A7EE9CCD16E587"]
 			optional: true
@@ -127,7 +129,7 @@
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"You need to drop all that in water or mixer with water."
+				"You need to drop all that in water or a mixer with water."
 				""
 			]
 			dependencies: ["1C469A2F3A52DB87"]
@@ -157,7 +159,7 @@
 			subtitle: "Sadly or happily?"
 			description: [
 				"In this pack meteors don't spawn."
-				"So, where you can find presses?"
+				"So, where can you find presses?"
 				"The answer is simple, you can't."
 				"You need to craft them on an enchanting apparatus."
 				""
@@ -258,7 +260,7 @@
 			x: 4.0d
 			y: 6.0d
 			description: [
-				"I STRONGLY advise you to craft at least 32 of every processor."
+				"I advise you to craft at least 32 of every processor."
 				"For now..."
 			]
 			dependencies: [
@@ -292,10 +294,10 @@
 			description: [
 				""
 				"To obtain pure form crystals, you have to \"grow\" their respective seeds."
-				"For now, you have 1 option:"
+				"For now, you have 2 options:"
 				"Throw them in water and wait like 20 minutes."
 				"OR"
-				"Throw them in water, with growth accelerators surrounding water block (5 max). Don't forget to power those things."
+				"Throw them in water with growth accelerators surrounding water block (5 max). Don't forget to power those things."
 				""
 			]
 			dependencies: ["4D4C51127D9D4E36"]
@@ -407,12 +409,12 @@
 			x: 10.0d
 			y: 2.0d
 			description: [
-				"This is you first \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."
+				"This is you first \"core\" of the AE2 network."
 				""
 				"On each side it has 8 \"channels\". Basically, you can connect no more than 8 devices to one side."
 				"There is 6 sides, so 48 total devices."
 				""
-				"Don't worry, you will unlock better one eventually."
+				"Don't worry, you will unlock a better one eventually."
 			]
 			dependencies: ["14C2F21F338426EA"]
 			id: "4446B7AB63A5B262"
@@ -434,10 +436,8 @@
 			y: 8.0d
 			subtitle: "That's pretty big"
 			description: [
-				"Storage for cells."
-				""
-				""
-				""
+				"*The* storage for cells."
+				"Has 10 slots for cells."
 			]
 			dependencies: ["02736D59A6AC56AC"]
 			id: "4F6F1A457BF2EB1C"
@@ -451,7 +451,7 @@
 			x: 6.0d
 			y: 4.0d
 			description: [
-				"This is \"core\" of the AE2 network. CHANNELS ARE DISABLED BY DEFAULT."
+				"This is the \"core\" of the AE2 network."
 				""
 				"On each side it has 32 \"channels\". Basically, you can connect no more than 32 devices to one side."
 				"There is 6 sides, so 192 total devices."
@@ -498,7 +498,7 @@
 			x: 8.0d
 			y: 6.0d
 			description: [
-				"Cables deliver power and channels to AE2 blocks. CHANNELS ARE DISABLED BY DEFAULT."
+				"Cables deliver power and channels to AE2 blocks."
 				""
 				"Basic ones like glass and covered deliver only 8 channels."
 				"There is also one advantage of using basic cables, you can place attachment on them."
@@ -530,7 +530,7 @@
 			x: 10.0d
 			y: 4.0d
 			description: [
-				"Smart cables display the number of channels currently in use. CHANNELS ARE DISABLED BY DEFAULT."
+				"Smart cables display the number of channels currently in use. They work fine with \"channels\" mechanic disabled."
 				""
 				"Can DRASTICALLY reduse your fps if you use shaders."
 			]
@@ -559,10 +559,18 @@
 			}
 			x: 6.0d
 			y: 8.0d
+			subtitle: "Sorry for the wall of text"
 			description: [
-				"All cells have a mechanic called \"types\", that's basically "
-				"1k can store only ~500 items"
+				"All cells have a mechanic called \"types\", that means they can store only 63 different kinds of items per cell. For example, 60 swords and 1 stack of cobblestone, dirt and gravel. "
+				""
+				"Unstackable items count as 1 item for 1 type. Stackable items count as a type only once, so you can put in 10 stacks of cobblestone and it only would be one type."
+				""
+				"The overall storage capacity of the cell depends on the number of used types."
+				"For instance, you can put 8000 cobblestone on 1k storage cell if you use only 1 type. But if you already use 62 types, you can put only 4000 cobblestone on it."
+				""
+				"You can disassemble any empty cell by using shift + right click."
 			]
+			dependencies: ["4F6F1A457BF2EB1C"]
 			id: "06768AAFC5CD6E42"
 			tasks: [
 				{
@@ -583,7 +591,17 @@
 		}
 		{
 			x: 0.0d
-			y: 6.0d
+			y: 8.0d
+			subtitle: "Can it run minecraft?"
+			description: [
+				"Remember cells? That's the same deal."
+				"To request a craft you have to get one of those."
+				""
+				"The logic is simple - ~1 byte per item, counting all inputs/outputs/intermediates."
+				""
+				"The shape of the cpu must be a cuboid (rectangle, cube, etc.), maximum size is 16x16x16 with no air gaps. You can use crafting units in the structure."
+			]
+			dependencies: ["07DC963B3133566A"]
 			id: "4D5497F8B8B1CA19"
 			tasks: [{
 				id: "2DA6331967DC2154"
@@ -592,8 +610,15 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.0d
+			x: -2.0d
+			y: 10.0d
+			subtitle: "It can run both doom and minecraft at once!"
+			description: [
+				"By default your AE2 system crafts one pattern at a time (e.g. printed silicon first and only after it printed gold for logic processors)."
+				""
+				"Each one of these adds 1 parallel, meaning your AE2 system can craft more things at once. (e.g. with one of these it would craft printed silicon and gold at the same time for logic processors)."
+			]
+			dependencies: ["4D5497F8B8B1CA19"]
 			id: "78CE38FC79D7B22A"
 			tasks: [{
 				id: "4964405C681B4E41"
@@ -612,7 +637,7 @@
 				""
 				"Storage bus is a little tricky. Basically, you can connect it to any inventory (chest, barrel, drawer, etc.) and that inventory would be used by AE2 like any other cell."
 				""
-				"That's basic attachments, you would use them frequently."
+				"All of these also have fluid and gas (chemical) versions."
 			]
 			dependencies: ["31BACE921F574824"]
 			id: "70EDCC4C1CA94A7A"
@@ -637,6 +662,18 @@
 		{
 			x: 2.0d
 			y: 10.0d
+			subtitle: "The lost brother of atomic disassembler"
+			description: [
+				"A crafting table with AI.... oh, sorry, with a microcontroller."
+				""
+				"There is one small problem though, you can't craft anything with items like buckets (items that give out something after using them in crafting)."
+				""
+				"It also works exclusively with item-only patterns."
+			]
+			dependencies: [
+				"07DC963B3133566A"
+				"106C9D141DBAA307"
+			]
 			id: "44064011161E0496"
 			tasks: [{
 				id: "3BCE62FB9819934B"
@@ -648,7 +685,18 @@
 			icon: "appliedenergistics2:interface"
 			x: 2.0d
 			y: 8.0d
-			dependencies: ["02736D59A6AC56AC"]
+			subtitle: "THE GOAT"
+			description: [
+				""
+				"With this thing you can automate practically everything. (excluding fluids™)"
+				""
+				"9 top slots allow you to put in/take out items from your AE2 network on demand. These slots don't push items, so you have to use a pipe of some kind."
+				""
+				"9 bottom slots are for patterns. If you place it close to a block with inventory of some kind (machine, chest, another AE2 interface) and request crafting of said patterns, interface will push items into said inventories."
+				""
+				"It also can be made into an attachment."
+			]
+			dependencies: ["4F6F1A457BF2EB1C"]
 			id: "07DC963B3133566A"
 			tasks: [
 				{
@@ -664,18 +712,44 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 8.0d
+			icon: "appliedenergistics2:pattern_terminal"
+			x: 4.0d
+			y: 12.0d
+			subtitle: "Why can't i craft with buckets?"
+			description: [
+				"That is a big milestone, you can now request your AE2 system to do tedious crafts for you."
+				""
+				"Keep in mind that this encodes item-only pattern, meaning you can't do anything with liquids or gases."
+				""
+				"\"allow substitutions\" allow ingredients to be interchanged. For example, if recipe uses 2 copper ingots, by default it will use only the type of ingots you put in when encoding. If you allow substitutions, it will use any copper ingots."
+			]
+			dependencies: ["007AD93D625A0637"]
 			id: "106C9D141DBAA307"
-			tasks: [{
-				id: "64407FE5CC05A56E"
-				type: "item"
-				item: "appliedenergistics2:pattern_terminal"
-			}]
+			tasks: [
+				{
+					id: "64407FE5CC05A56E"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "64B6350EDE4D94AF"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 10.0d
+			subtitle: "I suspect what inspired magic storage"
+			description: [
+				"That is your main way of interacting with you AE2 network."
+				""
+				"Like you might have guessed, it is a crafting table with convenient access to your storage."
+				""
+				"But it does more than that. You can order crafts from it (if you encoded any) and see the progress of them."
+			]
+			dependencies: ["4F6F1A457BF2EB1C"]
 			id: "007AD93D625A0637"
 			tasks: [{
 				id: "2C87D13656EA003E"
@@ -692,6 +766,8 @@
 			}
 			x: 6.0d
 			y: 10.0d
+			description: ["It's practically the same thing as item cells, except that fluid cells only have 5 types."]
+			dependencies: ["4F6F1A457BF2EB1C"]
 			id: "4D65063EB42EFDE3"
 			tasks: [
 				{
@@ -711,21 +787,38 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 10.0d
+			icon: "ae2fc:part_fluid_pattern_terminal"
+			x: 2.0d
+			y: 12.0d
+			subtitle: "I still can't craft with buckets. :("
+			description: [
+				"Same deal as regular pattern terminal but can encode items+fluids recipes."
+				""
+				"It operates on mechanic called \"fluid packets\", which are basically fluids transformed into items. That's the reason why you need a fluid discretizer, which transforms fluids into fluid packets."
+				""
+				"Using patterns encoded here with regular interfaces will result in the interface sending fluid packets instead of fluids (use dual interface)."
+			]
+			dependencies: ["106C9D141DBAA307"]
 			id: "6162A6A36CF85A73"
-			tasks: [{
-				id: "293C780CBB042624"
-				type: "item"
-				item: "ae2fc:part_fluid_pattern_terminal"
-			}]
+			tasks: [
+				{
+					id: "293C780CBB042624"
+					type: "item"
+					item: "ae2fc:part_fluid_pattern_terminal"
+				}
+				{
+					id: "514432EEE12C0774"
+					type: "item"
+					item: "ae2fc:fluid_discretizer"
+				}
+			]
 		}
 		{
 			title: "...but not really"
 			x: -2.0d
 			y: 2.0d
 			description: [
-				"There is meteors from bosstools, but they contain only sky stone. So go back to crafting presses."
+				"There are meteors from bosstools, but they contain only sky stone. So go back to crafting presses."
 				""
 			]
 			dependencies: ["7452D2BFE076C686"]
@@ -738,35 +831,21 @@
 			}]
 		}
 		{
-			icon: "appliedenergistics2:quantum_entangled_singularity"
-			x: 6.0d
-			y: 5.0d
-			description: [
-				"In this pack channels are disabled by default. You don't need to worry about them."
-				"If you want to enable them for some reason, go to config/ae2ao.toml"
-			]
-			dependencies: ["4031FE67806D713C"]
-			optional: true
-			id: "10E6BE6D02A5E53E"
-			tasks: [{
-				id: "24EE41B949152159"
-				type: "checkmark"
-				title: "Channels"
-				icon: "appliedenergistics2:singularity"
-			}]
-		}
-		{
 			title: "Advanced attachments"
 			x: 12.0d
 			y: 6.0d
 			description: [
-				"Annihilation plane breaks block and exports them into AE2 storage. It can use enchantments like fortune and silk touch."
+				"Annihilation plane breaks blocks and exports what they drop into your AE2 storage. Identity modification allows it to break blocks with silk touch."
 				""
-				"Formation plane places blocks from AE2 storage into."
+				"Formation plane places blocks from AE2 storage into the world."
 				""
 				"Storage monitor allows you to view the quantity of selected item."
 				""
 				"Level emitter is a > or < switch. It emits redstone signal if an item (in AE2 storage) is below or above certain level."
+				""
+				"Toggle bus allows you to disconnect parts of the network by using redstone. It has inverted counterpart."
+				""
+				"Almost all of the above also have fluid counterparts."
 			]
 			dependencies: ["70EDCC4C1CA94A7A"]
 			optional: true
@@ -792,6 +871,16 @@
 					type: "item"
 					item: "appliedenergistics2:level_emitter"
 				}
+				{
+					id: "59A17C5DF6FBF04B"
+					type: "item"
+					item: "appliedenergistics2:identity_annihilation_plane"
+				}
+				{
+					id: "7FC7615D7395B4C5"
+					type: "item"
+					item: "appliedenergistics2:toggle_bus"
+				}
 			]
 		}
 		{
@@ -806,7 +895,7 @@
 				"Example setup:"
 				"{image:kubejs:textures/quests/AE2_P2P_example.png width:177 height:100 align:1}"
 				"P2p can transfer not only AE2 channels. It can transfer FE, items, redstone signal, etc."
-				"For example, you can right click on the P2P with some kind of battery, that will transform it to FE P2P."
+				"For example, you can right click on the P2P with some kind of rf battery and that will transform it to FE P2P."
 			]
 			dependencies: ["70EDCC4C1CA94A7A"]
 			optional: true
@@ -831,12 +920,13 @@
 		{
 			title: "...but i use singularities"
 			icon: "appliedenergistics2:quantum_link"
-			x: 8.0d
+			x: 10.0d
 			y: 8.0d
 			description: [
 				"They work like p2p transferring channels, but don't need to be supplied by one (channel). They need only power and an entangled singularity."
 				"Example setup:"
 				"{image:kubejs:textures/quests/AE2_quantum_ring_example.png width:177 height:100 align:1}"
+				"They also work cross-dimensionally."
 			]
 			dependencies: [
 				"31BACE921F574824"
@@ -858,7 +948,11 @@
 		}
 		{
 			x: -2.0d
-			y: 6.0d
+			y: 8.0d
+			subtitle: "4k ultrahd super dominator limited edition"
+			description: ["A screen that shows what is currently crafting on that cpu."]
+			dependencies: ["4D5497F8B8B1CA19"]
+			optional: true
 			id: "4A3BD978BE188448"
 			tasks: [{
 				id: "25702529E60879EE"
@@ -869,7 +963,14 @@
 		{
 			icon: "appliedenergistics2:singularity"
 			x: 8.0d
-			y: 10.0d
+			y: 8.0d
+			subtitle: "One's trash is another's treasure"
+			description: [
+				"Matter condencer is a trash can. But if you put 64k storage component inside and throw stuff in it long enough, it will condense into a singularity."
+				""
+				"The easiest item to mass produce would probably be cobblestone."
+			]
+			dependencies: ["06768AAFC5CD6E42"]
 			id: "54D877959C84AC6B"
 			tasks: [
 				{
@@ -891,8 +992,8 @@
 		}
 		{
 			icon: "appliedenergistics2:quantum_entangled_singularity"
-			x: 10.0d
-			y: 8.0d
+			x: 8.0d
+			y: 10.0d
 			subtitle: "I'm confused"
 			description: [
 				"Just drop 1 singularity, 1 ender dust and blow it up."
@@ -917,6 +1018,394 @@
 					id: "1AA932A581F29C06"
 					type: "item"
 					item: "appliedenergistics2:tiny_tnt"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			subtitle: "A little too small"
+			description: [
+				"*A* storage for cells."
+				"Has only 1 slot for cells."
+				"You can put in/take out stuff from it by right clicking its top side."
+			]
+			dependencies: ["02736D59A6AC56AC"]
+			optional: true
+			id: "668E90D1ACEDF5F3"
+			tasks: [{
+				id: "6E8EB2DAE169F0CF"
+				type: "item"
+				item: "appliedenergistics2:chest"
+			}]
+		}
+		{
+			title: "Storing mechanism gases"
+			icon: {
+				id: "aeadditions:chemical_storage_cell_1"
+				Count: 1b
+				tag: { }
+			}
+			x: 5.0d
+			y: 11.0d
+			subtitle: "That cell looks ugly, i know"
+			description: ["It's practically the same thing as item cells, except that gas cells only have 5 types."]
+			dependencies: ["4F6F1A457BF2EB1C"]
+			optional: true
+			id: "73DFF12D9B662122"
+			tasks: [
+				{
+					id: "60EAC4CF952E4781"
+					type: "item"
+					item: {
+						id: "aeadditions:chemical_storage_cell_1"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "48B7F4DD13C46845"
+					type: "item"
+					item: "aeadditions:chemical_storage_component_1"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 12.0d
+			subtitle: "No crafting with gases?"
+			description: ["This terminal only allows you to take out/put in gases. Pattern encoding version of this terminal doesn't exist."]
+			dependencies: ["73DFF12D9B662122"]
+			optional: true
+			id: "13FEA66920955E08"
+			tasks: [{
+				id: "7323D9F4CEAE258B"
+				type: "item"
+				item: "aeadditions:chemical_terminal"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:fluid_interface"
+			x: 0.0d
+			y: 12.0d
+			subtitle: "Almost THE GOAT"
+			description: [
+				"Has 6 slots that can allow you to put in/take out fluids from your AE2 network on demand. These slots don't push fluids, so you have to use a pipe of some kind."
+				""
+				"This one doesn't have any pattern slots."
+				""
+				"It also can be made into an attachment."
+			]
+			dependencies: ["6162A6A36CF85A73"]
+			id: "7CE23659E271B6C1"
+			tasks: [
+				{
+					id: "7BBC8DB5301B3811"
+					type: "item"
+					item: "appliedenergistics2:fluid_interface"
+				}
+				{
+					id: "413F576FE922100A"
+					type: "item"
+					item: "appliedenergistics2:cable_fluid_interface"
+				}
+			]
+		}
+		{
+			icon: "ae2fc:dual_interface"
+			x: 0.0d
+			y: 10.0d
+			subtitle: "Now with fluids™"
+			description: [
+				"This is a masterpiece. It is two combined GOATS in one block!"
+				""
+				"Works with fluid patters and has 9 slots for items, 9 slots for patters and 6 slots for fluids."
+				""
+				"It also can be made into an attachment."
+			]
+			dependencies: [
+				"07DC963B3133566A"
+				"7CE23659E271B6C1"
+			]
+			id: "6D15E5A66994D980"
+			tasks: [
+				{
+					id: "3DC80979FA9D49E3"
+					type: "item"
+					item: "ae2fc:dual_interface"
+				}
+				{
+					id: "7BD7E3FCB442FA71"
+					type: "item"
+					item: "ae2fc:part_dual_interface"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 12.0d
+			subtitle: "Definitely not THE GOAT"
+			description: [
+				"Has 6 slots that can allow you to put in/take out gases from your AE2 network on demand. These slots don't push gases, so you have to use a pipe of some kind."
+				""
+				"This one doesn't have any pattern slots."
+			]
+			dependencies: ["13FEA66920955E08"]
+			optional: true
+			id: "0589AF31AA222315"
+			tasks: [{
+				id: "7273386817397262"
+				type: "item"
+				item: "aeadditions:chemical_interface"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 14.0d
+			subtitle: "And we are back boys!"
+			description: ["Transforms fluid packets back into fluids."]
+			dependencies: ["7CE23659E271B6C1"]
+			optional: true
+			id: "47D810583DB9F129"
+			tasks: [{
+				id: "654E89123063677F"
+				type: "item"
+				item: "ae2fc:fluid_packet_decoder"
+			}]
+		}
+		{
+			title: "Lazier AE2"
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Isn't being lazy bad?"
+			description: [
+				"Fluix aggregator - mixing fluix crystals without create involved."
+				""
+				"Circuit etcher - much better than inscriber, allows raw materials -> processors instead of raw matterials -> printed -> processors crafting."
+				""
+				"Crystal energizer - faster than AE2 charger and accepts any certus quartz."
+				""
+				"Pulse centrifuge - allows direct raw -> pure crystal conversion."
+				""
+				"Note: matter balls require 1k or better storage component in matter condenser."
+			]
+			dependencies: ["02736D59A6AC56AC"]
+			id: "6D3244B67988C539"
+			tasks: [
+				{
+					id: "4A2C342F29439EFD"
+					type: "item"
+					item: "lazierae2:aggregator"
+				}
+				{
+					id: "46B88F6F27AE35D8"
+					type: "item"
+					item: "lazierae2:etcher"
+				}
+				{
+					id: "6C9B82E8F8466734"
+					type: "item"
+					item: "lazierae2:energizer"
+				}
+				{
+					id: "1BB5070CE8E87980"
+					type: "item"
+					item: "lazierae2:centrifuge"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Steal their DNA!"
+			description: ["Right click a player and change their access in ME Security Terminal."]
+			dependencies: ["4383B0C36D8ADD5E"]
+			optional: true
+			id: "7D271E19CCDBE435"
+			tasks: [{
+				id: "1E87CE7F70091BA2"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Wireless terminals"
+			icon: {
+				id: "ae2wtlib:wireless_crafting_terminal"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Universal terminal wasn't included in your package (doesn't work on this version)"
+			description: ["To connect your terminals to AE2 you need ME Security Terminal. Beware that if you place it, it lock everyone else out of your network until you whitelist them with a biometric card."]
+			dependencies: ["07DC963B3133566A"]
+			optional: true
+			id: "4383B0C36D8ADD5E"
+			tasks: [
+				{
+					id: "7D6AD2FE78251E27"
+					type: "item"
+					item: {
+						id: "ae2wtlib:wireless_crafting_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4DC8A53FB996051B"
+					type: "item"
+					item: {
+						id: "ae2wtlib:wireless_pattern_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "5386B41C17105DE3"
+					type: "item"
+					item: {
+						id: "ae2wtlib:wireless_interface_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "386969C33D026805"
+					type: "item"
+					item: {
+						id: "ae2wtlib:wireless_fluid_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6AB9204BFDC45ABD"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
+				{
+					id: "1B671F22AECFEF45"
+					type: "item"
+					item: "appliedenergistics2:wireless_access_point"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			subtitle: "Also works across dimensions"
+			description: ["Place it into the most right-down slot inside your wireless terminal."]
+			dependencies: ["4383B0C36D8ADD5E"]
+			optional: true
+			id: "1C18D66CEE68926C"
+			tasks: [{
+				id: "151AC7C5D8CF1C0C"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			title: "Subnets"
+			icon: "pneumaticcraft:diagnostic_subroutine"
+			x: 3.0d
+			y: 7.0d
+			subtitle: "Ooooh, very complicated stuff"
+			description: [
+				"Not really."
+				""
+				"You can isolate parts of your AE2 network from one another. To do that you need to connect two parts with quartz fibre instead of normal cables. That allows these parts to have their own storage, automation, autocrafts and more."
+				""
+				"Quartz fiber doesn't transfer channels, so you have to also use a controller/energy acceptor in that subnet. (If channels mechanic is turned on)."
+			]
+			dependencies: ["4F6F1A457BF2EB1C"]
+			id: "4746985212D25024"
+			tasks: [{
+				id: "40FD55EEE022203A"
+				type: "checkmark"
+				title: "Ability to read"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			description: ["Allows you to filter your cells to specific items/fluids/gases."]
+			dependencies: ["4F6F1A457BF2EB1C"]
+			optional: true
+			id: "512E18F5F3FE8DE7"
+			tasks: [{
+				id: "7CFB42545C015310"
+				type: "item"
+				item: "appliedenergistics2:cell_workbench"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.0d
+			description: ["Allows you to transfer item/fluids/gases between cells and your AE2 system."]
+			dependencies: ["06768AAFC5CD6E42"]
+			optional: true
+			id: "56F80683203EE6AD"
+			tasks: [{
+				id: "1D33B9B65A691BA1"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			title: "Cards"
+			x: 1.0d
+			y: 11.0d
+			subtitle: "Too fast"
+			description: [
+				"Acceleration card - does what it says, makes machines and buses faster."
+				""
+				"Redstone card - allows you to control machines and buses with redstone."
+				""
+				"Capacity card - increases capacity of bus filters."
+				""
+				"Fuzzy card - makes filters ignore nbt."
+				""
+				"Inverter card - inverts filters where possible, e.g. cell filters."
+				""
+				"Crafting card - when placed into an interface or an export bus and there is not enough items in them, e.g. not enough cobblestone to export into matter condenser, it will try to request crafting of said items."
+			]
+			dependencies: ["44064011161E0496"]
+			id: "16C2323E189DB5F1"
+			tasks: [
+				{
+					id: "2451042EA3194AF6"
+					type: "item"
+					item: "appliedenergistics2:speed_card"
+				}
+				{
+					id: "5300DBB62C486CED"
+					type: "item"
+					item: "appliedenergistics2:redstone_card"
+				}
+				{
+					id: "154DDCECC6E57559"
+					type: "item"
+					item: "appliedenergistics2:capacity_card"
+				}
+				{
+					id: "0E86B07CE449F767"
+					type: "item"
+					item: "appliedenergistics2:fuzzy_card"
+				}
+				{
+					id: "13B1227385E9F545"
+					type: "item"
+					item: "appliedenergistics2:inverter_card"
+				}
+				{
+					id: "00C3DDF695922909"
+					type: "item"
+					item: "appliedenergistics2:crafting_card"
 				}
 			]
 		}

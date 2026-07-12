@@ -1,7 +1,7 @@
 {
 	id: "703152E53D87208A"
-	group: "0AFE0E9AC7269D41"
-	order_index: 2
+	group: "67203FE2FB977AF0"
+	order_index: 0
 	filename: "immersive"
 	title: "Immersive Engineering"
 	icon: "immersiveengineering:blastbrick"
@@ -512,9 +512,10 @@
 			secret: true
 			id: "0DC09FCA11B64DE6"
 			tasks: [{
-				id: "709A16C6AA761C70"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
+				id: "227C49525340D6AD"
+				type: "gamestage"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				stage: "two"
 			}]
 		}
 		{

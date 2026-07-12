@@ -1,7 +1,7 @@
 {
 	id: "0131AB7FD2ECC3D4"
-	group: "0AFE0E9AC7269D41"
-	order_index: 10
+	group: "6DB3760838A40927"
+	order_index: 1
 	filename: "extreme_reactors"
 	title: "Extreme Reactors"
 	icon: "bigreactors:yellorium_ingot"
@@ -9,16 +9,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Visit mars"
-			icon: "boss_tools:mars_stone"
+			title: "Age 5"
+			disable_toast: true
 			x: 0.0d
 			y: 0.0d
 			secret: true
 			id: "730467342C718D15"
 			tasks: [{
-				id: "2CE38C283FB74DE8"
-				type: "dimension"
-				dimension: "boss_tools:mars"
+				id: "4D37B31A447B84C6"
+				type: "gamestage"
+				icon: "pneumaticcraft:pressure_gauge"
+				stage: "five"
 			}]
 		}
 		{

@@ -1,7 +1,7 @@
 {
 	id: "18B63160BAFF76F2"
-	group: "0AFE0E9AC7269D41"
-	order_index: 11
+	group: "6ED8F5A214066882"
+	order_index: 2
 	filename: "apotheosis_enchantments"
 	title: "Apotheosis: enchantments"
 	icon: "minecraft:enchanting_table"
@@ -92,7 +92,7 @@
 				""
 				"There is also good combinations of different shelf, you better try them out"
 			]
-			dependencies: ["6028849F1BBE6A76"]
+			dependencies: ["5ACF9687739372F6"]
 			id: "1D23F721D92F7C5E"
 			tasks: [{
 				id: "27862C3F8FA40FBF"
@@ -200,6 +200,22 @@
 				id: "35D4260411B42FAC"
 				type: "checkmark"
 				title: "Storing your enchantments"
+			}]
+		}
+		{
+			title: "Age 3"
+			icon: "minecraft:music_disc_pigstep"
+			disable_toast: true
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			secret: true
+			id: "5ACF9687739372F6"
+			tasks: [{
+				id: "47BDAD891F2F3D82"
+				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
+				stage: "three"
 			}]
 		}
 	]

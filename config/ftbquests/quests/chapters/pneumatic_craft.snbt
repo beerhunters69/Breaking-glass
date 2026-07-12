@@ -1,7 +1,7 @@
 {
 	id: "2B0F6AD076EA6B5D"
-	group: "0AFE0E9AC7269D41"
-	order_index: 9
+	group: "6DB3760838A40927"
+	order_index: 0
 	filename: "pneumatic_craft"
 	title: "Pneumatic craft"
 	icon: "pneumaticcraft:pressure_gauge"
@@ -11,7 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			dependencies: ["1D90417067DF5C15"]
+			dependencies: ["544A794D65653561"]
 			id: "145A8A3D511F25DE"
 			tasks: [{
 				id: "1327E3539F398368"
@@ -302,6 +302,20 @@
 				id: "65AC6CCBB86C8089"
 				type: "item"
 				item: "pneumaticcraft:upgrade_matrix"
+			}]
+		}
+		{
+			title: "Age 5"
+			disable_toast: true
+			x: -2.5d
+			y: 0.0d
+			secret: true
+			id: "544A794D65653561"
+			tasks: [{
+				id: "4E5F99C02830860B"
+				type: "gamestage"
+				icon: "pneumaticcraft:pressure_gauge"
+				stage: "five"
 			}]
 		}
 	]

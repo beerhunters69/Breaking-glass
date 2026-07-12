@@ -1,7 +1,7 @@
 {
 	id: "3F780A7C01FE71C5"
-	group: "0AFE0E9AC7269D41"
-	order_index: 4
+	group: "7EFF9FF40E78DDC5"
+	order_index: 1
 	filename: "ars_nouveau"
 	title: "Ars nouveau"
 	icon: "ars_nouveau:summon_focus"
@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			description: ["Used in basically every craft in this mod."]
 			id: "29CDC166D0E31F10"
 			tasks: [{
@@ -25,7 +26,7 @@
 			description: [
 				"Basic crafting station."
 				"To build it, place Arcane Core and surround it with Pedestals, then place Enchanting Apparatus on top of the Core."
-				"For some recipes, you might need to place somewhere close a source jar with some source in it."
+				"For some recipes, you might need to place a source jar with some source in it somewhere close."
 			]
 			dependencies: ["29CDC166D0E31F10"]
 			id: "45A61ADE24B9C155"

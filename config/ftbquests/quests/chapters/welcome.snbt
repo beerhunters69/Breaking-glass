@@ -139,5 +139,20 @@
 				title: "Special mobs"
 			}]
 		}
+		{
+			icon: "emendatusenigmatica:enderium_gear"
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"Some settings are annoying for many and are difficult to find, check the dedicated \"settings\" questline to smooth out your experience."
+				""
+			]
+			id: "7FE364CB4BE88D6D"
+			tasks: [{
+				id: "24943D873FB946CF"
+				type: "checkmark"
+				title: "Settings check!"
+			}]
+		}
 	]
 }

@@ -1,6 +1,10 @@
 {
 	chapter_groups: [
 		{ id: "0166456A4DB1C0E1", title: "Through the ages" }
-		{ id: "0AFE0E9AC7269D41", title: "Mods" }
+		{ id: "7EFF9FF40E78DDC5", title: "Age 1" }
+		{ id: "67203FE2FB977AF0", title: "Age 2" }
+		{ id: "6ED8F5A214066882", title: "Age 3" }
+		{ id: "1EF5D1B91143F878", title: "Age 4" }
+		{ id: "6DB3760838A40927", title: "Age 5" }
 	]
 }

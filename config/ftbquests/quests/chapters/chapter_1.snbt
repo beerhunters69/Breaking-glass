@@ -165,10 +165,12 @@
 			}]
 		}
 		{
+			title: "Visit the Twilight Forest"
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: 0.0d
 			y: -7.0d
 			shape: "gear"
+			subtitle: "In and out 20 minutes adventure!"
 			dependencies: ["4ABA80DA64F2CBAE"]
 			size: 2.0d
 			id: "1B225255526330D6"

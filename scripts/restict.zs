@@ -52,12 +52,16 @@ ItemStages.createModRestriction("ironfurnaces", "three").preventInventory(false)
 ItemStages.createModRestriction("aeadditions", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("appliedenergistics2", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2wtlib", "three").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("aeinfinitybooster", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2extras", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("ae2fc", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("extrastorage", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("refinedstorage", "three").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("cabletiers", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("refinedstorageaddons", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("rslargepatterns", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("universalgrid", "three").preventInventory(false).preventPickup(false);
+ItemStages.createModRestriction("rsinfinitybooster", "three").preventInventory(false).preventPickup(false);
+
 
 ItemStages.restrict(<item:minecraft:gold_ingot>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:golden_helmet>, "three").preventInventory(false).preventPickup(false);
@@ -77,7 +81,8 @@ ItemStages.restrict(<item:minecraft:bucket>, "three").preventInventory(false).pr
 ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("twilightforest", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("toms_storage", "two").preventInventory(false).preventPickup(false);
-ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>.withTag({AS_Amulet_Holder: [362366796, -1650244384, -2012178990, 386519724]}),<item:immersiveengineering:hammer>], "two").preventInventory(false).preventPickup(false).preventUsing(false);
+ItemStages.createModRestriction("immersiveengineering", "two").preventInventory(false).preventPickup(false);
+//ItemStages.createModRestriction("immersiveengineering",s => s in [<item:immersiveengineering:alloybrick>,<item:immersiveengineering:hammer>.withTag({AS_Amulet_Holder: [362366796, -1650244384, -2012178990, 386519724]}),<item:immersiveengineering:hammer>],  "two").preventInventory(false).preventPickup(false).preventUsing(false); why it was written like that? - BlobAWV
 ItemStages.createModRestriction("apotheosis", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("constructsarmory", "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("tconstruct", "two").preventInventory(false).preventPickup(false);

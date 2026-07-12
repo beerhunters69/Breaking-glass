@@ -308,10 +308,12 @@
 			}]
 		}
 		{
+			title: "Visit the Moon"
 			icon: "boss_tools:chesse"
 			x: 17.5d
 			y: -1.5d
 			shape: "gear"
+			subtitle: "It's definitely made from cheese"
 			dependencies: ["42B18415FA624119"]
 			size: 3.0d
 			id: "7C2A29D8017B2DB3"

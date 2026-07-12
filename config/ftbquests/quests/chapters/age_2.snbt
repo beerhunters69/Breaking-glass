@@ -150,6 +150,7 @@
 			}]
 		}
 		{
+			title: "Visit the Nether"
 			icon: "minecraft:music_disc_pigstep"
 			x: 10.464285714285708d
 			y: 1.1607142857142883d
@@ -167,7 +168,7 @@
 		{
 			x: -3.0d
 			y: 3.0d
-			description: ["This mods adds a whole smeltery and smithing, try it out!"]
+			description: ["This mod adds a whole smeltery and smithing, try it out!"]
 			dependencies: ["0C62A127CABF744B"]
 			id: "6A63B1F682366C77"
 			tasks: [

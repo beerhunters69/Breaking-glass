@@ -243,6 +243,7 @@
 			}]
 		}
 		{
+			title: "Visit Mars"
 			icon: "boss_tools:mars_stone"
 			x: 12.0d
 			y: 0.0d

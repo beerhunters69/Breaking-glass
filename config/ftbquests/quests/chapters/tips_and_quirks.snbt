@@ -17,6 +17,7 @@
 		{
 			title: "Age 1"
 			icon: "minecraft:grass_block"
+			disable_toast: true
 			x: -0.5714285714285765d
 			y: 1.017857142857146d
 			shape: "gear"
@@ -31,11 +32,13 @@
 		{
 			title: "Age 2"
 			icon: "twilightforest:twilight_portal_miniature_structure"
+			disable_toast: true
 			x: 2.1428571428571317d
 			y: -0.9107142857142847d
 			shape: "gear"
 			dependencies: ["4F99C1FA4B400CC4"]
 			size: 1.5d
+			secret: true
 			id: "7514D58047A950F3"
 			tasks: [{
 				id: "7343F788AA021167"
@@ -46,11 +49,13 @@
 		{
 			title: "Age 3"
 			icon: "immersiveengineering:blast_furnace"
+			disable_toast: true
 			x: 4.999999999999993d
 			y: 1.875d
 			shape: "gear"
 			dependencies: ["7514D58047A950F3"]
 			size: 2.0d
+			secret: true
 			id: "6BFA84DF019BE0FC"
 			tasks: [{
 				id: "652E5B4B519C08D0"
@@ -107,11 +112,13 @@
 		{
 			title: "Age 4"
 			icon: "boss_tools:chesse"
+			disable_toast: true
 			x: 7.0d
 			y: -2.5d
 			shape: "gear"
 			dependencies: ["6BFA84DF019BE0FC"]
 			size: 2.5d
+			secret: true
 			id: "137E68BB337E7587"
 			tasks: [{
 				id: "14F27A50BE086AEB"
@@ -122,11 +129,13 @@
 		{
 			title: "Age 5"
 			icon: "pneumaticcraft:pressure_gauge"
+			disable_toast: true
 			x: 9.0d
 			y: 3.0d
 			shape: "gear"
 			dependencies: ["137E68BB337E7587"]
 			size: 3.0d
+			secret: true
 			id: "1E5999E1121E3D20"
 			tasks: [{
 				id: "1F481C88CF2DF70A"
@@ -136,7 +145,7 @@
 		}
 		{
 			title: "Tinkers' Construct"
-			x: 1.0d
+			x: 0.5d
 			y: -5.0d
 			description: [
 				"The GOAT for early equipment"
@@ -154,8 +163,8 @@
 			x: -1.0d
 			y: -3.5d
 			description: [
-				"Checkout the Pipez pipes"
-				"Very useful for transporting everythings"
+				"Checkout the Pipez pipes."
+				"Very useful for transporting things."
 			]
 			id: "2D44D46EAE4E7FAA"
 			tasks: [{
@@ -165,7 +174,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -3.5d
 			description: ["Can locate given structure."]
 			id: "71B9EF292A9A838B"
@@ -177,22 +186,6 @@
 					Count: 1b
 					tag: { }
 				}
-			}]
-		}
-		{
-			icon: "emendatusenigmatica:enderium_gear"
-			x: 3.0d
-			y: -3.5d
-			description: [
-				"Don't forget to change the volume of ambient sounds and presence footsteps."
-				""
-				"ESC->Mods->Ambient sounds/presence footsteps"
-			]
-			id: "77B25FE0B542CAC0"
-			tasks: [{
-				id: "08ACD74C76CB5A96"
-				type: "checkmark"
-				title: "Settings"
 			}]
 		}
 	]

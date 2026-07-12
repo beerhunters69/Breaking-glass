@@ -1,7 +1,7 @@
 {
 	id: "515F1AA7A58F27E1"
-	group: "0AFE0E9AC7269D41"
-	order_index: 7
+	group: "1EF5D1B91143F878"
+	order_index: 1
 	filename: "productive_bees"
 	title: "Productive bees"
 	icon: "minecraft:bee_nest"
@@ -851,6 +851,7 @@
 			}]
 		}
 		{
+			title: "Advanced beehive"
 			x: -10.0d
 			y: -10.5d
 			hide_dependency_lines: true
@@ -870,6 +871,7 @@
 			}]
 		}
 		{
+			title: "Expansion box"
 			x: -8.5d
 			y: -10.5d
 			hide_dependency_lines: true
@@ -1018,6 +1020,7 @@
 				Count: 1b
 				tag: { }
 			}
+			disable_toast: true
 			x: -5.0d
 			y: -7.0d
 			shape: "gear"
@@ -1025,9 +1028,14 @@
 			secret: true
 			id: "5C0BFD47225DED09"
 			tasks: [{
-				id: "16607257E6195599"
-				type: "dimension"
-				dimension: "boss_tools:moon"
+				id: "0FAED14016F3BB6C"
+				type: "gamestage"
+				icon: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
+				stage: "four"
 			}]
 		}
 	]

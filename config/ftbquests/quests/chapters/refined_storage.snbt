@@ -1,0 +1,45 @@
+{
+	id: "79BA4B3A44C6469B"
+	group: "6ED8F5A214066882"
+	order_index: 1
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:purple_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Age 3"
+			icon: "minecraft:music_disc_pigstep"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			secret: true
+			id: "599D6BFC8ECD10E3"
+			tasks: [{
+				id: "208587A58DFD356D"
+				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
+				stage: "three"
+			}]
+		}
+		{
+			icon: "minecraft:pufferfish"
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"By default controller now holds 3.2 million fe, so no worries."
+				""
+				"If you don't know, in this version controller just turns off if you consume more than 50% of it's energy capacity per tick (which previously was measly 32000 fe)."
+			]
+			dependencies: ["599D6BFC8ECD10E3"]
+			id: "3959558B877F17F3"
+			tasks: [{
+				id: "5F9D6B8BA9D28C8E"
+				type: "checkmark"
+				title: "Notice"
+			}]
+		}
+	]
+}
