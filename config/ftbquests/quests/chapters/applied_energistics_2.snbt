@@ -3,7 +3,7 @@
 	group: "6ED8F5A214066882"
 	order_index: 0
 	filename: "applied_energistics_2"
-	title: "Applied energistics 2"
+	title: "Applied energistics 2 (WIP)"
 	icon: "appliedenergistics2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

@@ -1,0 +1,30 @@
+{
+	"type": "twilightforest:hydra",
+	"name": "entity.twilightforest.hydra",
+	"name_color": "0x7857d9",
+	"gui_scale": 0.25,
+	"gui_x_offset": 0,
+	"gui_y_offset": 0.5,
+	"gui_z_offset": 0,
+	"sim_cost": 2560,
+	"input": {
+		"item": "hostilenetworks:empty_prediction"
+	},
+	"base_drop": {
+		"item": "hostilenetworks:overworld_prediction"
+	},
+	"fabricator_drops": [
+		{
+			"item": "twilightforest:hydra_chop",
+			"count": 8
+		},
+		{
+			"item": "twilightforest:fiery_blood",
+			"count": 4
+		},
+		{
+			"item": "emendatusenigmatica:sulfur_dust",
+			"count": 64
+		}
+	]
+}

@@ -30,7 +30,7 @@
 	#Range: 0 ~ 200
 	whunterWeight = 1
 	#Spawn Arcane Ore in the world
-	genOre = true
+	genOre = false
 	#Spawn a book in the players inventory on login
 	spawnBook = false
 	#Spawn Mana Berry Bushes in the world

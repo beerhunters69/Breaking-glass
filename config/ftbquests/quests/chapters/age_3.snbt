@@ -18,26 +18,17 @@
 			secret: true
 			id: "0C8A52C43E6289B4"
 			tasks: [{
-				id: "124F9D2AAF7C6A8F"
-				type: "dimension"
-				dimension: "minecraft:the_nether"
+				id: "0FC00210356D9941"
+				type: "gamestage"
+				stage: "three"
 			}]
-			rewards: [
-				{
-					id: "76783274AA92ABFA"
-					type: "gamestage"
-					icon: "minecraft:netherrack"
-					auto: "invisible"
-					stage: "three"
-				}
-				{
-					id: "30D9130A84C7DEC2"
-					type: "command"
-					auto: "enabled"
-					command: "/say Welcome to age 3!"
-					player_command: true
-				}
-			]
+			rewards: [{
+				id: "30D9130A84C7DEC2"
+				type: "command"
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"Welcome to age 3!\"}"
+				player_command: false
+			}]
 		}
 		{
 			title: "Blast furnace"
@@ -322,6 +313,12 @@
 				type: "dimension"
 				dimension: "boss_tools:moon"
 			}]
+			rewards: [{
+				id: "24A8C9C1FF21160D"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "four"
+			}]
 		}
 		{
 			title: "Hey! Check out Immersive Engineering tab"
@@ -425,6 +422,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
+			description: ["If your new recipes not loading, consider using this manual reload"]
 			dependencies: ["0C8A52C43E6289B4"]
 			id: "2B73793E6894461C"
 			tasks: [{

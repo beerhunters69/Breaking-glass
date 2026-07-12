@@ -8,5 +8,6 @@ onEvent('recipes', event => {
 	///////////////////////////////////////////////////////////
 	///////////////////////////////////////////////////////////
                                                        
+event.smelting('1x immersiveengineering:ingot_steel', 'mekanism:dust_steel')
                                                        
 })//////DONT ADD MORE CODE AFTER THIS LINE

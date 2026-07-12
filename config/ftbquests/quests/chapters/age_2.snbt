@@ -18,26 +18,17 @@
 			secret: true
 			id: "0C62A127CABF744B"
 			tasks: [{
-				id: "78CC9D429F20B71B"
-				type: "dimension"
-				dimension: "twilightforest:twilightforest"
+				id: "0D2AC4AEA23A0BA4"
+				type: "gamestage"
+				stage: "two"
 			}]
-			rewards: [
-				{
-					id: "23BE1802AA93E65E"
-					type: "gamestage"
-					icon: "twilightforest:twilight_portal_miniature_structure"
-					auto: "invisible"
-					stage: "two"
-				}
-				{
-					id: "2226A049E0B4F09F"
-					type: "command"
-					auto: "enabled"
-					command: "/say Welcome to age 2!"
-					player_command: true
-				}
-			]
+			rewards: [{
+				id: "2226A049E0B4F09F"
+				type: "command"
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"Welcome to age 2!\"}"
+				player_command: true
+			}]
 		}
 		{
 			x: 6.5d
@@ -164,6 +155,12 @@
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
+			rewards: [{
+				id: "67D645C014D79C4B"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "three"
+			}]
 		}
 		{
 			x: -3.0d
@@ -258,7 +255,10 @@
 		{
 			x: -4.5d
 			y: 1.5d
-			description: [""]
+			description: [
+				""
+				"If your new recipes not loading, consider using this manual reload"
+			]
 			dependencies: ["0C62A127CABF744B"]
 			id: "76FC864B61D2A7BC"
 			tasks: [{
@@ -271,6 +271,18 @@
 				type: "command"
 				command: "/reload"
 				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Finally, you can transport liquids!"]
+			dependencies: ["0C62A127CABF744B"]
+			id: "676C50F30AC81024"
+			tasks: [{
+				id: "0F3F23C07FB696AF"
+				type: "item"
+				item: "ceramics:clay_bucket"
 			}]
 		}
 	]

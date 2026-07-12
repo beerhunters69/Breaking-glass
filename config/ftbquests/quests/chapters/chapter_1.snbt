@@ -179,11 +179,18 @@
 				type: "dimension"
 				dimension: "twilightforest:twilightforest"
 			}]
+			rewards: [{
+				id: "190636843362741A"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "two"
+			}]
 		}
 		{
 			x: 2.0d
 			y: -5.0d
 			shape: "gear"
+			description: ["Surround a 2x2 pool with saplings and toss it in!"]
 			dependencies: [
 				"61E8103336D594DD"
 				"34416320BCD819ED"
@@ -297,12 +304,28 @@
 		{
 			x: 2.0d
 			y: 0.0d
+			description: [
+				"You propably saw that your plank crafting skills are laking, behold a power of a log!"
+				"You can place log in it and then cut it with axe"
+			]
 			size: 2.0d
 			id: "1991CAC9B0231463"
 			tasks: [{
 				id: "1E1C3777D5A96483"
 				type: "item"
 				item: "primutils:chopping_block"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			subtitle: "In the beningin.... In the.... In the benin..... In the beningig"
+			description: ["Wellp, the world is not the same as it was. There is no standart ores in the overworld. You recall to your memories and find ancient knowlage about strange forest that was separated from this realm"]
+			id: "2152175D6A848CEA"
+			tasks: [{
+				id: "15880D1367B11541"
+				type: "checkmark"
+				title: "In the benin..... In the beningin..... In the"
 			}]
 		}
 	]

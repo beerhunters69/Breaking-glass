@@ -80,6 +80,38 @@ onEvent('recipes', event => {
   event.remove({id:"hostilenetworks:living_matter/loot_fabricator"})
   event.remove({id:"hostilenetworks:living_matter/framework"})
 
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_aluminum"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_ardite"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_cobalt"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_copper"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_gold"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_iron"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_lead"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_nickel"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_osmium"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_platinum"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_silver"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_tin"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_tungsten"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_uranium"})
+  event.remove({id:"immersiveengineering:crafting/hammercrushing_zinc"})
+
+
+
+  event.remove({output: 'mekanism:ingot_bronze'})
+  event.remove({output: 'mekanism:ingot_copper'})
+  event.remove({output: 'mekanism:ingot_tin'})
+  event.remove({output: 'mekanism:ingot_lead'})
+  event.remove({output: 'mekanism:ingot_uranium'})
+  event.remove({output: 'boss_tools:steel_ingot'})
+  event.remove({output: 'mekanism:ingot_steel'})
+  event.remove({output: 'emendatusenigmatica:steel_ingot'})
+  event.remove({output: 'mekanism:block_bronze'})
+  event.remove({output: 'mekanism:block_tin'})
+  event.remove({output: 'mekanism:block_charcoal'})
+  event.remove({output: 'emendatusenigmatica:enderium_ingot'})
+
+
   event.remove({id:"refinedstorage:raw_basic_processor"})
   event.remove({id:"refinedstorage:raw_improved_processor"})
   event.remove({id:"refinedstorage:raw_advanced_processor"})

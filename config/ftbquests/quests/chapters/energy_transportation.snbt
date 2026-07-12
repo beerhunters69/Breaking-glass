@@ -1,0 +1,375 @@
+{
+	id: "21ED54F419AF20F8"
+	group: "325078DB6FE518EA"
+	order_index: 1
+	filename: "energy_transportation"
+	title: "Energy transportation"
+	icon: "fluxnetworks:flux_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"At some point you will encounter a new challenge"
+				""
+				"Your wires dont have enought throughput"
+				""
+				"We have solution for that"
+				""
+				"This questline will guide you in you journy with wires,cables and other clour sausages that transport energy"
+			]
+			id: "2A190184C00751E2"
+			tasks: [{
+				id: "7DD881343D5B3D8F"
+				type: "checkmark"
+				title: "Energy transportation"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: [
+				"Behold, power of the wifi!"
+				""
+				"This line will give you some tips about Flux Networks"
+			]
+			dependencies: [
+				"2A190184C00751E2"
+				"1D90417067DF5C15"
+			]
+			hide: true
+			id: "31B83B04E9DD4CD6"
+			tasks: [{
+				id: "13E2241629F94214"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			dependencies: ["31B83B04E9DD4CD6"]
+			id: "6330EE74022FBA37"
+			tasks: [{
+				id: "64386F0B704C3E18"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			dependencies: ["6330EE74022FBA37"]
+			id: "65FF362EAAB2449D"
+			tasks: [{
+				id: "11B7E5A6964BE507"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.5d
+			dependencies: ["6330EE74022FBA37"]
+			id: "7C7DD9F140DD6A6C"
+			tasks: [{
+				id: "44F9A872C197F210"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			title: "Creating a system"
+			x: 0.0d
+			y: -8.5d
+			description: [
+				"So, you have your plugs and points, what can you do with them? "
+				""
+				"Place point or plug, open it and find there a cross"
+				""
+				"You can change privacy setting, colour, name. Then confirm and here you go - wireless energy"
+				""
+				"Plugs are input points of your system. Place them at the generators"
+				""
+				"Points are outputs, so you need to place them near cable, or even straight up on machine"
+			]
+			dependencies: [
+				"65FF362EAAB2449D"
+				"7C7DD9F140DD6A6C"
+			]
+			id: "7CA46139BC09CA58"
+			tasks: [{
+				id: "7A9203134F00199D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Wireless charging your items in your inventory"
+			x: -1.5d
+			y: -10.0d
+			description: [
+				"Place controller down and open your chargin menu. Then click checkbox and select what you want to charge. Then apply"
+				""
+			]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "332CEB34337AFB0F"
+			tasks: [{
+				id: "5645B1E360D36B8D"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -10.0d
+			description: ["This thing can store up your energy and it will work as wireless capacitor for your network. Upgraded version will have more space for more energy"]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "1EE0EA6A53013716"
+			tasks: [{
+				id: "78148C3422935063"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -12.0d
+			dependencies: ["1EE0EA6A53013716"]
+			id: "57CA171F5AA2D855"
+			tasks: [{
+				id: "45FF8EE78E83A096"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -14.0d
+			dependencies: ["57CA171F5AA2D855"]
+			id: "4CA6B7B5102AE377"
+			tasks: [{
+				id: "488D7DC61B29179A"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.0d
+			description: ["This rod will make your life easier, cause it will copy paste configuration from one device to another. For example it will help you when you're placing new plug and when you click it with configurator, it will connect to your network"]
+			dependencies: ["7CA46139BC09CA58"]
+			id: "300AD291CE378AB6"
+			tasks: [{
+				id: "1832BDB2E32A3A38"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: [
+				"The most basic and the worst variant is energy pipe from pipez"
+				""
+				"256 rf/t"
+			]
+			dependencies: ["2A190184C00751E2"]
+			hide: true
+			id: "51FDDB40D53366AE"
+			tasks: [{
+				id: "0F51A44F306A482E"
+				type: "item"
+				item: "pipez:energy_pipe"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			min_required_dependencies: 1
+			dependencies: ["772D5B899E2502E8"]
+			hide: false
+			id: "58009CCCCE03CD47"
+			tasks: [
+				{
+					id: "23AC928B145F90BD"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "695A6237B75092F3"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "21115D356808593C"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "550582946B78BF55"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+				{
+					id: "5F15B739F54EFD6B"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+				{
+					id: "6480807B56D5A07A"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			min_required_dependencies: 1
+			dependencies: ["772D5B899E2502E8"]
+			id: "50F8EF7CA530CB1B"
+			tasks: [
+				{
+					id: "10ACBFC8735F16FC"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper"
+				}
+				{
+					id: "2E540B39B05B16EC"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum"
+				}
+				{
+					id: "226DF16016FB6D4B"
+					type: "item"
+					item: "immersiveengineering:wirecoil_steel"
+				}
+				{
+					id: "43C124F8E4D04838"
+					type: "item"
+					item: "immersiveengineering:wirecoil_copper_ins"
+				}
+				{
+					id: "49ED28A17AFD8140"
+					type: "item"
+					item: "immersiveengineering:wirecoil_electrum_ins"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: [
+				""
+				"How do I wire in IE?"
+				""
+				"Well, you need to place connector to the enregy Input/Output and connect it with a wire to another connector. Connectors can have only 1 connection"
+				""
+				"This connection will be P2P and it is not so effective"
+				""
+				"Instead, you can wire connector to the relay and from relay to the as many as you want connectors or relays"
+				""
+				"Same rule applies to all wires in this mod"
+				""
+				"Well, your wires are live, and they will hurt you when you touch them. There is 2 solutions to this problem"
+				""
+				"Insulated wires. They will require you to insulate your every wire. Beware that insulated wires are shorter than regular one!"
+				""
+				"Faraday Armour. Did I mention that HV wires oneshots you? And more importantly... They cannot be isolated. This left us with our only hope. Faraday armour. It fully negates any damage from wires, but have bad durability and you will need to change your armour every time you work with elecricity"
+			]
+			dependencies: [
+				"2A190184C00751E2"
+				"6028849F1BBE6A76"
+			]
+			hide: true
+			id: "772D5B899E2502E8"
+			tasks: [{
+				id: "4DB19F558FE4C297"
+				type: "checkmark"
+				title: "IE options"
+			}]
+		}
+		{
+			title: "FTB Industrial Contraption options"
+			x: 3.0d
+			y: 0.0d
+			description: [
+				""
+				"This cables are decent, but have a bit of issues, as overvoltage"
+				""
+				"If wire gets energy higher than it can handle - it burns"
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"2A190184C00751E2"
+				"3DBE4AF0C78D3AF6"
+			]
+			hide: true
+			id: "08990CD038F2315B"
+			tasks: [
+				{
+					id: "72983E7E8FD46B37"
+					type: "item"
+					item: "ftbic:lv_cable"
+				}
+				{
+					id: "4BF951278C539C06"
+					type: "item"
+					item: "ftbic:mv_cable"
+				}
+				{
+					id: "4AD773F90B8101AE"
+					type: "item"
+					item: "ftbic:hv_cable"
+				}
+				{
+					id: "5FD9BDDC233C009A"
+					type: "item"
+					item: "ftbic:ev_cable"
+				}
+				{
+					id: "2A74A7641B1D53DD"
+					type: "item"
+					item: "ftbic:iv_cable"
+				}
+			]
+		}
+		{
+			title: "Mekanism options"
+			x: -3.0d
+			y: 0.0d
+			description: ["Mekanism has its own cables, they dont have any downside. If we dont consider their cost as a downside"]
+			min_required_dependencies: 1
+			dependencies: [
+				"2A190184C00751E2"
+				"33EF05911C79B5A6"
+			]
+			hide: true
+			id: "55934F74311767C4"
+			tasks: [
+				{
+					id: "2B81EB6E7559857F"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "0EC09693E28BFB12"
+					type: "item"
+					item: "mekanism:advanced_universal_cable"
+				}
+				{
+					id: "6E1B15ADE0FEAD69"
+					type: "item"
+					item: "mekanism:elite_universal_cable"
+				}
+				{
+					id: "4E8009E8FC25EB5F"
+					type: "item"
+					item: "mekanism:ultimate_universal_cable"
+				}
+			]
+		}
+	]
+}

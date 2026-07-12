@@ -21,7 +21,7 @@ ItemStages.restrict(<item:minecraft:netherite_helmet>, "five").preventInventory(
 ItemStages.restrict(<item:minecraft:netherite_chestplate>, "five").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:netherite_leggings>, "five").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:netherite_boots>, "five").preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:minecraft:netherite_ingot>, "five").preventInventory(false).preventPickup(false);
 
 
 
@@ -76,7 +76,13 @@ ItemStages.restrict(<item:minecraft:golden_shovel>, "three").preventInventory(fa
 ItemStages.restrict(<item:minecraft:gold_nugget>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_nugget>, "three").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:bucket>, "three").preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:minecraft:anvil>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:mekanismtools:iron_paxel>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_block>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_bars>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_trapdoor>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:minecraft:iron_door>, "three").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:constructionwand:iron_wand>, "three").preventInventory(false).preventPickup(false);
 
 ItemStages.createModRestriction('waystones', s => <item:waystones:waystone>.matches(s), "two").preventInventory(false).preventPickup(false);
 ItemStages.createModRestriction("twilightforest", "two").preventInventory(false).preventPickup(false);
@@ -97,7 +103,10 @@ ItemStages.restrict(<item:minecraft:iron_pickaxe>, "two").preventInventory(false
 ItemStages.restrict(<item:minecraft:iron_sword>, "two").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_hoe>, "two").preventInventory(false).preventPickup(false);
 ItemStages.restrict(<item:minecraft:iron_shovel>, "two").preventInventory(false).preventPickup(false);
-
+ItemStages.restrict(<item:emendatusenigmatica:brass_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:emendatusenigmatica:bronze_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:thermal:bronze_dust>, "two").preventInventory(false).preventPickup(false);
+ItemStages.restrict(<item:mekanism:dust_bronze>, "two").preventInventory(false).preventPickup(false);
 
 ItemStages.restrict(<item:boss_tools:solar_panel>,'disabled');
 ItemStages.restrict(<item:boss_tools:coal_generator>,'disabled');

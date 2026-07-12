@@ -26,9 +26,16 @@
 			secret: true
 			id: "059975E679EE2E82"
 			tasks: [{
-				id: "3E7E7B4BD01CD6EC"
-				type: "dimension"
-				dimension: "minecraft:the_end"
+				id: "4AA210F824A19563"
+				type: "gamestage"
+				stage: "six"
+			}]
+			rewards: [{
+				id: "2425C92BEC471190"
+				type: "command"
+				auto: "invisible"
+				command: "/tellraw @p {\"text\":\"Welcome to age 6!\"}"
+				player_command: false
 			}]
 		}
 		{

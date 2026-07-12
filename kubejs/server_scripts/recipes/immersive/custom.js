@@ -78,5 +78,30 @@ event.custom(
   "cooling_time": 60
 })
 
+event.custom(
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_bronze",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:bronze_block"
+  },
+  "cooling_time": 171
+})
+
+event.custom(
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "forge:molten_tin",
+    "amount": 1296
+  },
+  "result": {
+    "item": "emendatusenigmatica:tin_block"
+  },
+  "cooling_time": 171
+})
 })
 

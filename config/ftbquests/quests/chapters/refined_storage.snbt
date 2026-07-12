@@ -1,45 +1,539 @@
 {
-	id: "79BA4B3A44C6469B"
-	group: "6ED8F5A214066882"
-	order_index: 1
+	id: "51E1EAFB71D74DE6"
+	group: "35F270EC60742126"
+	order_index: 0
 	filename: "refined_storage"
 	title: "Refined Storage"
-	icon: "refinedstorage:purple_controller"
+	icon: "refinedstorage:grid"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Age 3"
-			icon: "minecraft:music_disc_pigstep"
-			disable_toast: true
 			x: 0.0d
 			y: 0.0d
-			shape: "gear"
-			secret: true
-			id: "599D6BFC8ECD10E3"
+			subtitle: "Refined energistics?"
+			description: [
+				"Hello again! This quest line will tell you about another storage option."
+				""
+				"First of all. There is a questline dedicated for applied energistics. Dont want RS? Go read that instead"
+				""
+				"When we separated ae2 lovers, we can truly begin"
+				"What is Refined Storage? RS is a storage network that can store all of your items, think about it as VERY large chest. It can auto craft things on demand. In this chapter I will show you how to setup basic system and basic autocrafts"
+				""
+				""
+			]
+			dependencies: ["6028849F1BBE6A76"]
+			id: "12F9B5422A4AB670"
 			tasks: [{
-				id: "208587A58DFD356D"
-				type: "gamestage"
-				icon: "minecraft:music_disc_pigstep"
-				stage: "three"
+				id: "3E97160C517343F1"
+				type: "checkmark"
+				title: "Refined Storage"
 			}]
 		}
 		{
-			icon: "minecraft:pufferfish"
-			x: 0.0d
+			title: "Basic resources for RS"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"First of all, you need some specific materials to craft"
+				"Quartz enriched iron is most common material that will be used in this mod"
+				"Processor binding is material required for processors that will be heavily used too"
+			]
+			dependencies: ["12F9B5422A4AB670"]
+			id: "3AA4386512A5B411"
+			tasks: [
+				{
+					id: "34CB499AEDC495AE"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+				}
+				{
+					id: "6B55A0BE9A6B8C82"
+					type: "item"
+					item: "refinedstorage:processor_binding"
+				}
+			]
+		}
+		{
+			title: "Processors"
+			x: 4.0d
+			y: 0.0d
+			description: ["These three will help you to setup basic system,"]
+			dependencies: ["3AA4386512A5B411"]
+			id: "307B4E2F822F6886"
+			tasks: [
+				{
+					id: "337E439670936DA1"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+				}
+				{
+					id: "5F1972D2AF69A054"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+				}
+				{
+					id: "5B06C510BBC61736"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["The \"core\" of the system is a controller. It must be powered or the system will shutdown"]
+			dependencies: ["307B4E2F822F6886"]
+			id: "72C1249F16AB350D"
+			tasks: [{
+				id: "442DCC00AC8793DA"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+		}
+		{
+			x: 6.0d
 			y: -2.0d
 			description: [
-				"By default controller now holds 3.2 million fe, so no worries."
-				""
-				"If you don't know, in this version controller just turns off if you consume more than 50% of it's energy capacity per tick (which previously was measly 32000 fe)."
+				"Disk drive can have up to 8 disks. Every disk that will be inserted here will connect to the system. Since then those disks can store your items or fluids. Another feature with disks is your ability to take them from the drive and insert them in other dirve. Think about them as USB drives."
+				"There is 2 types of disks: Item and Fluid."
+				"When you are trying to store items in your stroage disk, items ratio to bytes will be 1item = 1byte"
 			]
-			dependencies: ["599D6BFC8ECD10E3"]
-			id: "3959558B877F17F3"
+			dependencies: ["72C1249F16AB350D"]
+			id: "5CAA6854DDFED8A5"
 			tasks: [{
-				id: "5F9D6B8BA9D28C8E"
-				type: "checkmark"
-				title: "Notice"
+				id: "2E9998A619582D1B"
+				type: "item"
+				item: "refinedstorage:disk_drive"
 			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["5CAA6854DDFED8A5"]
+			id: "01B0EE154F9C85CE"
+			tasks: [{
+				id: "5F59730D37741DAA"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["01B0EE154F9C85CE"]
+			id: "41D012FBB50705D7"
+			tasks: [{
+				id: "368A8C54CDB6B7BF"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -8.0d
+			dependencies: ["41D012FBB50705D7"]
+			id: "757083D675DAF5ED"
+			tasks: [{
+				id: "5820DDE72D55863D"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.0d
+			dependencies: ["757083D675DAF5ED"]
+			id: "72BA70164DD91CC2"
+			tasks: [{
+				id: "2CC27CD3FCD29E48"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.0d
+			dependencies: ["5CAA6854DDFED8A5"]
+			id: "6CD33323B083EEEF"
+			tasks: [{
+				id: "74DA5D099D8CD845"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -6.0d
+			dependencies: ["6CD33323B083EEEF"]
+			id: "1B38C2FF71426D25"
+			tasks: [{
+				id: "1427264050E5D512"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -8.0d
+			dependencies: ["1B38C2FF71426D25"]
+			id: "17FC00207E9D1719"
+			tasks: [{
+				id: "11E3B55E500A9704"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -10.0d
+			dependencies: ["17FC00207E9D1719"]
+			id: "6A347C02F23D726E"
+			tasks: [{
+				id: "36EA61E6006D2680"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -10.0d
+			dependencies: ["6A347C02F23D726E"]
+			id: "77CADF162DD83E03"
+			tasks: [{
+				id: "20D2B3FF78DE24E2"
+				type: "item"
+				item: "extrastorage:storagepart_16384k_fluid"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -8.0d
+			dependencies: ["77CADF162DD83E03"]
+			id: "7F36A4EE93C1B057"
+			tasks: [{
+				id: "2D76273993118A20"
+				type: "item"
+				item: "extrastorage:storagepart_65536k_fluid"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -6.0d
+			dependencies: ["7F36A4EE93C1B057"]
+			id: "08202B2A3FCB2C8A"
+			tasks: [{
+				id: "30C08BE53857B866"
+				type: "item"
+				item: "extrastorage:storagepart_262144k_fluid"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -4.0d
+			dependencies: ["08202B2A3FCB2C8A"]
+			id: "15092487A6F06A6B"
+			tasks: [{
+				id: "4780C50B53B58A82"
+				type: "item"
+				item: "extrastorage:storagepart_1048576k_fluid"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -10.0d
+			dependencies: ["72BA70164DD91CC2"]
+			id: "6FF303381FB839F2"
+			tasks: [{
+				id: "3CE1A8B38DB6870B"
+				type: "item"
+				item: "extrastorage:storagepart_256k"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			dependencies: ["6FF303381FB839F2"]
+			id: "15F5D0D65FD5A872"
+			tasks: [{
+				id: "67CB731580E11EF1"
+				type: "item"
+				item: "extrastorage:storagepart_1024k"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			dependencies: ["15F5D0D65FD5A872"]
+			id: "4E71C591B0EDE929"
+			tasks: [{
+				id: "7FE8953CB29B5992"
+				type: "item"
+				item: "extrastorage:storagepart_4096k"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			dependencies: ["4E71C591B0EDE929"]
+			id: "12A8B25D57CCD958"
+			tasks: [{
+				id: "04A900759D7DC64B"
+				type: "item"
+				item: "extrastorage:storagepart_16384k"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.0d
+			description: ["Grid is used for interacting with your system. You can open it and insert your items as in the chest."]
+			dependencies: ["18B74A91853E24EA"]
+			id: "49F2DD4347596082"
+			tasks: [{
+				id: "415BBC0E86148CB0"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Large crafting table"
+			description: [
+				"One of the most important blocks in the entire mod. This is more useful than just a grid. It can craft things within and auto fill slots for crafting. VERY useful."
+				""
+				""
+			]
+			dependencies: ["49F2DD4347596082"]
+			id: "6D2C7F022DF10FC0"
+			tasks: [{
+				id: "144D60A0ED31FDC0"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			description: [
+				"And we finally here. It was quick is it?"
+				""
+				"Patterns are the base of the autocrafting. And autocrafting is good. Because you dont need manually smelt all those ingots, craft extact amount of molten resource or smth else. It is very helpful in any modpack"
+				""
+				"So, how do I use that? Very simple:"
+				""
+				"1.Craft some blank patterns and put them into your pattern grid"
+				""
+				"2. Choose your recipe using jei or manually set every detail for it"
+				""
+				"3. Then you need some crafters. If you have refular recipe (not processing) you just placing crafter, connect it to the network and put pattern in it."
+				""
+				"3.5 If you have a processing pattern, things got very interesting. Place your crafter on the input side of the machine you want to automate. As example will be furnace. Side with grid and blue dot must look on that input side. Furnace got it inputside on the top, so you need to place your crafter so it look to the top side of the furnace. Then you need to supply your furnace with coal, you need exporter that will look into middle side of the furnace and filter exporter to output (for example) coal. Then you need to take items from your furnace and importer will help you with that. Place it to the output side of the machine, for furnace it will downside. And only then if you place your pattern in crafter it will work"
+				""
+				"3.5.5 You can craft wrench from RS to rotate crafters"
+				""
+				"4. Order craft from your system and it should be working just fine"
+			]
+			dependencies: ["49F2DD4347596082"]
+			id: "5753AE2BFA43E997"
+			tasks: [
+				{
+					id: "334A88995FEDF10D"
+					type: "item"
+					item: "refinedstorage:pattern_grid"
+				}
+				{
+					id: "5E3FE843FD753624"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+				{
+					id: "7FF42B35E44741AB"
+					type: "item"
+					item: "refinedstorage:crafter"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			description: ["Those are the veins of your network. Simply use them as connections between your disk drives, grids, crafters, importers, exporters. Everything will conect to it if it is from Refined Storage"]
+			dependencies: ["72C1249F16AB350D"]
+			id: "18B74A91853E24EA"
+			tasks: [{
+				id: "356F74CE046FD549"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+		}
+		{
+			title: "Exporters/Importers"
+			x: 8.0d
+			y: 2.0d
+			subtitle: "laggy as hell"
+			description: [
+				"Export bus will export from the system into block"
+				"Import bus will import items into the system."
+				"Both of them very slow so you will need some speed upgrades or even stack upgrades"
+			]
+			dependencies: ["18B74A91853E24EA"]
+			id: "284322D81B8074FA"
+			tasks: [
+				{
+					id: "71E319F1A74E6C17"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+				{
+					id: "7AAEC866A915F4D8"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "7955A55D34559DC8"
+					type: "item"
+					item: "refinedstorage:speed_upgrade"
+				}
+				{
+					id: "24FE708477F17205"
+					type: "item"
+					item: "refinedstorage:stack_upgrade"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 4.0d
+			description: ["Interface combines both exporter and importer, BUT it dont push anything to any side. It will only store oreder items in it so you can use your own pipes or natural input/output systems to get smthing from it or get smthing to it."]
+			dependencies: ["284322D81B8074FA"]
+			id: "2531AF42FF2C2062"
+			tasks: [{
+				id: "69299B3BA7855CD7"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.0d
+			subtitle: "Just better"
+			description: ["Crafter with more slots for patterns"]
+			min_required_dependencies: 1
+			dependencies: ["5753AE2BFA43E997"]
+			id: "48EE3479ECFABF8B"
+			tasks: [
+				{
+					id: "56218390A499CEB9"
+					type: "item"
+					item: "extrastorage:iron_crafter"
+				}
+				{
+					id: "2616AF9F35BBF078"
+					type: "item"
+					item: "extrastorage:gold_crafter"
+				}
+				{
+					id: "5E27068C24935DB3"
+					type: "item"
+					item: "extrastorage:diamond_crafter"
+				}
+				{
+					id: "0A0A3DCCE21C143B"
+					type: "item"
+					item: "extrastorage:netherite_crafter"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			dependencies: ["6D2C7F022DF10FC0"]
+			id: "730CD079FDB03914"
+			tasks: [{
+				id: "016F9BDBA15F5666"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			description: [
+				"Simply grid in your pocket"
+				""
+				"Very usefull too"
+			]
+			min_required_dependencies: 1
+			dependencies: ["730CD079FDB03914"]
+			id: "52C28368A5ECAEEF"
+			tasks: [
+				{
+					id: "4E6A2D9DD6EE9D72"
+					type: "item"
+					item: "refinedstorage:wireless_grid"
+				}
+				{
+					id: "5AE54E2C61C9E486"
+					type: "item"
+					item: "refinedstorage:wireless_fluid_grid"
+				}
+				{
+					id: "4888F6962381F60C"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			description: ["This grid will show only liquids in your system and you can interact with buckets with it"]
+			dependencies: ["49F2DD4347596082"]
+			id: "1CAAB098AB76B35E"
+			tasks: [{
+				id: "2210B7D7B8BFB50F"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["There is no way to store gases from mekanism in RS, consider using condensers"]
+			dependencies: ["12F9B5422A4AB670"]
+			id: "3ADC01F6A36E5751"
+			tasks: [{
+				id: "52975437C2209DD7"
+				type: "checkmark"
+				title: "Gases"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: [
+				"Place network reciver and click with network card on it, then place network transmitter and place card in it."
+				"Network transmitter now will connect to your network reciver, so you place less cables"
+			]
+			dependencies: ["72C1249F16AB350D"]
+			id: "237D0294982FA394"
+			tasks: [
+				{
+					id: "370E4956D264E81F"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "46C568B84C4F065D"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "539903088A682BC0"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
 		}
 	]
 }
