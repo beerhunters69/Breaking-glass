@@ -69,45 +69,19 @@
 			y: -5.0d
 			description: ["Useful tool for building"]
 			id: "1D9F32EC94E39859"
-			tasks: [
-				{
-					id: "4178A608C0C4726C"
-					type: "item"
-					item: {
-						id: "constructionwand:stone_wand"
-						Count: 1b
-						tag: {
-							wand_options: { }
-							Damage: 0
-						}
-					}
-					match_nbt: true
-				}
-				{
-					id: "52CDB944719FD966"
-					type: "item"
-					item: {
-						id: "constructionwand:iron_wand"
-						Count: 1b
-						tag: {
-							wand_options: { }
-							Damage: 0
-						}
+			tasks: [{
+				id: "4178A608C0C4726C"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
 					}
 				}
-				{
-					id: "2582C600472C5459"
-					type: "item"
-					item: {
-						id: "constructionwand:diamond_wand"
-						Count: 1b
-						tag: {
-							wand_options: { }
-							Damage: 0
-						}
-					}
-				}
-			]
+				match_nbt: true
+			}]
 		}
 		{
 			title: "Age 4"
@@ -187,6 +161,60 @@
 					tag: { }
 				}
 			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			description: ["Paxels are all-in-one type of tools, but they are a little slower than vanilla tools."]
+			id: "1DCEE2F85E94457C"
+			tasks: [{
+				id: "689F4D1C40F6C2DB"
+				type: "item"
+				item: {
+					id: "mekanismtools:stone_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "calc is short for calculator"
+			description: ["Pretty self explanatory."]
+			id: "03319A1AD778CE8C"
+			tasks: [{
+				id: "1B37786C69823404"
+				type: "item"
+				item: "jecalculation:item_calculator_math"
+			}]
+		}
+		{
+			title: "Cooking with style"
+			x: 3.5d
+			y: -5.0d
+			subtitle: "Or with fire"
+			description: ["This allows you to see and instantly craft foods, if you have the ingredients of course."]
+			id: "68CDF836A7D03884"
+			tasks: [
+				{
+					id: "325C8A2A2E93780B"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+				{
+					id: "7CF5E1995BE03ADE"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "2C10AB882822F06C"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
 		}
 	]
 }

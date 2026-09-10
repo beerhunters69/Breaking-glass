@@ -1,7 +1,7 @@
 {
 	id: "2695E82F3F57EB92"
-	group: "1EF5D1B91143F878"
-	order_index: 2
+	group: "26E8BD311DBFD652"
+	order_index: 3
 	filename: "ftb_industrial_contraptions"
 	title: "FTB Industrial Contraptions"
 	icon: "ftbic:iridium_circuit"
@@ -12,7 +12,7 @@
 			title: "Iridium"
 			x: 13.0d
 			y: -10.5d
-			dependencies: ["1D90417067DF5C15"]
+			dependencies: ["4EDCD49250CDF317"]
 			id: "3ACBD273E01CA57C"
 			tasks: [{
 				id: "700FA2BCBD510EC6"
@@ -403,6 +403,20 @@
 					tag: { }
 				}
 				stage: "four"
+			}]
+		}
+		{
+			title: "Age 5"
+			disable_toast: true
+			x: 11.0d
+			y: -10.5d
+			secret: true
+			id: "4EDCD49250CDF317"
+			tasks: [{
+				id: "574EF169CDCC0D94"
+				type: "gamestage"
+				icon: "pneumaticcraft:pressure_gauge"
+				stage: "five"
 			}]
 		}
 	]

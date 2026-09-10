@@ -1,9 +1,9 @@
 {
 	id: "57395C24B7469344"
-	group: "6ED8F5A214066882"
-	order_index: 0
+	group: "35F270EC60742126"
+	order_index: 2
 	filename: "applied_energistics_2"
-	title: "Applied energistics 2 (WIP)"
+	title: "Applied energistics 2"
 	icon: "appliedenergistics2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -475,7 +475,7 @@
 			icon: "appliedenergistics2:sky_stone_block"
 			x: 7.0d
 			y: 5.0d
-			description: ["Because there is \"no\" meteors you can craft sky stone from obsidian."]
+			description: ["Because there is \"no\" meteors, so you can craft sky stone from obsidian."]
 			hide_dependency_lines: true
 			dependencies: ["33DFE9524EC0266E"]
 			optional: true
@@ -843,7 +843,7 @@
 				""
 				"Level emitter is a > or < switch. It emits redstone signal if an item (in AE2 storage) is below or above certain level."
 				""
-				"Toggle bus allows you to disconnect parts of the network by using redstone. It has inverted counterpart."
+				"Toggle bus allows you to disconnect parts of the network by using redstone. It also has an inverted counterpart."
 				""
 				"Almost all of the above also have fluid counterparts."
 			]
@@ -1241,8 +1241,8 @@
 			}
 			x: 0.0d
 			y: 6.0d
-			subtitle: "Universal terminal wasn't included in your package (doesn't work on this version)"
-			description: ["To connect your terminals to AE2 you need ME Security Terminal. Beware that if you place it, it lock everyone else out of your network until you whitelist them with a biometric card."]
+			subtitle: "Note: universal terminal can be crafted by combining terminals together."
+			description: ["To connect your terminals to AE2 you need ME Security Terminal. Beware that if you place it, it will lock everyone else out of your network until you whitelist them with a biometric card."]
 			dependencies: ["07DC963B3133566A"]
 			optional: true
 			id: "4383B0C36D8ADD5E"
@@ -1286,28 +1286,23 @@
 				{
 					id: "6AB9204BFDC45ABD"
 					type: "item"
-					item: "appliedenergistics2:security_station"
+					item: {
+						id: "ae2wtlib:wireless_chemical_terminal"
+						Count: 1b
+						tag: { }
+					}
 				}
 				{
 					id: "1B671F22AECFEF45"
 					type: "item"
 					item: "appliedenergistics2:wireless_access_point"
 				}
+				{
+					id: "0DD825E71CF86E9F"
+					type: "item"
+					item: "appliedenergistics2:security_station"
+				}
 			]
-		}
-		{
-			x: -2.0d
-			y: 4.0d
-			subtitle: "Also works across dimensions"
-			description: ["Place it into the most right-down slot inside your wireless terminal."]
-			dependencies: ["4383B0C36D8ADD5E"]
-			optional: true
-			id: "1C18D66CEE68926C"
-			tasks: [{
-				id: "151AC7C5D8CF1C0C"
-				type: "item"
-				item: "ae2wtlib:infinity_booster_card"
-			}]
 		}
 		{
 			title: "Subnets"
@@ -1408,6 +1403,89 @@
 					item: "appliedenergistics2:crafting_card"
 				}
 			]
+		}
+		{
+			title: "Infinite range"
+			icon: "aeinfinitybooster:infinity_card"
+			x: -4.0d
+			y: 4.0d
+			subtitle: "That's pricy"
+			description: [
+				"This is an equivalent of Refined Storage infinity card. Place it into your wireless access point."
+				""
+				"This card gives you infinite range across one dimension."
+			]
+			dependencies: ["287A71B37B09D516"]
+			optional: true
+			id: "0BD56ACE6119859C"
+			tasks: [{
+				id: "77F16A192A8A6CB2"
+				type: "item"
+				item: "aeinfinitybooster:infinity_card"
+			}]
+		}
+		{
+			title: "Cross-dimensional infinite range"
+			x: -4.0d
+			y: 6.0d
+			subtitle: "I may need to sell my kidney to afford this"
+			description: [
+				"This is an equivalent of Refined Storage dimension card. Place it into your wireless access point."
+				""
+				"This card gives you infinite range across all dimensions."
+			]
+			dependencies: ["0BD56ACE6119859C"]
+			optional: true
+			id: "04C14781B1B9CFDB"
+			tasks: [{
+				id: "00138C5A3B435F8E"
+				type: "item"
+				item: "aeinfinitybooster:dimension_card"
+			}]
+		}
+		{
+			title: "More range"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "Pretty cheap"
+			description: [
+				"With this you can expand the range of your network, but you have to pay for that."
+				""
+				"You can put up to a stack of these into a wireless access point and get 528 block range, but this will cause it to draw 8192 rf per tick."
+			]
+			dependencies: ["4383B0C36D8ADD5E"]
+			optional: true
+			id: "287A71B37B09D516"
+			tasks: [{
+				id: "51A12DCE2387CAE7"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+			}]
+		}
+		{
+			title: "Priority"
+			icon: "pneumaticcraft:network_api"
+			x: 7.0d
+			y: 7.0d
+			subtitle: "Not very complicated"
+			description: [
+				"Priority, as you might guess, refers to what is processed first."
+				""
+				"Blocks that are configured with high priority get items/fluids/gases first and lose items/fluids/gases last."
+				""
+				"E.g. an ME chest with priority 1 and an item cell will fill up first, will hold items in and give way to lower priority storage before emptying."
+				""
+				"The exact same chest with priority -1 will fill up last and will try to give items out before giving way to higher priority storage."
+				""
+				""
+			]
+			dependencies: ["06768AAFC5CD6E42"]
+			id: "62402FC382B7E2E9"
+			tasks: [{
+				id: "221B789FBF444C49"
+				type: "checkmark"
+				title: "Ability to read 2.0"
+			}]
 		}
 	]
 }

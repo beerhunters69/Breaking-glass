@@ -1,7 +1,7 @@
 {
 	id: "3F780A7C01FE71C5"
-	group: "7EFF9FF40E78DDC5"
-	order_index: 1
+	group: "0A67C27AFE2B6C96"
+	order_index: 0
 	filename: "ars_nouveau"
 	title: "Ars nouveau"
 	icon: "ars_nouveau:summon_focus"
@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
 			description: [
 				"Used in basically every craft in this mod."
 				"P.S. Dont eat all berries....."
@@ -162,6 +163,7 @@
 			description: [
 				"All the same, but better."
 				""
+				"{image:kubejs:textures/quests/daniel.png width:100 height:100 align:1}"
 			]
 			dependencies: ["5A7C5D8B7D673632"]
 			id: "48505D5FFD4069D9"

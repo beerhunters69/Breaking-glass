@@ -1,0 +1,19 @@
+
+#Magnet Card settings
+[magnet]
+	#Interval in ticks between magnet scans (1 = every tick). There are 20 ticks in 1 second. Be aware that decreasing this value can cause severe server lag.
+	#Range: > 1
+	tickInterval = 10
+	#Range in blocks for magnet pickup. Be aware that increasing this value can cause severe server lag.
+	#Range: 2.0 ~ 1.7976931348623157E308
+	range = 8.0
+
+#Energy settings
+[energy]
+	#Charge rate for wireless terminals in AE/tick.
+	#Range: 1000.0 ~ 1.7976931348623157E308
+	chargeRate = 32000.0
+	#Multiplier for wireless terminal energy consumption if the player is out of range of the network (528+ blocks). You can change base energy consumption in Applied Energistics 2 config.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	consumptionMultiplier = 2.0
+

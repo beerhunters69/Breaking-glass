@@ -1,7 +1,7 @@
 {
 	id: "515F1AA7A58F27E1"
-	group: "1EF5D1B91143F878"
-	order_index: 1
+	group: "26E8BD311DBFD652"
+	order_index: 2
 	filename: "productive_bees"
 	title: "Productive bees"
 	icon: "minecraft:bee_nest"
@@ -907,6 +907,7 @@
 			}]
 		}
 		{
+			title: "Advanced beehive"
 			x: -10.0d
 			y: -10.5d
 			hide_dependency_lines: true

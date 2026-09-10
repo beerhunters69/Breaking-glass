@@ -8,7 +8,6 @@ onEvent("item.registry", event => {
     event.create("zinc_hand").displayName("Zinc hand")
 	event.create("duraluminium_ingot").displayName("Duraluminium ingot")
 	event.create("duraluminium_dust").displayName("Duraluminium dust")
-	event.create('duraluminium_base_dust').displayName("Duraluminium base dust")
 	event.create("duraluminium_gear").displayName("Duraluminium gear")
 	event.create("duraluminium_plate").displayName("Duraluminium plate")
 	event.create("tf_inactive_portal_item").displayName("Inactive interdimensional transmitter")

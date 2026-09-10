@@ -1,7 +1,7 @@
 {
 	id: "51E1EAFB71D74DE6"
 	group: "35F270EC60742126"
-	order_index: 0
+	order_index: 1
 	filename: "refined_storage"
 	title: "Refined Storage"
 	icon: "refinedstorage:grid"
@@ -22,7 +22,7 @@
 				""
 				""
 			]
-			dependencies: ["6028849F1BBE6A76"]
+			dependencies: ["7F1A4FDEE2228C54"]
 			id: "12F9B5422A4AB670"
 			tasks: [{
 				id: "3E97160C517343F1"
@@ -82,7 +82,11 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["The \"core\" of the system is a controller. It must be powered or the system will shutdown"]
+			description: [
+				"The \"core\" of the system is a controller. It must be powered or the system will shutdown."
+				""
+				"P.S. 16k energy per tick limit was removed, so no more size constraints."
+			]
 			dependencies: ["307B4E2F822F6886"]
 			id: "72C1249F16AB350D"
 			tasks: [{
@@ -534,6 +538,82 @@
 					item: "refinedstorage:network_card"
 				}
 			]
+		}
+		{
+			title: "Age 3"
+			disable_toast: true
+			x: -2.0d
+			y: 0.0d
+			secret: true
+			id: "7F1A4FDEE2228C54"
+			tasks: [{
+				id: "319B4BD77C2DD1E4"
+				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
+				stage: "three"
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			description: ["All-In-One grid"]
+			dependencies: ["52C28368A5ECAEEF"]
+			id: "0D5628C94380851C"
+			tasks: [{
+				id: "13C87485A2F2D395"
+				type: "item"
+				item: "universalgrid:wireless_universal_grid"
+			}]
+		}
+		{
+			title: "Infinite range"
+			x: 16.0d
+			y: 2.0d
+			description: [
+				"Gives you access to your network across one dimension."
+				""
+				"This card consumes 4000 rf per tick."
+			]
+			dependencies: ["6A08694571C32FCB"]
+			optional: true
+			id: "30CF5220810B38AA"
+			tasks: [{
+				id: "44AC72079A8E539C"
+				type: "item"
+				item: "rsinfinitybooster:infinity_card"
+			}]
+		}
+		{
+			title: "Cross-dimensional infinite range"
+			x: 18.0d
+			y: 2.0d
+			description: [
+				"Gives you access to your network across all dimensions."
+				""
+				"This card consumes 8000 rf per tick."
+			]
+			dependencies: ["30CF5220810B38AA"]
+			optional: true
+			id: "386D5F95E3B9681A"
+			tasks: [{
+				id: "762AEA4E3BF4E225"
+				type: "item"
+				item: "rsinfinitybooster:dimension_card"
+			}]
+		}
+		{
+			title: "More range"
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Very weak"
+			description: ["You can place up to 4 of these into your wireless transmitter, this will give you 40 blocks of range."]
+			dependencies: ["730CD079FDB03914"]
+			id: "6A08694571C32FCB"
+			tasks: [{
+				id: "38AF11B98F5B3CD5"
+				type: "item"
+				item: "refinedstorage:range_upgrade"
+			}]
 		}
 	]
 }

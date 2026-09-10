@@ -20,6 +20,7 @@
 			tasks: [{
 				id: "0D2AC4AEA23A0BA4"
 				type: "gamestage"
+				icon: "twilightforest:twilight_portal_miniature_structure"
 				stage: "two"
 			}]
 			rewards: [{
@@ -158,6 +159,7 @@
 			rewards: [{
 				id: "67D645C014D79C4B"
 				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
 				auto: "invisible"
 				stage: "three"
 			}]

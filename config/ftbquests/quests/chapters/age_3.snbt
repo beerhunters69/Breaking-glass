@@ -20,6 +20,7 @@
 			tasks: [{
 				id: "0FC00210356D9941"
 				type: "gamestage"
+				icon: "minecraft:music_disc_pigstep"
 				stage: "three"
 			}]
 			rewards: [{
@@ -316,6 +317,11 @@
 			rewards: [{
 				id: "24A8C9C1FF21160D"
 				type: "gamestage"
+				icon: {
+					id: "boss_tools:rocket_t1"
+					Count: 1b
+					tag: { }
+				}
 				auto: "invisible"
 				stage: "four"
 			}]

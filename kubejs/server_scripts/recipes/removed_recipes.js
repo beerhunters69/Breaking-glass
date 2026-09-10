@@ -115,7 +115,19 @@ onEvent('recipes', event => {
   event.remove({id:"refinedstorage:raw_basic_processor"})
   event.remove({id:"refinedstorage:raw_improved_processor"})
   event.remove({id:"refinedstorage:raw_advanced_processor"})
+  
+  event.remove({id:"universalgrid:wireless_universal_grid"})
+
+  event.remove({id:"rsinfinitybooster:infinity_card"})
+  event.remove({id:"rsinfinitybooster:dimension_card"})
+  event.remove({id:"aeinfinitybooster:infinity_card"})
+  event.remove({id:"aeinfinitybooster:dimension_card"})
+
+  event.remove({id:"constructionwand:diamond_wand"})
+  event.remove({id:"cookingforblockheads:crafting_book"})
+
 })
+
 
 onEvent('recipes', event => {
   // 1. Список всех тегов и предметов досок

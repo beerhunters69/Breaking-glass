@@ -213,7 +213,7 @@
 			}]
 		}
 		{
-			title: "The end"
+			title: "The End"
 			icon: {
 				id: "hostilenetworks:data_model"
 				Count: 1b

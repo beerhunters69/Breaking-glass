@@ -13,7 +13,7 @@ import mods.dimstages.DimensionStages;
 //
 // Example 2
 // DimensionStages.stageDimension("minecraft:the_end", "end", "quest_alien");
-DimensionStages.stageDimensionWithMessage("minecraft:the_nether", "You re too сосун, come back when you became stronger","two");
+DimensionStages.stageDimensionWithMessage("minecraft:the_nether", "You re too сосун, come back when you become stronger","two");
 
 // Stages the end dimension to stage "two". This will prevent access if the
 // player does not have that stage. The player will also be shown a custom

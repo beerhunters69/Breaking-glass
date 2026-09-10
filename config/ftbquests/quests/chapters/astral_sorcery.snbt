@@ -1,7 +1,7 @@
 {
 	id: "7BB1617DCEE4BDE6"
-	group: "1EF5D1B91143F878"
-	order_index: 0
+	group: "0A67C27AFE2B6C96"
+	order_index: 3
 	filename: "astral_sorcery"
 	title: "Astral sorcery"
 	icon: "astralsorcery:tome"
@@ -437,7 +437,7 @@
 			description: [
 				"{image:kubejs:textures/quests/well.png width:100 height:100 align:1}"
 				"I dont want to discribe every detail about this mod. I love it, but too much text. Go watch some youtube guide. It will be 100% better then me telling you brainrot things"
-				"P.S. Different dev: he described them anyway :)."
+				"P.S. Different dev: he described almost all of them anyway :)."
 			]
 			dependencies: ["23F4DD42EEE60C41"]
 			id: "4B75D81D4BE14DDF"
