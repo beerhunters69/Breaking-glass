@@ -115,25 +115,6 @@ onEvent('recipes', event => {
             "inputItems": [
                 {
                     "ingredient": {
-                        "tag": "forge:gems/quartz"
-                    },
-                    "count": 1
-                }
-            ],
-            "outputItems": [
-                {
-                    "tag": "appliedenergistics2:nether_quartz_dust",
-                    "count": 1
-                }
-            ]
-        }
-    )
-    event.custom(
-        {
-            "type": "ftbic:macerating",
-            "inputItems": [
-                {
-                    "ingredient": {
                         "tag": "forge:gems/fluix"
                     },
                     "count": 1

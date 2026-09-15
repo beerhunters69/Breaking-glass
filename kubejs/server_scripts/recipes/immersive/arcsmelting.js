@@ -1,6 +1,5 @@
 onEvent('recipes', event => {
     event.recipes.immersiveengineering.arc_furnace("kubejs:duraluminium_ingot", "kubejs:duraluminium_dust")
-    event.recipes.immersiveengineering.arc_furnace('immersiveengineering:ingot_steel', 'minecraft:iron_ingot', Item.of("minecraft:coal", 2), 'immersiveengineering:slag')
     // event.recipes.immersiveengineering.arc_furnace('mysticalagriculture:prosperity_seed_base','twilightforest:magic_beans',Item.of('mysticalagriculture:prosperity_shard',4))
 
     //Beeblock
@@ -128,8 +127,18 @@ onEvent('recipes', event => {
         'minecraft:cobblestone'
     )
     event.recipes.immersiveengineering.arc_furnace(
-        '2x thermal:enderium_ingot',
+        '2x emendatusenigmatica:enderium_ingot',
         '3x #forge:ingots/lead',
-        ['#forge:dusts/diamond','2x minecraft:ender_pearl']
+        ['#forge:dusts/diamond','2x emendatusenigmatica:ender_dust']
+    )
+    event.recipes.immersiveengineering.arc_furnace(
+        '2x thermal:obsidian_glass',
+        '2x minecraft:glass',
+        ['2x #forge:dusts/obsidian','kubejs:duraluminium_dust', '#forge:dusts/quartz']
+    )
+    event.recipes.immersiveengineering.arc_furnace(
+        '2x thermal:signalum_glass',
+        '2x thermal:obsidian_glass',
+        ['2x emendatusenigmatica:signalum_dust','kubejs:angelic_alloy_ingot', '#forge:dusts/diamond']
     )
 })

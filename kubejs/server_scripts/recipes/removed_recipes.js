@@ -10,23 +10,6 @@ onEvent('recipes', event => {
 
 	event.remove({id: 'twilightforest:equipment/knightmetal_pickaxe'})
 
-	event.remove({id: 'immersiveengineering:crafting/constantan_mix'})
-	event.remove({id: 'emendatusenigmatica:alloy_dust/constantan'})
-	event.remove({id: 'immersiveengineering:alloysmelter/constantan'})
-	event.remove({id: 'tconstruct:smeltery/alloys/molten_constantan'})
-	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_from_dust'})
-	event.remove({id: 'immersiveengineering:crafting/ingot_constantan_from_dust_from_blasting'})
-	event.remove({id: 'emendatusenigmatica:ingot_from_dust/smelting/constantan'})
-	event.remove({id: 'emendatusenigmatica:ingot_from_dust/blasting/constantan'})
-
-	event.remove({id: 'emendatusenigmatica:alloy_dust/invar'})
-	event.remove({id: 'immersiveengineering:alloysmelter/invar'})
-	event.remove({id: 'tconstruct:smeltery/alloys/molten_invar'})
-	event.remove({id: 'immersiveengineering:crafting/ingot_invar_from_dust'})
-	event.remove({id: 'immersiveengineering:crafting/ingot_invar_from_dust_from_blasting'})
-	event.remove({id: 'emendatusenigmatica:ingot_from_dust/smelting/invar'})
-	event.remove({id: 'emendatusenigmatica:ingot_from_dust/blasting/invar'})
-
 	event.remove({id: 'boss_tools:engine_frame'})
 	event.remove({id: 'boss_tools:iron_engine'})
 	event.remove({id: 'boss_tools:rocket_nose_cone'})
@@ -74,8 +57,11 @@ onEvent('recipes', event => {
   event.remove({id:"thermal:compat/immersiveengineering/compression_ip_gasoline"})
   event.remove({ output: 'ftbic:rubber' })
   event.remove({ output: 'thermal:cured_rubber' })
+  //Surely this needs to be moved somewhere else
+  event.replaceInput('thermal:cured_rubber', 'ftbic:rubber')
+
+  event.remove({ id: 'thermal:fire_charge/obsidian_glass_2'})
   event.remove({id:"ftbic:shapeless/iridium_circuit"})
-  event.remove({id:"bigreactors:reactor/basic/casing"})
   event.remove({id:"hostilenetworks:living_matter/sim_chamber"})
   event.remove({id:"hostilenetworks:living_matter/loot_fabricator"})
   event.remove({id:"hostilenetworks:living_matter/framework"})
@@ -96,22 +82,6 @@ onEvent('recipes', event => {
   event.remove({id:"immersiveengineering:crafting/hammercrushing_uranium"})
   event.remove({id:"immersiveengineering:crafting/hammercrushing_zinc"})
 
-
-
-  event.remove({output: 'mekanism:ingot_bronze'})
-  event.remove({output: 'mekanism:ingot_copper'})
-  event.remove({output: 'mekanism:ingot_tin'})
-  event.remove({output: 'mekanism:ingot_lead'})
-  event.remove({output: 'mekanism:ingot_uranium'})
-  event.remove({output: 'boss_tools:steel_ingot'})
-  event.remove({output: 'mekanism:ingot_steel'})
-  event.remove({output: 'emendatusenigmatica:steel_ingot'})
-  event.remove({output: 'mekanism:block_bronze'})
-  event.remove({output: 'mekanism:block_tin'})
-  event.remove({output: 'mekanism:block_charcoal'})
-  event.remove({output: 'emendatusenigmatica:enderium_ingot'})
-
-
   event.remove({id:"refinedstorage:raw_basic_processor"})
   event.remove({id:"refinedstorage:raw_improved_processor"})
   event.remove({id:"refinedstorage:raw_advanced_processor"})
@@ -126,6 +96,7 @@ onEvent('recipes', event => {
   event.remove({id:"constructionwand:diamond_wand"})
   event.remove({id:"cookingforblockheads:crafting_book"})
 
+  event.remove({id:"betterendforge:gunpowder_from_sulphur"})
 })
 
 

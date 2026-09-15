@@ -30,13 +30,13 @@ onEvent('recipes', event => {
                 {
                     "type": "pneumaticcraft:stacked_item",
                     "item": "minecraft:coal_block",
-                    "count":2
+                    "count":1
                 }
             ],
             "pressure": 4.0,
             "results": [
                 {
-                    "item": "immersiveengineering:coke"
+                    "item": "emendatusenigmatica:coke_block"
                 }
             ]
         }

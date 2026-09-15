@@ -91,6 +91,8 @@ ItemStages.restrict(<item:thermal:dynamo_lapidary>,'disabled');
 ItemStages.restrict(<item:pneumaticcraft:thermopneumatic_processing_plant>,'disabled');
 ItemStages.restrict(<item:pneumaticcraft:refinery>,'disabled');
 ItemStages.restrict(<item:pneumaticcraft:refinery_output>,'disabled');
+ItemStages.restrict(<item:appliedenergistics2:grindstone>,'disabled');
+ItemStages.restrict(<item:appliedenergistics2:crank>,'disabled');
 
 //Didn't belong anywhere else (for now)
 
